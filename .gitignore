@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# Tracker outputs
+data/*.db
+data/*.db-journal
+debug/
+dump/
+*.html.local
