@@ -1,102 +1,86 @@
-# Threads Account Tracker
+# Threads Stock Tracker
 
-追蹤、分析 Threads (Meta) 帳號的公開貼文，並把結果存進 SQLite，方便長期觀察。
+抓取 Threads 公開貼文 → 萃取台股代碼與動作標籤 → 串 TWSE / TPEx OpenAPI 取得基本面 → 寫成 SQLite + JSON + 靜態儀表板。針對台股相關內容的帳號設計（範例：`@evachien.chien`）。
 
-針對的問題：Threads 沒有公開的讀取 API，網頁是 JavaScript 渲染但伺服器會在 HTML 裡內嵌完整的 GraphQL JSON（`__bbox.result.data`）。本工具直接抓那段 JSON，不需要登入也不需要瀏覽器自動化。
+跟 [Hsiao0809/threads-stock-watch](https://github.com/Hsiao0809/threads-stock-watch) 同樣的問題、同樣的資料路線（瀏覽器自動化 + TWSE/TPEx OpenAPI），改用 Python，並保留純 HTTP 解析作為輕量備援。
 
-## 功能
+## 它做什麼
 
-- `track`：抓 `https://www.threads.com/@<user>` 的公開頁面，解析帳號資訊與最新貼文，寫入 SQLite。
-- `show`：印出 DB 裡儲存的帳號與最近貼文。
-- `analyze`：產出活動報告（發文頻率、互動量、熱門 hashtag/詞、發文時段……）。
-- `parse-file`：從本機 HTML 檔解析（瀏覽器另存頁面後可用，用於無法直連 Threads 的環境）。
-- `export`：把貼文匯出成 JSON 或 CSV。
+1. **取貼文**：用 Playwright 啟動 headless Chromium 開 `https://www.threads.com/@<user>`，邊滾邊攔 `/api/graphql` 回應。同時保留純 HTTP 模式作為快速備援。
+2. **萃股票**：在每則貼文裡找台股代碼／中文公司名（最長別名優先匹配），並從句子內的關鍵字判斷動作標籤：`買 / 賣 / 漲停 / 跌停 / 觀察 / 後悔`。
+3. **接基本面**：對所有提到的個股，從 TWSE / TPEx 公開 OpenAPI 拉收盤價、本益比、股價淨值比、殖利率、EPS、營收 YoY、毛利率、ROE、負債比。
+4. **產出**：
+   - `data/threads.db` — 累積的 SQLite（含每次抓取的快照）。
+   - `data/latest.json` — 給下游用的分析 JSON（schema 跟參考專案相容）。
+   - `public/index.html` — 單檔靜態儀表板，可掛 GitHub Pages。
+   - GitHub Actions 排程每 4 小時自動更新並 commit 回 repo。
 
-每次 `track` 都會記錄一份 `post_snapshots`（同一則貼文不同時間的讚數／回覆數），可用來看互動隨時間的變化。
+> 這只是資訊萃取工具，**不是投資建議**。
 
-## 安裝
+## 本機跑
 
 ```bash
 pip install -r requirements.txt
+pip install playwright && playwright install chromium      # 啟用 --browser 模式
+
+python main.py track evachien.chien --browser --scroll-rounds 6 --post-pages 4
+python main.py stocks evachien.chien --refresh-universe --refresh-fundamentals --out data/latest.json
+python scripts/render_dashboard.py data/latest.json public/index.html
 ```
 
-只需要 `requests`（必要）和 `beautifulsoup4` + `lxml`（目前未強制使用，但放著方便擴充）。Python ≥ 3.10。
+第一次跑會先建好 SQLite + universe 快取 + fundamentals 快取；之後只用 `--refresh-fundamentals` 就會更新基本面。
 
-## 使用範例
+## GitHub Actions（排程）
 
-```bash
-# 抓取並儲存 @evachien.chien 的公開資料
-python main.py track evachien.chien
+repo 內含 `.github/workflows/update.yml`：
 
-# 抓取時順便走 GraphQL，可拿到更多歷史（doc_id 可能要視 Meta 更新而調整）
-python main.py track evachien.chien --graphql
+- 預設每 4 小時跑一次（也可從 Actions 頁手動觸發），抓 `evachien.chien`。
+- 用 Playwright + Chromium 抓貼文，跑 stocks 分析，更新 `data/`、`public/index.html`，然後 commit 回 branch。
+- 自動把 `public/` 部署到 GitHub Pages（在 repo Settings → Pages 把 Source 設為 `GitHub Actions`）。
+- 想換帳號：手動觸發時填 `handle` 輸入欄，或改 workflow 的預設值。
 
-# 看資料庫裡的內容
-python main.py show evachien.chien --limit 30
+## CLI
 
-# 產出分析報告
-python main.py analyze evachien.chien
-
-# 匯出
-python main.py export evachien.chien posts.json
-python main.py export evachien.chien posts.csv
-
-# 排程：搭配 cron / launchd 定時跑 track，DB 會累積互動歷史
-# 例：每小時抓一次
-# 0 * * * * cd /path/to/crawler && /usr/bin/python3 main.py track evachien.chien
+```
+threads-tracker track <user>      # 抓貼文（HTTP 或 --browser）
+threads-tracker show <user>       # 看 DB 內容
+threads-tracker analyze <user>    # 一般活動分析（發文頻率、hashtag、字頻）
+threads-tracker stocks <user>     # ★ 股票專屬分析（mention + action + 基本面）
+threads-tracker parse-file <user> <html>  # 解析本機另存的 Threads HTML
+threads-tracker export <user> <out.csv|out.json>
 ```
 
-DB 預設位置 `data/threads.db`，可用 `--db` 或環境變數 `THREADS_DB` 覆寫。
+`stocks` 子命令常用參數：
 
-## 在受限網路 / 無法直連 Threads 時
-
-當執行環境（公司網路、CI、雲端 sandbox）擋住 `threads.com`，腳本會得到 `403 Host not in allowlist` 之類的錯誤。此時走「瀏覽器另存 → 本機解析」的路徑：
-
-1. 在瀏覽器打開 `https://www.threads.com/@evachien.chien`。
-2. 右鍵 → 另存新檔 → **Webpage, HTML Only**（不需要圖片資源）。檔名例：`page.html`。
-3. 把檔案丟給 `parse-file`：
-
-    ```bash
-    python main.py parse-file evachien.chien path/to/page.html --store --show 20
-    ```
-
-`parse-file` 跟 `track` 走的是同一條解析路徑（`parse_profile_html`），所以拿到的 user_id / 貼文 / 互動數會完全一致。
-
-> **本專案目前所在的 Claude Code on the web 沙箱**：對外網路只允許 `github.com` / `pypi.org` 等少數白名單主機，連不到 `threads.com`／`threads.net`，所以在這個容器內無法直接示範 `track`。在你自己的機器上跑沒有這個限制。
-
-## 為什麼是直接抓 HTML，不用 Selenium / Playwright？
-
-Threads 的 server-rendered HTML 裡，每則貼文都已經以 JSON 形式塞在 `<script>` 區塊。我們掃描每個 script，用 `json.JSONDecoder.raw_decode` 找出所有頂層 JSON 物件，再走訪節點找 `text_post_app_info`（Threads 貼文的特徵欄位）與有 `follower_count` 的使用者物件。這比起：
-
-- 啟動完整瀏覽器：快幾個量級，省記憶體，不需 Chrome。
-- 直接打 GraphQL：不用追蹤 Meta 隨時會換的 `doc_id`。
-- 用 Threads 私有 API：不用登入帳號、不會卡 challenge。
-
-當 Meta 改 JSON 結構時，因為我們是「在整棵樹找特徵欄位」而不是「跟著固定 path 走」，通常會比 schema-bound 的 parser 多撐一段時間。
-
-GraphQL 路徑仍保留在 `client.py`，當 HTML 內嵌資料不夠（例如只想抓更舊的歷史）時可用 `--graphql` 啟用。注意 `doc_id` 是會變的；如果失效，可以開 Chrome DevTools → Network 找 `api/graphql` 的請求，把新的 `doc_id` 抄到 `client.DEFAULT_DOC_IDS`。
-
-## 資料庫結構
-
-- `accounts`：每個帳號一列，最近一次抓到的 profile 欄位。
-- `posts`：每則貼文一列，欄位含貼文 pk、code、貼文網址（`https://www.threads.com/@<user>/post/<code>`）、文字、互動數、圖片 / 影片 URL。
-- `post_snapshots`：每次抓取的快照，可看互動數隨時間變化。
-- `account_snapshots`：粉絲數的時間序列。
-
-可以直接 SQL 查詢：
-
-```bash
-sqlite3 data/threads.db "SELECT pk, like_count, text FROM posts ORDER BY like_count DESC LIMIT 10"
 ```
+--refresh-universe       # 從 TWSE/TPEx OpenAPI 拉完整上市櫃名錄
+--refresh-fundamentals   # 從 TWSE/TPEx OpenAPI 拉價格＋估值＋EPS＋營收＋損益＋資產
+--out data/latest.json   # 同時輸出 JSON
+--top 20                 # 印出前 N 名
+--json                   # 直接印 JSON
+```
+
+## 為什麼這個版本能跑（之前那版的問題）
+
+第一版用 `requests` 直接打 `threads.com`，被 Threads 反爬機制擋下（403）。Threads 對非瀏覽器 client 的 TLS / header 指紋很挑，純 HTTP 不一定打得贏。
+
+這版照參考專案的做法改用真實瀏覽器（Playwright Chromium），請求的 TLS 握手、JS 執行、`/api/graphql` 呼叫都跟真人一樣，並順手攔 GraphQL 回應。對 anti-bot 來說就是個正常瀏覽 session。
+
+純 HTTP 模式還在（`track` 不加 `--browser`），它輕量、適合 Threads 沒擋的時候，或當作 `parse-file` 的後端。但**正式跑請用 `--browser`**。
+
+## 資料來源（基本面）
+
+- TWSE OpenAPI: `https://openapi.twse.com.tw/`
+  - `STOCK_DAY_ALL` 收盤、`BWIBBU_ALL` 本益比/股價淨值比/殖利率、`t187ap14_L` EPS、`t187ap05_L` 月營收、`t187ap06_L_*` 損益、`t187ap07_L_*` 資產負債
+- TPEx OpenAPI: `https://www.tpex.org.tw/openapi/v1/`
+  - `tpex_mainboard_daily_close_quotes` 收盤、`tpex_mainboard_peratio_analysis` 估值、`mopsfin_t187ap14_O` EPS、`mopsfin_t187ap05_O` 月營收、`mopsfin_t187ap06_O_*` 損益、`mopsfin_t187ap07_O_*` 資產負債
 
 ## 偵錯
 
 ```bash
-# 把所有 HTTP 回應原文存下來方便檢查
-python main.py track evachien.chien --dump-dir debug/
-
-# 看詳細 log
-python main.py -v track evachien.chien
+python main.py -v track evachien.chien --browser --dump-dir debug/
+# debug/browser_<user>.html      # 最終渲染 HTML
+# debug/browser_<user>_graphql.json  # 攔到的 GraphQL 回應原文
 ```
 
 ## 測試
@@ -104,6 +88,5 @@ python main.py -v track evachien.chien
 ```bash
 python tests/test_parser.py
 python tests/test_e2e.py
+python tests/test_stocks.py    # ★ 股票萃取 + 動作標籤 + 完整 report
 ```
-
-兩個 test 用合成的 Threads 風格 HTML / GraphQL payload 跑完「parse → store → analyze」整條鏈，確保解析邏輯與 schema 對得起來。

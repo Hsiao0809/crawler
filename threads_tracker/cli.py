@@ -14,6 +14,8 @@ from .analyzer import analyze_account
 from .client import ThreadsClient, ThreadsError
 from .parser import parse_graphql_response, parse_profile_html
 from .storage import TrackerStore
+from .stock_analyzer import analyze_posts_for_stocks, format_report
+from .stock_extractor import load_universe, merge_universe
 
 log = logging.getLogger("threads_tracker")
 
@@ -33,17 +35,58 @@ def _strip_at(username: str) -> str:
 def cmd_track(args: argparse.Namespace) -> int:
     username = _strip_at(args.username)
     store = TrackerStore(args.db)
-    client = ThreadsClient(debug_dump_dir=args.dump_dir)
 
-    print(f"[*] Fetching profile page for @{username} ...", flush=True)
-    try:
-        result = client.fetch_profile_html(username)
-    except ThreadsError as exc:
-        print(f"[x] failed to fetch profile: {exc}", file=sys.stderr)
-        return 2
+    if args.browser:
+        try:
+            from .browser import collect_graphql_bodies, fetch_with_browser
+        except ImportError as exc:
+            print(f"[x] cannot import browser fetcher: {exc}", file=sys.stderr)
+            return 2
 
-    print(f"[*] Loaded {result.url} ({len(result.text):,} bytes, HTTP {result.status})")
-    profile, posts = parse_profile_html(result.text, username)
+        print(f"[*] Launching Chromium for @{username} ...", flush=True)
+        try:
+            br = fetch_with_browser(
+                username,
+                scroll_rounds=args.scroll_rounds,
+                settle_ms=args.settle_ms,
+                post_pages=args.post_pages,
+                headless=not args.headful,
+                timeout_ms=args.timeout_ms,
+                user_data_dir=args.profile_dir,
+            )
+        except Exception as exc:
+            print(f"[x] browser fetch failed: {exc}", file=sys.stderr)
+            return 2
+
+        print(
+            f"[*] Loaded {br.final_url}  title={br.title!r}  "
+            f"html={len(br.html):,} bytes  graphql-responses={len(br.graphql_responses)}"
+        )
+        profile, posts = parse_profile_html(br.html, username)
+        # Merge in posts from captured GraphQL bodies (covers infinite scroll).
+        gql_bodies = collect_graphql_bodies(br)
+        if gql_bodies:
+            print(f"[*] Parsing {len(gql_bodies)} GraphQL JSON bodies ...")
+            for body in gql_bodies:
+                extra = parse_graphql_response(body, username_hint=username)
+                seen = {p.pk for p in posts}
+                for p in extra:
+                    if p.pk not in seen:
+                        posts.append(p)
+                        seen.add(p.pk)
+
+        if args.dump_dir:
+            _dump_browser_result(args.dump_dir, username, br)
+    else:
+        client = ThreadsClient(debug_dump_dir=args.dump_dir)
+        print(f"[*] Fetching profile page for @{username} (HTTP) ...", flush=True)
+        try:
+            result = client.fetch_profile_html(username)
+        except ThreadsError as exc:
+            print(f"[x] failed to fetch profile: {exc}", file=sys.stderr)
+            return 2
+        print(f"[*] Loaded {result.url} ({len(result.text):,} bytes, HTTP {result.status})")
+        profile, posts = parse_profile_html(result.text, username)
 
     if not profile:
         print(
@@ -196,6 +239,87 @@ def cmd_export(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_stocks(args: argparse.Namespace) -> int:
+    username = _strip_at(args.username)
+    store = TrackerStore(args.db)
+    acc = store.get_account(username)
+    posts = store.list_posts(username, limit=args.limit)
+    if not posts:
+        print(f"[x] No posts stored for @{username}. Run `track` first.", file=sys.stderr)
+        store.close()
+        return 1
+
+    # Universe: bundled seed → optionally refresh from TWSE/TPEx.
+    universe = load_universe()
+    print(f"[*] Universe (seed): {len(universe)} stocks")
+    if args.refresh_universe:
+        from .fundamentals import fetch_universe, load_cached, save_cached
+
+        try:
+            fresh = fetch_universe()
+            universe = merge_universe(universe, fresh)
+            save_cached(args.universe_cache, [vars(e) for e in universe])
+            print(f"[+] Refreshed universe: {len(universe)} stocks (cached at {args.universe_cache})")
+        except Exception as exc:
+            print(f"[!] Universe refresh failed, using seed only: {exc}", file=sys.stderr)
+    else:
+        from .fundamentals import load_cached
+
+        cached = load_cached(args.universe_cache)
+        if cached:
+            from .stock_extractor import StockEntry
+
+            cached_entries = [StockEntry(**r) for r in cached]
+            universe = merge_universe(universe, cached_entries)
+            print(f"[+] Loaded cached universe: {len(universe)} stocks")
+
+    # Fundamentals: load from cache, optionally refresh.
+    fundamentals: dict[str, dict] = {}
+    if args.refresh_fundamentals:
+        from .fundamentals import fetch_fundamentals, save_cached
+
+        try:
+            fundamentals = fetch_fundamentals()
+            save_cached(args.fundamentals_cache, fundamentals)
+            print(f"[+] Refreshed fundamentals for {len(fundamentals)} codes")
+        except Exception as exc:
+            print(f"[!] Fundamentals refresh failed: {exc}", file=sys.stderr)
+    else:
+        from .fundamentals import load_cached
+
+        cached = load_cached(args.fundamentals_cache)
+        if cached:
+            fundamentals = cached
+            print(f"[+] Loaded cached fundamentals: {len(fundamentals)} codes")
+
+    print(f"[*] Analysing {len(posts)} posts ...")
+    report = analyze_posts_for_stocks(posts, universe, fundamentals, account=acc)
+
+    if args.out:
+        Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+        Path(args.out).write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"[+] Wrote analysis to {args.out}")
+
+    if args.json:
+        print(json.dumps(report, ensure_ascii=False, indent=2))
+    else:
+        print(format_report(report, top_n=args.top))
+
+    store.close()
+    return 0
+
+
+def _dump_browser_result(dump_dir: str, username: str, br) -> None:
+    """Save browser-fetch artifacts for offline inspection."""
+    import os
+
+    os.makedirs(dump_dir, exist_ok=True)
+    with open(os.path.join(dump_dir, f"browser_{username}.html"), "w", encoding="utf-8") as f:
+        f.write(br.html)
+    with open(os.path.join(dump_dir, f"browser_{username}_graphql.json"), "w", encoding="utf-8") as f:
+        json.dump(br.graphql_responses, f, ensure_ascii=False, indent=2)
+
+
 def _print_post_table(posts: list) -> None:
     for p in posts:
         # Posts can come in as ThreadPost dataclasses or plain dicts (from store).
@@ -278,9 +402,20 @@ def build_parser() -> argparse.ArgumentParser:
 
     sp = sub.add_parser("track", help="Fetch latest profile + posts from threads.com")
     sp.add_argument("username")
-    sp.add_argument("--graphql", action="store_true", help="Also call the GraphQL endpoint for more history")
+    sp.add_argument("--graphql", action="store_true", help="Also call the GraphQL endpoint for more history (HTTP mode)")
     sp.add_argument("--dump-dir", help="Save raw responses here for debugging")
     sp.add_argument("--show", type=int, default=10, help="Print N posts after fetching")
+    sp.add_argument(
+        "--browser",
+        action="store_true",
+        help="Drive Playwright Chromium instead of plain HTTP (more robust against Threads anti-scraping)",
+    )
+    sp.add_argument("--scroll-rounds", type=int, default=4, help="Browser mode: how many times to scroll the timeline")
+    sp.add_argument("--settle-ms", type=int, default=4000, help="Browser mode: wait after navigate / scroll")
+    sp.add_argument("--post-pages", type=int, default=0, help="Browser mode: also visit N individual post pages")
+    sp.add_argument("--headful", action="store_true", help="Browser mode: show the window")
+    sp.add_argument("--timeout-ms", type=int, default=45000)
+    sp.add_argument("--profile-dir", help="Browser mode: persistent user-data directory")
     sp.set_defaults(func=cmd_track)
 
     sp = sub.add_parser("show", help="Show stored account + posts")
@@ -309,6 +444,37 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("out", help="Output path (.csv or .json)")
     sp.add_argument("--limit", type=int, default=0)
     sp.set_defaults(func=cmd_export)
+
+    sp = sub.add_parser(
+        "stocks",
+        help="Extract stock mentions + action tags + TWSE/TPEx fundamentals",
+    )
+    sp.add_argument("username")
+    sp.add_argument("--limit", type=int, default=500, help="How many recent posts to analyse")
+    sp.add_argument(
+        "--refresh-universe",
+        action="store_true",
+        help="Fetch full universe from TWSE/TPEx OpenAPI (else use bundled seed)",
+    )
+    sp.add_argument(
+        "--refresh-fundamentals",
+        action="store_true",
+        help="Fetch price/P/E/EPS/revenue/income/balance from TWSE/TPEx OpenAPI",
+    )
+    sp.add_argument(
+        "--universe-cache",
+        default="data/universe.json",
+        help="Where to cache the universe across runs",
+    )
+    sp.add_argument(
+        "--fundamentals-cache",
+        default="data/fundamentals.json",
+        help="Where to cache fundamentals across runs",
+    )
+    sp.add_argument("--out", help="Also write the analysis JSON to this path")
+    sp.add_argument("--json", action="store_true", help="Print JSON instead of formatted report")
+    sp.add_argument("--top", type=int, default=20)
+    sp.set_defaults(func=cmd_stocks)
 
     return p
 

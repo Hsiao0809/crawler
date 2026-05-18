@@ -1,0 +1,117 @@
+name: Update Threads stock dashboard
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"  # every 4 hours
+  workflow_dispatch:
+    inputs:
+      handle:
+        description: "Threads handle (no @)"
+        required: false
+        default: evachien.chien
+      refresh_fundamentals:
+        description: "Refresh TWSE/TPEx fundamentals"
+        required: false
+        default: "true"
+
+permissions:
+  contents: write   # to commit data/ back to the branch
+  pages: write
+  id-token: write
+
+concurrency:
+  group: threads-update
+  cancel-in-progress: false
+
+jobs:
+  fetch-analyze:
+    runs-on: ubuntu-latest
+    env:
+      HANDLE: ${{ github.event.inputs.handle || 'evachien.chien' }}
+      REFRESH_FUNDAMENTALS: ${{ github.event.inputs.refresh_fundamentals || 'true' }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Fetch profile + posts (browser mode)
+        env:
+          HANDLE: ${{ env.HANDLE }}
+        run: |
+          mkdir -p data debug
+          python main.py -v track "$HANDLE" \
+            --browser \
+            --scroll-rounds 6 \
+            --settle-ms 5000 \
+            --post-pages 6 \
+            --dump-dir debug/ \
+            --db data/threads.db \
+            --show 10
+
+      - name: Analyse stocks
+        env:
+          HANDLE: ${{ env.HANDLE }}
+          REFRESH_FUNDAMENTALS: ${{ env.REFRESH_FUNDAMENTALS }}
+        run: |
+          REFRESH_FLAG=""
+          if [ "$REFRESH_FUNDAMENTALS" = "true" ]; then
+            REFRESH_FLAG="--refresh-universe --refresh-fundamentals"
+          fi
+          python main.py stocks "$HANDLE" \
+            --db data/threads.db \
+            --out data/latest.json \
+            --top 30 \
+            $REFRESH_FLAG
+
+      - name: Generate dashboard
+        run: |
+          python scripts/render_dashboard.py data/latest.json public/index.html || true
+
+      - name: Commit data + dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json data/threads.db data/universe.json data/fundamentals.json public/index.html 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "no changes to commit"
+          else
+            git commit -m "auto: refresh @${HANDLE} data"
+            git push
+          fi
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: threads-data
+          path: |
+            data/
+            debug/
+          retention-days: 14
+
+  deploy-pages:
+    needs: fetch-analyze
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name != 'pull_request' }}
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - id: deployment
+        uses: actions/deploy-pages@v4
