@@ -50,13 +50,12 @@ jobs:
           HANDLE: ${{ env.HANDLE }}
         run: |
           mkdir -p data debug
-          python main.py -v track "$HANDLE" \
+          python main.py -v --db data/threads.db track "$HANDLE" \
             --browser \
             --scroll-rounds 6 \
             --settle-ms 5000 \
             --post-pages 6 \
             --dump-dir debug/ \
-            --db data/threads.db \
             --show 10
 
       - name: Analyse stocks
@@ -68,8 +67,7 @@ jobs:
           if [ "$REFRESH_FUNDAMENTALS" = "true" ]; then
             REFRESH_FLAG="--refresh-universe --refresh-fundamentals"
           fi
-          python main.py stocks "$HANDLE" \
-            --db data/threads.db \
+          python main.py --db data/threads.db stocks "$HANDLE" \
             --out data/latest.json \
             --top 30 \
             $REFRESH_FLAG

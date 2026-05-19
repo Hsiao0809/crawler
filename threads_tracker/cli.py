@@ -398,9 +398,13 @@ def build_parser() -> argparse.ArgumentParser:
     )
     p.add_argument("--db", default=os.environ.get("THREADS_DB", "data/threads.db"))
     p.add_argument("-v", "--verbose", action="store_true")
+    # Shared parser so the same flags work either before or after the subcommand.
+    common = argparse.ArgumentParser(add_help=False)
+    common.add_argument("--db", default=argparse.SUPPRESS, help="(also accepted as global flag)")
+    common.add_argument("-v", "--verbose", action="store_true", default=argparse.SUPPRESS)
     sub = p.add_subparsers(dest="cmd", required=True)
 
-    sp = sub.add_parser("track", help="Fetch latest profile + posts from threads.com")
+    sp = sub.add_parser("track", parents=[common], help="Fetch latest profile + posts from threads.com")
     sp.add_argument("username")
     sp.add_argument("--graphql", action="store_true", help="Also call the GraphQL endpoint for more history (HTTP mode)")
     sp.add_argument("--dump-dir", help="Save raw responses here for debugging")
@@ -418,12 +422,12 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--profile-dir", help="Browser mode: persistent user-data directory")
     sp.set_defaults(func=cmd_track)
 
-    sp = sub.add_parser("show", help="Show stored account + posts")
+    sp = sub.add_parser("show", parents=[common], help="Show stored account + posts")
     sp.add_argument("username")
     sp.add_argument("--limit", type=int, default=20)
     sp.set_defaults(func=cmd_show)
 
-    sp = sub.add_parser("analyze", help="Print analysis report")
+    sp = sub.add_parser("analyze", parents=[common], help="Print analysis report")
     sp.add_argument("username")
     sp.add_argument("--limit", type=int, default=500)
     sp.add_argument("--json", action="store_true", help="Print as JSON instead of formatted text")
@@ -431,6 +435,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     sp = sub.add_parser(
         "parse-file",
+        parents=[common],
         help="Parse a locally-saved profile HTML file (e.g. saved from a browser)",
     )
     sp.add_argument("username")
@@ -439,7 +444,7 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--show", type=int, default=20)
     sp.set_defaults(func=cmd_parse_file)
 
-    sp = sub.add_parser("export", help="Dump stored posts to JSON or CSV")
+    sp = sub.add_parser("export", parents=[common], help="Dump stored posts to JSON or CSV")
     sp.add_argument("username")
     sp.add_argument("out", help="Output path (.csv or .json)")
     sp.add_argument("--limit", type=int, default=0)
@@ -447,6 +452,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     sp = sub.add_parser(
         "stocks",
+        parents=[common],
         help="Extract stock mentions + action tags + TWSE/TPEx fundamentals",
     )
     sp.add_argument("username")
