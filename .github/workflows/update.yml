@@ -46,8 +46,8 @@ jobs:
           playwright install --with-deps chromium
 
       - name: Fetch profile + posts (browser mode)
-        env:
-          HANDLE: ${{ env.HANDLE }}
+        id: fetch
+        continue-on-error: true
         run: |
           mkdir -p data debug
           python main.py -v --db data/threads.db track "$HANDLE" \
@@ -59,9 +59,8 @@ jobs:
             --show 10
 
       - name: Analyse stocks
-        env:
-          HANDLE: ${{ env.HANDLE }}
-          REFRESH_FUNDAMENTALS: ${{ env.REFRESH_FUNDAMENTALS }}
+        id: analyse
+        continue-on-error: true
         run: |
           REFRESH_FLAG=""
           if [ "$REFRESH_FUNDAMENTALS" = "true" ]; then
@@ -72,15 +71,24 @@ jobs:
             --top 30 \
             $REFRESH_FLAG
 
-      - name: Generate dashboard
+      - name: Generate dashboard (with placeholder fallback)
         run: |
-          python scripts/render_dashboard.py data/latest.json public/index.html || true
+          mkdir -p public
+          if [ -f data/latest.json ]; then
+            python scripts/render_dashboard.py data/latest.json public/index.html
+          fi
+          # Ensure index.html exists even when fetch/analyse failed, so the
+          # Pages deploy doesn't blow up on first run or transient errors.
+          if [ ! -f public/index.html ]; then
+            cp public/placeholder.html public/index.html
+          fi
+          ls -la public/
 
       - name: Commit data + dashboard
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json data/threads.db data/universe.json data/fundamentals.json public/index.html 2>/dev/null || true
+          git add data/ public/ 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "no changes to commit"
           else
@@ -88,15 +96,29 @@ jobs:
             git push
           fi
 
-      - name: Upload artifacts
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: Upload debug artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: threads-data
+          name: threads-debug
           path: |
             data/
             debug/
           retention-days: 14
+
+      - name: Fail if both fetch and analyse failed
+        if: steps.fetch.outcome == 'failure' && steps.analyse.outcome == 'failure'
+        run: |
+          echo "Both fetch and analyse failed — see logs above."
+          exit 1
 
   deploy-pages:
     needs: fetch-analyze
@@ -106,10 +128,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: public
       - id: deployment
         uses: actions/deploy-pages@v4
