@@ -177,9 +177,16 @@ def fetch_fundamentals(target_codes: set[str] | None = None) -> dict[str, dict[s
         _add(
             byc,
             _clean(row.get("公司代號") or row.get("Code")),
-            revenueYoY=_num(row.get("去年同月增減(%)")),
-            revenue=_num(row.get("營業收入-當月營收")),
-            revenuePeriod=_clean(row.get("資料年月") or ""),
+            # TWSE monthly-revenue endpoint uses 「營業收入-去年同月增減(%)」
+            # — accept legacy field names too for resilience.
+            revenueYoY=_num(
+                row.get("營業收入-去年同月增減(%)")
+                or row.get("去年同月增減(%)")
+                or row.get("營業收入_去年同月增減百分比")
+                or row.get("RevenueYoY")
+            ),
+            revenue=_num(row.get("營業收入-當月營收") or row.get("當月營收") or row.get("Revenue")),
+            revenuePeriod=_clean(row.get("資料年月") or row.get("DataYearMonth") or ""),
         )
 
     for row in tpex_p or []:
@@ -212,7 +219,11 @@ def fetch_fundamentals(target_codes: set[str] | None = None) -> dict[str, dict[s
         _add(
             byc,
             _clean(row.get("公司代號") or row.get("SecuritiesCompanyCode")),
-            revenueYoY=_num(row.get("去年同月增減(%)")),
+            revenueYoY=_num(
+                row.get("營業收入-去年同月增減(%)")
+                or row.get("去年同月增減(%)")
+                or row.get("營業收入_去年同月增減百分比")
+            ),
         )
 
     log.info("fetching income statements (gross margin, ROE, debt ratio)…")

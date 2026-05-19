@@ -45,6 +45,13 @@ jobs:
           pip install playwright
           playwright install --with-deps chromium
 
+      - name: Run test suite
+        run: |
+          python tests/test_parser.py
+          python tests/test_e2e.py
+          python tests/test_stocks.py
+          python tests/test_fundamentals.py
+
       - name: Fetch profile + posts (browser mode)
         id: fetch
         continue-on-error: true
@@ -74,11 +81,13 @@ jobs:
       - name: Generate dashboard (with placeholder fallback)
         run: |
           mkdir -p public
+          # Remove a stale index.html so a render failure forces the placeholder
+          # branch instead of publishing yesterday's dashboard.
+          rm -f public/index.html
           if [ -f data/latest.json ]; then
-            python scripts/render_dashboard.py data/latest.json public/index.html
+            python scripts/render_dashboard.py data/latest.json public/index.html \
+              || echo "::warning::render_dashboard.py failed; will publish placeholder"
           fi
-          # Ensure index.html exists even when fetch/analyse failed, so the
-          # Pages deploy doesn't blow up on first run or transient errors.
           if [ ! -f public/index.html ]; then
             cp public/placeholder.html public/index.html
           fi
@@ -93,11 +102,21 @@ jobs:
             echo "no changes to commit"
           else
             git commit -m "auto: refresh @${HANDLE} data"
-            git push
+            # Re-base on any commit pushed while we were running, then push.
+            # Retries on transient network failure.
+            for attempt in 1 2 3; do
+              git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+              if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+                break
+              fi
+              sleep $((attempt * 5))
+            done
           fi
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true   # auto-enable Pages on the repo if not yet on
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
