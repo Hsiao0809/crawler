@@ -48,33 +48,33 @@ async def _fetch_async(
     target = f"https://www.threads.com/@{username.lstrip('@')}"
     graphql_responses: list[dict[str, Any]] = []
 
+    # Chromium under GH Actions and inside docker often needs --no-sandbox
+    # (no userns) and --disable-dev-shm-usage (default 64MB /dev/shm gets
+    # exhausted by Threads' DOM).
+    chromium_args = ["--no-sandbox", "--disable-dev-shm-usage"]
+    common_context_args = dict(
+        locale="zh-TW",
+        user_agent=(
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/125.0.0.0 Safari/537.36"
+        ),
+        viewport={"width": 1280, "height": 900},
+        extra_http_headers={"Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8"},
+    )
+
     async with async_playwright() as pw:
         if user_data_dir:
             context = await pw.chromium.launch_persistent_context(
                 user_data_dir=user_data_dir,
                 headless=headless,
-                locale="zh-TW",
-                user_agent=(
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                    "AppleWebKit/537.36 (KHTML, like Gecko) "
-                    "Chrome/125.0.0.0 Safari/537.36"
-                ),
-                viewport={"width": 1280, "height": 900},
-                extra_http_headers={"Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8"},
+                args=chromium_args,
+                **common_context_args,
             )
             page = await context.new_page()
         else:
-            browser = await pw.chromium.launch(headless=headless)
-            context = await browser.new_context(
-                locale="zh-TW",
-                user_agent=(
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                    "AppleWebKit/537.36 (KHTML, like Gecko) "
-                    "Chrome/125.0.0.0 Safari/537.36"
-                ),
-                viewport={"width": 1280, "height": 900},
-                extra_http_headers={"Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8"},
-            )
+            browser = await pw.chromium.launch(headless=headless, args=chromium_args)
+            context = await browser.new_context(**common_context_args)
             page = await context.new_page()
 
         async def on_response(response):
@@ -121,8 +121,18 @@ async def _fetch_async(
 
         await page.wait_for_timeout(2000)
 
-        # Optionally visit individual post pages to pick up full text the
-        # profile timeline truncated.
+        # Snapshot the profile state BEFORE visiting individual post pages.
+        # If we navigate away first, page.content() returns the last
+        # post-detail page and the profile JSON (follower count, full name,
+        # complete timeline) is lost — exactly the bug that caused
+        # data/latest.json to come back with all-null account fields.
+        final_url = page.url
+        title = await page.title()
+        html = await page.content()
+
+        # Discover post URLs on the profile, then visit each one to harvest
+        # their full text — captured graphql_responses still accumulate via
+        # the on_response listener.
         if post_pages > 0:
             post_hrefs = await page.evaluate(
                 """() => {
@@ -139,10 +149,6 @@ async def _fetch_async(
                     await page.wait_for_timeout(settle_ms)
                 except Exception as exc:
                     log.warning("post page %s failed: %s", href, exc)
-
-        final_url = page.url
-        title = await page.title()
-        html = await page.content()
 
         await context.close()
         if not user_data_dir:

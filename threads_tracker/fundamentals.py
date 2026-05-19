@@ -44,21 +44,35 @@ TPEX_BALANCE = "https://www.tpex.org.tw/openapi/v1/mopsfin_t187ap07_O_{c}"
 
 
 def _fetch_json(url: str, timeout: float = 30.0, retries: int = 3) -> Any:
+    """GET a JSON endpoint with retry. Skip retry on permanent 4xx."""
     last_exc: Exception | None = None
+    headers = {
+        # TPEx has historically blocked default User-Agents, hence a browser-
+        # like UA.
+        "User-Agent": (
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+            "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+        ),
+        "Accept": "application/json, */*;q=0.1",
+        "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+    }
     for attempt in range(1, retries + 1):
         try:
-            resp = requests.get(
-                url,
-                headers={
-                    "User-Agent": "Mozilla/5.0 (compatible; threads-stock-tracker/1.0)",
-                    "Accept": "application/json,*/*",
-                },
-                timeout=timeout,
-            )
+            resp = requests.get(url, headers=headers, timeout=timeout)
             if resp.status_code == 200:
                 return resp.json()
+            # Don't waste retries on permanent client errors.
+            if 400 <= resp.status_code < 500 and resp.status_code not in (408, 429):
+                raise RuntimeError(f"{url} -> HTTP {resp.status_code} (no retry)")
             raise RuntimeError(f"{url} -> HTTP {resp.status_code}")
-        except (requests.RequestException, ValueError, RuntimeError) as exc:
+        except RuntimeError as exc:
+            last_exc = exc
+            if "no retry" in str(exc):
+                break
+            wait = 1.5 * attempt
+            log.warning("fetch %s failed (attempt %d): %s — sleeping %.1fs", url, attempt, exc, wait)
+            time.sleep(wait)
+        except (requests.RequestException, ValueError) as exc:
             last_exc = exc
             wait = 1.5 * attempt
             log.warning("fetch %s failed (attempt %d): %s — sleeping %.1fs", url, attempt, exc, wait)
@@ -206,24 +220,32 @@ def fetch_fundamentals(target_codes: set[str] | None = None) -> dict[str, dict[s
             name=_clean(row.get("CompanyName")),
             market="TPEx",
             peRatio=_num(row.get("PERatio")),
-            dividendYield=_num(row.get("DividendPerShare")),
+            # YieldRatio is a percentage; DividendPerShare is NTD/share and
+            # is NOT a yield — reading it as one was the bug.
+            dividendYield=_num(row.get("YieldRatio") or row.get("DividendYield")),
             pbRatio=_num(row.get("PBRatio")),
         )
     for row in tpex_e or []:
+        # TPEx EPS endpoint uses SecuritiesCompanyCode primarily.
         _add(
             byc,
-            _clean(row.get("公司代號") or row.get("SecuritiesCompanyCode")),
+            _clean(row.get("SecuritiesCompanyCode") or row.get("公司代號")),
             eps=_num(row.get("基本每股盈餘(元)") or row.get("EPS")),
         )
     for row in tpex_r or []:
+        # TPEx monthly-revenue endpoint uses SecuritiesCompanyCode; accept
+        # 公司代號 as a fallback in case the schema changes.
         _add(
             byc,
-            _clean(row.get("公司代號") or row.get("SecuritiesCompanyCode")),
+            _clean(row.get("SecuritiesCompanyCode") or row.get("公司代號")),
             revenueYoY=_num(
                 row.get("營業收入-去年同月增減(%)")
                 or row.get("去年同月增減(%)")
-                or row.get("營業收入_去年同月增減百分比")
+                or row.get("YoYChange")
+                or row.get("RevenueYoY")
             ),
+            revenue=_num(row.get("營業收入-當月營收") or row.get("MonthlyRevenue")),
+            revenuePeriod=_clean(row.get("資料年月") or row.get("DataYearMonth") or ""),
         )
 
     log.info("fetching income statements (gross margin, ROE, debt ratio)…")
@@ -245,29 +267,43 @@ def fetch_fundamentals(target_codes: set[str] | None = None) -> dict[str, dict[s
 
 
 def _enrich_income(byc: dict[str, dict[str, Any]], row: dict[str, Any]) -> None:
-    code = _clean(row.get("公司代號"))
+    # TWSE uses 公司代號; TPEx mopsfin endpoints use SecuritiesCompanyCode.
+    code = _clean(row.get("公司代號") or row.get("SecuritiesCompanyCode"))
     if not code:
         return
-    revenue = _num(row.get("營業收入"))
-    gross = _num(row.get("營業毛利（毛損）") or row.get("營業毛利"))
+    revenue = _num(row.get("營業收入") or row.get("Revenue"))
+    gross = _num(
+        row.get("營業毛利（毛損）")
+        or row.get("營業毛利")
+        or row.get("GrossProfit")
+    )
     if revenue and gross is not None and revenue > 0:
         _add(byc, code, grossMargin=round(gross / revenue * 100, 2))
-    net_income = _num(row.get("本期淨利（淨損）") or row.get("本期淨利"))
+    net_income = _num(
+        row.get("本期淨利（淨損）")
+        or row.get("本期淨利")
+        or row.get("NetIncome")
+    )
     if net_income is not None:
         _add(byc, code, netIncome=net_income)
 
 
 def _enrich_balance(byc: dict[str, dict[str, Any]], row: dict[str, Any]) -> None:
-    code = _clean(row.get("公司代號"))
+    code = _clean(row.get("公司代號") or row.get("SecuritiesCompanyCode"))
     if not code:
         return
-    total_assets = _num(row.get("資產總計") or row.get("資產總額"))
-    total_liab = _num(row.get("負債總計") or row.get("負債總額"))
-    equity = _num(row.get("權益總計") or row.get("權益總額"))
+    total_assets = _num(
+        row.get("資產總計") or row.get("資產總額") or row.get("TotalAssets")
+    )
+    total_liab = _num(
+        row.get("負債總計") or row.get("負債總額") or row.get("TotalLiabilities")
+    )
+    equity = _num(
+        row.get("權益總計") or row.get("權益總額") or row.get("TotalEquity")
+    )
     if total_assets and total_liab is not None and total_assets > 0:
         _add(byc, code, debtRatio=round(total_liab / total_assets * 100, 2))
     if equity and equity != 0:
-        # ROE is computed in the analyzer later, where we have netIncome.
         _add(byc, code, equity=equity)
 
 

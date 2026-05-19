@@ -112,12 +112,62 @@ def merge_universe(*pools: Iterable[StockEntry]) -> list[StockEntry]:
 
 
 def _is_excluded_context(text: str, start: int, end: int) -> bool:
-    """Skip price-format matches like '聯亞-12元' where '聯亞' looks like a mention
-    but is actually a dash-separated label."""
-    before = text[max(0, start - 3) : start]
-    after = text[end : end + 8]
-    if re.search(r"[-－—]\s*$", before) and re.search(r"^\s*\d+\s*元", after):
+    """Skip price-format matches like 「聯亞-12元」 where the alias is glued to
+    a price by a dash. The dash sits AFTER the name and BEFORE the digits,
+    so we look at the slice to the right of the alias.
+    """
+    after = text[end : end + 12]
+    if re.match(r"\s*[-－—]\s*\d+(?:\.\d+)?\s*元", after):
         return True
+    return False
+
+
+_CJK = re.compile(r"[㐀-鿿豈-﫿]")
+_STOCK_CONTEXT = re.compile(
+    r"(代號|股票|個股|持股|看好|看壞|買進|賣出|加碼|減碼|漲停|跌停|"
+    r"目標價|停損|本益比|殖利率|目標|題材|台股|台積|電子|半導體|籌碼|張)"
+)
+# Chronological / sequencing context — when these are the things "near" the
+# 4-digit number, it's almost certainly a year or page count, not a code.
+_YEAR_CONTEXT_AFTER = re.compile(r"^\s*(年|月|日|世紀|代)")
+_YEAR_CONTEXT_BEFORE = re.compile(r"(年|月|期|世紀|代|頁|第)\s*$")
+
+
+def _code_has_stock_context(text: str, start: int, end: int) -> bool:
+    """For a code-only (purely numeric) alias match, require evidence that
+    this is a stock reference, not a year / page count / phone segment.
+
+    Decision order:
+      1. Year/chronological context wins → reject ('2024 年', '第 2301 期').
+      2. '$' ticker prefix wins → accept ($2330).
+      3. Stock-specific keyword nearby → accept (代號 2330, 加碼 2330).
+      4. CJK character directly adjacent (no whitespace gap) → accept
+         ('2330台積', '台積2330').
+      5. Otherwise reject.
+    """
+    left = text[max(0, start - 12) : start]
+    right = text[end : end + 12]
+
+    # 1. Strong negative: looks like a year / sequence.
+    if _YEAR_CONTEXT_AFTER.match(right):
+        return False
+    if _YEAR_CONTEXT_BEFORE.search(left):
+        return False
+
+    # 2. $-prefixed ticker.
+    if start > 0 and text[start - 1] == "$":
+        return True
+
+    # 3. Stock-specific keyword in the window.
+    if _STOCK_CONTEXT.search(left) or _STOCK_CONTEXT.search(right):
+        return True
+
+    # 4. CJK character directly adjacent (no whitespace gap).
+    if start > 0 and _CJK.match(text[start - 1]):
+        return True
+    if end < len(text) and _CJK.match(text[end]):
+        return True
+
     return False
 
 
@@ -143,8 +193,6 @@ def find_mentions(text: str, universe: list[StockEntry]) -> list[Mention]:
     matches = []
     for stock in universe:
         for alias in stock.all_aliases():
-            # Skip pure-code aliases of <4 digits (too noisy); allow the canonical
-            # code (>=4 digits) since stock-influencer posts usually do include it.
             if alias.isdigit() and len(alias) < 4:
                 continue
             start = -1
@@ -155,11 +203,15 @@ def find_mentions(text: str, universe: list[StockEntry]) -> list[Mention]:
                 end = start + len(alias)
                 if _is_excluded_context(text, start, end):
                     continue
-                # If alias is a number, require it to not be part of a longer number.
                 if alias.isdigit():
+                    # Don't match inside a longer numeric run (years, prices).
                     if start > 0 and text[start - 1].isdigit():
                         continue
                     if end < len(text) and text[end].isdigit():
+                        continue
+                    # For code-only matches, require nearby stock context to
+                    # avoid false positives like '2024 年' → year, not code.
+                    if not _code_has_stock_context(text, start, end):
                         continue
                 matches.append((start, end, alias, stock))
 
@@ -233,21 +285,28 @@ def classify_actions(contexts: list[str], aliases: list[str]) -> list[str]:
 
     def action_word_applies(word: str) -> bool:
         """For limit-up/down: require an alias to appear in the same sentence
-        before the word, since '今天大盤一堆跌停, 但xxx撐住' shouldn't tag xxx
-        as limitDown."""
+        as the word. Look on BOTH sides of the keyword — Chinese posts often
+        write the action first (「今天漲停的有台積電」), so a before-only check
+        misses about half the cases.
+        """
         for ctx in contexts:
             cursor = -1
             while True:
                 cursor = ctx.find(word, cursor + 1)
                 if cursor < 0:
                     break
-                # Cut at preceding sentence boundary.
+                # Find sentence boundaries to the left + right.
                 seg_start = 0
                 for break_ch in LEFT_BREAKS:
                     pos = ctx.rfind(break_ch, 0, cursor)
                     if pos > seg_start:
                         seg_start = pos + 1
-                seg = ctx[seg_start:cursor]
+                seg_end = len(ctx)
+                for break_ch in RIGHT_BREAKS:
+                    pos = ctx.find(break_ch, cursor + len(word))
+                    if 0 <= pos < seg_end:
+                        seg_end = pos
+                seg = ctx[seg_start:seg_end]
                 if any(alias in seg for alias in aliases):
                     return True
         return False

@@ -173,21 +173,53 @@ def test_parses_graphql_payload() -> None:
 
 
 def test_falls_back_to_meta_when_json_missing() -> None:
+    # Threads' real description meta tag looks like
+    # "Eva Chien (@evachien.chien) on Threads. 12,345 個粉絲. bio text"
     html = (
         '<!doctype html><html><head>'
-        '<meta property="og:title" content="@evachien.chien on Threads"/>'
-        '<meta name="description" content="bio text"/>'
+        '<meta property="og:title" content="Eva Chien (@evachien.chien) on Threads"/>'
+        '<meta name="description" '
+        'content="Eva Chien (@evachien.chien) on Threads. 12,345 個粉絲. bio text here."/>'
         '</head><body><script>console.log("no useful data here");</script></body></html>'
     )
     profile, posts = parse_profile_html(html, "evachien.chien")
-    # We get *something* back instead of failing hard.
     assert profile is not None
     assert profile.username == "evachien.chien"
+    # Title prefix stripped: full_name is "Eva Chien", not the whole title.
+    assert profile.full_name == "Eva Chien", profile.full_name
+    # Follower count extracted from description.
+    assert profile.follower_count == 12345, profile.follower_count
+    # Biography stripped of the "Name (@handle) on Threads. NNN 個粉絲." prefix.
+    assert profile.biography and "bio text here" in profile.biography
+    assert profile.biography and "粉絲" not in profile.biography, profile.biography
     assert posts == []
+
+
+def test_meta_fallback_handles_english_follower_format() -> None:
+    html = (
+        '<!doctype html><html><head>'
+        '<meta property="og:title" content="Eva (@x) on Threads"/>'
+        '<meta name="description" content="Eva (@x) on Threads. 1.2K followers. bio"/>'
+        '</head><body></body></html>'
+    )
+    profile, _ = parse_profile_html(html, "x")
+    assert profile is not None
+    assert profile.follower_count == 1200
+
+
+def test_meta_fallback_returns_none_when_only_username_known() -> None:
+    """If the meta tags don't actually carry signal beyond the handle, return
+    None so storage doesn't write a placeholder row.
+    """
+    html = '<!doctype html><html><head></head><body></body></html>'
+    profile, _ = parse_profile_html(html, "x")
+    assert profile is None
 
 
 if __name__ == "__main__":
     test_parses_user_and_posts()
     test_parses_graphql_payload()
     test_falls_back_to_meta_when_json_missing()
+    test_meta_fallback_handles_english_follower_format()
+    test_meta_fallback_returns_none_when_only_username_known()
     print("OK: all parser tests passed")

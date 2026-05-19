@@ -50,6 +50,7 @@ jobs:
           python tests/test_parser.py
           python tests/test_e2e.py
           python tests/test_stocks.py
+          python tests/test_storage.py
           python tests/test_fundamentals.py
 
       - name: Fetch profile + posts (browser mode)
@@ -81,12 +82,16 @@ jobs:
       - name: Generate dashboard (with placeholder fallback)
         run: |
           mkdir -p public
-          # Remove a stale index.html so a render failure forces the placeholder
-          # branch instead of publishing yesterday's dashboard.
+          # Render to a temp file and atomically mv on success so a partial
+          # write doesn't leave broken HTML behind.
           rm -f public/index.html
           if [ -f data/latest.json ]; then
-            python scripts/render_dashboard.py data/latest.json public/index.html \
-              || echo "::warning::render_dashboard.py failed; will publish placeholder"
+            if python scripts/render_dashboard.py data/latest.json public/index.html.tmp; then
+              mv public/index.html.tmp public/index.html
+            else
+              echo "::warning::render_dashboard.py failed; will publish placeholder"
+              rm -f public/index.html.tmp
+            fi
           fi
           if [ ! -f public/index.html ]; then
             cp public/placeholder.html public/index.html
@@ -102,15 +107,26 @@ jobs:
             echo "no changes to commit"
           else
             git commit -m "auto: refresh @${HANDLE} data"
-            # Re-base on any commit pushed while we were running, then push.
-            # Retries on transient network failure.
+            # Rebase + push. If rebase finds a conflict (e.g. two runs both
+            # wrote data/threads.db) we abort cleanly rather than silently
+            # losing one run's data. Retry only the push for transient
+            # network errors.
+            pushed=0
             for attempt in 1 2 3; do
-              git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+              if ! git pull --rebase --autostash origin "${GITHUB_REF_NAME}"; then
+                echo "::warning::git rebase failed; aborting and dropping this run's data commit"
+                git rebase --abort 2>/dev/null || true
+                break
+              fi
               if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+                pushed=1
                 break
               fi
               sleep $((attempt * 5))
             done
+            if [ "$pushed" = "0" ]; then
+              echo "::warning::push did not succeed; Pages will still deploy from artifact"
+            fi
           fi
 
       - name: Configure Pages
@@ -128,15 +144,19 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: threads-debug
-          path: |
-            data/
-            debug/
-          retention-days: 14
+          # data/ already lives in git; uploading it would burn artifact
+          # quota fast (~10 MB/run × 6 runs/day × 14 days = ~840 MB).
+          path: debug/
+          retention-days: 7
+          if-no-files-found: ignore
 
-      - name: Fail if both fetch and analyse failed
-        if: steps.fetch.outcome == 'failure' && steps.analyse.outcome == 'failure'
+      - name: Fail if fetch failed
+        # cmd_stocks now exits 0 on empty (analyse can't usefully fail unless
+        # the universe/fundamentals refresh blew up, which we already log).
+        # Treat the fetch step as the source of truth.
+        if: steps.fetch.outcome == 'failure'
         run: |
-          echo "Both fetch and analyse failed — see logs above."
+          echo "::error::Threads fetch failed — see logs above."
           exit 1
 
   deploy-pages:

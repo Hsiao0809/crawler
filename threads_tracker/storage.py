@@ -98,7 +98,23 @@ class TrackerStore:
 
     # --- accounts ----------------------------------------------------------
     def upsert_account(self, profile: UserProfile, fetched_at: int | None = None) -> None:
+        """Insert or update an account row.
+
+        Refuses to write an empty user_id (those rows can't be uniquely
+        identified later) and uses COALESCE on every nullable field so a
+        partial-fetch (meta-tag fallback) never wipes out fields a previous
+        fully-successful fetch already populated.
+        """
+        if not profile.user_id:
+            log.warning(
+                "skipping upsert_account for @%s: no user_id available (would clobber stored data)",
+                profile.username,
+            )
+            return
         fetched_at = fetched_at or int(time.time())
+        is_verified = (
+            int(bool(profile.is_verified)) if profile.is_verified is not None else None
+        )
         with self.tx() as conn:
             conn.execute(
                 """
@@ -108,12 +124,12 @@ class TrackerStore:
                 VALUES(?,?,?,?,?,?,?,?,?)
                 ON CONFLICT(user_id) DO UPDATE SET
                     username=excluded.username,
-                    full_name=excluded.full_name,
-                    biography=excluded.biography,
+                    full_name=COALESCE(excluded.full_name, accounts.full_name),
+                    biography=COALESCE(excluded.biography, accounts.biography),
                     follower_count=COALESCE(excluded.follower_count, accounts.follower_count),
                     following_count=COALESCE(excluded.following_count, accounts.following_count),
-                    is_verified=excluded.is_verified,
-                    profile_pic_url=excluded.profile_pic_url,
+                    is_verified=COALESCE(excluded.is_verified, accounts.is_verified),
+                    profile_pic_url=COALESCE(excluded.profile_pic_url, accounts.profile_pic_url),
                     last_fetched_at=excluded.last_fetched_at
                 """,
                 (
@@ -123,7 +139,7 @@ class TrackerStore:
                     profile.biography,
                     profile.follower_count,
                     profile.following_count,
-                    int(bool(profile.is_verified)) if profile.is_verified is not None else None,
+                    is_verified,
                     profile.profile_pic_url,
                     fetched_at,
                 ),

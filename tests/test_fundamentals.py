@@ -128,6 +128,76 @@ def test_derived_roe_from_income_and_balance() -> None:
     assert row["roe"] == 10.0              # 300k / 3M
 
 
+def test_tpex_revenue_uses_securities_company_code() -> None:
+    """Regression for audit #30: TPEx revenue endpoint emits the English key
+    SecuritiesCompanyCode, not 公司代號. Prior code only looked for the
+    Chinese key so 6,656 TPEx rows had revenueYoY=None.
+    """
+    tpex_revenue_row = {
+        "SecuritiesCompanyCode": "6488",
+        "DataYearMonth": "11504",
+        "MonthlyRevenue": "1234567",
+        "營業收入-去年同月增減(%)": "25.5",
+    }
+
+    def fake_fetch(url):
+        if url == fund.TPEX_REVENUE:
+            return [tpex_revenue_row]
+        return []
+
+    with patch.object(fund, "_fetch_json", side_effect=fake_fetch):
+        result = fund.fetch_fundamentals()
+    assert "6488" in result, f"TPEx code not enriched: {list(result.keys())}"
+    assert result["6488"]["revenueYoY"] == 25.5
+    assert result["6488"]["revenue"] == 1234567
+
+
+def test_tpex_dividend_yield_uses_yield_ratio() -> None:
+    """Regression for audit #2: TPEx valuation's DividendPerShare is an NTD
+    amount per share, not a yield. The right field is YieldRatio.
+    """
+    tpex_valuation_row = {
+        "SecuritiesCompanyCode": "6488",
+        "CompanyName": "環球晶",
+        "PERatio": "18.5",
+        "PBRatio": "3.2",
+        "YieldRatio": "4.5",          # the real yield, in %
+        "DividendPerShare": "12.5",   # NTD amount, NOT a yield
+    }
+
+    def fake_fetch(url):
+        if url == fund.TPEX_VALUATION:
+            return [tpex_valuation_row]
+        return []
+
+    with patch.object(fund, "_fetch_json", side_effect=fake_fetch):
+        result = fund.fetch_fundamentals()
+    assert result["6488"]["dividendYield"] == 4.5, result["6488"]
+
+
+def test_permanent_4xx_short_circuits_retry() -> None:
+    """Issue #19: a 403 should not waste 3 retries × 1.5s backoff."""
+    call_count = {"n": 0}
+
+    class FakeResponse:
+        status_code = 403
+        text = "forbidden"
+
+        def json(self):
+            return {}
+
+    def fake_get(url, **kwargs):
+        call_count["n"] += 1
+        return FakeResponse()
+
+    with patch.object(fund.requests, "get", side_effect=fake_get):
+        try:
+            fund._fetch_json("https://example.com/x", retries=3)
+        except RuntimeError:
+            pass
+    assert call_count["n"] == 1, f"should not retry on 403; got {call_count['n']} calls"
+
+
 def test_numeric_helpers_handle_garbage() -> None:
     assert fund._num(None) is None
     assert fund._num("") is None
@@ -141,5 +211,8 @@ if __name__ == "__main__":
     test_revenue_yoy_uses_long_field_name()
     test_legacy_field_names_still_work()
     test_derived_roe_from_income_and_balance()
+    test_tpex_revenue_uses_securities_company_code()
+    test_tpex_dividend_yield_uses_yield_ratio()
+    test_permanent_4xx_short_circuits_retry()
     test_numeric_helpers_handle_garbage()
     print("OK: all fundamentals tests passed")

@@ -36,6 +36,12 @@ META_DESC_RE = re.compile(
 META_TITLE_RE = re.compile(
     r'<meta[^>]+(?:name|property)="(?:og:)?title"[^>]+content="([^"]*)"', re.IGNORECASE
 )
+# "12,345 個粉絲" / "12,345 followers" / "12.3K followers" patterns Threads
+# embeds in the description meta tag.
+FOLLOWER_RES = [
+    re.compile(r'(\d[\d,]*)\s*(?:個)?\s*粉絲'),
+    re.compile(r'(\d[\d,]*\.?\d*[KkMm]?)\s+[Ff]ollowers?'),
+]
 
 
 @dataclass
@@ -309,25 +315,14 @@ def parse_profile_html(html: str, username: str) -> tuple[UserProfile | None, li
     posts, profile = _scan_json_for_posts_and_user(candidates, username_hint=username)
 
     if not profile:
-        # Try to at least get user_id from regex even when the full profile object isn't present.
         uid = _find_user_id(html, username)
         if uid:
             profile = UserProfile(user_id=uid, username=username)
+            _enrich_profile_from_meta(profile, html)
         else:
-            # Last resort: pull display name and follower count from meta tags so
-            # the caller knows something rather than nothing.
-            title = META_TITLE_RE.search(html)
-            desc = META_DESC_RE.search(html)
-            if title or desc:
-                log.warning(
-                    "could not find structured profile JSON; falling back to <meta> tags only"
-                )
-                profile = UserProfile(
-                    user_id="",
-                    username=username,
-                    full_name=(title.group(1) if title else None),
-                    biography=(desc.group(1) if desc else None),
-                )
+            # Even without a numeric user_id, try the meta tags so the caller
+            # has something to display.
+            profile = _build_profile_from_meta(username, html)
 
     # Sort newest first.
     posts.sort(key=lambda p: p.taken_at or 0, reverse=True)
@@ -339,3 +334,72 @@ def parse_graphql_response(payload: dict[str, Any], username_hint: str | None = 
     posts, _ = _scan_json_for_posts_and_user([payload], username_hint=username_hint)
     posts.sort(key=lambda p: p.taken_at or 0, reverse=True)
     return posts
+
+
+def _parse_follower_count(text: str) -> int | None:
+    """Parse '12,345', '12.3K', '1.2M' (zh-TW or en) into an int."""
+    for pat in FOLLOWER_RES:
+        m = pat.search(text)
+        if not m:
+            continue
+        raw = m.group(1).replace(",", "")
+        try:
+            if raw.endswith(("K", "k")):
+                return int(float(raw[:-1]) * 1_000)
+            if raw.endswith(("M", "m")):
+                return int(float(raw[:-1]) * 1_000_000)
+            return int(float(raw))
+        except ValueError:
+            continue
+    return None
+
+
+def _enrich_profile_from_meta(profile: UserProfile, html: str) -> None:
+    """Best-effort: harvest follower_count and biography from <meta> when the
+    structured JSON path didn't provide them."""
+    desc_match = META_DESC_RE.search(html)
+    desc = desc_match.group(1) if desc_match else ""
+    if desc:
+        follower = _parse_follower_count(desc)
+        if follower is not None and profile.follower_count is None:
+            profile.follower_count = follower
+        # Description has shape "FullName (@user) on Threads. 12,345 個粉絲. <bio>".
+        # Strip the leading metadata so we don't write that into biography.
+        if profile.biography is None:
+            bio = re.sub(r'^.+? \(@[\w.]+\) on Threads\.\s*', '', desc)
+            bio = re.sub(r'^\d[\d,]*\s*(?:個)?\s*粉絲[。\.]?\s*', '', bio)
+            bio = re.sub(r'^\d[\d,]*\.?\d*[KkMm]?\s+[Ff]ollowers?[。\.]?\s*', '', bio)
+            if bio and bio != desc:
+                profile.biography = bio.strip() or None
+
+
+def _build_profile_from_meta(username: str, html: str) -> UserProfile | None:
+    """Construct a UserProfile from meta tags alone. Used when no JSON
+    payload is recoverable. Returns None if there's nothing usable so the
+    caller can decide not to clobber the DB with garbage."""
+    title_m = META_TITLE_RE.search(html)
+    desc_m = META_DESC_RE.search(html)
+    if not title_m and not desc_m:
+        return None
+    log.warning("could not find structured profile JSON; falling back to <meta> tags only")
+    profile = UserProfile(user_id="", username=username)
+    # og:title for Threads looks like "FullName (@user) on Threads". Strip
+    # the "(@user) on Threads" trailer so full_name is just the name.
+    if title_m:
+        title = title_m.group(1)
+        m = re.match(r'^(.*?)\s*\(@[\w.]+\)\s*(?:on Threads)?', title)
+        if m and m.group(1):
+            profile.full_name = m.group(1).strip()
+        elif "@" + username.lower() not in title.lower():
+            profile.full_name = title.strip()
+    _enrich_profile_from_meta(profile, html)
+    # If we couldn't get any real signal beyond echoing the username,
+    # return None so the storage layer doesn't write a placeholder row
+    # that would later overwrite a real fetch's fields.
+    if (
+        not profile.full_name
+        and profile.follower_count is None
+        and not profile.biography
+    ):
+        return None
+    return profile

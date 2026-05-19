@@ -245,9 +245,37 @@ def cmd_stocks(args: argparse.Namespace) -> int:
     acc = store.get_account(username)
     posts = store.list_posts(username, limit=args.limit)
     if not posts:
-        print(f"[x] No posts stored for @{username}. Run `track` first.", file=sys.stderr)
+        # Write an empty-shape report so the dashboard step has something to
+        # render — and return 0 so the workflow's analyse step doesn't get
+        # flagged as failed when the fetch genuinely turned up nothing.
+        print(
+            f"[!] No posts stored for @{username}; emitting empty report.",
+            file=sys.stderr,
+        )
+        from datetime import datetime, timezone
+
+        empty = {
+            "generatedAt": datetime.now(timezone.utc).isoformat(),
+            "account": acc or {"username": username},
+            "summary": {
+                "totalPosts": 0,
+                "postsWithStocks": 0,
+                "uniqueStocks": 0,
+                "topStocks": [],
+                "actionTotals": {},
+                "fundamentalsCoverage": 0,
+            },
+            "stocks": [],
+            "posts": [],
+        }
+        if args.out:
+            Path(args.out).parent.mkdir(parents=True, exist_ok=True)
+            Path(args.out).write_text(
+                json.dumps(empty, ensure_ascii=False, indent=2), encoding="utf-8"
+            )
+            print(f"[+] Wrote empty report to {args.out}")
         store.close()
-        return 1
+        return 0
 
     # Universe: bundled seed → optionally refresh from TWSE/TPEx.
     universe = load_universe()
