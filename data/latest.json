@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T17:01:01.127319+00:00",
+  "generatedAt": "2026-05-24T20:56:04.864888+00:00",
   "account": {
     "user_id": "73957398954",
     "username": "evachien.chien",
@@ -8,8 +8,8 @@
     "follower_count": 3394,
     "following_count": null,
     "is_verified": 0,
-    "profile_pic_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gEc7bINZAMn5GVMDzgIHF5NdsV22UUKxSfkIztQzATG-_fnARb8iRO-WF-Os3Ir5vA&_nc_ohc=nGsf7qvLll0Q7kNvwFP-Ncw&_nc_gid=CRw24KtMfPCl41YRXXyP8w&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af5Egs_HdQoFOKHUa9-FZQ2MdQ5tr_tbC_JmMlB4iYfiZw&oe=6A190EFB&_nc_sid=10d13b",
-    "last_fetched_at": 1779642002
+    "profile_pic_url": "https://scontent-sin2-2.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sin2-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gEDR4CyqL75QZc0wSgFG-rruaPrZjQJpNfIHg-SJgjNJtgNDKFN2pTZ4QfV2pIfKXw&_nc_ohc=nGsf7qvLll0Q7kNvwGbNPMw&_nc_gid=_ThvGI11o4BNvOgoqNhrYw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af6yVNB06P2M7Smo14xT4BTln6CMf72lCBfYxbSeCHannA&oe=6A19473B&_nc_sid=10d13b",
+    "last_fetched_at": 1779656113
   },
   "summary": {
     "totalPosts": 4,
@@ -102,7 +102,7 @@
       "limitUp": 16,
       "buy": 1
     },
-    "fundamentalsCoverage": 17
+    "fundamentalsCoverage": 0
   },
   "stocks": [
     {
@@ -140,28 +140,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "3653",
-        "name": "健策",
-        "market": "TWSE",
-        "price": 3660.0,
-        "change": 330.0,
-        "priceDate": "1150522",
-        "peRatio": 101.24,
-        "dividendYield": 0.6,
-        "pbRatio": 25.35,
-        "valuationDate": "1150522",
-        "eps": 9.53,
-        "epsPeriod": "1151",
-        "revenueYoY": 26.91849568169949,
-        "revenue": 2311149.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 41.78,
-        "netIncome": 1404530.0,
-        "debtRatio": 29.4,
-        "equity": 21397357.0,
-        "roe": 6.56
-      }
+      "fundamentals": null
     },
     {
       "code": "4749",
@@ -198,26 +177,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "4749",
-        "name": "新應材",
-        "market": "TPEx",
-        "price": 1170.0,
-        "change": 80.0,
-        "priceDate": "1150522",
-        "peRatio": null,
-        "dividendYield": 0.68,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": -12.392302417792088,
-        "revenue": 352635.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 45.41,
-        "netIncome": 338795.0,
-        "debtRatio": 17.74,
-        "equity": 8950632.0,
-        "roe": 3.79
-      }
+      "fundamentals": null
     },
     {
       "code": "3443",
@@ -244,28 +204,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "3443",
-        "name": "創意",
-        "market": "TWSE",
-        "price": 5140.0,
-        "change": 75.0,
-        "priceDate": "1150522",
-        "peRatio": 154.63,
-        "dividendYield": 0.39,
-        "pbRatio": 47.23,
-        "valuationDate": "1150522",
-        "eps": 12.28,
-        "epsPeriod": "1151",
-        "revenueYoY": 156.85087929178133,
-        "revenue": 4294033.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 27.2,
-        "netIncome": 1646240.0,
-        "debtRatio": 58.49,
-        "equity": 14583873.0,
-        "roe": 11.29
-      }
+      "fundamentals": null
     },
     {
       "code": "2344",
@@ -289,28 +228,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "2344",
-        "name": "華邦電",
-        "market": "TWSE",
-        "price": 125.0,
-        "change": 11.0,
-        "priceDate": "1150522",
-        "peRatio": 37.09,
-        "dividendYield": 0.4,
-        "pbRatio": 4.82,
-        "valuationDate": "1150522",
-        "eps": 2.25,
-        "epsPeriod": "1151",
-        "revenueYoY": 182.2232686329836,
-        "revenue": 19245022.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 53.37,
-        "netIncome": 10117678.0,
-        "debtRatio": 46.52,
-        "equity": 122893519.0,
-        "roe": 8.23
-      }
+      "fundamentals": null
     },
     {
       "code": "2455",
@@ -334,28 +252,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "2455",
-        "name": "全新",
-        "market": "TWSE",
-        "price": 425.0,
-        "change": 38.5,
-        "priceDate": "1150522",
-        "peRatio": 134.07,
-        "dividendYield": 0.62,
-        "pbRatio": 21.43,
-        "valuationDate": "1150522",
-        "eps": 1.06,
-        "epsPeriod": "1151",
-        "revenueYoY": 37.74579319647891,
-        "revenue": 318595.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 38.09,
-        "netIncome": 195085.0,
-        "debtRatio": 32.02,
-        "equity": 3667225.0,
-        "roe": 5.32
-      }
+      "fundamentals": null
     },
     {
       "code": "3105",
@@ -379,26 +276,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "3105",
-        "name": "穩懋",
-        "market": "TPEx",
-        "price": 531.0,
-        "change": 48.0,
-        "priceDate": "1150522",
-        "peRatio": null,
-        "dividendYield": 0.38,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 48.88999172301997,
-        "revenue": 1734086.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 26.34,
-        "netIncome": 448627.0,
-        "debtRatio": 31.82,
-        "equity": 41291462.0,
-        "roe": 1.09
-      }
+      "fundamentals": null
     },
     {
       "code": "6291",
@@ -422,26 +300,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "6291",
-        "name": "沛亨",
-        "market": "TPEx",
-        "price": 541.0,
-        "change": 49.0,
-        "priceDate": "1150522",
-        "peRatio": null,
-        "dividendYield": 1.11,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 42.11268607186878,
-        "revenue": 239818.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 37.5,
-        "netIncome": 127072.0,
-        "debtRatio": 39.7,
-        "equity": 1378653.0,
-        "roe": 9.22
-      }
+      "fundamentals": null
     },
     {
       "code": "7828",
@@ -465,26 +324,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "7828",
-        "name": "創新服務",
-        "market": "TPEx",
-        "price": 1165.0,
-        "change": 105.0,
-        "priceDate": "1150522",
-        "peRatio": null,
-        "dividendYield": 0.39,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 32086.881188118812,
-        "revenue": 130035.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 80.18,
-        "netIncome": 37306.0,
-        "debtRatio": 40.34,
-        "equity": 1058586.0,
-        "roe": 3.52
-      }
+      "fundamentals": null
     },
     {
       "code": "8996",
@@ -508,28 +348,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "8996",
-        "name": "高力",
-        "market": "TWSE",
-        "price": 1170.0,
-        "change": 105.0,
-        "priceDate": "1150522",
-        "peRatio": 83.45,
-        "dividendYield": 0.39,
-        "pbRatio": 23.43,
-        "valuationDate": "1150522",
-        "eps": 6.54,
-        "epsPeriod": "1151",
-        "revenueYoY": 86.03066172304061,
-        "revenue": 948788.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 29.02,
-        "netIncome": 605668.0,
-        "debtRatio": 47.81,
-        "equity": 4645778.0,
-        "roe": 13.04
-      }
+      "fundamentals": null
     },
     {
       "code": "2401",
@@ -553,28 +372,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "2401",
-        "name": "凌陽",
-        "market": "TWSE",
-        "price": 30.75,
-        "change": 1.2,
-        "priceDate": "1150522",
-        "peRatio": null,
-        "dividendYield": null,
-        "pbRatio": 2.2,
-        "valuationDate": "1150522",
-        "eps": -0.02,
-        "epsPeriod": "1151",
-        "revenueYoY": 14.114555035948442,
-        "revenue": 684717.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 49.74,
-        "netIncome": 92626.0,
-        "debtRatio": 25.17,
-        "equity": 10469343.0,
-        "roe": 0.88
-      }
+      "fundamentals": null
     },
     {
       "code": "3037",
@@ -600,28 +398,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "3037",
-        "name": "欣興",
-        "market": "TWSE",
-        "price": 970.0,
-        "change": 65.0,
-        "priceDate": "1150522",
-        "peRatio": 142.65,
-        "dividendYield": 0.21,
-        "pbRatio": 13.59,
-        "valuationDate": "1150522",
-        "eps": 3.28,
-        "epsPeriod": "1151",
-        "revenueYoY": 27.63677460986582,
-        "revenue": 13932815.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 17.96,
-        "netIncome": 5380738.0,
-        "debtRatio": 56.18,
-        "equity": 116952673.0,
-        "roe": 4.6
-      }
+      "fundamentals": null
     },
     {
       "code": "2454",
@@ -645,28 +422,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "2454",
-        "name": "聯發科",
-        "market": "TWSE",
-        "price": 3860.0,
-        "change": 310.0,
-        "priceDate": "1150522",
-        "peRatio": 61.51,
-        "dividendYield": 1.39,
-        "pbRatio": 15.79,
-        "valuationDate": "1150522",
-        "eps": 15.17,
-        "epsPeriod": "1151",
-        "revenueYoY": -4.138619297399555,
-        "revenue": 46736664.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 46.3,
-        "netIncome": 24376384.0,
-        "debtRatio": 46.07,
-        "equity": 398446955.0,
-        "roe": 6.12
-      }
+      "fundamentals": null
     },
     {
       "code": "1717",
@@ -692,28 +448,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "1717",
-        "name": "長興",
-        "market": "TWSE",
-        "price": 83.0,
-        "change": 3.3,
-        "priceDate": "1150522",
-        "peRatio": 56.08,
-        "dividendYield": 1.2,
-        "pbRatio": 3.38,
-        "valuationDate": "1150522",
-        "eps": 0.37,
-        "epsPeriod": "1151",
-        "revenueYoY": 12.99161381931544,
-        "revenue": 4233389.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 22.16,
-        "netIncome": 429777.0,
-        "debtRatio": 52.21,
-        "equity": 30021026.0,
-        "roe": 1.43
-      }
+      "fundamentals": null
     },
     {
       "code": "3665",
@@ -739,28 +474,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "3665",
-        "name": "貿聯-KY",
-        "market": "TWSE",
-        "price": 2225.0,
-        "change": 70.0,
-        "priceDate": "1150522",
-        "peRatio": 44.9,
-        "dividendYield": 0.67,
-        "pbRatio": 9.31,
-        "valuationDate": "1150522",
-        "eps": 11.66,
-        "epsPeriod": "1151",
-        "revenueYoY": 18.54291992756683,
-        "revenue": 7382955.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 28.77,
-        "netIncome": 2273476.0,
-        "debtRatio": 45.52,
-        "equity": 46636528.0,
-        "roe": 4.87
-      }
+      "fundamentals": null
     },
     {
       "code": "3167",
@@ -780,28 +494,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "3167",
-        "name": "大量",
-        "market": "TWSE",
-        "price": 831.0,
-        "change": 75.0,
-        "priceDate": "1150522",
-        "peRatio": 80.99,
-        "dividendYield": 0.48,
-        "pbRatio": 20.55,
-        "valuationDate": "1150522",
-        "eps": 3.19,
-        "epsPeriod": "1151",
-        "revenueYoY": 114.23072625004656,
-        "revenue": 862675.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 42.34,
-        "netIncome": 282004.0,
-        "debtRatio": 65.6,
-        "equity": 3578872.0,
-        "roe": 7.88
-      }
+      "fundamentals": null
     },
     {
       "code": "3706",
@@ -822,28 +515,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "3706",
-        "name": "神達",
-        "market": "TWSE",
-        "price": 87.8,
-        "change": 4.3,
-        "priceDate": "1150522",
-        "peRatio": 16.76,
-        "dividendYield": 4.56,
-        "pbRatio": 1.75,
-        "valuationDate": "1150522",
-        "eps": 1.1,
-        "epsPeriod": "1151",
-        "revenueYoY": 31.872465203349964,
-        "revenue": 11633086.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 9.21,
-        "netIncome": 1536911.0,
-        "debtRatio": 50.24,
-        "equity": 67632734.0,
-        "roe": 2.27
-      }
+      "fundamentals": null
     },
     {
       "code": "6147",
@@ -864,26 +536,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "6147",
-        "name": "頎邦",
-        "market": "TPEx",
-        "price": 215.5,
-        "change": -7.0,
-        "priceDate": "1150522",
-        "peRatio": null,
-        "dividendYield": 1.3,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 24.146675521112343,
-        "revenue": 2185380.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 23.46,
-        "netIncome": 437289.0,
-        "debtRatio": 15.51,
-        "equity": 46881469.0,
-        "roe": 0.93
-      }
+      "fundamentals": null
     }
   ],
   "posts": [
