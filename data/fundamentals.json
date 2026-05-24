@@ -117045,5 +117045,13 @@
     "netIncome": 46402.0,
     "debtRatio": 30.61,
     "equity": 1148260.0
+  },
+  "6983": {
+    "code": "6983",
+    "eps": null,
+    "grossMargin": 50.46,
+    "netIncome": 3096.0,
+    "debtRatio": 45.77,
+    "equity": 402230.0
   }
 }
