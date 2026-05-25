@@ -1,21 +1,46 @@
 {
-  "generatedAt": "2026-05-25T03:38:23.075121+00:00",
+  "generatedAt": "2026-05-25T08:21:53.417434+00:00",
   "account": {
     "user_id": "73957398954",
     "username": "evachien.chien",
     "full_name": "Olivia Chien",
     "biography": "正職洗腰子護理師\n目前努力學習股票操盤\n希望可以早日財富自由（如果有私訊邀約入群，那都是騙人的喔！我才沒有空搞那個😆）\n也努力健身運動\n希望擁有健康的身體以及好身材\n有人說過我像趙敏\n也期許自己跟趙敏一樣聰慧果敢堅毅，當然美麗是一定要的 嘿👍",
-    "follower_count": 3395,
+    "follower_count": 3398,
     "following_count": null,
     "is_verified": 0,
-    "profile_pic_url": "https://scontent-sea5-1.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sea5-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gEI0wXMF8KVcK3YjfJpcDcOb5F8kVoo-JrX62EbwQltuuvRCKAEEgOc9lqvfPCFAKA&_nc_ohc=nGsf7qvLll0Q7kNvwFX0JPx&_nc_gid=s1gNAEP1O9qOsmicuH7itg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af5FxvD0jSqGIrmgOscWKyi5i5aIBOxErZ_b9bSQ-FtxKA&oe=6A197F7B&_nc_sid=10d13b",
-    "last_fetched_at": 1779680244
+    "profile_pic_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gFVOS0SBEM-PfDh_ZTenbvWYjxcjME7khGF1F_CzwO31DAq-al4Q4zIJjlLLo2-INw&_nc_ohc=nGsf7qvLll0Q7kNvwEQvuw3&_nc_gid=f6VtaUE2guMyuTI4ZRpeMQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af5ggUiSgW_iK5GnaKfzWyYVZ3AImSjkfoeH_CN4ldNwPA&oe=6A19EFFB&_nc_sid=10d13b",
+    "last_fetched_at": 1779697240
   },
   "summary": {
     "totalPosts": 4,
-    "postsWithStocks": 2,
-    "uniqueStocks": 17,
+    "postsWithStocks": 3,
+    "uniqueStocks": 23,
     "topStocks": [
+      {
+        "code": "3037",
+        "name": "欣興",
+        "count": 2,
+        "actions": {
+          "buy": 1,
+          "limitUp": 1
+        }
+      },
+      {
+        "code": "7828",
+        "name": "創新服務",
+        "count": 2,
+        "actions": {
+          "limitUp": 2
+        }
+      },
+      {
+        "code": "2454",
+        "name": "聯發科",
+        "count": 2,
+        "actions": {
+          "limitUp": 2
+        }
+      },
       {
         "code": "3653",
         "name": "健策",
@@ -33,6 +58,26 @@
         }
       },
       {
+        "code": "6282",
+        "name": "康舒",
+        "count": 1,
+        "actions": {
+          "sell": 1,
+          "limitUp": 1,
+          "regret": 1
+        }
+      },
+      {
+        "code": "2313",
+        "name": "華通",
+        "count": 1,
+        "actions": {
+          "buy": 1,
+          "sell": 1,
+          "limitUp": 1
+        }
+      },
+      {
         "code": "3443",
         "name": "創意",
         "count": 1,
@@ -42,56 +87,16 @@
         }
       },
       {
-        "code": "2344",
-        "name": "華邦電",
+        "code": "2002",
+        "name": "中鋼",
         "count": 1,
         "actions": {
           "limitUp": 1
         }
       },
       {
-        "code": "2455",
-        "name": "全新",
-        "count": 1,
-        "actions": {
-          "limitUp": 1
-        }
-      },
-      {
-        "code": "3105",
-        "name": "穩懋",
-        "count": 1,
-        "actions": {
-          "limitUp": 1
-        }
-      },
-      {
-        "code": "6291",
-        "name": "沛亨",
-        "count": 1,
-        "actions": {
-          "limitUp": 1
-        }
-      },
-      {
-        "code": "7828",
-        "name": "創新服務",
-        "count": 1,
-        "actions": {
-          "limitUp": 1
-        }
-      },
-      {
-        "code": "8996",
-        "name": "高力",
-        "count": 1,
-        "actions": {
-          "limitUp": 1
-        }
-      },
-      {
-        "code": "2401",
-        "name": "凌陽",
+        "code": "2383",
+        "name": "台光電",
         "count": 1,
         "actions": {
           "limitUp": 1
@@ -99,12 +104,186 @@
       }
     ],
     "actionTotals": {
-      "limitUp": 16,
-      "buy": 1
+      "buy": 3,
+      "limitUp": 24,
+      "sell": 2,
+      "regret": 1
     },
-    "fundamentalsCoverage": 17
+    "fundamentalsCoverage": 23
   },
   "stocks": [
+    {
+      "code": "3037",
+      "name": "欣興",
+      "market": "TWSE",
+      "count": 2,
+      "actions": {
+        "buy": 1,
+        "limitUp": 1
+      },
+      "posts": [
+        {
+          "pk": "3904622646499843594",
+          "url": "https://www.threads.com/@evachien.chien/post/DYwAZwCkZ4K",
+          "taken_at": "2026-05-25T05:35:13+00:00",
+          "text": "今天亮5顆燈💡\n「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停\n「華通」、「聯亞」、「台達電」漲停打開\n\n意不意外 驚不驚喜？\n「中鋼」漲停啦 每個人都一直賴我恭喜我 中鋼漲停😆\n但我大概還要10根漲停才能解套喔！謝謝各位～我媽說十年風水輪流轉，我等七年了，再等三年就好👌\n「康舒」上次高點65.9，我錯過沒賣，明天大概就會挑戰高點，真捨不得，到底要不要出，從37.5一路抱上來，我好像真的太專情了😆\n「欣興」終於來到千金，雖然曇花一現，可是我還是覺得很感動，8zz",
+          "actions": [
+            "buy"
+          ],
+          "contexts": [
+            "「欣興」終於來到千金，雖然曇花一現，可是我還是覺得很感動，8zz買了欣興，我要努力集氣，對抗玄學🙏"
+          ]
+        },
+        {
+          "pk": "3901736085743581402",
+          "url": "https://www.threads.com/@evachien.chien/post/DYlwEw2Ebja",
+          "taken_at": "2026-05-21T06:00:08+00:00",
+          "text": "今天亮六顆燈💡\n「凌陽」、「欣興」、「新應材」、「健策」、「聯發科」、「創意」漲停\n「長興」、「貿聯」漲停打開\n好好笑，我原本在13:28，開始發表我終於破紀錄拿到8顆燈的得獎感言，發表到一半，先跟醫生查房。結果再回去看，果然會有自動退出的😅，到底怎樣才會進步啦？！\n「貿聯」、「健策」終於回到水準了，不枉費我操碎了心😆而「新應材」CB定價完成，接下來會不會依照野村的目標價1500走📈？\n\n出\n「長興」79.2-》79.9（漲停），先把有壓力的先出，下面均價75.99還留倉，記",
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「凌陽」、「欣興」、「新應材」、「健策」、「聯發科」、「創意」漲停",
+            "「欣興」823-》905（漲停），保留均價211的。",
+            "5股欣興學妹，今天出820-》905，賺了400元，我跟她說貿聯先等等再出，我再找下一個標的給她❤️"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "3037",
+        "name": "欣興",
+        "market": "TWSE",
+        "price": 970.0,
+        "change": 65.0,
+        "priceDate": "1150522",
+        "peRatio": 142.65,
+        "dividendYield": 0.21,
+        "pbRatio": 13.59,
+        "valuationDate": "1150522",
+        "eps": 3.28,
+        "epsPeriod": "1151",
+        "revenueYoY": 27.63677460986582,
+        "revenue": 13932815.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 17.96,
+        "netIncome": 5380738.0,
+        "debtRatio": 56.18,
+        "equity": 116952673.0,
+        "roe": 4.6
+      }
+    },
+    {
+      "code": "7828",
+      "name": "創新服務",
+      "market": "TPEx",
+      "count": 2,
+      "actions": {
+        "limitUp": 2
+      },
+      "posts": [
+        {
+          "pk": "3904622646499843594",
+          "url": "https://www.threads.com/@evachien.chien/post/DYwAZwCkZ4K",
+          "taken_at": "2026-05-25T05:35:13+00:00",
+          "text": "今天亮5顆燈💡\n「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停\n「華通」、「聯亞」、「台達電」漲停打開\n\n意不意外 驚不驚喜？\n「中鋼」漲停啦 每個人都一直賴我恭喜我 中鋼漲停😆\n但我大概還要10根漲停才能解套喔！謝謝各位～我媽說十年風水輪流轉，我等七年了，再等三年就好👌\n「康舒」上次高點65.9，我錯過沒賣，明天大概就會挑戰高點，真捨不得，到底要不要出，從37.5一路抱上來，我好像真的太專情了😆\n「欣興」終於來到千金，雖然曇花一現，可是我還是覺得很感動，8zz",
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停"
+          ]
+        },
+        {
+          "pk": "3902476276766674329",
+          "url": "https://www.threads.com/@evachien.chien/post/DYoYX9dEQ2Z",
+          "taken_at": "2026-05-22T06:30:46+00:00",
+          "text": "今天亮七顆燈💡\n「華邦電」、「全新」、「穩懋」、「沛亨」、「創新服務」、「高力」、「健策」漲停\n「新應材」漲停打開\n是不是 真的永遠突破不了七顆燈！\n\n今天沒有買賣，看這個盤勢，有機會再上去，我等下週看狀況！\n可能大家都在瘋股，券商系統很當機，我今天要當沖大量，結果卡住，沒辦法下單，損失了，我幾百年才要當沖一次的😭\n\n有一隻股 悄悄地漲上來了\n「神達」日K交叉向上，站上所有均線，希望可以繼續維持這個狀態。去年我在評估「神達」和「頎邦」當時兩隻都是70左右，雖然神達先飆漲，但不",
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「華邦電」、「全新」、「穩懋」、「沛亨」、「創新服務」、「高力」、「健策」漲停"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "7828",
+        "name": "創新服務",
+        "market": "TPEx",
+        "price": 1280.0,
+        "change": 115.0,
+        "priceDate": "1150525",
+        "peRatio": null,
+        "dividendYield": 0.39,
+        "pbRatio": null,
+        "eps": null,
+        "revenueYoY": 32086.881188118812,
+        "revenue": 130035.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 80.18,
+        "netIncome": 37306.0,
+        "debtRatio": 40.34,
+        "equity": 1058586.0,
+        "roe": 3.52
+      }
+    },
+    {
+      "code": "2454",
+      "name": "聯發科",
+      "market": "TWSE",
+      "count": 2,
+      "actions": {
+        "limitUp": 2
+      },
+      "posts": [
+        {
+          "pk": "3904622646499843594",
+          "url": "https://www.threads.com/@evachien.chien/post/DYwAZwCkZ4K",
+          "taken_at": "2026-05-25T05:35:13+00:00",
+          "text": "今天亮5顆燈💡\n「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停\n「華通」、「聯亞」、「台達電」漲停打開\n\n意不意外 驚不驚喜？\n「中鋼」漲停啦 每個人都一直賴我恭喜我 中鋼漲停😆\n但我大概還要10根漲停才能解套喔！謝謝各位～我媽說十年風水輪流轉，我等七年了，再等三年就好👌\n「康舒」上次高點65.9，我錯過沒賣，明天大概就會挑戰高點，真捨不得，到底要不要出，從37.5一路抱上來，我好像真的太專情了😆\n「欣興」終於來到千金，雖然曇花一現，可是我還是覺得很感動，8zz",
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停"
+          ]
+        },
+        {
+          "pk": "3901736085743581402",
+          "url": "https://www.threads.com/@evachien.chien/post/DYlwEw2Ebja",
+          "taken_at": "2026-05-21T06:00:08+00:00",
+          "text": "今天亮六顆燈💡\n「凌陽」、「欣興」、「新應材」、「健策」、「聯發科」、「創意」漲停\n「長興」、「貿聯」漲停打開\n好好笑，我原本在13:28，開始發表我終於破紀錄拿到8顆燈的得獎感言，發表到一半，先跟醫生查房。結果再回去看，果然會有自動退出的😅，到底怎樣才會進步啦？！\n「貿聯」、「健策」終於回到水準了，不枉費我操碎了心😆而「新應材」CB定價完成，接下來會不會依照野村的目標價1500走📈？\n\n出\n「長興」79.2-》79.9（漲停），先把有壓力的先出，下面均價75.99還留倉，記",
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「凌陽」、「欣興」、「新應材」、「健策」、「聯發科」、「創意」漲停"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "2454",
+        "name": "聯發科",
+        "market": "TWSE",
+        "price": 3860.0,
+        "change": 310.0,
+        "priceDate": "1150522",
+        "peRatio": 61.51,
+        "dividendYield": 1.39,
+        "pbRatio": 15.79,
+        "valuationDate": "1150522",
+        "eps": 15.17,
+        "epsPeriod": "1151",
+        "revenueYoY": -4.138619297399555,
+        "revenue": 46736664.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 46.3,
+        "netIncome": 24376384.0,
+        "debtRatio": 46.07,
+        "equity": 398446955.0,
+        "roe": 6.12
+      }
+    },
     {
       "code": "3653",
       "name": "健策",
@@ -202,9 +381,9 @@
         "code": "4749",
         "name": "新應材",
         "market": "TPEx",
-        "price": 1170.0,
-        "change": 80.0,
-        "priceDate": "1150522",
+        "price": 1155.0,
+        "change": -15.0,
+        "priceDate": "1150525",
         "peRatio": null,
         "dividendYield": 0.68,
         "pbRatio": null,
@@ -217,6 +396,106 @@
         "debtRatio": 17.74,
         "equity": 8950632.0,
         "roe": 3.79
+      }
+    },
+    {
+      "code": "6282",
+      "name": "康舒",
+      "market": "TWSE",
+      "count": 1,
+      "actions": {
+        "sell": 1,
+        "limitUp": 1,
+        "regret": 1
+      },
+      "posts": [
+        {
+          "pk": "3904622646499843594",
+          "url": "https://www.threads.com/@evachien.chien/post/DYwAZwCkZ4K",
+          "taken_at": "2026-05-25T05:35:13+00:00",
+          "text": "今天亮5顆燈💡\n「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停\n「華通」、「聯亞」、「台達電」漲停打開\n\n意不意外 驚不驚喜？\n「中鋼」漲停啦 每個人都一直賴我恭喜我 中鋼漲停😆\n但我大概還要10根漲停才能解套喔！謝謝各位～我媽說十年風水輪流轉，我等七年了，再等三年就好👌\n「康舒」上次高點65.9，我錯過沒賣，明天大概就會挑戰高點，真捨不得，到底要不要出，從37.5一路抱上來，我好像真的太專情了😆\n「欣興」終於來到千金，雖然曇花一現，可是我還是覺得很感動，8zz",
+          "actions": [
+            "sell",
+            "limitUp",
+            "regret"
+          ],
+          "contexts": [
+            "「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停",
+            "「康舒」上次高點65.9，我錯過沒賣，明天大概就會挑戰高點，真捨不得，到底要不要出，從37.5一路抱上來，我好像真的太專情了😆"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "6282",
+        "name": "康舒",
+        "market": "TWSE",
+        "price": 57.4,
+        "change": 3.8,
+        "priceDate": "1150522",
+        "peRatio": 114.8,
+        "dividendYield": 1.39,
+        "pbRatio": 2.18,
+        "valuationDate": "1150522",
+        "eps": 0.27,
+        "epsPeriod": "1151",
+        "revenueYoY": 34.61139334349142,
+        "revenue": 3152125.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 24.39,
+        "netIncome": 231311.0,
+        "debtRatio": 56.18,
+        "equity": 22791924.0,
+        "roe": 1.01
+      }
+    },
+    {
+      "code": "2313",
+      "name": "華通",
+      "market": "TWSE",
+      "count": 1,
+      "actions": {
+        "buy": 1,
+        "sell": 1,
+        "limitUp": 1
+      },
+      "posts": [
+        {
+          "pk": "3904622646499843594",
+          "url": "https://www.threads.com/@evachien.chien/post/DYwAZwCkZ4K",
+          "taken_at": "2026-05-25T05:35:13+00:00",
+          "text": "今天亮5顆燈💡\n「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停\n「華通」、「聯亞」、「台達電」漲停打開\n\n意不意外 驚不驚喜？\n「中鋼」漲停啦 每個人都一直賴我恭喜我 中鋼漲停😆\n但我大概還要10根漲停才能解套喔！謝謝各位～我媽說十年風水輪流轉，我等七年了，再等三年就好👌\n「康舒」上次高點65.9，我錯過沒賣，明天大概就會挑戰高點，真捨不得，到底要不要出，從37.5一路抱上來，我好像真的太專情了😆\n「欣興」終於來到千金，雖然曇花一現，可是我還是覺得很感動，8zz",
+          "actions": [
+            "buy",
+            "sell",
+            "limitUp"
+          ],
+          "contexts": [
+            "「華通」、「聯亞」、「台達電」漲停打開",
+            "「華通」223-》299，沒賣在漲停，我太早出😆，保留下面170買的！"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "2313",
+        "name": "華通",
+        "market": "TWSE",
+        "price": 278.0,
+        "change": 20.0,
+        "priceDate": "1150522",
+        "peRatio": 49.03,
+        "dividendYield": 1.01,
+        "pbRatio": 7.07,
+        "valuationDate": "1150522",
+        "eps": 1.26,
+        "epsPeriod": "1151",
+        "revenueYoY": -2.861974380401858,
+        "revenue": 6315284.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 17.98,
+        "netIncome": 1504169.0,
+        "debtRatio": 49.86,
+        "equity": 46853886.0,
+        "roe": 3.21
       }
     },
     {
@@ -265,6 +544,185 @@
         "debtRatio": 58.49,
         "equity": 14583873.0,
         "roe": 11.29
+      }
+    },
+    {
+      "code": "2002",
+      "name": "中鋼",
+      "market": "TWSE",
+      "count": 1,
+      "actions": {
+        "limitUp": 1
+      },
+      "posts": [
+        {
+          "pk": "3904622646499843594",
+          "url": "https://www.threads.com/@evachien.chien/post/DYwAZwCkZ4K",
+          "taken_at": "2026-05-25T05:35:13+00:00",
+          "text": "今天亮5顆燈💡\n「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停\n「華通」、「聯亞」、「台達電」漲停打開\n\n意不意外 驚不驚喜？\n「中鋼」漲停啦 每個人都一直賴我恭喜我 中鋼漲停😆\n但我大概還要10根漲停才能解套喔！謝謝各位～我媽說十年風水輪流轉，我等七年了，再等三年就好👌\n「康舒」上次高點65.9，我錯過沒賣，明天大概就會挑戰高點，真捨不得，到底要不要出，從37.5一路抱上來，我好像真的太專情了😆\n「欣興」終於來到千金，雖然曇花一現，可是我還是覺得很感動，8zz",
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停",
+            "「中鋼」漲停啦 每個人都一直賴我恭喜我 中鋼漲停😆"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "2002",
+        "name": "中鋼",
+        "market": "TWSE",
+        "price": 18.15,
+        "change": -0.05,
+        "priceDate": "1150522",
+        "peRatio": null,
+        "dividendYield": 0.83,
+        "pbRatio": 0.93,
+        "valuationDate": "1150522",
+        "eps": -0.16,
+        "epsPeriod": "1151",
+        "revenueYoY": 2.1484641602111205,
+        "revenue": 30891428.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 3.33,
+        "netIncome": -1860153.0,
+        "debtRatio": 50.93,
+        "equity": 331606684.0,
+        "roe": -0.56
+      }
+    },
+    {
+      "code": "2383",
+      "name": "台光電",
+      "market": "TWSE",
+      "count": 1,
+      "actions": {
+        "limitUp": 1
+      },
+      "posts": [
+        {
+          "pk": "3904622646499843594",
+          "url": "https://www.threads.com/@evachien.chien/post/DYwAZwCkZ4K",
+          "taken_at": "2026-05-25T05:35:13+00:00",
+          "text": "今天亮5顆燈💡\n「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停\n「華通」、「聯亞」、「台達電」漲停打開\n\n意不意外 驚不驚喜？\n「中鋼」漲停啦 每個人都一直賴我恭喜我 中鋼漲停😆\n但我大概還要10根漲停才能解套喔！謝謝各位～我媽說十年風水輪流轉，我等七年了，再等三年就好👌\n「康舒」上次高點65.9，我錯過沒賣，明天大概就會挑戰高點，真捨不得，到底要不要出，從37.5一路抱上來，我好像真的太專情了😆\n「欣興」終於來到千金，雖然曇花一現，可是我還是覺得很感動，8zz",
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "2383",
+        "name": "台光電",
+        "market": "TWSE",
+        "price": 5005.0,
+        "change": 315.0,
+        "priceDate": "1150522",
+        "peRatio": 108.57,
+        "dividendYield": 0.5,
+        "pbRatio": 37.41,
+        "valuationDate": "1150522",
+        "eps": 14.9,
+        "epsPeriod": "1151",
+        "revenueYoY": 93.61728577894678,
+        "revenue": 13923687.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 29.42,
+        "netIncome": 5338777.0,
+        "debtRatio": 63.41,
+        "equity": 47920935.0,
+        "roe": 11.14
+      }
+    },
+    {
+      "code": "3081",
+      "name": "聯亞",
+      "market": "TPEx",
+      "count": 1,
+      "actions": {
+        "limitUp": 1
+      },
+      "posts": [
+        {
+          "pk": "3904622646499843594",
+          "url": "https://www.threads.com/@evachien.chien/post/DYwAZwCkZ4K",
+          "taken_at": "2026-05-25T05:35:13+00:00",
+          "text": "今天亮5顆燈💡\n「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停\n「華通」、「聯亞」、「台達電」漲停打開\n\n意不意外 驚不驚喜？\n「中鋼」漲停啦 每個人都一直賴我恭喜我 中鋼漲停😆\n但我大概還要10根漲停才能解套喔！謝謝各位～我媽說十年風水輪流轉，我等七年了，再等三年就好👌\n「康舒」上次高點65.9，我錯過沒賣，明天大概就會挑戰高點，真捨不得，到底要不要出，從37.5一路抱上來，我好像真的太專情了😆\n「欣興」終於來到千金，雖然曇花一現，可是我還是覺得很感動，8zz",
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「華通」、「聯亞」、「台達電」漲停打開"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "3081",
+        "name": "聯亞",
+        "market": "TPEx",
+        "price": 2925.0,
+        "change": 215.0,
+        "priceDate": "1150525",
+        "peRatio": null,
+        "dividendYield": 0.15,
+        "pbRatio": null,
+        "eps": null,
+        "revenueYoY": 115.38448966249898,
+        "revenue": 395349.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 54.76,
+        "netIncome": 317515.0,
+        "debtRatio": 25.34,
+        "equity": 4239556.0,
+        "roe": 7.49
+      }
+    },
+    {
+      "code": "2308",
+      "name": "台達電",
+      "market": "TWSE",
+      "count": 1,
+      "actions": {
+        "limitUp": 1
+      },
+      "posts": [
+        {
+          "pk": "3904622646499843594",
+          "url": "https://www.threads.com/@evachien.chien/post/DYwAZwCkZ4K",
+          "taken_at": "2026-05-25T05:35:13+00:00",
+          "text": "今天亮5顆燈💡\n「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停\n「華通」、「聯亞」、「台達電」漲停打開\n\n意不意外 驚不驚喜？\n「中鋼」漲停啦 每個人都一直賴我恭喜我 中鋼漲停😆\n但我大概還要10根漲停才能解套喔！謝謝各位～我媽說十年風水輪流轉，我等七年了，再等三年就好👌\n「康舒」上次高點65.9，我錯過沒賣，明天大概就會挑戰高點，真捨不得，到底要不要出，從37.5一路抱上來，我好像真的太專情了😆\n「欣興」終於來到千金，雖然曇花一現，可是我還是覺得很感動，8zz",
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「華通」、「聯亞」、「台達電」漲停打開"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "2308",
+        "name": "台達電",
+        "market": "TWSE",
+        "price": 2095.0,
+        "change": 65.0,
+        "priceDate": "1150522",
+        "peRatio": 77.25,
+        "dividendYield": 0.55,
+        "pbRatio": 18.17,
+        "valuationDate": "1150522",
+        "eps": 7.91,
+        "epsPeriod": "1151",
+        "revenueYoY": 43.91500166592435,
+        "revenue": 58691652.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 37.0,
+        "netIncome": 23834549.0,
+        "debtRatio": 47.78,
+        "equity": 357259207.0,
+        "roe": 6.67
       }
     },
     {
@@ -383,9 +841,9 @@
         "code": "3105",
         "name": "穩懋",
         "market": "TPEx",
-        "price": 531.0,
-        "change": 48.0,
-        "priceDate": "1150522",
+        "price": 543.0,
+        "change": 12.0,
+        "priceDate": "1150525",
         "peRatio": null,
         "dividendYield": 0.38,
         "pbRatio": null,
@@ -426,9 +884,9 @@
         "code": "6291",
         "name": "沛亨",
         "market": "TPEx",
-        "price": 541.0,
-        "change": 49.0,
-        "priceDate": "1150522",
+        "price": 534.0,
+        "change": -7.0,
+        "priceDate": "1150525",
         "peRatio": null,
         "dividendYield": 1.11,
         "pbRatio": null,
@@ -441,49 +899,6 @@
         "debtRatio": 39.7,
         "equity": 1378653.0,
         "roe": 9.22
-      }
-    },
-    {
-      "code": "7828",
-      "name": "創新服務",
-      "market": "TPEx",
-      "count": 1,
-      "actions": {
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3902476276766674329",
-          "url": "https://www.threads.com/@evachien.chien/post/DYoYX9dEQ2Z",
-          "taken_at": "2026-05-22T06:30:46+00:00",
-          "text": "今天亮七顆燈💡\n「華邦電」、「全新」、「穩懋」、「沛亨」、「創新服務」、「高力」、「健策」漲停\n「新應材」漲停打開\n是不是 真的永遠突破不了七顆燈！\n\n今天沒有買賣，看這個盤勢，有機會再上去，我等下週看狀況！\n可能大家都在瘋股，券商系統很當機，我今天要當沖大量，結果卡住，沒辦法下單，損失了，我幾百年才要當沖一次的😭\n\n有一隻股 悄悄地漲上來了\n「神達」日K交叉向上，站上所有均線，希望可以繼續維持這個狀態。去年我在評估「神達」和「頎邦」當時兩隻都是70左右，雖然神達先飆漲，但不",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「華邦電」、「全新」、「穩懋」、「沛亨」、「創新服務」、「高力」、「健策」漲停"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "7828",
-        "name": "創新服務",
-        "market": "TPEx",
-        "price": 1165.0,
-        "change": 105.0,
-        "priceDate": "1150522",
-        "peRatio": null,
-        "dividendYield": 0.39,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 32086.881188118812,
-        "revenue": 130035.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 80.18,
-        "netIncome": 37306.0,
-        "debtRatio": 40.34,
-        "equity": 1058586.0,
-        "roe": 3.52
       }
     },
     {
@@ -574,98 +989,6 @@
         "debtRatio": 25.17,
         "equity": 10469343.0,
         "roe": 0.88
-      }
-    },
-    {
-      "code": "3037",
-      "name": "欣興",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3901736085743581402",
-          "url": "https://www.threads.com/@evachien.chien/post/DYlwEw2Ebja",
-          "taken_at": "2026-05-21T06:00:08+00:00",
-          "text": "今天亮六顆燈💡\n「凌陽」、「欣興」、「新應材」、「健策」、「聯發科」、「創意」漲停\n「長興」、「貿聯」漲停打開\n好好笑，我原本在13:28，開始發表我終於破紀錄拿到8顆燈的得獎感言，發表到一半，先跟醫生查房。結果再回去看，果然會有自動退出的😅，到底怎樣才會進步啦？！\n「貿聯」、「健策」終於回到水準了，不枉費我操碎了心😆而「新應材」CB定價完成，接下來會不會依照野村的目標價1500走📈？\n\n出\n「長興」79.2-》79.9（漲停），先把有壓力的先出，下面均價75.99還留倉，記",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「凌陽」、「欣興」、「新應材」、「健策」、「聯發科」、「創意」漲停",
-            "「欣興」823-》905（漲停），保留均價211的。",
-            "5股欣興學妹，今天出820-》905，賺了400元，我跟她說貿聯先等等再出，我再找下一個標的給她❤️"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "3037",
-        "name": "欣興",
-        "market": "TWSE",
-        "price": 970.0,
-        "change": 65.0,
-        "priceDate": "1150522",
-        "peRatio": 142.65,
-        "dividendYield": 0.21,
-        "pbRatio": 13.59,
-        "valuationDate": "1150522",
-        "eps": 3.28,
-        "epsPeriod": "1151",
-        "revenueYoY": 27.63677460986582,
-        "revenue": 13932815.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 17.96,
-        "netIncome": 5380738.0,
-        "debtRatio": 56.18,
-        "equity": 116952673.0,
-        "roe": 4.6
-      }
-    },
-    {
-      "code": "2454",
-      "name": "聯發科",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3901736085743581402",
-          "url": "https://www.threads.com/@evachien.chien/post/DYlwEw2Ebja",
-          "taken_at": "2026-05-21T06:00:08+00:00",
-          "text": "今天亮六顆燈💡\n「凌陽」、「欣興」、「新應材」、「健策」、「聯發科」、「創意」漲停\n「長興」、「貿聯」漲停打開\n好好笑，我原本在13:28，開始發表我終於破紀錄拿到8顆燈的得獎感言，發表到一半，先跟醫生查房。結果再回去看，果然會有自動退出的😅，到底怎樣才會進步啦？！\n「貿聯」、「健策」終於回到水準了，不枉費我操碎了心😆而「新應材」CB定價完成，接下來會不會依照野村的目標價1500走📈？\n\n出\n「長興」79.2-》79.9（漲停），先把有壓力的先出，下面均價75.99還留倉，記",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「凌陽」、「欣興」、「新應材」、「健策」、「聯發科」、「創意」漲停"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "2454",
-        "name": "聯發科",
-        "market": "TWSE",
-        "price": 3860.0,
-        "change": 310.0,
-        "priceDate": "1150522",
-        "peRatio": 61.51,
-        "dividendYield": 1.39,
-        "pbRatio": 15.79,
-        "valuationDate": "1150522",
-        "eps": 15.17,
-        "epsPeriod": "1151",
-        "revenueYoY": -4.138619297399555,
-        "revenue": 46736664.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 46.3,
-        "netIncome": 24376384.0,
-        "debtRatio": 46.07,
-        "equity": 398446955.0,
-        "roe": 6.12
       }
     },
     {
@@ -868,9 +1191,9 @@
         "code": "6147",
         "name": "頎邦",
         "market": "TPEx",
-        "price": 215.5,
-        "change": -7.0,
-        "priceDate": "1150522",
+        "price": 237.0,
+        "change": 21.5,
+        "priceDate": "1150525",
         "peRatio": null,
         "dividendYield": 1.3,
         "pbRatio": null,
@@ -889,12 +1212,156 @@
   "posts": [
     {
       "index": 0,
+      "pk": "3904622646499843594",
+      "url": "https://www.threads.com/@evachien.chien/post/DYwAZwCkZ4K",
+      "taken_at": "2026-05-25T05:35:13+00:00",
+      "text": "今天亮5顆燈💡\n「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停\n「華通」、「聯亞」、「台達電」漲停打開\n\n意不意外 驚不驚喜？\n「中鋼」漲停啦 每個人都一直賴我恭喜我 中鋼漲停😆\n但我大概還要10根漲停才能解套喔！謝謝各位～我媽說十年風水輪流轉，我等七年了，再等三年就好👌\n「康舒」上次高點65.9，我錯過沒賣，明天大概就會挑戰高點，真捨不得，到底要不要出，從37.5一路抱上來，我好像真的太專情了😆\n「欣興」終於來到千金，雖然曇花一現，可是我還是覺得很感動，8zz買了欣興，我要努力集氣，對抗玄學🙏\n\n出\n「華通」223-》299，沒賣在漲停，我太早出😆，保留下面170買的！",
+      "like_count": 25,
+      "reply_count": 7,
+      "mentions": [
+        {
+          "code": "2002",
+          "name": "中鋼",
+          "market": "TWSE",
+          "aliases": [
+            "中鋼"
+          ],
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停",
+            "「中鋼」漲停啦 每個人都一直賴我恭喜我 中鋼漲停😆"
+          ]
+        },
+        {
+          "code": "6282",
+          "name": "康舒",
+          "market": "TWSE",
+          "aliases": [
+            "康舒"
+          ],
+          "actions": [
+            "sell",
+            "limitUp",
+            "regret"
+          ],
+          "contexts": [
+            "「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停",
+            "「康舒」上次高點65.9，我錯過沒賣，明天大概就會挑戰高點，真捨不得，到底要不要出，從37.5一路抱上來，我好像真的太專情了😆"
+          ]
+        },
+        {
+          "code": "7828",
+          "name": "創新服務",
+          "market": "TPEx",
+          "aliases": [
+            "創新服務"
+          ],
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停"
+          ]
+        },
+        {
+          "code": "2454",
+          "name": "聯發科",
+          "market": "TWSE",
+          "aliases": [
+            "聯發科"
+          ],
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停"
+          ]
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "market": "TWSE",
+          "aliases": [
+            "台光電"
+          ],
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「中鋼」、「康舒」、「創新服務」、「聯發科」、「台光電」漲停"
+          ]
+        },
+        {
+          "code": "2313",
+          "name": "華通",
+          "market": "TWSE",
+          "aliases": [
+            "華通"
+          ],
+          "actions": [
+            "buy",
+            "sell",
+            "limitUp"
+          ],
+          "contexts": [
+            "「華通」、「聯亞」、「台達電」漲停打開",
+            "「華通」223-》299，沒賣在漲停，我太早出😆，保留下面170買的！"
+          ]
+        },
+        {
+          "code": "3081",
+          "name": "聯亞",
+          "market": "TPEx",
+          "aliases": [
+            "聯亞"
+          ],
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「華通」、「聯亞」、「台達電」漲停打開"
+          ]
+        },
+        {
+          "code": "2308",
+          "name": "台達電",
+          "market": "TWSE",
+          "aliases": [
+            "台達電"
+          ],
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「華通」、「聯亞」、「台達電」漲停打開"
+          ]
+        },
+        {
+          "code": "3037",
+          "name": "欣興",
+          "market": "TWSE",
+          "aliases": [
+            "欣興"
+          ],
+          "actions": [
+            "buy"
+          ],
+          "contexts": [
+            "「欣興」終於來到千金，雖然曇花一現，可是我還是覺得很感動，8zz買了欣興，我要努力集氣，對抗玄學🙏"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
       "pk": "3902476276766674329",
       "url": "https://www.threads.com/@evachien.chien/post/DYoYX9dEQ2Z",
       "taken_at": "2026-05-22T06:30:46+00:00",
       "text": "今天亮七顆燈💡\n「華邦電」、「全新」、「穩懋」、「沛亨」、「創新服務」、「高力」、「健策」漲停\n「新應材」漲停打開\n是不是 真的永遠突破不了七顆燈！\n\n今天沒有買賣，看這個盤勢，有機會再上去，我等下週看狀況！\n可能大家都在瘋股，券商系統很當機，我今天要當沖大量，結果卡住，沒辦法下單，損失了，我幾百年才要當沖一次的😭\n\n有一隻股 悄悄地漲上來了\n「神達」日K交叉向上，站上所有均線，希望可以繼續維持這個狀態。去年我在評估「神達」和「頎邦」當時兩隻都是70左右，雖然神達先飆漲，但不夠持穩。而頎邦今年才爆發，但漲勢驚人！",
       "like_count": 59,
-      "reply_count": 23,
+      "reply_count": 24,
       "mentions": [
         {
           "code": "2344",
@@ -1049,7 +1516,7 @@
       ]
     },
     {
-      "index": 1,
+      "index": 2,
       "pk": "3901881520693042925",
       "url": "https://www.threads.com/@evachien.chien/post/DYmRJHskd7t",
       "taken_at": "2026-05-21T10:49:05+00:00",
@@ -1059,7 +1526,7 @@
       "mentions": []
     },
     {
-      "index": 2,
+      "index": 3,
       "pk": "3901736085743581402",
       "url": "https://www.threads.com/@evachien.chien/post/DYlwEw2Ebja",
       "taken_at": "2026-05-21T06:00:08+00:00",
@@ -1190,16 +1657,6 @@
           ]
         }
       ]
-    },
-    {
-      "index": 3,
-      "pk": "3901267376893703001",
-      "url": "https://www.threads.com/@evachien.chien/post/DYkFgJtkbNZ",
-      "taken_at": "2026-05-20T14:28:54+00:00",
-      "text": "剛剛脫手錶發現\n我今天居然運動了520大卡\n覺得好浪漫喔\n多走兩步路 \n要拿手機拍照紀錄一下\n就變522大卡 😅\n還我520啦",
-      "like_count": 19,
-      "reply_count": 11,
-      "mentions": []
     }
   ]
 }
