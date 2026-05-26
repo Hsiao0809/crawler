@@ -18193,9 +18193,13 @@
     "dividendYield": 4.63,
     "pbRatio": 1.26,
     "valuationDate": "1150526",
+    "eps": 0.36,
+    "epsPeriod": "1151",
     "revenueYoY": 65.45410758134742,
     "revenue": 6093827.0,
-    "revenuePeriod": "11504"
+    "revenuePeriod": "11504",
+    "debtRatio": 94.65,
+    "equity": 290316066.0
   },
   "5906": {
     "code": "5906",
