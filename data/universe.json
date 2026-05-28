@@ -1648,30 +1648,6 @@
     ]
   },
   {
-    "code": "701053",
-    "name": "新應材國泰55購01",
-    "market": "TPEx",
-    "aliases": [
-      "新應材國泰55購01"
-    ]
-  },
-  {
-    "code": "701054",
-    "name": "新應材國泰55購02",
-    "market": "TPEx",
-    "aliases": [
-      "新應材國泰55購02"
-    ]
-  },
-  {
-    "code": "701056",
-    "name": "中美晶富邦55購02",
-    "market": "TPEx",
-    "aliases": [
-      "中美晶富邦55購02"
-    ]
-  },
-  {
     "code": "701075",
     "name": "新應材兆豐56購01",
     "market": "TPEx",
@@ -15480,6 +15456,86 @@
     ]
   },
   {
+    "code": "709267",
+    "name": "方土昶永豐5C購01",
+    "market": "TPEx",
+    "aliases": [
+      "方土昶永豐5C購01"
+    ]
+  },
+  {
+    "code": "709271",
+    "name": "中美晶凱基5B購05",
+    "market": "TPEx",
+    "aliases": [
+      "中美晶凱基5B購05"
+    ]
+  },
+  {
+    "code": "709279",
+    "name": "萬泰科凱基5B購02",
+    "market": "TPEx",
+    "aliases": [
+      "萬泰科凱基5B購02"
+    ]
+  },
+  {
+    "code": "709291",
+    "name": "臺慶科台新5B購06",
+    "market": "TPEx",
+    "aliases": [
+      "臺慶科台新5B購06"
+    ]
+  },
+  {
+    "code": "709292",
+    "name": "臺慶科台新5B購07",
+    "market": "TPEx",
+    "aliases": [
+      "臺慶科台新5B購07"
+    ]
+  },
+  {
+    "code": "709294",
+    "name": "中美晶元大5B購06",
+    "market": "TPEx",
+    "aliases": [
+      "中美晶元大5B購06"
+    ]
+  },
+  {
+    "code": "709295",
+    "name": "方土昶元大5B購01",
+    "market": "TPEx",
+    "aliases": [
+      "方土昶元大5B購01"
+    ]
+  },
+  {
+    "code": "709301",
+    "name": "聖暉*元大5B購05",
+    "market": "TPEx",
+    "aliases": [
+      "聖暉*元大5B購05"
+    ]
+  },
+  {
+    "code": "709302",
+    "name": "臺慶科元大5B購02",
+    "market": "TPEx",
+    "aliases": [
+      "臺慶科元大5B購02"
+    ]
+  },
+  {
+    "code": "709307",
+    "name": "中美晶群益5B購06",
+    "market": "TPEx",
+    "aliases": [
+      "中美晶群益5B購06"
+    ]
+  },
+  {
     "code": "720186",
     "name": "先進光統一56購01",
     "market": "TPEx",
@@ -21216,14 +21272,6 @@
     ]
   },
   {
-    "code": "701022",
-    "name": "威剛國票55購05",
-    "market": "TPEx",
-    "aliases": [
-      "威剛國票55購05"
-    ]
-  },
-  {
     "code": "701023",
     "name": "晶焱國票56購01",
     "market": "TPEx",
@@ -21240,30 +21288,6 @@
     ]
   },
   {
-    "code": "701033",
-    "name": "立碁永豐55購01",
-    "market": "TPEx",
-    "aliases": [
-      "立碁永豐55購01"
-    ]
-  },
-  {
-    "code": "701034",
-    "name": "佳邦永豐55購01",
-    "market": "TPEx",
-    "aliases": [
-      "佳邦永豐55購01"
-    ]
-  },
-  {
-    "code": "701035",
-    "name": "宜鼎永豐55購04",
-    "market": "TPEx",
-    "aliases": [
-      "宜鼎永豐55購04"
-    ]
-  },
-  {
     "code": "701037",
     "name": "威剛永豐5C購01",
     "market": "TPEx",
@@ -21272,59 +21296,11 @@
     ]
   },
   {
-    "code": "701038",
-    "name": "皇田永豐55購01",
-    "market": "TPEx",
-    "aliases": [
-      "皇田永豐55購01"
-    ]
-  },
-  {
     "code": "701045",
     "name": "宜鼎元大56購03",
     "market": "TPEx",
     "aliases": [
       "宜鼎元大56購03"
-    ]
-  },
-  {
-    "code": "701051",
-    "name": "台半國泰55購01",
-    "market": "TPEx",
-    "aliases": [
-      "台半國泰55購01"
-    ]
-  },
-  {
-    "code": "701052",
-    "name": "晶焱國泰55購01",
-    "market": "TPEx",
-    "aliases": [
-      "晶焱國泰55購01"
-    ]
-  },
-  {
-    "code": "701055",
-    "name": "營邦國泰55購01",
-    "market": "TPEx",
-    "aliases": [
-      "營邦國泰55購01"
-    ]
-  },
-  {
-    "code": "701060",
-    "name": "宜鼎凱基55購02",
-    "market": "TPEx",
-    "aliases": [
-      "宜鼎凱基55購02"
-    ]
-  },
-  {
-    "code": "701062",
-    "name": "營邦凱基55購01",
-    "market": "TPEx",
-    "aliases": [
-      "營邦凱基55購01"
     ]
   },
   {
@@ -21341,14 +21317,6 @@
     "market": "TPEx",
     "aliases": [
       "神盾群益56購03"
-    ]
-  },
-  {
-    "code": "701071",
-    "name": "凱崴群益55購03",
-    "market": "TPEx",
-    "aliases": [
-      "凱崴群益55購03"
     ]
   },
   {
@@ -66280,6 +66248,310 @@
     ]
   },
   {
+    "code": "709268",
+    "name": "茂達永豐63購01",
+    "market": "TPEx",
+    "aliases": [
+      "茂達永豐63購01"
+    ]
+  },
+  {
+    "code": "709269",
+    "name": "精確永豐5B購01",
+    "market": "TPEx",
+    "aliases": [
+      "精確永豐5B購01"
+    ]
+  },
+  {
+    "code": "709270",
+    "name": "優群永豐5C購01",
+    "market": "TPEx",
+    "aliases": [
+      "優群永豐5C購01"
+    ]
+  },
+  {
+    "code": "709272",
+    "name": "台半凱基5B購02",
+    "market": "TPEx",
+    "aliases": [
+      "台半凱基5B購02"
+    ]
+  },
+  {
+    "code": "709273",
+    "name": "立碁凱基5B購02",
+    "market": "TPEx",
+    "aliases": [
+      "立碁凱基5B購02"
+    ]
+  },
+  {
+    "code": "709274",
+    "name": "均豪凱基5B購04",
+    "market": "TPEx",
+    "aliases": [
+      "均豪凱基5B購04"
+    ]
+  },
+  {
+    "code": "709275",
+    "name": "沛亨凱基5C購01",
+    "market": "TPEx",
+    "aliases": [
+      "沛亨凱基5C購01"
+    ]
+  },
+  {
+    "code": "709276",
+    "name": "原相凱基5B購04",
+    "market": "TPEx",
+    "aliases": [
+      "原相凱基5B購04"
+    ]
+  },
+  {
+    "code": "709277",
+    "name": "華容凱基5B購01",
+    "market": "TPEx",
+    "aliases": [
+      "華容凱基5B購01"
+    ]
+  },
+  {
+    "code": "709278",
+    "name": "華容凱基5C購01",
+    "market": "TPEx",
+    "aliases": [
+      "華容凱基5C購01"
+    ]
+  },
+  {
+    "code": "709280",
+    "name": "精材凱基5B購09",
+    "market": "TPEx",
+    "aliases": [
+      "精材凱基5B購09"
+    ]
+  },
+  {
+    "code": "709281",
+    "name": "大中台新5B購02",
+    "market": "TPEx",
+    "aliases": [
+      "大中台新5B購02"
+    ]
+  },
+  {
+    "code": "709282",
+    "name": "立碁台新5B購01",
+    "market": "TPEx",
+    "aliases": [
+      "立碁台新5B購01"
+    ]
+  },
+  {
+    "code": "709283",
+    "name": "立碁台新5B購02",
+    "market": "TPEx",
+    "aliases": [
+      "立碁台新5B購02"
+    ]
+  },
+  {
+    "code": "709284",
+    "name": "艾訊台新5B購03",
+    "market": "TPEx",
+    "aliases": [
+      "艾訊台新5B購03"
+    ]
+  },
+  {
+    "code": "709285",
+    "name": "艾訊台新5B購04",
+    "market": "TPEx",
+    "aliases": [
+      "艾訊台新5B購04"
+    ]
+  },
+  {
+    "code": "709286",
+    "name": "佳邦台新5B購04",
+    "market": "TPEx",
+    "aliases": [
+      "佳邦台新5B購04"
+    ]
+  },
+  {
+    "code": "709287",
+    "name": "南俊台新5B購01",
+    "market": "TPEx",
+    "aliases": [
+      "南俊台新5B購01"
+    ]
+  },
+  {
+    "code": "709288",
+    "name": "南俊台新5B購02",
+    "market": "TPEx",
+    "aliases": [
+      "南俊台新5B購02"
+    ]
+  },
+  {
+    "code": "709289",
+    "name": "順達台新5B購06",
+    "market": "TPEx",
+    "aliases": [
+      "順達台新5B購06"
+    ]
+  },
+  {
+    "code": "709290",
+    "name": "勤凱台新5B購04",
+    "market": "TPEx",
+    "aliases": [
+      "勤凱台新5B購04"
+    ]
+  },
+  {
+    "code": "709293",
+    "name": "群聯兆豐65購03",
+    "market": "TPEx",
+    "aliases": [
+      "群聯兆豐65購03"
+    ]
+  },
+  {
+    "code": "709296",
+    "name": "世界元大5B購04",
+    "market": "TPEx",
+    "aliases": [
+      "世界元大5B購04"
+    ]
+  },
+  {
+    "code": "709297",
+    "name": "台半元大5B購05",
+    "market": "TPEx",
+    "aliases": [
+      "台半元大5B購05"
+    ]
+  },
+  {
+    "code": "709298",
+    "name": "倚強元大5B購01",
+    "market": "TPEx",
+    "aliases": [
+      "倚強元大5B購01"
+    ]
+  },
+  {
+    "code": "709299",
+    "name": "華容元大5B購01",
+    "market": "TPEx",
+    "aliases": [
+      "華容元大5B購01"
+    ]
+  },
+  {
+    "code": "709300",
+    "name": "群聯元大61購07",
+    "market": "TPEx",
+    "aliases": [
+      "群聯元大61購07"
+    ]
+  },
+  {
+    "code": "709303",
+    "name": "優群元大5B購02",
+    "market": "TPEx",
+    "aliases": [
+      "優群元大5B購02"
+    ]
+  },
+  {
+    "code": "709304",
+    "name": "鑫科元大5B購02",
+    "market": "TPEx",
+    "aliases": [
+      "鑫科元大5B購02"
+    ]
+  },
+  {
+    "code": "709305",
+    "name": "鑫科元大5B購03",
+    "market": "TPEx",
+    "aliases": [
+      "鑫科元大5B購03"
+    ]
+  },
+  {
+    "code": "709306",
+    "name": "久元群益65購01",
+    "market": "TPEx",
+    "aliases": [
+      "久元群益65購01"
+    ]
+  },
+  {
+    "code": "709308",
+    "name": "世界群益5C購02",
+    "market": "TPEx",
+    "aliases": [
+      "世界群益5C購02"
+    ]
+  },
+  {
+    "code": "709309",
+    "name": "南俊群益5B購01",
+    "market": "TPEx",
+    "aliases": [
+      "南俊群益5B購01"
+    ]
+  },
+  {
+    "code": "709310",
+    "name": "茂達群益5B購02",
+    "market": "TPEx",
+    "aliases": [
+      "茂達群益5B購02"
+    ]
+  },
+  {
+    "code": "709311",
+    "name": "富喬群益5B購03",
+    "market": "TPEx",
+    "aliases": [
+      "富喬群益5B購03"
+    ]
+  },
+  {
+    "code": "709312",
+    "name": "群聯群益5B購09",
+    "market": "TPEx",
+    "aliases": [
+      "群聯群益5B購09"
+    ]
+  },
+  {
+    "code": "709313",
+    "name": "精材群益5B購09",
+    "market": "TPEx",
+    "aliases": [
+      "精材群益5B購09"
+    ]
+  },
+  {
+    "code": "709314",
+    "name": "雙鴻群益5B購10",
+    "market": "TPEx",
+    "aliases": [
+      "雙鴻群益5B購10"
+    ]
+  },
+  {
     "code": "71958U",
     "name": "精測群益56售01",
     "market": "TPEx",
@@ -66557,14 +66829,6 @@
     "market": "TPEx",
     "aliases": [
       "翔名統一58購02"
-    ]
-  },
-  {
-    "code": "72359U",
-    "name": "世界群益55售01",
-    "market": "TPEx",
-    "aliases": [
-      "世界群益55售01"
     ]
   },
   {
@@ -66893,14 +67157,6 @@
     "market": "TPEx",
     "aliases": [
       "高技國票56售02"
-    ]
-  },
-  {
-    "code": "724830",
-    "name": "德微統一55購01",
-    "market": "TPEx",
-    "aliases": [
-      "德微統一55購01"
     ]
   },
   {
@@ -69797,6 +70053,46 @@
     "market": "TPEx",
     "aliases": [
       "威剛群益65售01"
+    ]
+  },
+  {
+    "code": "72909U",
+    "name": "威剛凱基65售01",
+    "market": "TPEx",
+    "aliases": [
+      "威剛凱基65售01"
+    ]
+  },
+  {
+    "code": "72910U",
+    "name": "精材台新5B售06",
+    "market": "TPEx",
+    "aliases": [
+      "精材台新5B售06"
+    ]
+  },
+  {
+    "code": "72911U",
+    "name": "威剛元大5B售16",
+    "market": "TPEx",
+    "aliases": [
+      "威剛元大5B售16"
+    ]
+  },
+  {
+    "code": "72912U",
+    "name": "良維群益61售02",
+    "market": "TPEx",
+    "aliases": [
+      "良維群益61售02"
+    ]
+  },
+  {
+    "code": "72913U",
+    "name": "威剛群益5B售04",
+    "market": "TPEx",
+    "aliases": [
+      "威剛群益5B售04"
     ]
   },
   {

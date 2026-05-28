@@ -1,21 +1,29 @@
 {
-  "generatedAt": "2026-05-28T07:58:05.255476+00:00",
+  "generatedAt": "2026-05-28T11:39:53.917883+00:00",
   "account": {
     "user_id": "73957398954",
     "username": "evachien.chien",
     "full_name": "Olivia Chien",
     "biography": "正職洗腰子護理師\n目前努力學習股票操盤\n希望可以早日財富自由（如果有私訊邀約入群，那都是騙人的喔！我才沒有空搞那個😆）\n也努力健身運動\n希望擁有健康的身體以及好身材\n有人說過我像趙敏\n也期許自己跟趙敏一樣聰慧果敢堅毅，當然美麗是一定要的 嘿👍",
-    "follower_count": 3519,
+    "follower_count": 3528,
     "following_count": null,
     "is_verified": 0,
-    "profile_pic_url": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-iad6-1.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2gGUt5SOt0Eu4xhzpi7O0-nPZOcSERP9k8MZpDk5gXsOnYKm_iEvu256fz7kpe8klKg&_nc_ohc=qO4CfMazppgQ7kNvwFL_vb9&_nc_gid=SKeH_UYCICjkGXG35SUPNQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af4tqRrATmJDRoWgibX1RtWO8HDDVjoQDT-7GRZMz8x_xg&oe=6A1DAC3B&_nc_sid=10d13b",
-    "last_fetched_at": 1779955002
+    "profile_pic_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=1&_nc_oc=Q6cZ2gEYVKtsCDOIZUEpaPnoLsmk_WqcnMgLz0nbCbsAs_AWjIu_VyxRiVncdpCKxl8UbAI&_nc_ohc=qO4CfMazppgQ7kNvwHQ4Ve4&_nc_gid=ouMgGW7by69UPzTNte-A_A&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af43Y3SYhzXdJr-fP9MsQlLETcmuBnq9veio8cy78pGyRg&oe=6A1DE47B&_nc_sid=10d13b",
+    "last_fetched_at": 1779968326
   },
   "summary": {
     "totalPosts": 4,
-    "postsWithStocks": 1,
-    "uniqueStocks": 8,
+    "postsWithStocks": 2,
+    "uniqueStocks": 14,
     "topStocks": [
+      {
+        "code": "6291",
+        "name": "沛亨",
+        "count": 2,
+        "actions": {
+          "limitUp": 1
+        }
+      },
       {
         "code": "5287",
         "name": "數字",
@@ -26,16 +34,24 @@
         }
       },
       {
-        "code": "2344",
-        "name": "華邦電",
+        "code": "8996",
+        "name": "高力",
         "count": 1,
         "actions": {
-          "limitUp": 1
+          "limitDown": 1
         }
       },
       {
-        "code": "6291",
-        "name": "沛亨",
+        "code": "3443",
+        "name": "創意",
+        "count": 1,
+        "actions": {
+          "limitDown": 1
+        }
+      },
+      {
+        "code": "2344",
+        "name": "華邦電",
         "count": 1,
         "actions": {
           "limitUp": 1
@@ -66,26 +82,80 @@
         }
       },
       {
-        "code": "6890",
-        "name": "來億-KY",
+        "code": "3680",
+        "name": "家登",
         "count": 1,
         "actions": {}
       },
       {
-        "code": "2408",
-        "name": "南亞科",
+        "code": "6669",
+        "name": "緯穎",
         "count": 1,
         "actions": {}
       }
     ],
     "actionTotals": {
+      "limitUp": 4,
       "buy": 2,
       "sell": 1,
-      "limitUp": 4
+      "limitDown": 2
     },
-    "fundamentalsCoverage": 8
+    "fundamentalsCoverage": 14
   },
   "stocks": [
+    {
+      "code": "6291",
+      "name": "沛亨",
+      "market": "TPEx",
+      "count": 2,
+      "actions": {
+        "limitUp": 1
+      },
+      "posts": [
+        {
+          "pk": "3906903445571968444",
+          "url": "https://www.threads.com/@evachien.chien/post/DY4G_vtER28",
+          "taken_at": "2026-05-28T09:06:45+00:00",
+          "text": "今天亮兩顆燈🤡\n「高力」、「創意」跌停\n盤中美伊又開始戰爭，唉！有完沒完⋯加上富台結算，大盤開高走低，真的很震盪！\n\n買\n「家登」542\n「創意」4665\n「緯穎」4970\n「旺矽」5965\n\n還好「沛亨」、「創新服務」閃過處置👍\n今天好熱 懶得說話了\n我在等按摩 處理我的網球肘\n好痛好痛",
+          "actions": [],
+          "contexts": [
+            "還好「沛亨」、「創新服務」閃過處置👍"
+          ]
+        },
+        {
+          "pk": "3906196667582483805",
+          "url": "https://www.threads.com/@evachien.chien/post/DY1mSxaEY1d",
+          "taken_at": "2026-05-27T09:42:31+00:00",
+          "text": "今天亮兩顆燈💡\n「華邦電」、「沛亨」漲停\n「台達電」、「聯發科」漲停打開\n今天沒有買賣，也可以盯著數字看一整天，我覺得股票數字比武安侯還誘人 我完蛋了🫣\n\n我在2/6的po文\n有提到美光\n用線型和方程式解美光技術面\n我判斷美光要進入第三波攻勢\n雖然歷經美伊戰爭\n但還是還給美光公道 又創新高\n偷偷說 股友⋯⋯我也不知道他為什麼這麼相信我，他2/6看到我的美光文，就衝進去買美光389👍而3/24那天，我提早po文，因為只有買股就po了，他跟追了群聯1660，他買一張，我原創買零股",
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「華邦電」、「沛亨」漲停"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "6291",
+        "name": "沛亨",
+        "market": "TPEx",
+        "price": 654.0,
+        "change": 9.0,
+        "priceDate": "1150528",
+        "peRatio": null,
+        "dividendYield": 0.92,
+        "pbRatio": null,
+        "eps": null,
+        "revenueYoY": 42.11268607186878,
+        "revenue": 239818.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 37.5,
+        "netIncome": 127072.0,
+        "debtRatio": 39.7,
+        "equity": 1378653.0,
+        "roe": 9.22
+      }
+    },
     {
       "code": "5287",
       "name": "數字",
@@ -97,7 +167,7 @@
       },
       "posts": [
         {
-          "pk": "18093633757979556",
+          "pk": "3906196667582483805",
           "url": "https://www.threads.com/@evachien.chien/post/DY1mSxaEY1d",
           "taken_at": "2026-05-27T09:42:31+00:00",
           "text": "今天亮兩顆燈💡\n「華邦電」、「沛亨」漲停\n「台達電」、「聯發科」漲停打開\n今天沒有買賣，也可以盯著數字看一整天，我覺得股票數字比武安侯還誘人 我完蛋了🫣\n\n我在2/6的po文\n有提到美光\n用線型和方程式解美光技術面\n我判斷美光要進入第三波攻勢\n雖然歷經美伊戰爭\n但還是還給美光公道 又創新高\n偷偷說 股友⋯⋯我也不知道他為什麼這麼相信我，他2/6看到我的美光文，就衝進去買美光389👍而3/24那天，我提早po文，因為只有買股就po了，他跟追了群聯1660，他買一張，我原創買零股",
@@ -114,11 +184,11 @@
         "code": "5287",
         "name": "數字",
         "market": "TPEx",
-        "price": 149.5,
-        "change": 0.0,
-        "priceDate": "1150527",
+        "price": 148.5,
+        "change": -1.0,
+        "priceDate": "1150528",
         "peRatio": null,
-        "dividendYield": 7.46,
+        "dividendYield": 7.51,
         "pbRatio": null,
         "eps": null,
         "revenueYoY": -4.361481481481482,
@@ -132,6 +202,97 @@
       }
     },
     {
+      "code": "8996",
+      "name": "高力",
+      "market": "TWSE",
+      "count": 1,
+      "actions": {
+        "limitDown": 1
+      },
+      "posts": [
+        {
+          "pk": "3906903445571968444",
+          "url": "https://www.threads.com/@evachien.chien/post/DY4G_vtER28",
+          "taken_at": "2026-05-28T09:06:45+00:00",
+          "text": "今天亮兩顆燈🤡\n「高力」、「創意」跌停\n盤中美伊又開始戰爭，唉！有完沒完⋯加上富台結算，大盤開高走低，真的很震盪！\n\n買\n「家登」542\n「創意」4665\n「緯穎」4970\n「旺矽」5965\n\n還好「沛亨」、「創新服務」閃過處置👍\n今天好熱 懶得說話了\n我在等按摩 處理我的網球肘\n好痛好痛",
+          "actions": [
+            "limitDown"
+          ],
+          "contexts": [
+            "「高力」、「創意」跌停"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "8996",
+        "name": "高力",
+        "market": "TWSE",
+        "price": 1215.0,
+        "change": -30.0,
+        "priceDate": "1150527",
+        "peRatio": 86.66,
+        "dividendYield": 0.38,
+        "pbRatio": 24.33,
+        "valuationDate": "1150527",
+        "eps": 6.54,
+        "epsPeriod": "1151",
+        "revenueYoY": 86.03066172304061,
+        "revenue": 948788.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 29.02,
+        "netIncome": 605668.0,
+        "debtRatio": 47.81,
+        "equity": 4645778.0,
+        "roe": 13.04
+      }
+    },
+    {
+      "code": "3443",
+      "name": "創意",
+      "market": "TWSE",
+      "count": 1,
+      "actions": {
+        "limitDown": 1
+      },
+      "posts": [
+        {
+          "pk": "3906903445571968444",
+          "url": "https://www.threads.com/@evachien.chien/post/DY4G_vtER28",
+          "taken_at": "2026-05-28T09:06:45+00:00",
+          "text": "今天亮兩顆燈🤡\n「高力」、「創意」跌停\n盤中美伊又開始戰爭，唉！有完沒完⋯加上富台結算，大盤開高走低，真的很震盪！\n\n買\n「家登」542\n「創意」4665\n「緯穎」4970\n「旺矽」5965\n\n還好「沛亨」、「創新服務」閃過處置👍\n今天好熱 懶得說話了\n我在等按摩 處理我的網球肘\n好痛好痛",
+          "actions": [
+            "limitDown"
+          ],
+          "contexts": [
+            "「高力」、「創意」跌停",
+            "「創意」4665"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "3443",
+        "name": "創意",
+        "market": "TWSE",
+        "price": 5100.0,
+        "change": -185.0,
+        "priceDate": "1150527",
+        "peRatio": 153.43,
+        "dividendYield": 0.39,
+        "pbRatio": 46.86,
+        "valuationDate": "1150527",
+        "eps": 12.28,
+        "epsPeriod": "1151",
+        "revenueYoY": 156.85087929178133,
+        "revenue": 4294033.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 27.2,
+        "netIncome": 1646240.0,
+        "debtRatio": 58.49,
+        "equity": 14583873.0,
+        "roe": 11.29
+      }
+    },
+    {
       "code": "2344",
       "name": "華邦電",
       "market": "TWSE",
@@ -141,7 +302,7 @@
       },
       "posts": [
         {
-          "pk": "18093633757979556",
+          "pk": "3906196667582483805",
           "url": "https://www.threads.com/@evachien.chien/post/DY1mSxaEY1d",
           "taken_at": "2026-05-27T09:42:31+00:00",
           "text": "今天亮兩顆燈💡\n「華邦電」、「沛亨」漲停\n「台達電」、「聯發科」漲停打開\n今天沒有買賣，也可以盯著數字看一整天，我覺得股票數字比武安侯還誘人 我完蛋了🫣\n\n我在2/6的po文\n有提到美光\n用線型和方程式解美光技術面\n我判斷美光要進入第三波攻勢\n雖然歷經美伊戰爭\n但還是還給美光公道 又創新高\n偷偷說 股友⋯⋯我也不知道他為什麼這麼相信我，他2/6看到我的美光文，就衝進去買美光389👍而3/24那天，我提早po文，因為只有買股就po了，他跟追了群聯1660，他買一張，我原創買零股",
@@ -178,49 +339,6 @@
       }
     },
     {
-      "code": "6291",
-      "name": "沛亨",
-      "market": "TPEx",
-      "count": 1,
-      "actions": {
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "18093633757979556",
-          "url": "https://www.threads.com/@evachien.chien/post/DY1mSxaEY1d",
-          "taken_at": "2026-05-27T09:42:31+00:00",
-          "text": "今天亮兩顆燈💡\n「華邦電」、「沛亨」漲停\n「台達電」、「聯發科」漲停打開\n今天沒有買賣，也可以盯著數字看一整天，我覺得股票數字比武安侯還誘人 我完蛋了🫣\n\n我在2/6的po文\n有提到美光\n用線型和方程式解美光技術面\n我判斷美光要進入第三波攻勢\n雖然歷經美伊戰爭\n但還是還給美光公道 又創新高\n偷偷說 股友⋯⋯我也不知道他為什麼這麼相信我，他2/6看到我的美光文，就衝進去買美光389👍而3/24那天，我提早po文，因為只有買股就po了，他跟追了群聯1660，他買一張，我原創買零股",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「華邦電」、「沛亨」漲停"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "6291",
-        "name": "沛亨",
-        "market": "TPEx",
-        "price": 645.0,
-        "change": 58.0,
-        "priceDate": "1150527",
-        "peRatio": null,
-        "dividendYield": 0.93,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 42.11268607186878,
-        "revenue": 239818.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 37.5,
-        "netIncome": 127072.0,
-        "debtRatio": 39.7,
-        "equity": 1378653.0,
-        "roe": 9.22
-      }
-    },
-    {
       "code": "2308",
       "name": "台達電",
       "market": "TWSE",
@@ -230,7 +348,7 @@
       },
       "posts": [
         {
-          "pk": "18093633757979556",
+          "pk": "3906196667582483805",
           "url": "https://www.threads.com/@evachien.chien/post/DY1mSxaEY1d",
           "taken_at": "2026-05-27T09:42:31+00:00",
           "text": "今天亮兩顆燈💡\n「華邦電」、「沛亨」漲停\n「台達電」、「聯發科」漲停打開\n今天沒有買賣，也可以盯著數字看一整天，我覺得股票數字比武安侯還誘人 我完蛋了🫣\n\n我在2/6的po文\n有提到美光\n用線型和方程式解美光技術面\n我判斷美光要進入第三波攻勢\n雖然歷經美伊戰爭\n但還是還給美光公道 又創新高\n偷偷說 股友⋯⋯我也不知道他為什麼這麼相信我，他2/6看到我的美光文，就衝進去買美光389👍而3/24那天，我提早po文，因為只有買股就po了，他跟追了群聯1660，他買一張，我原創買零股",
@@ -275,7 +393,7 @@
       },
       "posts": [
         {
-          "pk": "18093633757979556",
+          "pk": "3906196667582483805",
           "url": "https://www.threads.com/@evachien.chien/post/DY1mSxaEY1d",
           "taken_at": "2026-05-27T09:42:31+00:00",
           "text": "今天亮兩顆燈💡\n「華邦電」、「沛亨」漲停\n「台達電」、「聯發科」漲停打開\n今天沒有買賣，也可以盯著數字看一整天，我覺得股票數字比武安侯還誘人 我完蛋了🫣\n\n我在2/6的po文\n有提到美光\n用線型和方程式解美光技術面\n我判斷美光要進入第三波攻勢\n雖然歷經美伊戰爭\n但還是還給美光公道 又創新高\n偷偷說 股友⋯⋯我也不知道他為什麼這麼相信我，他2/6看到我的美光文，就衝進去買美光389👍而3/24那天，我提早po文，因為只有買股就po了，他跟追了群聯1660，他買一張，我原創買零股",
@@ -320,7 +438,7 @@
       },
       "posts": [
         {
-          "pk": "18093633757979556",
+          "pk": "3906196667582483805",
           "url": "https://www.threads.com/@evachien.chien/post/DY1mSxaEY1d",
           "taken_at": "2026-05-27T09:42:31+00:00",
           "text": "今天亮兩顆燈💡\n「華邦電」、「沛亨」漲停\n「台達電」、「聯發科」漲停打開\n今天沒有買賣，也可以盯著數字看一整天，我覺得股票數字比武安侯還誘人 我完蛋了🫣\n\n我在2/6的po文\n有提到美光\n用線型和方程式解美光技術面\n我判斷美光要進入第三波攻勢\n雖然歷經美伊戰爭\n但還是還給美光公道 又創新高\n偷偷說 股友⋯⋯我也不知道他為什麼這麼相信我，他2/6看到我的美光文，就衝進去買美光389👍而3/24那天，我提早po文，因為只有買股就po了，他跟追了群聯1660，他買一張，我原創買零股",
@@ -336,11 +454,11 @@
         "code": "8299",
         "name": "群聯",
         "market": "TPEx",
-        "price": 2480.0,
-        "change": -25.0,
-        "priceDate": "1150527",
+        "price": 2450.0,
+        "change": -30.0,
+        "priceDate": "1150528",
         "peRatio": null,
-        "dividendYield": 0.94,
+        "dividendYield": 0.95,
         "pbRatio": null,
         "eps": null,
         "revenueYoY": 236.6326033058058,
@@ -354,6 +472,164 @@
       }
     },
     {
+      "code": "3680",
+      "name": "家登",
+      "market": "TPEx",
+      "count": 1,
+      "actions": {},
+      "posts": [
+        {
+          "pk": "3906903445571968444",
+          "url": "https://www.threads.com/@evachien.chien/post/DY4G_vtER28",
+          "taken_at": "2026-05-28T09:06:45+00:00",
+          "text": "今天亮兩顆燈🤡\n「高力」、「創意」跌停\n盤中美伊又開始戰爭，唉！有完沒完⋯加上富台結算，大盤開高走低，真的很震盪！\n\n買\n「家登」542\n「創意」4665\n「緯穎」4970\n「旺矽」5965\n\n還好「沛亨」、「創新服務」閃過處置👍\n今天好熱 懶得說話了\n我在等按摩 處理我的網球肘\n好痛好痛",
+          "actions": [],
+          "contexts": [
+            "「家登」542"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "3680",
+        "name": "家登",
+        "market": "TPEx",
+        "price": 535.0,
+        "change": -22.0,
+        "priceDate": "1150528",
+        "peRatio": null,
+        "dividendYield": 1.29,
+        "pbRatio": null,
+        "eps": null,
+        "revenueYoY": 52.739619752984254,
+        "revenue": 885957.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 42.63,
+        "netIncome": 278153.0,
+        "debtRatio": 50.59,
+        "equity": 12860802.0,
+        "roe": 2.16
+      }
+    },
+    {
+      "code": "6669",
+      "name": "緯穎",
+      "market": "TWSE",
+      "count": 1,
+      "actions": {},
+      "posts": [
+        {
+          "pk": "3906903445571968444",
+          "url": "https://www.threads.com/@evachien.chien/post/DY4G_vtER28",
+          "taken_at": "2026-05-28T09:06:45+00:00",
+          "text": "今天亮兩顆燈🤡\n「高力」、「創意」跌停\n盤中美伊又開始戰爭，唉！有完沒完⋯加上富台結算，大盤開高走低，真的很震盪！\n\n買\n「家登」542\n「創意」4665\n「緯穎」4970\n「旺矽」5965\n\n還好「沛亨」、「創新服務」閃過處置👍\n今天好熱 懶得說話了\n我在等按摩 處理我的網球肘\n好痛好痛",
+          "actions": [],
+          "contexts": [
+            "「緯穎」4970"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "6669",
+        "name": "緯穎",
+        "market": "TWSE",
+        "price": 5075.0,
+        "change": -205.0,
+        "priceDate": "1150527",
+        "peRatio": 17.01,
+        "dividendYield": 3.25,
+        "pbRatio": 6.73,
+        "valuationDate": "1150527",
+        "eps": 75.95,
+        "epsPeriod": "1151",
+        "revenueYoY": 29.66707857241353,
+        "revenue": 82730996.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 7.55,
+        "netIncome": 14114409.0,
+        "debtRatio": 67.6,
+        "equity": 140164269.0,
+        "roe": 10.07
+      }
+    },
+    {
+      "code": "6223",
+      "name": "旺矽",
+      "market": "TPEx",
+      "count": 1,
+      "actions": {},
+      "posts": [
+        {
+          "pk": "3906903445571968444",
+          "url": "https://www.threads.com/@evachien.chien/post/DY4G_vtER28",
+          "taken_at": "2026-05-28T09:06:45+00:00",
+          "text": "今天亮兩顆燈🤡\n「高力」、「創意」跌停\n盤中美伊又開始戰爭，唉！有完沒完⋯加上富台結算，大盤開高走低，真的很震盪！\n\n買\n「家登」542\n「創意」4665\n「緯穎」4970\n「旺矽」5965\n\n還好「沛亨」、「創新服務」閃過處置👍\n今天好熱 懶得說話了\n我在等按摩 處理我的網球肘\n好痛好痛",
+          "actions": [],
+          "contexts": [
+            "「旺矽」5965"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "6223",
+        "name": "旺矽",
+        "market": "TPEx",
+        "price": 5915.0,
+        "change": -475.0,
+        "priceDate": "1150528",
+        "peRatio": null,
+        "dividendYield": 0.37,
+        "pbRatio": null,
+        "eps": null,
+        "revenueYoY": 52.59594490792657,
+        "revenue": 1485961.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 59.45,
+        "netIncome": 1227478.0,
+        "debtRatio": 38.73,
+        "equity": 15755634.0,
+        "roe": 7.79
+      }
+    },
+    {
+      "code": "7828",
+      "name": "創新服務",
+      "market": "TPEx",
+      "count": 1,
+      "actions": {},
+      "posts": [
+        {
+          "pk": "3906903445571968444",
+          "url": "https://www.threads.com/@evachien.chien/post/DY4G_vtER28",
+          "taken_at": "2026-05-28T09:06:45+00:00",
+          "text": "今天亮兩顆燈🤡\n「高力」、「創意」跌停\n盤中美伊又開始戰爭，唉！有完沒完⋯加上富台結算，大盤開高走低，真的很震盪！\n\n買\n「家登」542\n「創意」4665\n「緯穎」4970\n「旺矽」5965\n\n還好「沛亨」、「創新服務」閃過處置👍\n今天好熱 懶得說話了\n我在等按摩 處理我的網球肘\n好痛好痛",
+          "actions": [],
+          "contexts": [
+            "還好「沛亨」、「創新服務」閃過處置👍"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "7828",
+        "name": "創新服務",
+        "market": "TPEx",
+        "price": 1400.0,
+        "change": -105.0,
+        "priceDate": "1150528",
+        "peRatio": null,
+        "dividendYield": 0.32,
+        "pbRatio": null,
+        "eps": null,
+        "revenueYoY": 32086.881188118812,
+        "revenue": 130035.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 80.18,
+        "netIncome": 37306.0,
+        "debtRatio": 40.34,
+        "equity": 1058586.0,
+        "roe": 3.52
+      }
+    },
+    {
       "code": "6890",
       "name": "來億-KY",
       "market": "TWSE",
@@ -361,7 +637,7 @@
       "actions": {},
       "posts": [
         {
-          "pk": "18093633757979556",
+          "pk": "3906196667582483805",
           "url": "https://www.threads.com/@evachien.chien/post/DY1mSxaEY1d",
           "taken_at": "2026-05-27T09:42:31+00:00",
           "text": "今天亮兩顆燈💡\n「華邦電」、「沛亨」漲停\n「台達電」、「聯發科」漲停打開\n今天沒有買賣，也可以盯著數字看一整天，我覺得股票數字比武安侯還誘人 我完蛋了🫣\n\n我在2/6的po文\n有提到美光\n用線型和方程式解美光技術面\n我判斷美光要進入第三波攻勢\n雖然歷經美伊戰爭\n但還是還給美光公道 又創新高\n偷偷說 股友⋯⋯我也不知道他為什麼這麼相信我，他2/6看到我的美光文，就衝進去買美光389👍而3/24那天，我提早po文，因為只有買股就po了，他跟追了群聯1660，他買一張，我原創買零股",
@@ -402,7 +678,7 @@
       "actions": {},
       "posts": [
         {
-          "pk": "18093633757979556",
+          "pk": "3906196667582483805",
           "url": "https://www.threads.com/@evachien.chien/post/DY1mSxaEY1d",
           "taken_at": "2026-05-27T09:42:31+00:00",
           "text": "今天亮兩顆燈💡\n「華邦電」、「沛亨」漲停\n「台達電」、「聯發科」漲停打開\n今天沒有買賣，也可以盯著數字看一整天，我覺得股票數字比武安侯還誘人 我完蛋了🫣\n\n我在2/6的po文\n有提到美光\n用線型和方程式解美光技術面\n我判斷美光要進入第三波攻勢\n雖然歷經美伊戰爭\n但還是還給美光公道 又創新高\n偷偷說 股友⋯⋯我也不知道他為什麼這麼相信我，他2/6看到我的美光文，就衝進去買美光389👍而3/24那天，我提早po文，因為只有買股就po了，他跟追了群聯1660，他買一張，我原創買零股",
@@ -439,27 +715,127 @@
   "posts": [
     {
       "index": 0,
-      "pk": "17928020478320599",
-      "url": "https://www.threads.com/@evachien.chien/post/DY3KX0sgf9q",
-      "taken_at": "2026-05-28T00:17:01+00:00",
-      "text": "完蛋了 求救🆘\n我5月初登入看一下報稅\n一切很合理正常\n剛剛\n登入要報稅時\n發現它說「我有自用住宅借款利息資料」叫我點選不同意估算表\n但問題來了\n那間房子 我是出租，有確實申報租屋所得，但沒有列入自用住宅，我用營登，這樣還要用這項嗎？\n直接點選同意估算表也可以吧？！",
-      "like_count": 8,
+      "pk": "3906903445571968444",
+      "url": "https://www.threads.com/@evachien.chien/post/DY4G_vtER28",
+      "taken_at": "2026-05-28T09:06:45+00:00",
+      "text": "今天亮兩顆燈🤡\n「高力」、「創意」跌停\n盤中美伊又開始戰爭，唉！有完沒完⋯加上富台結算，大盤開高走低，真的很震盪！\n\n買\n「家登」542\n「創意」4665\n「緯穎」4970\n「旺矽」5965\n\n還好「沛亨」、「創新服務」閃過處置👍\n今天好熱 懶得說話了\n我在等按摩 處理我的網球肘\n好痛好痛",
+      "like_count": 25,
       "reply_count": 7,
-      "mentions": []
+      "mentions": [
+        {
+          "code": "8996",
+          "name": "高力",
+          "market": "TWSE",
+          "aliases": [
+            "高力"
+          ],
+          "actions": [
+            "limitDown"
+          ],
+          "contexts": [
+            "「高力」、「創意」跌停"
+          ]
+        },
+        {
+          "code": "3443",
+          "name": "創意",
+          "market": "TWSE",
+          "aliases": [
+            "創意"
+          ],
+          "actions": [
+            "limitDown"
+          ],
+          "contexts": [
+            "「高力」、「創意」跌停",
+            "「創意」4665"
+          ]
+        },
+        {
+          "code": "3680",
+          "name": "家登",
+          "market": "TPEx",
+          "aliases": [
+            "家登"
+          ],
+          "actions": [],
+          "contexts": [
+            "「家登」542"
+          ]
+        },
+        {
+          "code": "6669",
+          "name": "緯穎",
+          "market": "TWSE",
+          "aliases": [
+            "緯穎"
+          ],
+          "actions": [],
+          "contexts": [
+            "「緯穎」4970"
+          ]
+        },
+        {
+          "code": "6223",
+          "name": "旺矽",
+          "market": "TPEx",
+          "aliases": [
+            "旺矽"
+          ],
+          "actions": [],
+          "contexts": [
+            "「旺矽」5965"
+          ]
+        },
+        {
+          "code": "6291",
+          "name": "沛亨",
+          "market": "TPEx",
+          "aliases": [
+            "沛亨"
+          ],
+          "actions": [],
+          "contexts": [
+            "還好「沛亨」、「創新服務」閃過處置👍"
+          ]
+        },
+        {
+          "code": "7828",
+          "name": "創新服務",
+          "market": "TPEx",
+          "aliases": [
+            "創新服務"
+          ],
+          "actions": [],
+          "contexts": [
+            "還好「沛亨」、「創新服務」閃過處置👍"
+          ]
+        }
+      ]
     },
     {
       "index": 1,
-      "pk": "18088295348527165",
-      "url": "https://www.threads.com/@evachien.chien/post/DY2R-wFnfrP",
-      "taken_at": "2026-05-27T16:04:16+00:00",
-      "text": "紀念一下\n搶課第一名\n搶演唱會門票都沒這麼手速",
-      "like_count": 18,
-      "reply_count": 2,
+      "pk": "3906636819361562474",
+      "url": "https://www.threads.com/@evachien.chien/post/DY3KX0sgf9q",
+      "taken_at": "2026-05-28T00:17:01+00:00",
+      "text": "完蛋了 求救🆘\n我5月初登入看一下報稅\n一切很合理正常\n剛剛\n登入要報稅時\n發現它說「我有自用住宅借款利息資料」叫我點選不同意估算表\n但問題來了\n那間房子 我是出租，有確實申報租屋所得，但沒有列入自用住宅，我用營登，這樣還要用這項嗎？\n直接點選同意估算表也可以吧？！",
+      "like_count": 11,
+      "reply_count": 12,
       "mentions": []
     },
     {
       "index": 2,
-      "pk": "18093633757979556",
+      "pk": "3906388805822577359",
+      "url": "https://www.threads.com/@evachien.chien/post/DY2R-wFnfrP",
+      "taken_at": "2026-05-27T16:04:16+00:00",
+      "text": "紀念一下\n搶課第一名\n搶演唱會門票都沒這麼手速",
+      "like_count": 20,
+      "reply_count": 7,
+      "mentions": []
+    },
+    {
+      "index": 3,
+      "pk": "3906196667582483805",
       "url": "https://www.threads.com/@evachien.chien/post/DY1mSxaEY1d",
       "taken_at": "2026-05-27T09:42:31+00:00",
       "text": "今天亮兩顆燈💡\n「華邦電」、「沛亨」漲停\n「台達電」、「聯發科」漲停打開\n今天沒有買賣，也可以盯著數字看一整天，我覺得股票數字比武安侯還誘人 我完蛋了🫣\n\n我在2/6的po文\n有提到美光\n用線型和方程式解美光技術面\n我判斷美光要進入第三波攻勢\n雖然歷經美伊戰爭\n但還是還給美光公道 又創新高\n偷偷說 股友⋯⋯我也不知道他為什麼這麼相信我，他2/6看到我的美光文，就衝進去買美光389👍而3/24那天，我提早po文，因為只有買股就po了，他跟追了群聯1660，他買一張，我原創買零股，他賺比我多 ，ㄍㄢ 啥小⋯⋯好啦 開玩笑的，勇敢的人賺錢，看他賺錢 我也很開心！畢竟我還在成長的道路上，賺錢的過程不同，總之我的目標是希望成為億來億去的咖👍\n\n南亞科大哥今天跟我討論股票，我跟他說「華邦電」有切入矽電容，他說那是什麼？我拿出高高在上的姿態，「你回家做功課，我們週五再來討論！」哈哈哈哈哈 爽！他就是一個很會挑毛病的病人，很欠電😆😆😆😆😆",
@@ -577,16 +953,6 @@
           ]
         }
       ]
-    },
-    {
-      "index": 3,
-      "pk": "18103927150998550",
-      "url": "https://www.threads.com/@evachien.chien/post/DYzPRBkkTLX",
-      "taken_at": "2026-05-26T11:42:49+00:00",
-      "text": "好久沒寫我約會的故事了\n最近有朋友問我為什麼沒有吃牛羊？我想到了大一發生的故事\n\n故事要從高中說起\n高二分班後 \n我突然喜歡上我們班同學\n這段暗戀變成明戀 \n大家都知道的那種\n我一直到上大一都還在喜歡他\n\n我們的高中同學\n在宿舍suicide\n大家約好一起去上香祭拜\n結束後 大家約吃飯聚餐\n同學A：天好冷，我們去吃羊肉爐\n我：蛤 我沒吃羊肉餒\n同學B ：不然去吃薑母鴨好了\n我：可是我不喜歡吃鴨肉\n同學們：⋯⋯⋯⋯（沈默🤐）\n我喜歡的男生說：那妳回家\n我馬上苦苦哀求：不要啦，我要去！\n後來 我們去吃羊肉爐\n同學也很識相\n把他旁邊的位子留給我\n大家吃著羊肉爐\n我吃一盤溪蝦 好蝦好蝦😆",
-      "like_count": 30,
-      "reply_count": 33,
-      "mentions": []
     }
   ]
 }
