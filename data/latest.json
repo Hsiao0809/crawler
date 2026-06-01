@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-06-01T03:52:53.025437+00:00",
+  "generatedAt": "2026-06-01T09:27:17.695092+00:00",
   "account": {
     "user_id": "73957398954",
     "username": "evachien.chien",
     "full_name": "Olivia Chien",
     "biography": "正職洗腰子護理師\n目前努力學習股票操盤\n希望可以早日財富自由（如果有私訊邀約入群，那都是騙人的喔！我才沒有空搞那個😆）\n也努力健身運動\n希望擁有健康的身體以及好身材\n有人說過我像趙敏\n也期許自己跟趙敏一樣聰慧果敢堅毅，當然美麗是一定要的 嘿👍",
-    "follower_count": 3582,
+    "follower_count": 3587,
     "following_count": null,
     "is_verified": 0,
-    "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHatvJZdbfVu3o-oBve4aX35ZOzmjFQ80E2LsjXKA8kqv4oKlV3C2BDZPccLGFJNoQ&_nc_ohc=hVVx43F3evQQ7kNvwHH_rcV&_nc_gid=B4Z_jACe06KP4xaoJP8rXA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8GMryqGKvnaveOkpgii_Z_-3RR4a04X2efRuMFAARLMw&oe=6A22B9FB&_nc_sid=10d13b",
-    "last_fetched_at": 1780285880
+    "profile_pic_url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gG4VplobBXZjIhrFF6QJIvoeyoLHWptWzugbZRSjiLSpMD6WI9LhiSpQRuLx7UqqMU&_nc_ohc=hVVx43F3evQQ7kNvwHPm32-&_nc_gid=Jdo-YVTnLjGHFjASbyBZag&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-pizJ_gFjafC2vPONLH8Cu8lKtJImeUM65g4fwMTLjgg&oe=6A232A7B&_nc_sid=10d13b",
+    "last_fetched_at": 1780305971
   },
   "summary": {
     "totalPosts": 4,
-    "postsWithStocks": 3,
-    "uniqueStocks": 23,
+    "postsWithStocks": 4,
+    "uniqueStocks": 27,
     "topStocks": [
       {
         "code": "6669",
         "name": "緯穎",
-        "count": 2,
+        "count": 3,
         "actions": {
           "buy": 1,
           "sell": 1,
@@ -30,10 +30,38 @@
       {
         "code": "5392",
         "name": "能率",
+        "count": 3,
+        "actions": {
+          "limitUp": 2,
+          "buy": 1
+        }
+      },
+      {
+        "code": "2344",
+        "name": "華邦電",
+        "count": 2,
+        "actions": {
+          "limitUp": 2,
+          "buy": 1,
+          "sell": 1
+        }
+      },
+      {
+        "code": "2601",
+        "name": "益航",
         "count": 2,
         "actions": {
           "buy": 1,
           "limitUp": 1
+        }
+      },
+      {
+        "code": "8299",
+        "name": "群聯",
+        "count": 2,
+        "actions": {
+          "buy": 1,
+          "watch": 1
         }
       },
       {
@@ -53,8 +81,14 @@
         }
       },
       {
-        "code": "2344",
-        "name": "華邦電",
+        "code": "6223",
+        "name": "旺矽",
+        "count": 2,
+        "actions": {}
+      },
+      {
+        "code": "6282",
+        "name": "康舒",
         "count": 1,
         "actions": {
           "buy": 1,
@@ -63,59 +97,30 @@
         }
       },
       {
-        "code": "3706",
-        "name": "神達",
+        "code": "2755",
+        "name": "揚秦",
         "count": 1,
         "actions": {
           "buy": 1,
-          "sell": 1
+          "watch": 1
         }
-      },
-      {
-        "code": "2313",
-        "name": "華通",
-        "count": 1,
-        "actions": {
-          "limitUp": 1
-        }
-      },
-      {
-        "code": "1609",
-        "name": "大亞",
-        "count": 1,
-        "actions": {
-          "limitUp": 1
-        }
-      },
-      {
-        "code": "8996",
-        "name": "高力",
-        "count": 1,
-        "actions": {
-          "limitDown": 1
-        }
-      },
-      {
-        "code": "8299",
-        "name": "群聯",
-        "count": 1,
-        "actions": {}
       }
     ],
     "actionTotals": {
-      "buy": 5,
-      "sell": 3,
-      "limitUp": 5,
-      "limitDown": 3
+      "buy": 9,
+      "sell": 4,
+      "limitUp": 10,
+      "limitDown": 3,
+      "watch": 2
     },
-    "fundamentalsCoverage": 23
+    "fundamentalsCoverage": 27
   },
   "stocks": [
     {
       "code": "6669",
       "name": "緯穎",
       "market": "TWSE",
-      "count": 2,
+      "count": 3,
       "actions": {
         "buy": 1,
         "sell": 1,
@@ -123,6 +128,16 @@
         "limitDown": 1
       },
       "posts": [
+        {
+          "pk": "3909764252781639759",
+          "url": "https://www.threads.com/@evachien.chien/post/DZCRd-CkfhP",
+          "taken_at": "2026-06-01T07:50:40+00:00",
+          "text": "今天亮兩顆燈💡\n「益航」、「康舒」漲停\n「能率」漲停打開，差0.1鎖漲停\n「華邦電」、「健策」漲停打開\n\n「益航」今天產業類別從百貨換到航運，外資及主力多日買超，今天鎖漲停，先說別追喔！\n\n出\n「康舒」我從37.5買上來，均價39.9，今天漲停出掉了，前高65.9，不想挑戰了，直接65.8出，獲利率+65.44%也不錯啦👍\n「群聯」1925+1985-》2755都出了，觀察了幾回2750會有壓力，想說先高出，之後再低接回。\n「緯穎」4970-〉5650。\n\n買\n「旺矽」572",
+          "actions": [],
+          "contexts": [
+            "「緯穎」4970-〉5650。"
+          ]
+        },
         {
           "pk": "3907562987368596137",
           "url": "https://www.threads.com/@evachien.chien/post/DY6c9V3kcKp",
@@ -177,12 +192,24 @@
       "code": "5392",
       "name": "能率",
       "market": "TPEx",
-      "count": 2,
+      "count": 3,
       "actions": {
-        "buy": 1,
-        "limitUp": 1
+        "limitUp": 2,
+        "buy": 1
       },
       "posts": [
+        {
+          "pk": "3909764252781639759",
+          "url": "https://www.threads.com/@evachien.chien/post/DZCRd-CkfhP",
+          "taken_at": "2026-06-01T07:50:40+00:00",
+          "text": "今天亮兩顆燈💡\n「益航」、「康舒」漲停\n「能率」漲停打開，差0.1鎖漲停\n「華邦電」、「健策」漲停打開\n\n「益航」今天產業類別從百貨換到航運，外資及主力多日買超，今天鎖漲停，先說別追喔！\n\n出\n「康舒」我從37.5買上來，均價39.9，今天漲停出掉了，前高65.9，不想挑戰了，直接65.8出，獲利率+65.44%也不錯啦👍\n「群聯」1925+1985-》2755都出了，觀察了幾回2750會有壓力，想說先高出，之後再低接回。\n「緯穎」4970-〉5650。\n\n買\n「旺矽」572",
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「能率」漲停打開，差0.1鎖漲停"
+          ]
+        },
         {
           "pk": "3907720700581710202",
           "url": "https://www.threads.com/@evachien.chien/post/DY7A0XvnQl6",
@@ -212,9 +239,9 @@
         "code": "5392",
         "name": "能率",
         "market": "TPEx",
-        "price": 44.55,
-        "change": 4.05,
-        "priceDate": "1150529",
+        "price": 48.9,
+        "change": 4.35,
+        "priceDate": "1150601",
         "peRatio": null,
         "dividendYield": 0.9,
         "pbRatio": null,
@@ -227,6 +254,181 @@
         "debtRatio": 47.72,
         "equity": 8068089.0,
         "roe": -0.74
+      }
+    },
+    {
+      "code": "2344",
+      "name": "華邦電",
+      "market": "TWSE",
+      "count": 2,
+      "actions": {
+        "limitUp": 2,
+        "buy": 1,
+        "sell": 1
+      },
+      "posts": [
+        {
+          "pk": "3909764252781639759",
+          "url": "https://www.threads.com/@evachien.chien/post/DZCRd-CkfhP",
+          "taken_at": "2026-06-01T07:50:40+00:00",
+          "text": "今天亮兩顆燈💡\n「益航」、「康舒」漲停\n「能率」漲停打開，差0.1鎖漲停\n「華邦電」、「健策」漲停打開\n\n「益航」今天產業類別從百貨換到航運，外資及主力多日買超，今天鎖漲停，先說別追喔！\n\n出\n「康舒」我從37.5買上來，均價39.9，今天漲停出掉了，前高65.9，不想挑戰了，直接65.8出，獲利率+65.44%也不錯啦👍\n「群聯」1925+1985-》2755都出了，觀察了幾回2750會有壓力，想說先高出，之後再低接回。\n「緯穎」4970-〉5650。\n\n買\n「旺矽」572",
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「華邦電」、「健策」漲停打開"
+          ]
+        },
+        {
+          "pk": "3907562987368596137",
+          "url": "https://www.threads.com/@evachien.chien/post/DY6c9V3kcKp",
+          "taken_at": "2026-05-29T06:57:09+00:00",
+          "text": "今天亮四顆燈💡\n「能率」、「華邦電」、「華通」、「緯穎」漲停\n「大亞」漲停打開\n\n「能率」是我去年買的，當時賺一波，因為整個企業努力經營機器人，加上我很喜歡「佳能」，所以把媽媽也買回來，我也是被套很久，不建議大家追😆\n\n「創意」改設計被降評，但我看大摩昨天有接，大概又要玩渣男遊戲。開盤果然被賣下來，原本想跌停接，就急拉上去，我看8zz可能轉型了，「緯穎」她買也漲停耶！哈哈哈🤣\n\n「神達」今天開紅K，我妹前兩天很焦慮神達被賣下來，我跟她說投信一直買，要有耐心，像我「華邦電」之前",
+          "actions": [
+            "buy",
+            "sell",
+            "limitUp"
+          ],
+          "contexts": [
+            "「能率」、「華邦電」、「華通」、「緯穎」漲停",
+            "「神達」今天開紅K，我妹前兩天很焦慮神達被賣下來，我跟她說投信一直買，要有耐心，像我「華邦電」之前從136.5被賣到剩85，我的心態還在🫣（其實慌死了，但要表現大姐的形象）"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "2344",
+        "name": "華邦電",
+        "market": "TWSE",
+        "price": 158.0,
+        "change": 14.0,
+        "priceDate": "1150529",
+        "peRatio": 46.88,
+        "dividendYield": 0.32,
+        "pbRatio": 6.1,
+        "valuationDate": "1150529",
+        "eps": 2.25,
+        "epsPeriod": "1151",
+        "revenueYoY": 182.2232686329836,
+        "revenue": 19245022.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 53.37,
+        "netIncome": 10117678.0,
+        "debtRatio": 46.52,
+        "equity": 122893519.0,
+        "roe": 8.23
+      }
+    },
+    {
+      "code": "2601",
+      "name": "益航",
+      "market": "TWSE",
+      "count": 2,
+      "actions": {
+        "buy": 1,
+        "limitUp": 1
+      },
+      "posts": [
+        {
+          "pk": "3909764252781639759",
+          "url": "https://www.threads.com/@evachien.chien/post/DZCRd-CkfhP",
+          "taken_at": "2026-06-01T07:50:40+00:00",
+          "text": "今天亮兩顆燈💡\n「益航」、「康舒」漲停\n「能率」漲停打開，差0.1鎖漲停\n「華邦電」、「健策」漲停打開\n\n「益航」今天產業類別從百貨換到航運，外資及主力多日買超，今天鎖漲停，先說別追喔！\n\n出\n「康舒」我從37.5買上來，均價39.9，今天漲停出掉了，前高65.9，不想挑戰了，直接65.8出，獲利率+65.44%也不錯啦👍\n「群聯」1925+1985-》2755都出了，觀察了幾回2750會有壓力，想說先高出，之後再低接回。\n「緯穎」4970-〉5650。\n\n買\n「旺矽」572",
+          "actions": [
+            "buy",
+            "limitUp"
+          ],
+          "contexts": [
+            "「益航」、「康舒」漲停",
+            "「益航」今天產業類別從百貨換到航運，外資及主力多日買超，今天鎖漲停，先說別追喔！"
+          ]
+        },
+        {
+          "pk": "3907720700581710202",
+          "url": "https://www.threads.com/@evachien.chien/post/DY7A0XvnQl6",
+          "taken_at": "2026-05-29T12:10:30+00:00",
+          "text": "股東會紀念品part.4\n前一篇請參考115/05/13的po文\n其實這是我第一次這麼認真換\n去年就全通有 才換一下\n以前從來沒換過😆\n我真的是認真魔人，下定決心，就要做好做滿🫶\n\n群聯：全家禮物卡100元（質感）\n能率：稻循皂\n佳能：稻循皂\n昆盈：頭戴式耳機\n國票金：高級法蘭絨毯\n凱基金：彩繪花鳥筷（6雙）組\n益航：妙管家雪花點點杯（藍雲朵）🤡益航送的還不錯，我目前賠24000元，我打算再領200年紀念品，就回本了。\n凌陽：7-11 50元\n瀚宇彩晶：7-11 50元\n東台",
+          "actions": [],
+          "contexts": [
+            "益航：妙管家雪花點點杯（藍雲朵）🤡益航送的還不錯，我目前賠24000元，我打算再領200年紀念品，就回本了。"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "2601",
+        "name": "益航",
+        "market": "TWSE",
+        "price": 5.24,
+        "change": 0.18,
+        "priceDate": "1150529",
+        "peRatio": null,
+        "dividendYield": null,
+        "pbRatio": 0.57,
+        "valuationDate": "1150529",
+        "eps": -0.02,
+        "epsPeriod": "1151",
+        "revenueYoY": -64.59982536162781,
+        "revenue": 123245.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 26.95,
+        "netIncome": 11196.0,
+        "debtRatio": 34.1,
+        "equity": 7625957.0,
+        "roe": 0.15
+      }
+    },
+    {
+      "code": "8299",
+      "name": "群聯",
+      "market": "TPEx",
+      "count": 2,
+      "actions": {
+        "buy": 1,
+        "watch": 1
+      },
+      "posts": [
+        {
+          "pk": "3909764252781639759",
+          "url": "https://www.threads.com/@evachien.chien/post/DZCRd-CkfhP",
+          "taken_at": "2026-06-01T07:50:40+00:00",
+          "text": "今天亮兩顆燈💡\n「益航」、「康舒」漲停\n「能率」漲停打開，差0.1鎖漲停\n「華邦電」、「健策」漲停打開\n\n「益航」今天產業類別從百貨換到航運，外資及主力多日買超，今天鎖漲停，先說別追喔！\n\n出\n「康舒」我從37.5買上來，均價39.9，今天漲停出掉了，前高65.9，不想挑戰了，直接65.8出，獲利率+65.44%也不錯啦👍\n「群聯」1925+1985-》2755都出了，觀察了幾回2750會有壓力，想說先高出，之後再低接回。\n「緯穎」4970-〉5650。\n\n買\n「旺矽」572",
+          "actions": [
+            "buy",
+            "watch"
+          ],
+          "contexts": [
+            "「群聯」1925+1985-》2755都出了，觀察了幾回2750會有壓力，想說先高出，之後再低接回。"
+          ]
+        },
+        {
+          "pk": "3907720700581710202",
+          "url": "https://www.threads.com/@evachien.chien/post/DY7A0XvnQl6",
+          "taken_at": "2026-05-29T12:10:30+00:00",
+          "text": "股東會紀念品part.4\n前一篇請參考115/05/13的po文\n其實這是我第一次這麼認真換\n去年就全通有 才換一下\n以前從來沒換過😆\n我真的是認真魔人，下定決心，就要做好做滿🫶\n\n群聯：全家禮物卡100元（質感）\n能率：稻循皂\n佳能：稻循皂\n昆盈：頭戴式耳機\n國票金：高級法蘭絨毯\n凱基金：彩繪花鳥筷（6雙）組\n益航：妙管家雪花點點杯（藍雲朵）🤡益航送的還不錯，我目前賠24000元，我打算再領200年紀念品，就回本了。\n凌陽：7-11 50元\n瀚宇彩晶：7-11 50元\n東台",
+          "actions": [],
+          "contexts": [
+            "群聯：全家禮物卡100元（質感）"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "8299",
+        "name": "群聯",
+        "market": "TPEx",
+        "price": 2770.0,
+        "change": 195.0,
+        "priceDate": "1150601",
+        "peRatio": null,
+        "dividendYield": 0.9,
+        "pbRatio": null,
+        "eps": null,
+        "revenueYoY": 236.6326033058058,
+        "revenue": 20207493.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 61.82,
+        "netIncome": 15174981.0,
+        "debtRatio": 47.45,
+        "equity": 74130077.0,
+        "roe": 20.47
       }
     },
     {
@@ -341,8 +543,57 @@
       }
     },
     {
-      "code": "2344",
-      "name": "華邦電",
+      "code": "6223",
+      "name": "旺矽",
+      "market": "TPEx",
+      "count": 2,
+      "actions": {},
+      "posts": [
+        {
+          "pk": "3909764252781639759",
+          "url": "https://www.threads.com/@evachien.chien/post/DZCRd-CkfhP",
+          "taken_at": "2026-06-01T07:50:40+00:00",
+          "text": "今天亮兩顆燈💡\n「益航」、「康舒」漲停\n「能率」漲停打開，差0.1鎖漲停\n「華邦電」、「健策」漲停打開\n\n「益航」今天產業類別從百貨換到航運，外資及主力多日買超，今天鎖漲停，先說別追喔！\n\n出\n「康舒」我從37.5買上來，均價39.9，今天漲停出掉了，前高65.9，不想挑戰了，直接65.8出，獲利率+65.44%也不錯啦👍\n「群聯」1925+1985-》2755都出了，觀察了幾回2750會有壓力，想說先高出，之後再低接回。\n「緯穎」4970-〉5650。\n\n買\n「旺矽」572",
+          "actions": [],
+          "contexts": [
+            "「旺矽」5720，已入MSCI，股價還在這邊客氣🤔"
+          ]
+        },
+        {
+          "pk": "3906903445571968444",
+          "url": "https://www.threads.com/@evachien.chien/post/DY4G_vtER28",
+          "taken_at": "2026-05-28T09:06:45+00:00",
+          "text": "今天亮兩顆燈🤡\n「高力」、「創意」跌停\n盤中美伊又開始戰爭，唉！有完沒完⋯加上富台結算，大盤開高走低，真的很震盪！\n\n買\n「家登」542\n「創意」4665\n「緯穎」4970\n「旺矽」5965\n\n還好「沛亨」、「創新服務」閃過處置👍\n今天好熱 懶得說話了\n我在等按摩 處理我的網球肘\n好痛好痛",
+          "actions": [],
+          "contexts": [
+            "「旺矽」5965"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "6223",
+        "name": "旺矽",
+        "market": "TPEx",
+        "price": 5680.0,
+        "change": -280.0,
+        "priceDate": "1150601",
+        "peRatio": null,
+        "dividendYield": 0.37,
+        "pbRatio": null,
+        "eps": null,
+        "revenueYoY": 52.59594490792657,
+        "revenue": 1485961.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 59.45,
+        "netIncome": 1227478.0,
+        "debtRatio": 38.73,
+        "equity": 15755634.0,
+        "roe": 7.79
+      }
+    },
+    {
+      "code": "6282",
+      "name": "康舒",
       "market": "TWSE",
       "count": 1,
       "actions": {
@@ -352,42 +603,87 @@
       },
       "posts": [
         {
-          "pk": "3907562987368596137",
-          "url": "https://www.threads.com/@evachien.chien/post/DY6c9V3kcKp",
-          "taken_at": "2026-05-29T06:57:09+00:00",
-          "text": "今天亮四顆燈💡\n「能率」、「華邦電」、「華通」、「緯穎」漲停\n「大亞」漲停打開\n\n「能率」是我去年買的，當時賺一波，因為整個企業努力經營機器人，加上我很喜歡「佳能」，所以把媽媽也買回來，我也是被套很久，不建議大家追😆\n\n「創意」改設計被降評，但我看大摩昨天有接，大概又要玩渣男遊戲。開盤果然被賣下來，原本想跌停接，就急拉上去，我看8zz可能轉型了，「緯穎」她買也漲停耶！哈哈哈🤣\n\n「神達」今天開紅K，我妹前兩天很焦慮神達被賣下來，我跟她說投信一直買，要有耐心，像我「華邦電」之前",
+          "pk": "3909764252781639759",
+          "url": "https://www.threads.com/@evachien.chien/post/DZCRd-CkfhP",
+          "taken_at": "2026-06-01T07:50:40+00:00",
+          "text": "今天亮兩顆燈💡\n「益航」、「康舒」漲停\n「能率」漲停打開，差0.1鎖漲停\n「華邦電」、「健策」漲停打開\n\n「益航」今天產業類別從百貨換到航運，外資及主力多日買超，今天鎖漲停，先說別追喔！\n\n出\n「康舒」我從37.5買上來，均價39.9，今天漲停出掉了，前高65.9，不想挑戰了，直接65.8出，獲利率+65.44%也不錯啦👍\n「群聯」1925+1985-》2755都出了，觀察了幾回2750會有壓力，想說先高出，之後再低接回。\n「緯穎」4970-〉5650。\n\n買\n「旺矽」572",
           "actions": [
             "buy",
             "sell",
             "limitUp"
           ],
           "contexts": [
-            "「能率」、「華邦電」、「華通」、「緯穎」漲停",
-            "「神達」今天開紅K，我妹前兩天很焦慮神達被賣下來，我跟她說投信一直買，要有耐心，像我「華邦電」之前從136.5被賣到剩85，我的心態還在🫣（其實慌死了，但要表現大姐的形象）"
+            "「益航」、「康舒」漲停",
+            "「康舒」我從37.5買上來，均價39.9，今天漲停出掉了，前高65.9，不想挑戰了，直接65.8出，獲利率+65.44%也不錯啦👍"
           ]
         }
       ],
       "fundamentals": {
-        "code": "2344",
-        "name": "華邦電",
+        "code": "6282",
+        "name": "康舒",
         "market": "TWSE",
-        "price": 158.0,
-        "change": 14.0,
+        "price": 59.9,
+        "change": 2.2,
         "priceDate": "1150529",
-        "peRatio": 46.88,
-        "dividendYield": 0.32,
-        "pbRatio": 6.1,
+        "peRatio": 119.8,
+        "dividendYield": 1.34,
+        "pbRatio": 2.28,
         "valuationDate": "1150529",
-        "eps": 2.25,
+        "eps": 0.27,
         "epsPeriod": "1151",
-        "revenueYoY": 182.2232686329836,
-        "revenue": 19245022.0,
+        "revenueYoY": 34.61139334349142,
+        "revenue": 3152125.0,
         "revenuePeriod": "11504",
-        "grossMargin": 53.37,
-        "netIncome": 10117678.0,
-        "debtRatio": 46.52,
-        "equity": 122893519.0,
-        "roe": 8.23
+        "grossMargin": 24.39,
+        "netIncome": 231311.0,
+        "debtRatio": 56.18,
+        "equity": 22791924.0,
+        "roe": 1.01
+      }
+    },
+    {
+      "code": "2755",
+      "name": "揚秦",
+      "market": "TPEx",
+      "count": 1,
+      "actions": {
+        "buy": 1,
+        "watch": 1
+      },
+      "posts": [
+        {
+          "pk": "3909764252781639759",
+          "url": "https://www.threads.com/@evachien.chien/post/DZCRd-CkfhP",
+          "taken_at": "2026-06-01T07:50:40+00:00",
+          "text": "今天亮兩顆燈💡\n「益航」、「康舒」漲停\n「能率」漲停打開，差0.1鎖漲停\n「華邦電」、「健策」漲停打開\n\n「益航」今天產業類別從百貨換到航運，外資及主力多日買超，今天鎖漲停，先說別追喔！\n\n出\n「康舒」我從37.5買上來，均價39.9，今天漲停出掉了，前高65.9，不想挑戰了，直接65.8出，獲利率+65.44%也不錯啦👍\n「群聯」1925+1985-》2755都出了，觀察了幾回2750會有壓力，想說先高出，之後再低接回。\n「緯穎」4970-〉5650。\n\n買\n「旺矽」572",
+          "actions": [
+            "buy",
+            "watch"
+          ],
+          "contexts": [
+            "「群聯」1925+1985-》2755都出了，觀察了幾回2750會有壓力，想說先高出，之後再低接回。"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "2755",
+        "name": "揚秦",
+        "market": "TPEx",
+        "price": 134.0,
+        "change": -1.0,
+        "priceDate": "1150601",
+        "peRatio": null,
+        "dividendYield": 4.44,
+        "pbRatio": null,
+        "eps": null,
+        "revenueYoY": 18.398611169919974,
+        "revenue": 279622.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 27.31,
+        "netIncome": 61309.0,
+        "debtRatio": 47.33,
+        "equity": 1147823.0,
+        "roe": 5.34
       }
     },
     {
@@ -435,6 +731,51 @@
         "debtRatio": 50.24,
         "equity": 67632734.0,
         "roe": 2.27
+      }
+    },
+    {
+      "code": "3653",
+      "name": "健策",
+      "market": "TWSE",
+      "count": 1,
+      "actions": {
+        "limitUp": 1
+      },
+      "posts": [
+        {
+          "pk": "3909764252781639759",
+          "url": "https://www.threads.com/@evachien.chien/post/DZCRd-CkfhP",
+          "taken_at": "2026-06-01T07:50:40+00:00",
+          "text": "今天亮兩顆燈💡\n「益航」、「康舒」漲停\n「能率」漲停打開，差0.1鎖漲停\n「華邦電」、「健策」漲停打開\n\n「益航」今天產業類別從百貨換到航運，外資及主力多日買超，今天鎖漲停，先說別追喔！\n\n出\n「康舒」我從37.5買上來，均價39.9，今天漲停出掉了，前高65.9，不想挑戰了，直接65.8出，獲利率+65.44%也不錯啦👍\n「群聯」1925+1985-》2755都出了，觀察了幾回2750會有壓力，想說先高出，之後再低接回。\n「緯穎」4970-〉5650。\n\n買\n「旺矽」572",
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「華邦電」、「健策」漲停打開"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "3653",
+        "name": "健策",
+        "market": "TWSE",
+        "price": 3545.0,
+        "change": 45.0,
+        "priceDate": "1150529",
+        "peRatio": 98.06,
+        "dividendYield": 0.62,
+        "pbRatio": 24.56,
+        "valuationDate": "1150529",
+        "eps": 9.53,
+        "epsPeriod": "1151",
+        "revenueYoY": 26.91849568169949,
+        "revenue": 2311149.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 41.78,
+        "netIncome": 1404530.0,
+        "debtRatio": 29.4,
+        "equity": 21397357.0,
+        "roe": 6.56
       }
     },
     {
@@ -573,42 +914,42 @@
       }
     },
     {
-      "code": "8299",
-      "name": "群聯",
+      "code": "2729",
+      "name": "瓦城",
       "market": "TPEx",
       "count": 1,
       "actions": {},
       "posts": [
         {
-          "pk": "3907720700581710202",
-          "url": "https://www.threads.com/@evachien.chien/post/DY7A0XvnQl6",
-          "taken_at": "2026-05-29T12:10:30+00:00",
-          "text": "股東會紀念品part.4\n前一篇請參考115/05/13的po文\n其實這是我第一次這麼認真換\n去年就全通有 才換一下\n以前從來沒換過😆\n我真的是認真魔人，下定決心，就要做好做滿🫶\n\n群聯：全家禮物卡100元（質感）\n能率：稻循皂\n佳能：稻循皂\n昆盈：頭戴式耳機\n國票金：高級法蘭絨毯\n凱基金：彩繪花鳥筷（6雙）組\n益航：妙管家雪花點點杯（藍雲朵）🤡益航送的還不錯，我目前賠24000元，我打算再領200年紀念品，就回本了。\n凌陽：7-11 50元\n瀚宇彩晶：7-11 50元\n東台",
+          "pk": "3909764252781639759",
+          "url": "https://www.threads.com/@evachien.chien/post/DZCRd-CkfhP",
+          "taken_at": "2026-06-01T07:50:40+00:00",
+          "text": "今天亮兩顆燈💡\n「益航」、「康舒」漲停\n「能率」漲停打開，差0.1鎖漲停\n「華邦電」、「健策」漲停打開\n\n「益航」今天產業類別從百貨換到航運，外資及主力多日買超，今天鎖漲停，先說別追喔！\n\n出\n「康舒」我從37.5買上來，均價39.9，今天漲停出掉了，前高65.9，不想挑戰了，直接65.8出，獲利率+65.44%也不錯啦👍\n「群聯」1925+1985-》2755都出了，觀察了幾回2750會有壓力，想說先高出，之後再低接回。\n「緯穎」4970-〉5650。\n\n買\n「旺矽」572",
           "actions": [],
           "contexts": [
-            "群聯：全家禮物卡100元（質感）"
+            "中午吃瓦城"
           ]
         }
       ],
       "fundamentals": {
-        "code": "8299",
-        "name": "群聯",
+        "code": "2729",
+        "name": "瓦城",
         "market": "TPEx",
-        "price": 2575.0,
-        "change": 125.0,
-        "priceDate": "1150529",
+        "price": 158.0,
+        "change": -1.0,
+        "priceDate": "1150601",
         "peRatio": null,
-        "dividendYield": 0.9,
+        "dividendYield": 4.28,
         "pbRatio": null,
         "eps": null,
-        "revenueYoY": 236.6326033058058,
-        "revenue": 20207493.0,
+        "revenueYoY": 13.675946438410344,
+        "revenue": 497222.0,
         "revenuePeriod": "11504",
-        "grossMargin": 61.82,
-        "netIncome": 15174981.0,
-        "debtRatio": 47.45,
-        "equity": 74130077.0,
-        "roe": 20.47
+        "grossMargin": 49.44,
+        "netIncome": 69150.0,
+        "debtRatio": 59.26,
+        "equity": 2541206.0,
+        "roe": 2.72
       }
     },
     {
@@ -634,8 +975,8 @@
         "name": "全家",
         "market": "TPEx",
         "price": 187.0,
-        "change": 0.5,
-        "priceDate": "1150529",
+        "change": 0.0,
+        "priceDate": "1150601",
         "peRatio": null,
         "dividendYield": 3.48,
         "pbRatio": null,
@@ -765,47 +1106,6 @@
         "revenuePeriod": "11504",
         "debtRatio": 91.24,
         "equity": 371011549.0
-      }
-    },
-    {
-      "code": "2601",
-      "name": "益航",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {},
-      "posts": [
-        {
-          "pk": "3907720700581710202",
-          "url": "https://www.threads.com/@evachien.chien/post/DY7A0XvnQl6",
-          "taken_at": "2026-05-29T12:10:30+00:00",
-          "text": "股東會紀念品part.4\n前一篇請參考115/05/13的po文\n其實這是我第一次這麼認真換\n去年就全通有 才換一下\n以前從來沒換過😆\n我真的是認真魔人，下定決心，就要做好做滿🫶\n\n群聯：全家禮物卡100元（質感）\n能率：稻循皂\n佳能：稻循皂\n昆盈：頭戴式耳機\n國票金：高級法蘭絨毯\n凱基金：彩繪花鳥筷（6雙）組\n益航：妙管家雪花點點杯（藍雲朵）🤡益航送的還不錯，我目前賠24000元，我打算再領200年紀念品，就回本了。\n凌陽：7-11 50元\n瀚宇彩晶：7-11 50元\n東台",
-          "actions": [],
-          "contexts": [
-            "益航：妙管家雪花點點杯（藍雲朵）🤡益航送的還不錯，我目前賠24000元，我打算再領200年紀念品，就回本了。"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "2601",
-        "name": "益航",
-        "market": "TWSE",
-        "price": 5.24,
-        "change": 0.18,
-        "priceDate": "1150529",
-        "peRatio": null,
-        "dividendYield": null,
-        "pbRatio": 0.57,
-        "valuationDate": "1150529",
-        "eps": -0.02,
-        "epsPeriod": "1151",
-        "revenueYoY": -64.59982536162781,
-        "revenue": 123245.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 26.95,
-        "netIncome": 11196.0,
-        "debtRatio": 34.1,
-        "equity": 7625957.0,
-        "roe": 0.15
       }
     },
     {
@@ -994,9 +1294,9 @@
         "code": "3680",
         "name": "家登",
         "market": "TPEx",
-        "price": 540.0,
-        "change": 5.0,
-        "priceDate": "1150529",
+        "price": 536.0,
+        "change": -4.0,
+        "priceDate": "1150601",
         "peRatio": null,
         "dividendYield": 1.28,
         "pbRatio": null,
@@ -1009,45 +1309,6 @@
         "debtRatio": 50.59,
         "equity": 12860802.0,
         "roe": 2.16
-      }
-    },
-    {
-      "code": "6223",
-      "name": "旺矽",
-      "market": "TPEx",
-      "count": 1,
-      "actions": {},
-      "posts": [
-        {
-          "pk": "3906903445571968444",
-          "url": "https://www.threads.com/@evachien.chien/post/DY4G_vtER28",
-          "taken_at": "2026-05-28T09:06:45+00:00",
-          "text": "今天亮兩顆燈🤡\n「高力」、「創意」跌停\n盤中美伊又開始戰爭，唉！有完沒完⋯加上富台結算，大盤開高走低，真的很震盪！\n\n買\n「家登」542\n「創意」4665\n「緯穎」4970\n「旺矽」5965\n\n還好「沛亨」、「創新服務」閃過處置👍\n今天好熱 懶得說話了\n我在等按摩 處理我的網球肘\n好痛好痛",
-          "actions": [],
-          "contexts": [
-            "「旺矽」5965"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "6223",
-        "name": "旺矽",
-        "market": "TPEx",
-        "price": 5960.0,
-        "change": 45.0,
-        "priceDate": "1150529",
-        "peRatio": null,
-        "dividendYield": 0.37,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 52.59594490792657,
-        "revenue": 1485961.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 59.45,
-        "netIncome": 1227478.0,
-        "debtRatio": 38.73,
-        "equity": 15755634.0,
-        "roe": 7.79
       }
     },
     {
@@ -1072,9 +1333,9 @@
         "code": "6291",
         "name": "沛亨",
         "market": "TPEx",
-        "price": 679.0,
-        "change": 25.0,
-        "priceDate": "1150529",
+        "price": 648.0,
+        "change": -31.0,
+        "priceDate": "1150601",
         "peRatio": null,
         "dividendYield": 0.88,
         "pbRatio": null,
@@ -1111,9 +1372,9 @@
         "code": "7828",
         "name": "創新服務",
         "market": "TPEx",
-        "price": 1410.0,
-        "change": 10.0,
-        "priceDate": "1150529",
+        "price": 1450.0,
+        "change": 40.0,
+        "priceDate": "1150601",
         "peRatio": null,
         "dividendYield": 0.32,
         "pbRatio": null,
@@ -1132,6 +1393,158 @@
   "posts": [
     {
       "index": 0,
+      "pk": "3909764252781639759",
+      "url": "https://www.threads.com/@evachien.chien/post/DZCRd-CkfhP",
+      "taken_at": "2026-06-01T07:50:40+00:00",
+      "text": "今天亮兩顆燈💡\n「益航」、「康舒」漲停\n「能率」漲停打開，差0.1鎖漲停\n「華邦電」、「健策」漲停打開\n\n「益航」今天產業類別從百貨換到航運，外資及主力多日買超，今天鎖漲停，先說別追喔！\n\n出\n「康舒」我從37.5買上來，均價39.9，今天漲停出掉了，前高65.9，不想挑戰了，直接65.8出，獲利率+65.44%也不錯啦👍\n「群聯」1925+1985-》2755都出了，觀察了幾回2750會有壓力，想說先高出，之後再低接回。\n「緯穎」4970-〉5650。\n\n買\n「旺矽」5720，已入MSCI，股價還在這邊客氣🤔\n\n中午吃瓦城\n吃了三碗飯，謝謝股市，讓我吃飽喝飽好滿足，太讚了👍\n明天就是COMPUTEX 2026展，我有偷跑去看展前佈置，真的很期待😊",
+      "like_count": 32,
+      "reply_count": 16,
+      "mentions": [
+        {
+          "code": "2601",
+          "name": "益航",
+          "market": "TWSE",
+          "aliases": [
+            "益航"
+          ],
+          "actions": [
+            "buy",
+            "limitUp"
+          ],
+          "contexts": [
+            "「益航」、「康舒」漲停",
+            "「益航」今天產業類別從百貨換到航運，外資及主力多日買超，今天鎖漲停，先說別追喔！"
+          ]
+        },
+        {
+          "code": "6282",
+          "name": "康舒",
+          "market": "TWSE",
+          "aliases": [
+            "康舒"
+          ],
+          "actions": [
+            "buy",
+            "sell",
+            "limitUp"
+          ],
+          "contexts": [
+            "「益航」、「康舒」漲停",
+            "「康舒」我從37.5買上來，均價39.9，今天漲停出掉了，前高65.9，不想挑戰了，直接65.8出，獲利率+65.44%也不錯啦👍"
+          ]
+        },
+        {
+          "code": "5392",
+          "name": "能率",
+          "market": "TPEx",
+          "aliases": [
+            "能率"
+          ],
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「能率」漲停打開，差0.1鎖漲停"
+          ]
+        },
+        {
+          "code": "2344",
+          "name": "華邦電",
+          "market": "TWSE",
+          "aliases": [
+            "華邦電"
+          ],
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「華邦電」、「健策」漲停打開"
+          ]
+        },
+        {
+          "code": "3653",
+          "name": "健策",
+          "market": "TWSE",
+          "aliases": [
+            "健策"
+          ],
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「華邦電」、「健策」漲停打開"
+          ]
+        },
+        {
+          "code": "8299",
+          "name": "群聯",
+          "market": "TPEx",
+          "aliases": [
+            "群聯"
+          ],
+          "actions": [
+            "buy",
+            "watch"
+          ],
+          "contexts": [
+            "「群聯」1925+1985-》2755都出了，觀察了幾回2750會有壓力，想說先高出，之後再低接回。"
+          ]
+        },
+        {
+          "code": "2755",
+          "name": "揚秦",
+          "market": "TPEx",
+          "aliases": [
+            "2755"
+          ],
+          "actions": [
+            "buy",
+            "watch"
+          ],
+          "contexts": [
+            "「群聯」1925+1985-》2755都出了，觀察了幾回2750會有壓力，想說先高出，之後再低接回。"
+          ]
+        },
+        {
+          "code": "6669",
+          "name": "緯穎",
+          "market": "TWSE",
+          "aliases": [
+            "緯穎"
+          ],
+          "actions": [],
+          "contexts": [
+            "「緯穎」4970-〉5650。"
+          ]
+        },
+        {
+          "code": "6223",
+          "name": "旺矽",
+          "market": "TPEx",
+          "aliases": [
+            "旺矽"
+          ],
+          "actions": [],
+          "contexts": [
+            "「旺矽」5720，已入MSCI，股價還在這邊客氣🤔"
+          ]
+        },
+        {
+          "code": "2729",
+          "name": "瓦城",
+          "market": "TPEx",
+          "aliases": [
+            "瓦城"
+          ],
+          "actions": [],
+          "contexts": [
+            "中午吃瓦城"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
       "pk": "3907720700581710202",
       "url": "https://www.threads.com/@evachien.chien/post/DY7A0XvnQl6",
       "taken_at": "2026-05-29T12:10:30+00:00",
@@ -1274,12 +1687,12 @@
       ]
     },
     {
-      "index": 1,
+      "index": 2,
       "pk": "3907562987368596137",
       "url": "https://www.threads.com/@evachien.chien/post/DY6c9V3kcKp",
       "taken_at": "2026-05-29T06:57:09+00:00",
       "text": "今天亮四顆燈💡\n「能率」、「華邦電」、「華通」、「緯穎」漲停\n「大亞」漲停打開\n\n「能率」是我去年買的，當時賺一波，因為整個企業努力經營機器人，加上我很喜歡「佳能」，所以把媽媽也買回來，我也是被套很久，不建議大家追😆\n\n「創意」改設計被降評，但我看大摩昨天有接，大概又要玩渣男遊戲。開盤果然被賣下來，原本想跌停接，就急拉上去，我看8zz可能轉型了，「緯穎」她買也漲停耶！哈哈哈🤣\n\n「神達」今天開紅K，我妹前兩天很焦慮神達被賣下來，我跟她說投信一直買，要有耐心，像我「華邦電」之前從136.5被賣到剩85，我的心態還在🫣（其實慌死了，但要表現大姐的形象）\n\n我的可成學姊這個月賺很多\n她說她賺的程度是賓利，我的程度就是法拉利🤡，其實我比較喜歡Lamborghini  Revuelto，哈哈哈！我都慢慢打底，捨不得賣，逢低加碼，沒有賺到盆滿缽滿，大家誤會了！\n\n5月要結束\n接下來迎接6月\n希望一直穩紮穩打下去\n❤️祝福各位❤️",
-      "like_count": 50,
+      "like_count": 52,
       "reply_count": 34,
       "mentions": [
         {
@@ -1417,7 +1830,7 @@
       ]
     },
     {
-      "index": 2,
+      "index": 3,
       "pk": "3906903445571968444",
       "url": "https://www.threads.com/@evachien.chien/post/DY4G_vtER28",
       "taken_at": "2026-05-28T09:06:45+00:00",
@@ -1515,16 +1928,6 @@
           ]
         }
       ]
-    },
-    {
-      "index": 3,
-      "pk": "3906636819361562474",
-      "url": "https://www.threads.com/@evachien.chien/post/DY3KX0sgf9q",
-      "taken_at": "2026-05-28T00:17:01+00:00",
-      "text": "完蛋了 求救🆘\n我5月初登入看一下報稅\n一切很合理正常\n剛剛\n登入要報稅時\n發現它說「我有自用住宅借款利息資料」叫我點選不同意估算表\n但問題來了\n那間房子 我是出租，有確實申報租屋所得，但沒有列入自用住宅，我用營登，這樣還要用這項嗎？\n直接點選同意估算表也可以吧？！",
-      "like_count": 13,
-      "reply_count": 13,
-      "mentions": []
     }
   ]
 }
