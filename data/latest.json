@@ -1,57 +1,43 @@
 {
-  "generatedAt": "2026-06-05T17:53:32.995368+00:00",
+  "generatedAt": "2026-06-05T21:25:07.892977+00:00",
   "account": {
     "user_id": "73957398954",
     "username": "evachien.chien",
     "full_name": "Olivia Chien",
     "biography": "正職洗腰子護理師\n目前努力學習股票操盤\n希望可以早日財富自由（如果有私訊邀約入群，那都是騙人的喔！我才沒有空搞那個😆）\n也努力健身運動\n希望擁有健康的身體以及好身材\n有人說過我像趙敏\n也期許自己跟趙敏一樣聰慧果敢堅毅，當然美麗是一定要的 嘿👍",
-    "follower_count": 3725,
+    "follower_count": 3731,
     "following_count": null,
     "is_verified": 0,
-    "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gFbqiMKC0kd8LVpUN3u1Pgz2V5ssgiEQ9jtXeKdVMmRQpWiGImR5XUOZbvXFgarTyk&_nc_ohc=3sE_HedFEWYQ7kNvwEfE1yU&_nc_gid=n0eficHUbVw1Rsih8GEeDA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-l25HeNeHh82a0PqRMm3W7GdAjtCOGtECu6rjkUfTxwA&oe=6A28E0FB&_nc_sid=10d13b",
-    "last_fetched_at": 1780681987
+    "profile_pic_url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gFdUEvWiilLRpKPJ3_vDS_SjLhNbdj8-qZ9wQBKcIN2ZHIKlUU-bKEj79wnOfJtSOc&_nc_ohc=3sE_HedFEWYQ7kNvwEQHnim&_nc_gid=btueHb42mVPW6yJCCcFYMA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-tou7ppGgJw8KymyM--SLB4jtq-5JN5XLqM_MAjFUxvQ&oe=6A29193B&_nc_sid=10d13b",
+    "last_fetched_at": 1780694685
   },
   "summary": {
     "totalPosts": 4,
-    "postsWithStocks": 4,
-    "uniqueStocks": 8,
+    "postsWithStocks": 3,
+    "uniqueStocks": 7,
     "topStocks": [
       {
         "code": "2344",
         "name": "華邦電",
-        "count": 3,
+        "count": 2,
         "actions": {
           "buy": 1,
-          "limitDown": 1,
-          "limitUp": 1
+          "limitDown": 1
         }
       },
       {
         "code": "3665",
         "name": "貿聯-KY",
-        "count": 3,
+        "count": 2,
         "actions": {
-          "buy": 2,
-          "sell": 1
+          "buy": 1
         }
       },
       {
         "code": "3443",
         "name": "創意",
-        "count": 3,
-        "actions": {
-          "buy": 1,
-          "sell": 1
-        }
-      },
-      {
-        "code": "3081",
-        "name": "聯亞",
         "count": 2,
-        "actions": {
-          "buy": 1,
-          "limitUp": 1
-        }
+        "actions": {}
       },
       {
         "code": "3037",
@@ -72,12 +58,12 @@
         }
       },
       {
-        "code": "3653",
-        "name": "健策",
+        "code": "3081",
+        "name": "聯亞",
         "count": 1,
         "actions": {
           "buy": 1,
-          "sell": 1
+          "limitUp": 1
         }
       },
       {
@@ -90,11 +76,10 @@
       }
     ],
     "actionTotals": {
-      "buy": 9,
+      "buy": 6,
       "limitDown": 1,
-      "limitUp": 2,
-      "sell": 3,
-      "regret": 2
+      "regret": 2,
+      "limitUp": 1
     },
     "fundamentalsCoverage": 0
   },
@@ -103,11 +88,10 @@
       "code": "2344",
       "name": "華邦電",
       "market": "TWSE",
-      "count": 3,
+      "count": 2,
       "actions": {
         "buy": 1,
-        "limitDown": 1,
-        "limitUp": 1
+        "limitDown": 1
       },
       "posts": [
         {
@@ -134,18 +118,6 @@
           "contexts": [
             "「華邦電」的主力控股控得很好，閃過處置，記一下嘉獎👍"
           ]
-        },
-        {
-          "pk": "3910526079132083031",
-          "url": "https://www.threads.com/@evachien.chien/post/DZE-sAHkaNX",
-          "taken_at": "2026-06-02T09:04:17+00:00",
-          "text": "今天亮兩顆燈💡\n「益航」、「華邦電」漲停\n我的「益航」要變妖股了嗎？拜託連拉25根漲停，我承受得了🙏再繼續叮嚀，不要追喔！\n\n我有一個南亞科學妹，沒有在版上介紹過她，她第一次買股就買0050定期定額。在記憶體不被看好的時候，買了南亞科200元，之後慢慢爬起來，我常常賴她跟她說產業面，要繼續抱，我好擔心她少賺。就在今天她掛415賣出了，我還跟同事說，她賣掉可能就漲停，接著傳來她哀嚎，「我賣飛了～」妹妹，妳很棒，這勝率很高，這波段就賺了215000元，比當年股票小白的我還強100",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「益航」、「華邦電」漲停"
-          ]
         }
       ],
       "fundamentals": null
@@ -154,10 +126,9 @@
       "code": "3665",
       "name": "貿聯-KY",
       "market": "TWSE",
-      "count": 3,
+      "count": 2,
       "actions": {
-        "buy": 2,
-        "sell": 1
+        "buy": 1
       },
       "posts": [
         {
@@ -181,19 +152,6 @@
           "contexts": [
             "5股學妹，今天出「貿聯」5股2160-》2350，賺了934元，下面買的5股2120元的還留倉。"
           ]
-        },
-        {
-          "pk": "3910526079132083031",
-          "url": "https://www.threads.com/@evachien.chien/post/DZE-sAHkaNX",
-          "taken_at": "2026-06-02T09:04:17+00:00",
-          "text": "今天亮兩顆燈💡\n「益航」、「華邦電」漲停\n我的「益航」要變妖股了嗎？拜託連拉25根漲停，我承受得了🙏再繼續叮嚀，不要追喔！\n\n我有一個南亞科學妹，沒有在版上介紹過她，她第一次買股就買0050定期定額。在記憶體不被看好的時候，買了南亞科200元，之後慢慢爬起來，我常常賴她跟她說產業面，要繼續抱，我好擔心她少賺。就在今天她掛415賣出了，我還跟同事說，她賣掉可能就漲停，接著傳來她哀嚎，「我賣飛了～」妹妹，妳很棒，這勝率很高，這波段就賺了215000元，比當年股票小白的我還強100",
-          "actions": [
-            "buy",
-            "sell"
-          ],
-          "contexts": [
-            "她買了「健策」3753、「創意」4666，各5股🤔，我聽到時是有點驚訝，但總是要學會自己判斷個股，以及進出場點位，之前的「貿聯」10股還在，還沒賣出！"
-          ]
         }
       ],
       "fundamentals": null
@@ -202,11 +160,8 @@
       "code": "3443",
       "name": "創意",
       "market": "TWSE",
-      "count": 3,
-      "actions": {
-        "buy": 1,
-        "sell": 1
-      },
+      "count": 2,
+      "actions": {},
       "posts": [
         {
           "pk": "3912732348869885001",
@@ -226,57 +181,6 @@
           "actions": [],
           "contexts": [
             "「創意」4435，支撐大概在4400，三角收斂準備出方向。"
-          ]
-        },
-        {
-          "pk": "3910526079132083031",
-          "url": "https://www.threads.com/@evachien.chien/post/DZE-sAHkaNX",
-          "taken_at": "2026-06-02T09:04:17+00:00",
-          "text": "今天亮兩顆燈💡\n「益航」、「華邦電」漲停\n我的「益航」要變妖股了嗎？拜託連拉25根漲停，我承受得了🙏再繼續叮嚀，不要追喔！\n\n我有一個南亞科學妹，沒有在版上介紹過她，她第一次買股就買0050定期定額。在記憶體不被看好的時候，買了南亞科200元，之後慢慢爬起來，我常常賴她跟她說產業面，要繼續抱，我好擔心她少賺。就在今天她掛415賣出了，我還跟同事說，她賣掉可能就漲停，接著傳來她哀嚎，「我賣飛了～」妹妹，妳很棒，這勝率很高，這波段就賺了215000元，比當年股票小白的我還強100",
-          "actions": [
-            "buy",
-            "sell"
-          ],
-          "contexts": [
-            "她買了「健策」3753、「創意」4666，各5股🤔，我聽到時是有點驚訝，但總是要學會自己判斷個股，以及進出場點位，之前的「貿聯」10股還在，還沒賣出！",
-            "「創意」4500"
-          ]
-        }
-      ],
-      "fundamentals": null
-    },
-    {
-      "code": "3081",
-      "name": "聯亞",
-      "market": "TPEx",
-      "count": 2,
-      "actions": {
-        "buy": 1,
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3911150752421370175",
-          "url": "https://www.threads.com/@evachien.chien/post/DZHMuMdE9k_",
-          "taken_at": "2026-06-03T05:45:24+00:00",
-          "text": "今天亮三顆燈💡\n「大亞」、「華城」、「聯亞」漲停\n「高力」漲停打開\n我黃爸爸提及「人類勞力需要米飯，AI 勞力需要電力」，今天電力股連番漲停👍我華城真的憋屈了好久，曾經也是千金股的說！\n\n再來恭喜「神達」終於回到百元，喜極而泣，真開心餒，希望明天一樣有漲勢📈\n「遠傳」這是我的存錢股，今天也站上100元了，好棒喔！\n「創新服務」真的猛，直接拉一根，還收下影線，希望明天挑戰前高，加油加油👏\n\n出\n「華城」790+900-》935（漲停），下面買的743留倉。\n「聯亞」2550+2",
-          "actions": [
-            "buy",
-            "limitUp"
-          ],
-          "contexts": [
-            "「大亞」、「華城」、「聯亞」漲停",
-            "「聯亞」2550+2745-〉2830，2570買的還留倉。"
-          ]
-        },
-        {
-          "pk": "3910526079132083031",
-          "url": "https://www.threads.com/@evachien.chien/post/DZE-sAHkaNX",
-          "taken_at": "2026-06-02T09:04:17+00:00",
-          "text": "今天亮兩顆燈💡\n「益航」、「華邦電」漲停\n我的「益航」要變妖股了嗎？拜託連拉25根漲停，我承受得了🙏再繼續叮嚀，不要追喔！\n\n我有一個南亞科學妹，沒有在版上介紹過她，她第一次買股就買0050定期定額。在記憶體不被看好的時候，買了南亞科200元，之後慢慢爬起來，我常常賴她跟她說產業面，要繼續抱，我好擔心她少賺。就在今天她掛415賣出了，我還跟同事說，她賣掉可能就漲停，接著傳來她哀嚎，「我賣飛了～」妹妹，妳很棒，這勝率很高，這波段就賺了215000元，比當年股票小白的我還強100",
-          "actions": [],
-          "contexts": [
-            "「聯亞」2570"
           ]
         }
       ],
@@ -335,26 +239,27 @@
       "fundamentals": null
     },
     {
-      "code": "3653",
-      "name": "健策",
-      "market": "TWSE",
+      "code": "3081",
+      "name": "聯亞",
+      "market": "TPEx",
       "count": 1,
       "actions": {
         "buy": 1,
-        "sell": 1
+        "limitUp": 1
       },
       "posts": [
         {
-          "pk": "3910526079132083031",
-          "url": "https://www.threads.com/@evachien.chien/post/DZE-sAHkaNX",
-          "taken_at": "2026-06-02T09:04:17+00:00",
-          "text": "今天亮兩顆燈💡\n「益航」、「華邦電」漲停\n我的「益航」要變妖股了嗎？拜託連拉25根漲停，我承受得了🙏再繼續叮嚀，不要追喔！\n\n我有一個南亞科學妹，沒有在版上介紹過她，她第一次買股就買0050定期定額。在記憶體不被看好的時候，買了南亞科200元，之後慢慢爬起來，我常常賴她跟她說產業面，要繼續抱，我好擔心她少賺。就在今天她掛415賣出了，我還跟同事說，她賣掉可能就漲停，接著傳來她哀嚎，「我賣飛了～」妹妹，妳很棒，這勝率很高，這波段就賺了215000元，比當年股票小白的我還強100",
+          "pk": "3911150752421370175",
+          "url": "https://www.threads.com/@evachien.chien/post/DZHMuMdE9k_",
+          "taken_at": "2026-06-03T05:45:24+00:00",
+          "text": "今天亮三顆燈💡\n「大亞」、「華城」、「聯亞」漲停\n「高力」漲停打開\n我黃爸爸提及「人類勞力需要米飯，AI 勞力需要電力」，今天電力股連番漲停👍我華城真的憋屈了好久，曾經也是千金股的說！\n\n再來恭喜「神達」終於回到百元，喜極而泣，真開心餒，希望明天一樣有漲勢📈\n「遠傳」這是我的存錢股，今天也站上100元了，好棒喔！\n「創新服務」真的猛，直接拉一根，還收下影線，希望明天挑戰前高，加油加油👏\n\n出\n「華城」790+900-》935（漲停），下面買的743留倉。\n「聯亞」2550+2",
           "actions": [
             "buy",
-            "sell"
+            "limitUp"
           ],
           "contexts": [
-            "她買了「健策」3753、「創意」4666，各5股🤔，我聽到時是有點驚訝，但總是要學會自己判斷個股，以及進出場點位，之前的「貿聯」10股還在，還沒賣出！"
+            "「大亞」、「華城」、「聯亞」漲停",
+            "「聯亞」2550+2745-〉2830，2570買的還留倉。"
           ]
         }
       ],
@@ -388,12 +293,22 @@
   "posts": [
     {
       "index": 0,
+      "pk": "3913005882811705880",
+      "url": "https://www.threads.com/@evachien.chien/post/DZNyh5RAWoY",
+      "taken_at": "2026-06-05T19:11:13+00:00",
+      "text": "非農數據高於預期\n聯儲局12月加息的概率從48%-》63%\n美元走強 金價跳水\n比特幣跌破60000 \n台指夜盤目前跌1800多點\n上演月線保衛戰\n看來我週一 又有得買了\n是說現在看到 我還睡得著嗎？😆",
+      "like_count": 30,
+      "reply_count": 14,
+      "mentions": []
+    },
+    {
+      "index": 1,
       "pk": "3912732348869885001",
       "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
       "taken_at": "2026-06-05T10:07:45+00:00",
       "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就把握喝水偷看手機的時間，看到大盤回穩，我就趕快手速下單！\n剛剛在練小楷，突然想到還沒發佈股票文，就趁機寫了幾個字，哈哈哈🤣\n\n更新-》5股學妹，今天也買了「華邦電」164元70股。其他股票續留倉！",
-      "like_count": 92,
-      "reply_count": 34,
+      "like_count": 99,
+      "reply_count": 37,
       "mentions": [
         {
           "code": "2344",
@@ -469,7 +384,7 @@
       ]
     },
     {
-      "index": 1,
+      "index": 2,
       "pk": "3911894998824594943",
       "url": "https://www.threads.com/@evachien.chien/post/DZJ18Z7kS3_",
       "taken_at": "2026-06-04T06:24:05+00:00",
@@ -518,7 +433,7 @@
       ]
     },
     {
-      "index": 2,
+      "index": 3,
       "pk": "3911150752421370175",
       "url": "https://www.threads.com/@evachien.chien/post/DZHMuMdE9k_",
       "taken_at": "2026-06-03T05:45:24+00:00",
@@ -554,89 +469,6 @@
           ],
           "contexts": [
             "5股學妹，今天出「貿聯」5股2160-》2350，賺了934元，下面買的5股2120元的還留倉。"
-          ]
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "pk": "3910526079132083031",
-      "url": "https://www.threads.com/@evachien.chien/post/DZE-sAHkaNX",
-      "taken_at": "2026-06-02T09:04:17+00:00",
-      "text": "今天亮兩顆燈💡\n「益航」、「華邦電」漲停\n我的「益航」要變妖股了嗎？拜託連拉25根漲停，我承受得了🙏再繼續叮嚀，不要追喔！\n\n我有一個南亞科學妹，沒有在版上介紹過她，她第一次買股就買0050定期定額。在記憶體不被看好的時候，買了南亞科200元，之後慢慢爬起來，我常常賴她跟她說產業面，要繼續抱，我好擔心她少賺。就在今天她掛415賣出了，我還跟同事說，她賣掉可能就漲停，接著傳來她哀嚎，「我賣飛了～」妹妹，妳很棒，這勝率很高，這波段就賺了215000元，比當年股票小白的我還強100倍👍超級優秀👍\n\n再更新5股學妹\n她昨天偷偷賴我\n她買了「健策」3753、「創意」4666，各5股🤔，我聽到時是有點驚訝，但總是要學會自己判斷個股，以及進出場點位，之前的「貿聯」10股還在，還沒賣出！\n\n買\n「聯亞」2570\n「創意」4500\n申購合晶未中籤😭",
-      "like_count": 57,
-      "reply_count": 27,
-      "mentions": [
-        {
-          "code": "2344",
-          "name": "華邦電",
-          "market": "TWSE",
-          "aliases": [
-            "華邦電"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「益航」、「華邦電」漲停"
-          ]
-        },
-        {
-          "code": "3653",
-          "name": "健策",
-          "market": "TWSE",
-          "aliases": [
-            "健策"
-          ],
-          "actions": [
-            "buy",
-            "sell"
-          ],
-          "contexts": [
-            "她買了「健策」3753、「創意」4666，各5股🤔，我聽到時是有點驚訝，但總是要學會自己判斷個股，以及進出場點位，之前的「貿聯」10股還在，還沒賣出！"
-          ]
-        },
-        {
-          "code": "3443",
-          "name": "創意",
-          "market": "TWSE",
-          "aliases": [
-            "創意"
-          ],
-          "actions": [
-            "buy",
-            "sell"
-          ],
-          "contexts": [
-            "她買了「健策」3753、「創意」4666，各5股🤔，我聽到時是有點驚訝，但總是要學會自己判斷個股，以及進出場點位，之前的「貿聯」10股還在，還沒賣出！",
-            "「創意」4500"
-          ]
-        },
-        {
-          "code": "3665",
-          "name": "貿聯-KY",
-          "market": "TWSE",
-          "aliases": [
-            "貿聯"
-          ],
-          "actions": [
-            "buy",
-            "sell"
-          ],
-          "contexts": [
-            "她買了「健策」3753、「創意」4666，各5股🤔，我聽到時是有點驚訝，但總是要學會自己判斷個股，以及進出場點位，之前的「貿聯」10股還在，還沒賣出！"
-          ]
-        },
-        {
-          "code": "3081",
-          "name": "聯亞",
-          "market": "TPEx",
-          "aliases": [
-            "聯亞"
-          ],
-          "actions": [],
-          "contexts": [
-            "「聯亞」2570"
           ]
         }
       ]
