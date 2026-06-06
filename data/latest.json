@@ -1,31 +1,21 @@
 {
-  "generatedAt": "2026-06-06T10:03:56.363312+00:00",
+  "generatedAt": "2026-06-06T13:29:37.245517+00:00",
   "account": {
     "user_id": "73957398954",
     "username": "evachien.chien",
     "full_name": "Olivia Chien",
     "biography": "正職洗腰子護理師\n目前努力學習股票操盤\n希望可以早日財富自由（如果有私訊邀約入群，那都是騙人的喔！我才沒有空搞那個😆）\n也努力健身運動\n希望擁有健康的身體以及好身材\n有人說過我像趙敏\n也期許自己跟趙敏一樣聰慧果敢堅毅，當然美麗是一定要的 嘿👍",
-    "follower_count": 3742,
+    "follower_count": 3743,
     "following_count": null,
     "is_verified": 0,
-    "profile_pic_url": "https://scontent-sea5-1.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sea5-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gGEJfunplq6QL_zHHiUaCcA-YshmhONd7GEwCw2chy3IG-3KVSUYWdzb2hb7gwGz7U&_nc_ohc=3sE_HedFEWYQ7kNvwGqOZUn&_nc_gid=cCl91dDABAIzUvlgIG4kgw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_ZnHFxbDYHHhMpL0YGHQszustPbo8Tk4elxNOLVVu5MQ&oe=6A29C1FB&_nc_sid=10d13b",
-    "last_fetched_at": 1780740181
+    "profile_pic_url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gEGx3T3HKkbkOTQ5u4pGiQEtcn988uCChGhc2n1QXMtbyNNhZDLZ_wEag2J9Z9Dm9w&_nc_ohc=3sE_HedFEWYQ7kNvwHvBgu7&_nc_gid=YqC77LIO4fXDo6lC2BvOfA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9kbHN1k2YznjjZz_Ao4WGyYE451z0kRA6_X8P-0l8C2A&oe=6A29FA3B&_nc_sid=10d13b",
+    "last_fetched_at": 1780752536
   },
   "summary": {
     "totalPosts": 4,
-    "postsWithStocks": 3,
-    "uniqueStocks": 26,
+    "postsWithStocks": 2,
+    "uniqueStocks": 21,
     "topStocks": [
-      {
-        "code": "1519",
-        "name": "華城",
-        "count": 2,
-        "actions": {
-          "sell": 1,
-          "limitUp": 2,
-          "buy": 1
-        }
-      },
       {
         "code": "2344",
         "name": "華邦電",
@@ -45,22 +35,8 @@
         }
       },
       {
-        "code": "3665",
-        "name": "貿聯-KY",
-        "count": 2,
-        "actions": {
-          "buy": 1
-        }
-      },
-      {
         "code": "3443",
         "name": "創意",
-        "count": 2,
-        "actions": {}
-      },
-      {
-        "code": "4904",
-        "name": "遠傳",
         "count": 2,
         "actions": {}
       },
@@ -99,81 +75,45 @@
           "buy": 1,
           "regret": 1
         }
+      },
+      {
+        "code": "4749",
+        "name": "新應材",
+        "count": 1,
+        "actions": {
+          "buy": 1,
+          "regret": 1
+        }
+      },
+      {
+        "code": "1519",
+        "name": "華城",
+        "count": 1,
+        "actions": {
+          "sell": 1,
+          "limitUp": 1
+        }
+      },
+      {
+        "code": "1514",
+        "name": "亞力",
+        "count": 1,
+        "actions": {
+          "sell": 1,
+          "limitUp": 1
+        }
       }
     ],
     "actionTotals": {
-      "sell": 5,
-      "limitUp": 7,
-      "buy": 14,
+      "buy": 11,
       "limitDown": 2,
-      "regret": 5
+      "regret": 5,
+      "sell": 5,
+      "limitUp": 3
     },
-    "fundamentalsCoverage": 26
+    "fundamentalsCoverage": 21
   },
   "stocks": [
-    {
-      "code": "1519",
-      "name": "華城",
-      "market": "TWSE",
-      "count": 2,
-      "actions": {
-        "sell": 1,
-        "limitUp": 2,
-        "buy": 1
-      },
-      "posts": [
-        {
-          "pk": "3911894998824594943",
-          "url": "https://www.threads.com/@evachien.chien/post/DZJ18Z7kS3_",
-          "taken_at": "2026-06-04T06:24:05+00:00",
-          "text": "今天沒有亮燈 還好😆\n\n「華邦電」的主力控股控得很好，閃過處置，記一下嘉獎👍\n「穩懋」融資太高，洗融資，收盤487.5，主力在笑487嗎😅但5/21的缺口補了，是好消息！\n「旺矽」日K交叉向上，收下影線，精測5月營收成長，穎威外資連買兩天，終於開一根紅K出來，今天探針卡族群表現很好！\n「華城」果然被賣了，今天這根長上影線，希望可以平安，亞力都鎖漲停了，我賣掉的康舒也漲停了，君子有成人之美，前男友掰掰👋\n「能率」computex展快結束，我以為我的能率可能就這樣了，沒想到拉尾盤",
-          "actions": [
-            "sell",
-            "limitUp"
-          ],
-          "contexts": [
-            "「華城」果然被賣了，今天這根長上影線，希望可以平安，亞力都鎖漲停了，我賣掉的康舒也漲停了，君子有成人之美，前男友掰掰👋"
-          ]
-        },
-        {
-          "pk": "3911150752421370175",
-          "url": "https://www.threads.com/@evachien.chien/post/DZHMuMdE9k_",
-          "taken_at": "2026-06-03T05:45:24+00:00",
-          "text": "今天亮三顆燈💡\n「大亞」、「華城」、「聯亞」漲停\n「高力」漲停打開\n我黃爸爸提及「人類勞力需要米飯，AI 勞力需要電力」，今天電力股連番漲停👍我華城真的憋屈了好久，曾經也是千金股的說！\n\n再來恭喜「神達」終於回到百元，喜極而泣，真開心餒，希望明天一樣有漲勢📈\n「遠傳」這是我的存錢股，今天也站上100元了，好棒喔！\n「創新服務」真的猛，直接拉一根，還收下影線，希望明天挑戰前高，加油加油👏\n\n出\n「華城」790+900-》935（漲停），下面買的743留倉。\n「聯亞」2550+2",
-          "actions": [
-            "buy",
-            "limitUp"
-          ],
-          "contexts": [
-            "「大亞」、「華城」、「聯亞」漲停",
-            "我黃爸爸提及「人類勞力需要米飯，AI 勞力需要電力」，今天電力股連番漲停👍我華城真的憋屈了好久，曾經也是千金股的說！",
-            "「華城」790+900-》935（漲停），下面買的743留倉。"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "1519",
-        "name": "華城",
-        "market": "TWSE",
-        "price": 851.0,
-        "change": -59.0,
-        "priceDate": "1150605",
-        "peRatio": 58.49,
-        "dividendYield": 1.41,
-        "pbRatio": 32.63,
-        "valuationDate": "1150605",
-        "eps": 3.29,
-        "epsPeriod": "1151",
-        "revenueYoY": 6.384573975418948,
-        "revenue": 2248955.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 43.61,
-        "netIncome": 1015824.0,
-        "debtRatio": 71.74,
-        "equity": 8455968.0,
-        "roe": 12.01
-      }
-    },
     {
       "code": "2344",
       "name": "華邦電",
@@ -289,61 +229,6 @@
       }
     },
     {
-      "code": "3665",
-      "name": "貿聯-KY",
-      "market": "TWSE",
-      "count": 2,
-      "actions": {
-        "buy": 1
-      },
-      "posts": [
-        {
-          "pk": "3912732348869885001",
-          "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
-          "taken_at": "2026-06-05T10:07:45+00:00",
-          "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就",
-          "actions": [],
-          "contexts": [
-            "0050 新增「貿聯」、「創意」"
-          ]
-        },
-        {
-          "pk": "3911150752421370175",
-          "url": "https://www.threads.com/@evachien.chien/post/DZHMuMdE9k_",
-          "taken_at": "2026-06-03T05:45:24+00:00",
-          "text": "今天亮三顆燈💡\n「大亞」、「華城」、「聯亞」漲停\n「高力」漲停打開\n我黃爸爸提及「人類勞力需要米飯，AI 勞力需要電力」，今天電力股連番漲停👍我華城真的憋屈了好久，曾經也是千金股的說！\n\n再來恭喜「神達」終於回到百元，喜極而泣，真開心餒，希望明天一樣有漲勢📈\n「遠傳」這是我的存錢股，今天也站上100元了，好棒喔！\n「創新服務」真的猛，直接拉一根，還收下影線，希望明天挑戰前高，加油加油👏\n\n出\n「華城」790+900-》935（漲停），下面買的743留倉。\n「聯亞」2550+2",
-          "actions": [
-            "buy"
-          ],
-          "contexts": [
-            "5股學妹，今天出「貿聯」5股2160-》2350，賺了934元，下面買的5股2120元的還留倉。"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "3665",
-        "name": "貿聯-KY",
-        "market": "TWSE",
-        "price": 2200.0,
-        "change": 45.0,
-        "priceDate": "1150605",
-        "peRatio": 44.4,
-        "dividendYield": 0.68,
-        "pbRatio": 9.2,
-        "valuationDate": "1150605",
-        "eps": 11.66,
-        "epsPeriod": "1151",
-        "revenueYoY": 18.54291992756683,
-        "revenue": 7382955.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 28.77,
-        "netIncome": 2273476.0,
-        "debtRatio": 45.52,
-        "equity": 46636528.0,
-        "roe": 4.87
-      }
-    },
-    {
       "code": "3443",
       "name": "創意",
       "market": "TWSE",
@@ -392,57 +277,6 @@
         "debtRatio": 58.49,
         "equity": 14583873.0,
         "roe": 11.29
-      }
-    },
-    {
-      "code": "4904",
-      "name": "遠傳",
-      "market": "TWSE",
-      "count": 2,
-      "actions": {},
-      "posts": [
-        {
-          "pk": "3912732348869885001",
-          "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
-          "taken_at": "2026-06-05T10:07:45+00:00",
-          "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就",
-          "actions": [],
-          "contexts": [
-            "0056 新增 「遠傳」、「華邦電」"
-          ]
-        },
-        {
-          "pk": "3911150752421370175",
-          "url": "https://www.threads.com/@evachien.chien/post/DZHMuMdE9k_",
-          "taken_at": "2026-06-03T05:45:24+00:00",
-          "text": "今天亮三顆燈💡\n「大亞」、「華城」、「聯亞」漲停\n「高力」漲停打開\n我黃爸爸提及「人類勞力需要米飯，AI 勞力需要電力」，今天電力股連番漲停👍我華城真的憋屈了好久，曾經也是千金股的說！\n\n再來恭喜「神達」終於回到百元，喜極而泣，真開心餒，希望明天一樣有漲勢📈\n「遠傳」這是我的存錢股，今天也站上100元了，好棒喔！\n「創新服務」真的猛，直接拉一根，還收下影線，希望明天挑戰前高，加油加油👏\n\n出\n「華城」790+900-》935（漲停），下面買的743留倉。\n「聯亞」2550+2",
-          "actions": [],
-          "contexts": [
-            "「遠傳」這是我的存錢股，今天也站上100元了，好棒喔！"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "4904",
-        "name": "遠傳",
-        "market": "TWSE",
-        "price": 101.5,
-        "change": -0.5,
-        "priceDate": "1150605",
-        "peRatio": 25.76,
-        "dividendYield": 3.75,
-        "pbRatio": 3.82,
-        "valuationDate": "1150605",
-        "eps": 1.03,
-        "epsPeriod": "1151",
-        "revenueYoY": 11.339553442503867,
-        "revenue": 9539711.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 33.02,
-        "netIncome": 3774303.0,
-        "debtRatio": 45.96,
-        "equity": 100136544.0,
-        "roe": 3.77
       }
     },
     {
@@ -666,6 +500,53 @@
       }
     },
     {
+      "code": "1519",
+      "name": "華城",
+      "market": "TWSE",
+      "count": 1,
+      "actions": {
+        "sell": 1,
+        "limitUp": 1
+      },
+      "posts": [
+        {
+          "pk": "3911894998824594943",
+          "url": "https://www.threads.com/@evachien.chien/post/DZJ18Z7kS3_",
+          "taken_at": "2026-06-04T06:24:05+00:00",
+          "text": "今天沒有亮燈 還好😆\n\n「華邦電」的主力控股控得很好，閃過處置，記一下嘉獎👍\n「穩懋」融資太高，洗融資，收盤487.5，主力在笑487嗎😅但5/21的缺口補了，是好消息！\n「旺矽」日K交叉向上，收下影線，精測5月營收成長，穎威外資連買兩天，終於開一根紅K出來，今天探針卡族群表現很好！\n「華城」果然被賣了，今天這根長上影線，希望可以平安，亞力都鎖漲停了，我賣掉的康舒也漲停了，君子有成人之美，前男友掰掰👋\n「能率」computex展快結束，我以為我的能率可能就這樣了，沒想到拉尾盤",
+          "actions": [
+            "sell",
+            "limitUp"
+          ],
+          "contexts": [
+            "「華城」果然被賣了，今天這根長上影線，希望可以平安，亞力都鎖漲停了，我賣掉的康舒也漲停了，君子有成人之美，前男友掰掰👋"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "1519",
+        "name": "華城",
+        "market": "TWSE",
+        "price": 851.0,
+        "change": -59.0,
+        "priceDate": "1150605",
+        "peRatio": 58.49,
+        "dividendYield": 1.41,
+        "pbRatio": 32.63,
+        "valuationDate": "1150605",
+        "eps": 3.29,
+        "epsPeriod": "1151",
+        "revenueYoY": 6.384573975418948,
+        "revenue": 2248955.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 43.61,
+        "netIncome": 1015824.0,
+        "debtRatio": 71.74,
+        "equity": 8455968.0,
+        "roe": 12.01
+      }
+    },
+    {
       "code": "1514",
       "name": "亞力",
       "market": "TWSE",
@@ -804,52 +685,6 @@
         "debtRatio": 16.39,
         "equity": 12603071.0,
         "roe": 3.38
-      }
-    },
-    {
-      "code": "3081",
-      "name": "聯亞",
-      "market": "TPEx",
-      "count": 1,
-      "actions": {
-        "buy": 1,
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3911150752421370175",
-          "url": "https://www.threads.com/@evachien.chien/post/DZHMuMdE9k_",
-          "taken_at": "2026-06-03T05:45:24+00:00",
-          "text": "今天亮三顆燈💡\n「大亞」、「華城」、「聯亞」漲停\n「高力」漲停打開\n我黃爸爸提及「人類勞力需要米飯，AI 勞力需要電力」，今天電力股連番漲停👍我華城真的憋屈了好久，曾經也是千金股的說！\n\n再來恭喜「神達」終於回到百元，喜極而泣，真開心餒，希望明天一樣有漲勢📈\n「遠傳」這是我的存錢股，今天也站上100元了，好棒喔！\n「創新服務」真的猛，直接拉一根，還收下影線，希望明天挑戰前高，加油加油👏\n\n出\n「華城」790+900-》935（漲停），下面買的743留倉。\n「聯亞」2550+2",
-          "actions": [
-            "buy",
-            "limitUp"
-          ],
-          "contexts": [
-            "「大亞」、「華城」、「聯亞」漲停",
-            "「聯亞」2550+2745-〉2830，2570買的還留倉。"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "3081",
-        "name": "聯亞",
-        "market": "TPEx",
-        "price": 2655.0,
-        "change": 75.0,
-        "priceDate": "1150605",
-        "peRatio": null,
-        "dividendYield": 0.15,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 115.38448966249898,
-        "revenue": 395349.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 54.76,
-        "netIncome": 317515.0,
-        "debtRatio": 25.34,
-        "equity": 4239556.0,
-        "roe": 7.49
       }
     },
     {
@@ -1025,96 +860,6 @@
       }
     },
     {
-      "code": "1609",
-      "name": "大亞",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3911150752421370175",
-          "url": "https://www.threads.com/@evachien.chien/post/DZHMuMdE9k_",
-          "taken_at": "2026-06-03T05:45:24+00:00",
-          "text": "今天亮三顆燈💡\n「大亞」、「華城」、「聯亞」漲停\n「高力」漲停打開\n我黃爸爸提及「人類勞力需要米飯，AI 勞力需要電力」，今天電力股連番漲停👍我華城真的憋屈了好久，曾經也是千金股的說！\n\n再來恭喜「神達」終於回到百元，喜極而泣，真開心餒，希望明天一樣有漲勢📈\n「遠傳」這是我的存錢股，今天也站上100元了，好棒喔！\n「創新服務」真的猛，直接拉一根，還收下影線，希望明天挑戰前高，加油加油👏\n\n出\n「華城」790+900-》935（漲停），下面買的743留倉。\n「聯亞」2550+2",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「大亞」、「華城」、「聯亞」漲停"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "1609",
-        "name": "大亞",
-        "market": "TWSE",
-        "price": 39.1,
-        "change": -3.9,
-        "priceDate": "1150605",
-        "peRatio": 16.36,
-        "dividendYield": 1.79,
-        "pbRatio": 1.75,
-        "valuationDate": "1150605",
-        "eps": 0.66,
-        "epsPeriod": "1151",
-        "revenueYoY": 16.230366686888757,
-        "revenue": 3124829.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 18.85,
-        "netIncome": 603557.0,
-        "debtRatio": 68.56,
-        "equity": 20235998.0,
-        "roe": 2.98
-      }
-    },
-    {
-      "code": "8996",
-      "name": "高力",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3911150752421370175",
-          "url": "https://www.threads.com/@evachien.chien/post/DZHMuMdE9k_",
-          "taken_at": "2026-06-03T05:45:24+00:00",
-          "text": "今天亮三顆燈💡\n「大亞」、「華城」、「聯亞」漲停\n「高力」漲停打開\n我黃爸爸提及「人類勞力需要米飯，AI 勞力需要電力」，今天電力股連番漲停👍我華城真的憋屈了好久，曾經也是千金股的說！\n\n再來恭喜「神達」終於回到百元，喜極而泣，真開心餒，希望明天一樣有漲勢📈\n「遠傳」這是我的存錢股，今天也站上100元了，好棒喔！\n「創新服務」真的猛，直接拉一根，還收下影線，希望明天挑戰前高，加油加油👏\n\n出\n「華城」790+900-》935（漲停），下面買的743留倉。\n「聯亞」2550+2",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「高力」漲停打開"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "8996",
-        "name": "高力",
-        "market": "TWSE",
-        "price": 1125.0,
-        "change": 5.0,
-        "priceDate": "1150605",
-        "peRatio": 80.24,
-        "dividendYield": 0.41,
-        "pbRatio": 22.53,
-        "valuationDate": "1150605",
-        "eps": 6.54,
-        "epsPeriod": "1151",
-        "revenueYoY": 86.03066172304061,
-        "revenue": 948788.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 29.02,
-        "netIncome": 605668.0,
-        "debtRatio": 47.81,
-        "equity": 4645778.0,
-        "roe": 13.04
-      }
-    },
-    {
       "code": "0050",
       "name": "元大台灣50",
       "market": "TWSE",
@@ -1139,6 +884,47 @@
         "price": 104.15,
         "change": -1.95,
         "priceDate": "1150605"
+      }
+    },
+    {
+      "code": "3665",
+      "name": "貿聯-KY",
+      "market": "TWSE",
+      "count": 1,
+      "actions": {},
+      "posts": [
+        {
+          "pk": "3912732348869885001",
+          "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
+          "taken_at": "2026-06-05T10:07:45+00:00",
+          "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就",
+          "actions": [],
+          "contexts": [
+            "0050 新增「貿聯」、「創意」"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "3665",
+        "name": "貿聯-KY",
+        "market": "TWSE",
+        "price": 2200.0,
+        "change": 45.0,
+        "priceDate": "1150605",
+        "peRatio": 44.4,
+        "dividendYield": 0.68,
+        "pbRatio": 9.2,
+        "valuationDate": "1150605",
+        "eps": 11.66,
+        "epsPeriod": "1151",
+        "revenueYoY": 18.54291992756683,
+        "revenue": 7382955.0,
+        "revenuePeriod": "11504",
+        "grossMargin": 28.77,
+        "netIncome": 2273476.0,
+        "debtRatio": 45.52,
+        "equity": 46636528.0,
+        "roe": 4.87
       }
     },
     {
@@ -1225,99 +1011,70 @@
       }
     },
     {
-      "code": "3706",
-      "name": "神達",
+      "code": "4904",
+      "name": "遠傳",
       "market": "TWSE",
       "count": 1,
       "actions": {},
       "posts": [
         {
-          "pk": "3911150752421370175",
-          "url": "https://www.threads.com/@evachien.chien/post/DZHMuMdE9k_",
-          "taken_at": "2026-06-03T05:45:24+00:00",
-          "text": "今天亮三顆燈💡\n「大亞」、「華城」、「聯亞」漲停\n「高力」漲停打開\n我黃爸爸提及「人類勞力需要米飯，AI 勞力需要電力」，今天電力股連番漲停👍我華城真的憋屈了好久，曾經也是千金股的說！\n\n再來恭喜「神達」終於回到百元，喜極而泣，真開心餒，希望明天一樣有漲勢📈\n「遠傳」這是我的存錢股，今天也站上100元了，好棒喔！\n「創新服務」真的猛，直接拉一根，還收下影線，希望明天挑戰前高，加油加油👏\n\n出\n「華城」790+900-》935（漲停），下面買的743留倉。\n「聯亞」2550+2",
+          "pk": "3912732348869885001",
+          "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
+          "taken_at": "2026-06-05T10:07:45+00:00",
+          "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就",
           "actions": [],
           "contexts": [
-            "再來恭喜「神達」終於回到百元，喜極而泣，真開心餒，希望明天一樣有漲勢📈"
+            "0056 新增 「遠傳」、「華邦電」"
           ]
         }
       ],
       "fundamentals": {
-        "code": "3706",
-        "name": "神達",
+        "code": "4904",
+        "name": "遠傳",
         "market": "TWSE",
-        "price": 92.4,
-        "change": -1.5,
+        "price": 101.5,
+        "change": -0.5,
         "priceDate": "1150605",
-        "peRatio": 17.63,
-        "dividendYield": 4.33,
-        "pbRatio": 1.85,
+        "peRatio": 25.76,
+        "dividendYield": 3.75,
+        "pbRatio": 3.82,
         "valuationDate": "1150605",
-        "eps": 1.1,
+        "eps": 1.03,
         "epsPeriod": "1151",
-        "revenueYoY": 31.872465203349964,
-        "revenue": 11633086.0,
+        "revenueYoY": 11.339553442503867,
+        "revenue": 9539711.0,
         "revenuePeriod": "11504",
-        "grossMargin": 9.21,
-        "netIncome": 1536911.0,
-        "debtRatio": 50.24,
-        "equity": 67632734.0,
-        "roe": 2.27
-      }
-    },
-    {
-      "code": "7828",
-      "name": "創新服務",
-      "market": "TPEx",
-      "count": 1,
-      "actions": {},
-      "posts": [
-        {
-          "pk": "3911150752421370175",
-          "url": "https://www.threads.com/@evachien.chien/post/DZHMuMdE9k_",
-          "taken_at": "2026-06-03T05:45:24+00:00",
-          "text": "今天亮三顆燈💡\n「大亞」、「華城」、「聯亞」漲停\n「高力」漲停打開\n我黃爸爸提及「人類勞力需要米飯，AI 勞力需要電力」，今天電力股連番漲停👍我華城真的憋屈了好久，曾經也是千金股的說！\n\n再來恭喜「神達」終於回到百元，喜極而泣，真開心餒，希望明天一樣有漲勢📈\n「遠傳」這是我的存錢股，今天也站上100元了，好棒喔！\n「創新服務」真的猛，直接拉一根，還收下影線，希望明天挑戰前高，加油加油👏\n\n出\n「華城」790+900-》935（漲停），下面買的743留倉。\n「聯亞」2550+2",
-          "actions": [],
-          "contexts": [
-            "「創新服務」真的猛，直接拉一根，還收下影線，希望明天挑戰前高，加油加油👏"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "7828",
-        "name": "創新服務",
-        "market": "TPEx",
-        "price": 1565.0,
-        "change": -15.0,
-        "priceDate": "1150605",
-        "peRatio": null,
-        "dividendYield": 0.29,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 32086.881188118812,
-        "revenue": 130035.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 80.18,
-        "netIncome": 37306.0,
-        "debtRatio": 40.34,
-        "equity": 1058586.0,
-        "roe": 3.52
+        "grossMargin": 33.02,
+        "netIncome": 3774303.0,
+        "debtRatio": 45.96,
+        "equity": 100136544.0,
+        "roe": 3.77
       }
     }
   ],
   "posts": [
     {
       "index": 0,
-      "pk": "3913005882811705880",
-      "url": "https://www.threads.com/@evachien.chien/post/DZNyh5RAWoY",
-      "taken_at": "2026-06-05T19:11:13+00:00",
-      "text": "非農數據高於預期\n聯儲局12月加息的概率從48%-》63%\n美元走強 金價跳水\n比特幣跌破60000 \n台指夜盤目前跌1800多點\n上演月線保衛戰\n看來我週一 又有得買了\n是說現在看到 我還睡得著嗎？😆",
-      "like_count": 57,
-      "reply_count": 57,
+      "pk": "3913509387517141312",
+      "url": "https://www.threads.com/@evachien.chien/post/DZPlA2kHaFA",
+      "taken_at": "2026-06-06T11:51:35+00:00",
+      "text": "這是吃到飽自助餐廳\n燈光昏黃 有微醺放鬆感\n還有大人感的調酒🍸\n我喝了滿多杯無酒精調飲\n覺得 綠野尋縱 很好喝，光這個我喝了3杯 \n還有很多冷盤海鮮 松葉蟹腳好好吃\n中式料理也很推薦，特別是酸菜鵝腸、炒花枝、水蓮、蛤蜊⋯我都重複拿 \n鐵板干貝、大蝦，燒烤牡蠣也很推薦\n最後水果 甜點也很新鮮可口\n吃好飽 同事一直說：妳也太會吃\n沒辦法 下週一開始只剩剩食能吃，今天要多吃一點了😆",
+      "like_count": 22,
+      "reply_count": 9,
       "mentions": []
     },
     {
       "index": 1,
+      "pk": "3913005882811705880",
+      "url": "https://www.threads.com/@evachien.chien/post/DZNyh5RAWoY",
+      "taken_at": "2026-06-05T19:11:13+00:00",
+      "text": "非農數據高於預期\n聯儲局12月加息的概率從48%-》63%\n美元走強 金價跳水\n比特幣跌破60000 \n台指夜盤目前跌1800多點\n上演月線保衛戰\n看來我週一 又有得買了\n是說現在看到 我還睡得著嗎？😆",
+      "like_count": 58,
+      "reply_count": 59,
+      "mentions": []
+    },
+    {
+      "index": 2,
       "pk": "3912732348869885001",
       "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
       "taken_at": "2026-06-05T10:07:45+00:00",
@@ -1509,7 +1266,7 @@
       ]
     },
     {
-      "index": 2,
+      "index": 3,
       "pk": "3911894998824594943",
       "url": "https://www.threads.com/@evachien.chien/post/DZJ18Z7kS3_",
       "taken_at": "2026-06-04T06:24:05+00:00",
@@ -1667,128 +1424,6 @@
           ],
           "contexts": [
             "5股學妹也買了3股4430+4435😆"
-          ]
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "pk": "3911150752421370175",
-      "url": "https://www.threads.com/@evachien.chien/post/DZHMuMdE9k_",
-      "taken_at": "2026-06-03T05:45:24+00:00",
-      "text": "今天亮三顆燈💡\n「大亞」、「華城」、「聯亞」漲停\n「高力」漲停打開\n我黃爸爸提及「人類勞力需要米飯，AI 勞力需要電力」，今天電力股連番漲停👍我華城真的憋屈了好久，曾經也是千金股的說！\n\n再來恭喜「神達」終於回到百元，喜極而泣，真開心餒，希望明天一樣有漲勢📈\n「遠傳」這是我的存錢股，今天也站上100元了，好棒喔！\n「創新服務」真的猛，直接拉一根，還收下影線，希望明天挑戰前高，加油加油👏\n\n出\n「華城」790+900-》935（漲停），下面買的743留倉。\n「聯亞」2550+2745-〉2830，2570買的還留倉。\n\n5股學妹，今天出「貿聯」5股2160-》2350，賺了934元，下面買的5股2120元的還留倉。",
-      "like_count": 37,
-      "reply_count": 32,
-      "mentions": [
-        {
-          "code": "1609",
-          "name": "大亞",
-          "market": "TWSE",
-          "aliases": [
-            "大亞"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「大亞」、「華城」、「聯亞」漲停"
-          ]
-        },
-        {
-          "code": "1519",
-          "name": "華城",
-          "market": "TWSE",
-          "aliases": [
-            "華城"
-          ],
-          "actions": [
-            "buy",
-            "limitUp"
-          ],
-          "contexts": [
-            "「大亞」、「華城」、「聯亞」漲停",
-            "我黃爸爸提及「人類勞力需要米飯，AI 勞力需要電力」，今天電力股連番漲停👍我華城真的憋屈了好久，曾經也是千金股的說！",
-            "「華城」790+900-》935（漲停），下面買的743留倉。"
-          ]
-        },
-        {
-          "code": "3081",
-          "name": "聯亞",
-          "market": "TPEx",
-          "aliases": [
-            "聯亞"
-          ],
-          "actions": [
-            "buy",
-            "limitUp"
-          ],
-          "contexts": [
-            "「大亞」、「華城」、「聯亞」漲停",
-            "「聯亞」2550+2745-〉2830，2570買的還留倉。"
-          ]
-        },
-        {
-          "code": "8996",
-          "name": "高力",
-          "market": "TWSE",
-          "aliases": [
-            "高力"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「高力」漲停打開"
-          ]
-        },
-        {
-          "code": "3706",
-          "name": "神達",
-          "market": "TWSE",
-          "aliases": [
-            "神達"
-          ],
-          "actions": [],
-          "contexts": [
-            "再來恭喜「神達」終於回到百元，喜極而泣，真開心餒，希望明天一樣有漲勢📈"
-          ]
-        },
-        {
-          "code": "4904",
-          "name": "遠傳",
-          "market": "TWSE",
-          "aliases": [
-            "遠傳"
-          ],
-          "actions": [],
-          "contexts": [
-            "「遠傳」這是我的存錢股，今天也站上100元了，好棒喔！"
-          ]
-        },
-        {
-          "code": "7828",
-          "name": "創新服務",
-          "market": "TPEx",
-          "aliases": [
-            "創新服務"
-          ],
-          "actions": [],
-          "contexts": [
-            "「創新服務」真的猛，直接拉一根，還收下影線，希望明天挑戰前高，加油加油👏"
-          ]
-        },
-        {
-          "code": "3665",
-          "name": "貿聯-KY",
-          "market": "TWSE",
-          "aliases": [
-            "貿聯"
-          ],
-          "actions": [
-            "buy"
-          ],
-          "contexts": [
-            "5股學妹，今天出「貿聯」5股2160-》2350，賺了934元，下面買的5股2120元的還留倉。"
           ]
         }
       ]
