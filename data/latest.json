@@ -1,114 +1,53 @@
 {
-  "generatedAt": "2026-06-08T08:56:15.268137+00:00",
+  "generatedAt": "2026-06-08T15:48:27.735543+00:00",
   "account": {
     "user_id": "73957398954",
     "username": "evachien.chien",
     "full_name": "Olivia Chien",
     "biography": "正職洗腰子護理師\n目前努力學習股票操盤\n希望可以早日財富自由（如果有私訊邀約入群，那都是騙人的喔！我才沒有空搞那個😆）\n也努力健身運動\n希望擁有健康的身體以及好身材\n有人說過我像趙敏\n也期許自己跟趙敏一樣聰慧果敢堅毅，當然美麗是一定要的 嘿👍",
-    "follower_count": 3753,
+    "follower_count": 3756,
     "following_count": null,
     "is_verified": 0,
-    "profile_pic_url": "https://scontent-ord5-2.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHzEuhcJqmHYTMc_1PDyR_9rB-_YtPlIR3ZdvQ-mo2_UbxM_8_IlkQO34cCGkKI5Yc&_nc_ohc=3sE_HedFEWYQ7kNvwEWirbi&_nc_gid=LhCwhnJf212VzGPPVm43-A&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9wTFslvbdK8gk69FagQmouVtng2XQqg2wWn8hmCBfSpw&oe=6A2C64FB&_nc_sid=10d13b",
-    "last_fetched_at": 1780908866
+    "profile_pic_url": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gH0f_asfvJB7zAiWhSlWyAxzr3o44kwrh7-3TKEI9_7Wwr31PUyaIeUZzobHJfkLVI&_nc_ohc=3sE_HedFEWYQ7kNvwF2hbeL&_nc_gid=CSq9rr_SXsQBabtBo-Xpkg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9ZXgJDisbNx9JhZGnUxaMyL5PHvaSKViis1oFMm4JqNQ&oe=6A2C9D3B&_nc_sid=10d13b",
+    "last_fetched_at": 1780933638
   },
   "summary": {
     "totalPosts": 4,
     "postsWithStocks": 2,
-    "uniqueStocks": 14,
+    "uniqueStocks": 3,
     "topStocks": [
       {
-        "code": "2344",
-        "name": "華邦電",
+        "code": "2455",
+        "name": "全新",
         "count": 1,
         "actions": {
           "buy": 1,
           "limitDown": 1
-        }
-      },
-      {
-        "code": "0056",
-        "name": "元大高股息",
-        "count": 1,
-        "actions": {
-          "buy": 1,
-          "limitDown": 1
-        }
-      },
-      {
-        "code": "1717",
-        "name": "長興",
-        "count": 1,
-        "actions": {
-          "buy": 1,
-          "regret": 1
-        }
-      },
-      {
-        "code": "3037",
-        "name": "欣興",
-        "count": 1,
-        "actions": {
-          "buy": 1,
-          "regret": 1
         }
       },
       {
         "code": "3105",
         "name": "穩懋",
         "count": 1,
-        "actions": {
-          "buy": 1,
-          "regret": 1
-        }
-      },
-      {
-        "code": "2383",
-        "name": "台光電",
-        "count": 1,
-        "actions": {
-          "buy": 1,
-          "regret": 1
-        }
-      },
-      {
-        "code": "4749",
-        "name": "新應材",
-        "count": 1,
-        "actions": {
-          "buy": 1,
-          "regret": 1
-        }
+        "actions": {}
       },
       {
         "code": "2910",
         "name": "統領",
         "count": 1,
         "actions": {}
-      },
-      {
-        "code": "0050",
-        "name": "元大台灣50",
-        "count": 1,
-        "actions": {}
-      },
-      {
-        "code": "3665",
-        "name": "貿聯-KY",
-        "count": 1,
-        "actions": {}
       }
     ],
     "actionTotals": {
-      "buy": 7,
-      "limitDown": 2,
-      "regret": 5
+      "buy": 1,
+      "limitDown": 1
     },
-    "fundamentalsCoverage": 14
+    "fundamentalsCoverage": 3
   },
   "stocks": [
     {
-      "code": "2344",
-      "name": "華邦電",
+      "code": "2455",
+      "name": "全新",
       "market": "TWSE",
       "count": 1,
       "actions": {
@@ -117,170 +56,40 @@
       },
       "posts": [
         {
-          "pk": "3912732348869885001",
-          "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
-          "taken_at": "2026-06-05T10:07:45+00:00",
-          "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就",
+          "pk": "3914906588285869249",
+          "url": "https://www.threads.com/@evachien.chien/post/DZUiszLnZzB",
+          "taken_at": "2026-06-08T10:07:34+00:00",
+          "text": "今天亮一顆燈🤡\n「全新」跌停 ，6/9出關，我今天先圈存再買，搞了第五次才圈存成功，這就是不禁一番寒徹「股」 ，焉得梅花撲鼻香 的由來！\n\n開盤 我沒有先掛\n我先觀察走勢\n等到我開始掛的時候\n我媽媽出餿主意了，她說等等又會反轉，這是誘敵，叫我全部掛跌停價買，所以我通通沒買到，我應該堅持我的想法，開盤第一根就給他現價掛進去。\n只有「穩懋」很好笑，我掛483，成交在437，真是謝謝系統😆\n夜盤漲了，美股盤前也漲，且走且看，現在震盪，小打小進，分批進場，安全第一☝️\n今天陪我爸爸看",
           "actions": [
             "buy",
             "limitDown"
           ],
           "contexts": [
-            "「華邦電」跌停。",
-            "0056 新增 「遠傳」、「華邦電」",
-            "更新-》5股學妹，今天也買了「華邦電」164元70股。"
+            "「全新」跌停 ，6/9出關，我今天先圈存再買，搞了第五次才圈存成功，這就是不禁一番寒徹「股」 ，焉得梅花撲鼻香 的由來！"
           ]
         }
       ],
       "fundamentals": {
-        "code": "2344",
-        "name": "華邦電",
+        "code": "2455",
+        "name": "全新",
         "market": "TWSE",
-        "price": 162.0,
-        "change": -17.5,
+        "price": 399.0,
+        "change": -3.0,
         "priceDate": "1150605",
-        "peRatio": 48.07,
-        "dividendYield": 0.31,
-        "pbRatio": 6.25,
+        "peRatio": 125.87,
+        "dividendYield": 0.66,
+        "pbRatio": 20.12,
         "valuationDate": "1150605",
-        "eps": 2.25,
+        "eps": 1.06,
         "epsPeriod": "1151",
-        "revenueYoY": 182.2232686329836,
-        "revenue": 19245022.0,
+        "revenueYoY": 37.74579319647891,
+        "revenue": 318595.0,
         "revenuePeriod": "11504",
-        "grossMargin": 53.37,
-        "netIncome": 10117678.0,
-        "debtRatio": 46.52,
-        "equity": 122893519.0,
-        "roe": 8.23
-      }
-    },
-    {
-      "code": "0056",
-      "name": "元大高股息",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "buy": 1,
-        "limitDown": 1
-      },
-      "posts": [
-        {
-          "pk": "3912732348869885001",
-          "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
-          "taken_at": "2026-06-05T10:07:45+00:00",
-          "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就",
-          "actions": [
-            "buy",
-            "limitDown"
-          ],
-          "contexts": [
-            "營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "0056",
-        "name": "元大高股息",
-        "market": "TWSE",
-        "price": 51.8,
-        "change": -0.85,
-        "priceDate": "1150605"
-      }
-    },
-    {
-      "code": "1717",
-      "name": "長興",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "buy": 1,
-        "regret": 1
-      },
-      "posts": [
-        {
-          "pk": "3912732348869885001",
-          "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
-          "taken_at": "2026-06-05T10:07:45+00:00",
-          "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就",
-          "actions": [
-            "buy",
-            "regret"
-          ],
-          "contexts": [
-            "0051 新增 「長興」、「中鋼」、「全新」",
-            "今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "1717",
-        "name": "長興",
-        "market": "TWSE",
-        "price": 77.4,
-        "change": 1.0,
-        "priceDate": "1150605",
-        "peRatio": 52.3,
-        "dividendYield": 1.29,
-        "pbRatio": 3.15,
-        "valuationDate": "1150605",
-        "eps": 0.37,
-        "epsPeriod": "1151",
-        "revenueYoY": 12.99161381931544,
-        "revenue": 4233389.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 22.16,
-        "netIncome": 429777.0,
-        "debtRatio": 52.21,
-        "equity": 30021026.0,
-        "roe": 1.43
-      }
-    },
-    {
-      "code": "3037",
-      "name": "欣興",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "buy": 1,
-        "regret": 1
-      },
-      "posts": [
-        {
-          "pk": "3912732348869885001",
-          "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
-          "taken_at": "2026-06-05T10:07:45+00:00",
-          "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就",
-          "actions": [
-            "buy",
-            "regret"
-          ],
-          "contexts": [
-            "今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "3037",
-        "name": "欣興",
-        "market": "TWSE",
-        "price": 933.0,
-        "change": -38.0,
-        "priceDate": "1150605",
-        "peRatio": 137.21,
-        "dividendYield": 0.21,
-        "pbRatio": 13.07,
-        "valuationDate": "1150605",
-        "eps": 3.28,
-        "epsPeriod": "1151",
-        "revenueYoY": 27.63677460986582,
-        "revenue": 13932815.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 17.96,
-        "netIncome": 5380738.0,
-        "debtRatio": 56.18,
-        "equity": 116952673.0,
-        "roe": 4.6
+        "grossMargin": 38.09,
+        "netIncome": 195085.0,
+        "debtRatio": 32.02,
+        "equity": 3667225.0,
+        "roe": 5.32
       }
     },
     {
@@ -288,22 +97,16 @@
       "name": "穩懋",
       "market": "TPEx",
       "count": 1,
-      "actions": {
-        "buy": 1,
-        "regret": 1
-      },
+      "actions": {},
       "posts": [
         {
-          "pk": "3912732348869885001",
-          "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
-          "taken_at": "2026-06-05T10:07:45+00:00",
-          "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就",
-          "actions": [
-            "buy",
-            "regret"
-          ],
+          "pk": "3914906588285869249",
+          "url": "https://www.threads.com/@evachien.chien/post/DZUiszLnZzB",
+          "taken_at": "2026-06-08T10:07:34+00:00",
+          "text": "今天亮一顆燈🤡\n「全新」跌停 ，6/9出關，我今天先圈存再買，搞了第五次才圈存成功，這就是不禁一番寒徹「股」 ，焉得梅花撲鼻香 的由來！\n\n開盤 我沒有先掛\n我先觀察走勢\n等到我開始掛的時候\n我媽媽出餿主意了，她說等等又會反轉，這是誘敵，叫我全部掛跌停價買，所以我通通沒買到，我應該堅持我的想法，開盤第一根就給他現價掛進去。\n只有「穩懋」很好笑，我掛483，成交在437，真是謝謝系統😆\n夜盤漲了，美股盤前也漲，且走且看，現在震盪，小打小進，分批進場，安全第一☝️\n今天陪我爸爸看",
+          "actions": [],
           "contexts": [
-            "今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！"
+            "只有「穩懋」很好笑，我掛483，成交在437，真是謝謝系統😆"
           ]
         }
       ],
@@ -315,7 +118,7 @@
         "change": -32.0,
         "priceDate": "1150608",
         "peRatio": null,
-        "dividendYield": 0.41,
+        "dividendYield": 0.44,
         "pbRatio": null,
         "eps": null,
         "revenueYoY": 48.88999172301997,
@@ -326,98 +129,6 @@
         "debtRatio": 31.82,
         "equity": 41291462.0,
         "roe": 1.09
-      }
-    },
-    {
-      "code": "2383",
-      "name": "台光電",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "buy": 1,
-        "regret": 1
-      },
-      "posts": [
-        {
-          "pk": "3912732348869885001",
-          "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
-          "taken_at": "2026-06-05T10:07:45+00:00",
-          "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就",
-          "actions": [
-            "buy",
-            "regret"
-          ],
-          "contexts": [
-            "今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "2383",
-        "name": "台光電",
-        "market": "TWSE",
-        "price": 4885.0,
-        "change": 55.0,
-        "priceDate": "1150605",
-        "peRatio": 105.97,
-        "dividendYield": 0.51,
-        "pbRatio": 36.51,
-        "valuationDate": "1150605",
-        "eps": 14.9,
-        "epsPeriod": "1151",
-        "revenueYoY": 93.61728577894678,
-        "revenue": 13923687.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 29.42,
-        "netIncome": 5338777.0,
-        "debtRatio": 63.41,
-        "equity": 47920935.0,
-        "roe": 11.14
-      }
-    },
-    {
-      "code": "4749",
-      "name": "新應材",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "buy": 1,
-        "regret": 1
-      },
-      "posts": [
-        {
-          "pk": "3912732348869885001",
-          "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
-          "taken_at": "2026-06-05T10:07:45+00:00",
-          "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就",
-          "actions": [
-            "buy",
-            "regret"
-          ],
-          "contexts": [
-            "今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "4749",
-        "name": "新應材",
-        "market": "TPEx",
-        "price": 947.0,
-        "change": -68.0,
-        "priceDate": "1150608",
-        "peRatio": null,
-        "dividendYield": 0.79,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": -12.392302417792088,
-        "revenue": 352635.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 45.41,
-        "netIncome": 338795.0,
-        "debtRatio": 17.74,
-        "equity": 8950632.0,
-        "roe": 3.79
       }
     },
     {
@@ -461,250 +172,55 @@
         "equity": 2636881.0,
         "roe": 1.94
       }
-    },
-    {
-      "code": "0050",
-      "name": "元大台灣50",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {},
-      "posts": [
-        {
-          "pk": "3912732348869885001",
-          "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
-          "taken_at": "2026-06-05T10:07:45+00:00",
-          "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就",
-          "actions": [],
-          "contexts": [
-            "0050 新增「貿聯」、「創意」"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "0050",
-        "name": "元大台灣50",
-        "market": "TWSE",
-        "price": 104.15,
-        "change": -1.95,
-        "priceDate": "1150605"
-      }
-    },
-    {
-      "code": "3665",
-      "name": "貿聯-KY",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {},
-      "posts": [
-        {
-          "pk": "3912732348869885001",
-          "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
-          "taken_at": "2026-06-05T10:07:45+00:00",
-          "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就",
-          "actions": [],
-          "contexts": [
-            "0050 新增「貿聯」、「創意」"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "3665",
-        "name": "貿聯-KY",
-        "market": "TWSE",
-        "price": 2200.0,
-        "change": 45.0,
-        "priceDate": "1150605",
-        "peRatio": 44.4,
-        "dividendYield": 0.68,
-        "pbRatio": 9.2,
-        "valuationDate": "1150605",
-        "eps": 11.66,
-        "epsPeriod": "1151",
-        "revenueYoY": 18.54291992756683,
-        "revenue": 7382955.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 28.77,
-        "netIncome": 2273476.0,
-        "debtRatio": 45.52,
-        "equity": 46636528.0,
-        "roe": 4.87
-      }
-    },
-    {
-      "code": "3443",
-      "name": "創意",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {},
-      "posts": [
-        {
-          "pk": "3912732348869885001",
-          "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
-          "taken_at": "2026-06-05T10:07:45+00:00",
-          "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就",
-          "actions": [],
-          "contexts": [
-            "0050 新增「貿聯」、「創意」"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "3443",
-        "name": "創意",
-        "market": "TWSE",
-        "price": 4410.0,
-        "change": 10.0,
-        "priceDate": "1150605",
-        "peRatio": 132.67,
-        "dividendYield": 0.45,
-        "pbRatio": 40.52,
-        "valuationDate": "1150605",
-        "eps": 12.28,
-        "epsPeriod": "1151",
-        "revenueYoY": 156.85087929178133,
-        "revenue": 4294033.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 27.2,
-        "netIncome": 1646240.0,
-        "debtRatio": 58.49,
-        "equity": 14583873.0,
-        "roe": 11.29
-      }
-    },
-    {
-      "code": "2002",
-      "name": "中鋼",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {},
-      "posts": [
-        {
-          "pk": "3912732348869885001",
-          "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
-          "taken_at": "2026-06-05T10:07:45+00:00",
-          "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就",
-          "actions": [],
-          "contexts": [
-            "0051 新增 「長興」、「中鋼」、「全新」"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "2002",
-        "name": "中鋼",
-        "market": "TWSE",
-        "price": 19.3,
-        "change": 0.05,
-        "priceDate": "1150605",
-        "peRatio": null,
-        "dividendYield": 0.78,
-        "pbRatio": 0.99,
-        "valuationDate": "1150605",
-        "eps": -0.16,
-        "epsPeriod": "1151",
-        "revenueYoY": 2.1484641602111205,
-        "revenue": 30891428.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 3.33,
-        "netIncome": -1860153.0,
-        "debtRatio": 50.93,
-        "equity": 331606684.0,
-        "roe": -0.56
-      }
-    },
-    {
-      "code": "2455",
-      "name": "全新",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {},
-      "posts": [
-        {
-          "pk": "3912732348869885001",
-          "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
-          "taken_at": "2026-06-05T10:07:45+00:00",
-          "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就",
-          "actions": [],
-          "contexts": [
-            "0051 新增 「長興」、「中鋼」、「全新」",
-            "0052 新增「全新」"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "2455",
-        "name": "全新",
-        "market": "TWSE",
-        "price": 399.0,
-        "change": -3.0,
-        "priceDate": "1150605",
-        "peRatio": 125.87,
-        "dividendYield": 0.66,
-        "pbRatio": 20.12,
-        "valuationDate": "1150605",
-        "eps": 1.06,
-        "epsPeriod": "1151",
-        "revenueYoY": 37.74579319647891,
-        "revenue": 318595.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 38.09,
-        "netIncome": 195085.0,
-        "debtRatio": 32.02,
-        "equity": 3667225.0,
-        "roe": 5.32
-      }
-    },
-    {
-      "code": "4904",
-      "name": "遠傳",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {},
-      "posts": [
-        {
-          "pk": "3912732348869885001",
-          "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
-          "taken_at": "2026-06-05T10:07:45+00:00",
-          "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就",
-          "actions": [],
-          "contexts": [
-            "0056 新增 「遠傳」、「華邦電」"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "4904",
-        "name": "遠傳",
-        "market": "TWSE",
-        "price": 101.5,
-        "change": -0.5,
-        "priceDate": "1150605",
-        "peRatio": 25.76,
-        "dividendYield": 3.75,
-        "pbRatio": 3.82,
-        "valuationDate": "1150605",
-        "eps": 1.03,
-        "epsPeriod": "1151",
-        "revenueYoY": 11.339553442503867,
-        "revenue": 9539711.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 33.02,
-        "netIncome": 3774303.0,
-        "debtRatio": 45.96,
-        "equity": 100136544.0,
-        "roe": 3.77
-      }
     }
   ],
   "posts": [
     {
       "index": 0,
+      "pk": "3914906588285869249",
+      "url": "https://www.threads.com/@evachien.chien/post/DZUiszLnZzB",
+      "taken_at": "2026-06-08T10:07:34+00:00",
+      "text": "今天亮一顆燈🤡\n「全新」跌停 ，6/9出關，我今天先圈存再買，搞了第五次才圈存成功，這就是不禁一番寒徹「股」 ，焉得梅花撲鼻香 的由來！\n\n開盤 我沒有先掛\n我先觀察走勢\n等到我開始掛的時候\n我媽媽出餿主意了，她說等等又會反轉，這是誘敵，叫我全部掛跌停價買，所以我通通沒買到，我應該堅持我的想法，開盤第一根就給他現價掛進去。\n只有「穩懋」很好笑，我掛483，成交在437，真是謝謝系統😆\n夜盤漲了，美股盤前也漲，且走且看，現在震盪，小打小進，分批進場，安全第一☝️\n今天陪我爸爸看醫生，可能覺得我跟我妹很乖，各給我們1000元，好好笑，抱股市大腿，還不如抱我爸大腿，好賺多了，又不用盯盤。\n中午雨勢太大，躲進去錢都吃鍋，因為大跌，我連鍋底都不敢換，也不敢升級蔬菜盤，我小資女孩，要省著點花，吃「有錢麵」希望明天大賺錢 數錢囉🤌",
+      "like_count": 29,
+      "reply_count": 38,
+      "mentions": [
+        {
+          "code": "2455",
+          "name": "全新",
+          "market": "TWSE",
+          "aliases": [
+            "全新"
+          ],
+          "actions": [
+            "buy",
+            "limitDown"
+          ],
+          "contexts": [
+            "「全新」跌停 ，6/9出關，我今天先圈存再買，搞了第五次才圈存成功，這就是不禁一番寒徹「股」 ，焉得梅花撲鼻香 的由來！"
+          ]
+        },
+        {
+          "code": "3105",
+          "name": "穩懋",
+          "market": "TPEx",
+          "aliases": [
+            "穩懋"
+          ],
+          "actions": [],
+          "contexts": [
+            "只有「穩懋」很好笑，我掛483，成交在437，真是謝謝系統😆"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
       "pk": "3914278343370721661",
       "url": "https://www.threads.com/@evachien.chien/post/DZST2ogncl9",
       "taken_at": "2026-06-07T13:19:22+00:00",
       "text": "今天雨下太大\n沒帶傘的我 全身淋濕 \n在過去統領的一小段\n倏地 傾盆大雨\n我有點手足無措 \n轉頭有個可愛的妹妹 撐著傘看著我，帶著我一起去統領，真的很謝謝妳 感恩！\n因為衣服濕了 \n我去買了一套洋裝，尺碼是M，但🥛的部位會太憋，有L要等調貨，可是我只喜歡這套，於是我吸氣穿😆\n早餐 吃buffet\n中餐 吃 天賜佳雞\n晚餐 吃 海底撈\n一整天都吃很飽\n我弟說：喔～～～我姐真的很會吃！😅\n明天要省一點錢 買股票 👏",
-      "like_count": 19,
-      "reply_count": 10,
+      "like_count": 22,
+      "reply_count": 13,
       "mentions": [
         {
           "code": "2910",
@@ -722,7 +238,7 @@
       ]
     },
     {
-      "index": 1,
+      "index": 2,
       "pk": "3913509387517141312",
       "url": "https://www.threads.com/@evachien.chien/post/DZPlA2kHaFA",
       "taken_at": "2026-06-06T11:51:35+00:00",
@@ -732,7 +248,7 @@
       "mentions": []
     },
     {
-      "index": 2,
+      "index": 3,
       "pk": "3913005882811705880",
       "url": "https://www.threads.com/@evachien.chien/post/DZNyh5RAWoY",
       "taken_at": "2026-06-05T19:11:13+00:00",
@@ -740,198 +256,6 @@
       "like_count": 61,
       "reply_count": 61,
       "mentions": []
-    },
-    {
-      "index": 3,
-      "pk": "3912732348869885001",
-      "url": "https://www.threads.com/@evachien.chien/post/DZM0Vc7kbxJ",
-      "taken_at": "2026-06-05T10:07:45+00:00",
-      "text": "今天亮一顆燈🤡\n「華邦電」跌停。營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！\n\n好消息，我只針對我的持股寫✍️\n0050 新增「貿聯」、「創意」\n0051 新增 「長興」、「中鋼」、「全新」\n0052 新增「全新」\n0056 新增 「遠傳」、「華邦電」\n\n今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！查房完，我就把握喝水偷看手機的時間，看到大盤回穩，我就趕快手速下單！\n剛剛在練小楷，突然想到還沒發佈股票文，就趁機寫了幾個字，哈哈哈🤣\n\n更新-》5股學妹，今天也買了「華邦電」164元70股。其他股票續留倉！",
-      "like_count": 107,
-      "reply_count": 40,
-      "mentions": [
-        {
-          "code": "2344",
-          "name": "華邦電",
-          "market": "TWSE",
-          "aliases": [
-            "華邦電"
-          ],
-          "actions": [
-            "buy",
-            "limitDown"
-          ],
-          "contexts": [
-            "「華邦電」跌停。",
-            "0056 新增 「遠傳」、「華邦電」",
-            "更新-》5股學妹，今天也買了「華邦電」164元70股。"
-          ]
-        },
-        {
-          "code": "0056",
-          "name": "元大高股息",
-          "market": "TWSE",
-          "aliases": [
-            "0056"
-          ],
-          "actions": [
-            "buy",
-            "limitDown"
-          ],
-          "contexts": [
-            "營收創新高，年增率181.97%，又被納入0056，沒有理由不買，我今天加碼了，當跌停打開，我就買在164👻未來的我，會感謝今天的我，勇敢加碼！"
-          ]
-        },
-        {
-          "code": "0050",
-          "name": "元大台灣50",
-          "market": "TWSE",
-          "aliases": [
-            "0050"
-          ],
-          "actions": [],
-          "contexts": [
-            "0050 新增「貿聯」、「創意」"
-          ]
-        },
-        {
-          "code": "3665",
-          "name": "貿聯-KY",
-          "market": "TWSE",
-          "aliases": [
-            "貿聯"
-          ],
-          "actions": [],
-          "contexts": [
-            "0050 新增「貿聯」、「創意」"
-          ]
-        },
-        {
-          "code": "3443",
-          "name": "創意",
-          "market": "TWSE",
-          "aliases": [
-            "創意"
-          ],
-          "actions": [],
-          "contexts": [
-            "0050 新增「貿聯」、「創意」"
-          ]
-        },
-        {
-          "code": "1717",
-          "name": "長興",
-          "market": "TWSE",
-          "aliases": [
-            "長興"
-          ],
-          "actions": [
-            "buy",
-            "regret"
-          ],
-          "contexts": [
-            "0051 新增 「長興」、「中鋼」、「全新」",
-            "今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！"
-          ]
-        },
-        {
-          "code": "2002",
-          "name": "中鋼",
-          "market": "TWSE",
-          "aliases": [
-            "中鋼"
-          ],
-          "actions": [],
-          "contexts": [
-            "0051 新增 「長興」、「中鋼」、「全新」"
-          ]
-        },
-        {
-          "code": "2455",
-          "name": "全新",
-          "market": "TWSE",
-          "aliases": [
-            "全新"
-          ],
-          "actions": [],
-          "contexts": [
-            "0051 新增 「長興」、「中鋼」、「全新」",
-            "0052 新增「全新」"
-          ]
-        },
-        {
-          "code": "4904",
-          "name": "遠傳",
-          "market": "TWSE",
-          "aliases": [
-            "遠傳"
-          ],
-          "actions": [],
-          "contexts": [
-            "0056 新增 「遠傳」、「華邦電」"
-          ]
-        },
-        {
-          "code": "3037",
-          "name": "欣興",
-          "market": "TWSE",
-          "aliases": [
-            "欣興"
-          ],
-          "actions": [
-            "buy",
-            "regret"
-          ],
-          "contexts": [
-            "今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！"
-          ]
-        },
-        {
-          "code": "3105",
-          "name": "穩懋",
-          "market": "TPEx",
-          "aliases": [
-            "穩懋"
-          ],
-          "actions": [
-            "buy",
-            "regret"
-          ],
-          "contexts": [
-            "今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！"
-          ]
-        },
-        {
-          "code": "2383",
-          "name": "台光電",
-          "market": "TWSE",
-          "aliases": [
-            "台光電"
-          ],
-          "actions": [
-            "buy",
-            "regret"
-          ],
-          "contexts": [
-            "今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！"
-          ]
-        },
-        {
-          "code": "4749",
-          "name": "新應材",
-          "market": "TWSE",
-          "aliases": [
-            "新應材"
-          ],
-          "actions": [
-            "buy",
-            "regret"
-          ],
-          "contexts": [
-            "今天一樣加碼9檔股票，逢低撿鑽石，可惜我「欣興」、「穩懋」、「台光電」、「新應材」、「長興」都沒有加碼到，好嘔！"
-          ]
-        }
-      ]
     }
   ]
 }
