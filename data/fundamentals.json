@@ -116273,17 +116273,6 @@
     "debtRatio": 26.73,
     "equity": 1057330.0
   },
-  "3426": {
-    "code": "3426",
-    "eps": null,
-    "revenueYoY": -9.339189590832536,
-    "revenue": 54906.0,
-    "revenuePeriod": "11504",
-    "grossMargin": 25.59,
-    "netIncome": 8053.0,
-    "debtRatio": 27.24,
-    "equity": 781798.0
-  },
   "4804": {
     "code": "4804",
     "eps": null,
@@ -116294,6 +116283,12 @@
     "netIncome": -33284.0,
     "debtRatio": 79.85,
     "equity": 77659.0
+  },
+  "3426": {
+    "code": "3426",
+    "revenueYoY": -9.339189590832536,
+    "revenue": 54906.0,
+    "revenuePeriod": "11504"
   },
   "4987": {
     "code": "4987",
