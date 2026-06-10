@@ -1,74 +1,21 @@
 {
-  "generatedAt": "2026-06-10T03:33:45.737918+00:00",
+  "generatedAt": "2026-06-10T08:09:21.785764+00:00",
   "account": {
     "user_id": "73957398954",
     "username": "evachien.chien",
     "full_name": "Olivia Chien",
     "biography": "正職洗腰子護理師\n目前努力學習股票操盤\n希望可以早日財富自由（如果有私訊邀約入群，那都是騙人的喔！我才沒有空搞那個😆）\n也努力健身運動\n希望擁有健康的身體以及好身材\n有人說過我像趙敏\n也期許自己跟趙敏一樣聰慧果敢堅毅，當然美麗是一定要的 嘿👍",
-    "follower_count": 3779,
+    "follower_count": 3778,
     "following_count": null,
     "is_verified": 0,
-    "profile_pic_url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gFL8v09wNBqvEI2Ap39Xrn3miJnc41XTvGqx2Tb9zcnE3-jR6bc9K95R76IvoA17Qo&_nc_ohc=zA0bf7OVvssQ7kNvwHb0AUG&_nc_gid=98nK1a_snp_lB0BuU-4img&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-UUZDLjIAI6ti9ovvMXv_em9NDpPlNUFjmw6USWY38AQ&oe=6A2E977B&_nc_sid=10d13b",
-    "last_fetched_at": 1781062327
+    "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gELulC7BeGyyISIwcVzmhn1hhPJTXzivbDdqvh_oZuxHGtF2dSiD2N2-Ws8-xYJ94s&_nc_ohc=zA0bf7OVvssQ7kNvwGnJRna&_nc_gid=sziBEniRdly4MHqTSZf76Q&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_W41BrG9yoGWOq1q3HEl0o0yryd0M3RORIOkjO-rJm-A&oe=6A2F07FB&_nc_sid=10d13b",
+    "last_fetched_at": 1781078809
   },
   "summary": {
     "totalPosts": 4,
-    "postsWithStocks": 3,
-    "uniqueStocks": 8,
+    "postsWithStocks": 1,
+    "uniqueStocks": 1,
     "topStocks": [
-      {
-        "code": "2455",
-        "name": "全新",
-        "count": 2,
-        "actions": {
-          "buy": 2,
-          "limitUp": 1,
-          "limitDown": 1
-        }
-      },
-      {
-        "code": "3105",
-        "name": "穩懋",
-        "count": 2,
-        "actions": {
-          "buy": 1,
-          "limitUp": 1
-        }
-      },
-      {
-        "code": "8996",
-        "name": "高力",
-        "count": 1,
-        "actions": {
-          "buy": 1,
-          "limitUp": 1,
-          "regret": 1
-        }
-      },
-      {
-        "code": "8131",
-        "name": "福懋科",
-        "count": 1,
-        "actions": {
-          "limitUp": 1
-        }
-      },
-      {
-        "code": "2454",
-        "name": "聯發科",
-        "count": 1,
-        "actions": {
-          "limitUp": 1
-        }
-      },
-      {
-        "code": "2313",
-        "name": "華通",
-        "count": 1,
-        "actions": {
-          "limitUp": 1
-        }
-      },
       {
         "code": "3653",
         "name": "健策",
@@ -76,328 +23,14 @@
         "actions": {
           "buy": 1
         }
-      },
-      {
-        "code": "2910",
-        "name": "統領",
-        "count": 1,
-        "actions": {}
       }
     ],
     "actionTotals": {
-      "buy": 5,
-      "limitUp": 6,
-      "limitDown": 1,
-      "regret": 1
+      "buy": 1
     },
-    "fundamentalsCoverage": 8
+    "fundamentalsCoverage": 1
   },
   "stocks": [
-    {
-      "code": "2455",
-      "name": "全新",
-      "market": "TWSE",
-      "count": 2,
-      "actions": {
-        "buy": 2,
-        "limitUp": 1,
-        "limitDown": 1
-      },
-      "posts": [
-        {
-          "pk": "3915604712276168783",
-          "url": "https://www.threads.com/@evachien.chien/post/DZXBb10ERBP",
-          "taken_at": "2026-06-09T09:14:37+00:00",
-          "text": "今天亮五顆燈💡\n「福懋科」、「全新」、「穩懋」、「高力」、「聯發科」漲停\n「華通」漲停打開 \n\n好感人 我的「福懋科」終於漲停，等好久，5月營收，月增率5.43%，年增率49.51%。6/11法說，希望股價更上一層樓📈\n\n昨天買的「全新」、「穩懋」也聯袂漲停，AAOI昨天+11%，目前盤前+4.49%，希望穩懋趕快回到600，殺豬養我。全新太委屈，明天出關了，希望趕快飆上去，一天到晚被關，真的很辛苦！\n\n出\n「高力」當時看他股價不太動，加上警示，我就先出1020-》1280，",
-          "actions": [
-            "buy",
-            "limitUp"
-          ],
-          "contexts": [
-            "「福懋科」、「全新」、「穩懋」、「高力」、「聯發科」漲停",
-            "昨天買的「全新」、「穩懋」也聯袂漲停，AAOI昨天+11%，目前盤前+4.49%，希望穩懋趕快回到600，殺豬養我。",
-            "全新太委屈，明天出關了，希望趕快飆上去，一天到晚被關，真的很辛苦！"
-          ]
-        },
-        {
-          "pk": "3914906588285869249",
-          "url": "https://www.threads.com/@evachien.chien/post/DZUiszLnZzB",
-          "taken_at": "2026-06-08T10:07:34+00:00",
-          "text": "今天亮一顆燈🤡\n「全新」跌停 ，6/9出關，我今天先圈存再買，搞了第五次才圈存成功，這就是不禁一番寒徹「股」 ，焉得梅花撲鼻香 的由來！\n\n開盤 我沒有先掛\n我先觀察走勢\n等到我開始掛的時候\n我媽媽出餿主意了，她說等等又會反轉，這是誘敵，叫我全部掛跌停價買，所以我通通沒買到，我應該堅持我的想法，開盤第一根就給他現價掛進去。\n只有「穩懋」很好笑，我掛483，成交在437，真是謝謝系統😆\n夜盤漲了，美股盤前也漲，且走且看，現在震盪，小打小進，分批進場，安全第一☝️\n今天陪我爸爸看",
-          "actions": [
-            "buy",
-            "limitDown"
-          ],
-          "contexts": [
-            "「全新」跌停 ，6/9出關，我今天先圈存再買，搞了第五次才圈存成功，這就是不禁一番寒徹「股」 ，焉得梅花撲鼻香 的由來！"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "2455",
-        "name": "全新",
-        "market": "TWSE",
-        "price": 395.0,
-        "change": 35.5,
-        "priceDate": "1150609",
-        "peRatio": 124.61,
-        "dividendYield": 0.67,
-        "pbRatio": 19.92,
-        "valuationDate": "1150609",
-        "eps": 1.06,
-        "epsPeriod": "1151",
-        "revenueYoY": 37.74579319647891,
-        "revenue": 318595.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 38.09,
-        "netIncome": 195085.0,
-        "debtRatio": 32.02,
-        "equity": 3667225.0,
-        "roe": 5.32
-      }
-    },
-    {
-      "code": "3105",
-      "name": "穩懋",
-      "market": "TPEx",
-      "count": 2,
-      "actions": {
-        "buy": 1,
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3915604712276168783",
-          "url": "https://www.threads.com/@evachien.chien/post/DZXBb10ERBP",
-          "taken_at": "2026-06-09T09:14:37+00:00",
-          "text": "今天亮五顆燈💡\n「福懋科」、「全新」、「穩懋」、「高力」、「聯發科」漲停\n「華通」漲停打開 \n\n好感人 我的「福懋科」終於漲停，等好久，5月營收，月增率5.43%，年增率49.51%。6/11法說，希望股價更上一層樓📈\n\n昨天買的「全新」、「穩懋」也聯袂漲停，AAOI昨天+11%，目前盤前+4.49%，希望穩懋趕快回到600，殺豬養我。全新太委屈，明天出關了，希望趕快飆上去，一天到晚被關，真的很辛苦！\n\n出\n「高力」當時看他股價不太動，加上警示，我就先出1020-》1280，",
-          "actions": [
-            "buy",
-            "limitUp"
-          ],
-          "contexts": [
-            "「福懋科」、「全新」、「穩懋」、「高力」、「聯發科」漲停",
-            "昨天買的「全新」、「穩懋」也聯袂漲停，AAOI昨天+11%，目前盤前+4.49%，希望穩懋趕快回到600，殺豬養我。"
-          ]
-        },
-        {
-          "pk": "3914906588285869249",
-          "url": "https://www.threads.com/@evachien.chien/post/DZUiszLnZzB",
-          "taken_at": "2026-06-08T10:07:34+00:00",
-          "text": "今天亮一顆燈🤡\n「全新」跌停 ，6/9出關，我今天先圈存再買，搞了第五次才圈存成功，這就是不禁一番寒徹「股」 ，焉得梅花撲鼻香 的由來！\n\n開盤 我沒有先掛\n我先觀察走勢\n等到我開始掛的時候\n我媽媽出餿主意了，她說等等又會反轉，這是誘敵，叫我全部掛跌停價買，所以我通通沒買到，我應該堅持我的想法，開盤第一根就給他現價掛進去。\n只有「穩懋」很好笑，我掛483，成交在437，真是謝謝系統😆\n夜盤漲了，美股盤前也漲，且走且看，現在震盪，小打小進，分批進場，安全第一☝️\n今天陪我爸爸看",
-          "actions": [],
-          "contexts": [
-            "只有「穩懋」很好笑，我掛483，成交在437，真是謝謝系統😆"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "3105",
-        "name": "穩懋",
-        "market": "TPEx",
-        "price": 496.5,
-        "change": 45.0,
-        "priceDate": "1150609",
-        "peRatio": null,
-        "dividendYield": 0.4,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 48.88999172301997,
-        "revenue": 1734086.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 26.34,
-        "netIncome": 448627.0,
-        "debtRatio": 31.82,
-        "equity": 41291462.0,
-        "roe": 1.09
-      }
-    },
-    {
-      "code": "8996",
-      "name": "高力",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "buy": 1,
-        "limitUp": 1,
-        "regret": 1
-      },
-      "posts": [
-        {
-          "pk": "3915604712276168783",
-          "url": "https://www.threads.com/@evachien.chien/post/DZXBb10ERBP",
-          "taken_at": "2026-06-09T09:14:37+00:00",
-          "text": "今天亮五顆燈💡\n「福懋科」、「全新」、「穩懋」、「高力」、「聯發科」漲停\n「華通」漲停打開 \n\n好感人 我的「福懋科」終於漲停，等好久，5月營收，月增率5.43%，年增率49.51%。6/11法說，希望股價更上一層樓📈\n\n昨天買的「全新」、「穩懋」也聯袂漲停，AAOI昨天+11%，目前盤前+4.49%，希望穩懋趕快回到600，殺豬養我。全新太委屈，明天出關了，希望趕快飆上去，一天到晚被關，真的很辛苦！\n\n出\n「高力」當時看他股價不太動，加上警示，我就先出1020-》1280，",
-          "actions": [
-            "buy",
-            "limitUp",
-            "regret"
-          ],
-          "contexts": [
-            "「福懋科」、「全新」、「穩懋」、「高力」、「聯發科」漲停",
-            "「高力」當時看他股價不太動，加上警示，我就先出1020-》1280，下面買的760，續留倉，可惜後來就漲停，真的是😅"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "8996",
-        "name": "高力",
-        "market": "TWSE",
-        "price": 1330.0,
-        "change": 120.0,
-        "priceDate": "1150609",
-        "peRatio": 94.86,
-        "dividendYield": 0.34,
-        "pbRatio": 26.63,
-        "valuationDate": "1150609",
-        "eps": 6.54,
-        "epsPeriod": "1151",
-        "revenueYoY": 86.03066172304061,
-        "revenue": 948788.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 29.02,
-        "netIncome": 605668.0,
-        "debtRatio": 47.81,
-        "equity": 4645778.0,
-        "roe": 13.04
-      }
-    },
-    {
-      "code": "8131",
-      "name": "福懋科",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3915604712276168783",
-          "url": "https://www.threads.com/@evachien.chien/post/DZXBb10ERBP",
-          "taken_at": "2026-06-09T09:14:37+00:00",
-          "text": "今天亮五顆燈💡\n「福懋科」、「全新」、「穩懋」、「高力」、「聯發科」漲停\n「華通」漲停打開 \n\n好感人 我的「福懋科」終於漲停，等好久，5月營收，月增率5.43%，年增率49.51%。6/11法說，希望股價更上一層樓📈\n\n昨天買的「全新」、「穩懋」也聯袂漲停，AAOI昨天+11%，目前盤前+4.49%，希望穩懋趕快回到600，殺豬養我。全新太委屈，明天出關了，希望趕快飆上去，一天到晚被關，真的很辛苦！\n\n出\n「高力」當時看他股價不太動，加上警示，我就先出1020-》1280，",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「福懋科」、「全新」、「穩懋」、「高力」、「聯發科」漲停",
-            "好感人 我的「福懋科」終於漲停，等好久，5月營收，月增率5.43%，年增率49.51%。"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "8131",
-        "name": "福懋科",
-        "market": "TWSE",
-        "price": 70.1,
-        "change": 6.3,
-        "priceDate": "1150609",
-        "peRatio": 35.4,
-        "dividendYield": 1.43,
-        "pbRatio": 2.46,
-        "valuationDate": "1150609",
-        "eps": 0.96,
-        "epsPeriod": "1151",
-        "revenueYoY": 40.53629847351025,
-        "revenue": 998353.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 19.55,
-        "netIncome": 426351.0,
-        "debtRatio": 16.39,
-        "equity": 12603071.0,
-        "roe": 3.38
-      }
-    },
-    {
-      "code": "2454",
-      "name": "聯發科",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3915604712276168783",
-          "url": "https://www.threads.com/@evachien.chien/post/DZXBb10ERBP",
-          "taken_at": "2026-06-09T09:14:37+00:00",
-          "text": "今天亮五顆燈💡\n「福懋科」、「全新」、「穩懋」、「高力」、「聯發科」漲停\n「華通」漲停打開 \n\n好感人 我的「福懋科」終於漲停，等好久，5月營收，月增率5.43%，年增率49.51%。6/11法說，希望股價更上一層樓📈\n\n昨天買的「全新」、「穩懋」也聯袂漲停，AAOI昨天+11%，目前盤前+4.49%，希望穩懋趕快回到600，殺豬養我。全新太委屈，明天出關了，希望趕快飆上去，一天到晚被關，真的很辛苦！\n\n出\n「高力」當時看他股價不太動，加上警示，我就先出1020-》1280，",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「福懋科」、「全新」、「穩懋」、「高力」、「聯發科」漲停"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "2454",
-        "name": "聯發科",
-        "market": "TWSE",
-        "price": 4475.0,
-        "change": 405.0,
-        "priceDate": "1150609",
-        "peRatio": 71.31,
-        "dividendYield": 1.2,
-        "pbRatio": 18.3,
-        "valuationDate": "1150609",
-        "eps": 15.17,
-        "epsPeriod": "1151",
-        "revenueYoY": -4.138619297399555,
-        "revenue": 46736664.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 46.3,
-        "netIncome": 24376384.0,
-        "debtRatio": 46.07,
-        "equity": 398446955.0,
-        "roe": 6.12
-      }
-    },
-    {
-      "code": "2313",
-      "name": "華通",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3915604712276168783",
-          "url": "https://www.threads.com/@evachien.chien/post/DZXBb10ERBP",
-          "taken_at": "2026-06-09T09:14:37+00:00",
-          "text": "今天亮五顆燈💡\n「福懋科」、「全新」、「穩懋」、「高力」、「聯發科」漲停\n「華通」漲停打開 \n\n好感人 我的「福懋科」終於漲停，等好久，5月營收，月增率5.43%，年增率49.51%。6/11法說，希望股價更上一層樓📈\n\n昨天買的「全新」、「穩懋」也聯袂漲停，AAOI昨天+11%，目前盤前+4.49%，希望穩懋趕快回到600，殺豬養我。全新太委屈，明天出關了，希望趕快飆上去，一天到晚被關，真的很辛苦！\n\n出\n「高力」當時看他股價不太動，加上警示，我就先出1020-》1280，",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「華通」漲停打開"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "2313",
-        "name": "華通",
-        "market": "TWSE",
-        "price": 276.0,
-        "change": 24.0,
-        "priceDate": "1150609",
-        "peRatio": 48.68,
-        "dividendYield": 1.01,
-        "pbRatio": 7.02,
-        "valuationDate": "1150609",
-        "eps": 1.26,
-        "epsPeriod": "1151",
-        "revenueYoY": -2.861974380401858,
-        "revenue": 6315284.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 17.98,
-        "netIncome": 1504169.0,
-        "debtRatio": 49.86,
-        "equity": 46853886.0,
-        "roe": 3.21
-      }
-    },
     {
       "code": "3653",
       "name": "健策",
@@ -442,48 +75,6 @@
         "equity": 21397357.0,
         "roe": 6.56
       }
-    },
-    {
-      "code": "2910",
-      "name": "統領",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {},
-      "posts": [
-        {
-          "pk": "3914278343370721661",
-          "url": "https://www.threads.com/@evachien.chien/post/DZST2ogncl9",
-          "taken_at": "2026-06-07T13:19:22+00:00",
-          "text": "今天雨下太大\n沒帶傘的我 全身淋濕 \n在過去統領的一小段\n倏地 傾盆大雨\n我有點手足無措 \n轉頭有個可愛的妹妹 撐著傘看著我，帶著我一起去統領，真的很謝謝妳 感恩！\n因為衣服濕了 \n我去買了一套洋裝，尺碼是M，但🥛的部位會太憋，有L要等調貨，可是我只喜歡這套，於是我吸氣穿😆\n早餐 吃buffet\n中餐 吃 天賜佳雞\n晚餐 吃 海底撈\n一整天都吃很飽\n我弟說：喔～～～我姐真的很會吃！😅\n明天要省一點錢 買股票 👏",
-          "actions": [],
-          "contexts": [
-            "在過去統領的一小段",
-            "轉頭有個可愛的妹妹 撐著傘看著我，帶著我一起去統領，真的很謝謝妳 感恩！"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "2910",
-        "name": "統領",
-        "market": "TWSE",
-        "price": 21.45,
-        "change": -0.15,
-        "priceDate": "1150609",
-        "peRatio": 17.58,
-        "dividendYield": 4.85,
-        "pbRatio": 1.43,
-        "valuationDate": "1150609",
-        "eps": 0.29,
-        "epsPeriod": "1151",
-        "revenueYoY": 4.686891312816518,
-        "revenue": 42997.0,
-        "revenuePeriod": "11504",
-        "grossMargin": 90.51,
-        "netIncome": 51245.0,
-        "debtRatio": 59.38,
-        "equity": 2636881.0,
-        "roe": 1.94
-      }
     }
   ],
   "posts": [
@@ -494,101 +85,8 @@
       "taken_at": "2026-06-09T09:14:37+00:00",
       "text": "今天亮五顆燈💡\n「福懋科」、「全新」、「穩懋」、「高力」、「聯發科」漲停\n「華通」漲停打開 \n\n好感人 我的「福懋科」終於漲停，等好久，5月營收，月增率5.43%，年增率49.51%。6/11法說，希望股價更上一層樓📈\n\n昨天買的「全新」、「穩懋」也聯袂漲停，AAOI昨天+11%，目前盤前+4.49%，希望穩懋趕快回到600，殺豬養我。全新太委屈，明天出關了，希望趕快飆上去，一天到晚被關，真的很辛苦！\n\n出\n「高力」當時看他股價不太動，加上警示，我就先出1020-》1280，下面買的760，續留倉，可惜後來就漲停，真的是😅\n\n5股學妹，健策買8股3753，今天出在3945，賺了1400元，好棒！所以不要小看零股，學妹5000元開始打天下，投資永遠不嫌晚，一起加油👏\n\n我在等按摩💆‍♀️，前面的客人好摸，我等好久🙃好想喝鮮奶茶喔！",
       "like_count": 45,
-      "reply_count": 24,
+      "reply_count": 28,
       "mentions": [
-        {
-          "code": "8131",
-          "name": "福懋科",
-          "market": "TWSE",
-          "aliases": [
-            "福懋科"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「福懋科」、「全新」、「穩懋」、「高力」、「聯發科」漲停",
-            "好感人 我的「福懋科」終於漲停，等好久，5月營收，月增率5.43%，年增率49.51%。"
-          ]
-        },
-        {
-          "code": "2455",
-          "name": "全新",
-          "market": "TWSE",
-          "aliases": [
-            "全新"
-          ],
-          "actions": [
-            "buy",
-            "limitUp"
-          ],
-          "contexts": [
-            "「福懋科」、「全新」、「穩懋」、「高力」、「聯發科」漲停",
-            "昨天買的「全新」、「穩懋」也聯袂漲停，AAOI昨天+11%，目前盤前+4.49%，希望穩懋趕快回到600，殺豬養我。",
-            "全新太委屈，明天出關了，希望趕快飆上去，一天到晚被關，真的很辛苦！"
-          ]
-        },
-        {
-          "code": "3105",
-          "name": "穩懋",
-          "market": "TPEx",
-          "aliases": [
-            "穩懋"
-          ],
-          "actions": [
-            "buy",
-            "limitUp"
-          ],
-          "contexts": [
-            "「福懋科」、「全新」、「穩懋」、「高力」、「聯發科」漲停",
-            "昨天買的「全新」、「穩懋」也聯袂漲停，AAOI昨天+11%，目前盤前+4.49%，希望穩懋趕快回到600，殺豬養我。"
-          ]
-        },
-        {
-          "code": "8996",
-          "name": "高力",
-          "market": "TWSE",
-          "aliases": [
-            "高力"
-          ],
-          "actions": [
-            "buy",
-            "limitUp",
-            "regret"
-          ],
-          "contexts": [
-            "「福懋科」、「全新」、「穩懋」、「高力」、「聯發科」漲停",
-            "「高力」當時看他股價不太動，加上警示，我就先出1020-》1280，下面買的760，續留倉，可惜後來就漲停，真的是😅"
-          ]
-        },
-        {
-          "code": "2454",
-          "name": "聯發科",
-          "market": "TWSE",
-          "aliases": [
-            "聯發科"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「福懋科」、「全新」、「穩懋」、「高力」、「聯發科」漲停"
-          ]
-        },
-        {
-          "code": "2313",
-          "name": "華通",
-          "market": "TWSE",
-          "aliases": [
-            "華通"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「華通」漲停打開"
-          ]
-        },
         {
           "code": "3653",
           "name": "健策",
@@ -613,35 +111,7 @@
       "text": "今天亮一顆燈🤡\n「全新」跌停 ，6/9出關，我今天先圈存再買，搞了第五次才圈存成功，這就是不禁一番寒徹「股」 ，焉得梅花撲鼻香 的由來！\n\n開盤 我沒有先掛\n我先觀察走勢\n等到我開始掛的時候\n我媽媽出餿主意了，她說等等又會反轉，這是誘敵，叫我全部掛跌停價買，所以我通通沒買到，我應該堅持我的想法，開盤第一根就給他現價掛進去。\n只有「穩懋」很好笑，我掛483，成交在437，真是謝謝系統😆\n夜盤漲了，美股盤前也漲，且走且看，現在震盪，小打小進，分批進場，安全第一☝️\n今天陪我爸爸看醫生，可能覺得我跟我妹很乖，各給我們1000元，好好笑，抱股市大腿，還不如抱我爸大腿，好賺多了，又不用盯盤。\n中午雨勢太大，躲進去錢都吃鍋，因為大跌，我連鍋底都不敢換，也不敢升級蔬菜盤，我小資女孩，要省著點花，吃「有錢麵」希望明天大賺錢 數錢囉🤌",
       "like_count": 34,
       "reply_count": 38,
-      "mentions": [
-        {
-          "code": "2455",
-          "name": "全新",
-          "market": "TWSE",
-          "aliases": [
-            "全新"
-          ],
-          "actions": [
-            "buy",
-            "limitDown"
-          ],
-          "contexts": [
-            "「全新」跌停 ，6/9出關，我今天先圈存再買，搞了第五次才圈存成功，這就是不禁一番寒徹「股」 ，焉得梅花撲鼻香 的由來！"
-          ]
-        },
-        {
-          "code": "3105",
-          "name": "穩懋",
-          "market": "TPEx",
-          "aliases": [
-            "穩懋"
-          ],
-          "actions": [],
-          "contexts": [
-            "只有「穩懋」很好笑，我掛483，成交在437，真是謝謝系統😆"
-          ]
-        }
-      ]
+      "mentions": []
     },
     {
       "index": 2,
@@ -651,21 +121,7 @@
       "text": "今天雨下太大\n沒帶傘的我 全身淋濕 \n在過去統領的一小段\n倏地 傾盆大雨\n我有點手足無措 \n轉頭有個可愛的妹妹 撐著傘看著我，帶著我一起去統領，真的很謝謝妳 感恩！\n因為衣服濕了 \n我去買了一套洋裝，尺碼是M，但🥛的部位會太憋，有L要等調貨，可是我只喜歡這套，於是我吸氣穿😆\n早餐 吃buffet\n中餐 吃 天賜佳雞\n晚餐 吃 海底撈\n一整天都吃很飽\n我弟說：喔～～～我姐真的很會吃！😅\n明天要省一點錢 買股票 👏",
       "like_count": 22,
       "reply_count": 15,
-      "mentions": [
-        {
-          "code": "2910",
-          "name": "統領",
-          "market": "TWSE",
-          "aliases": [
-            "統領"
-          ],
-          "actions": [],
-          "contexts": [
-            "在過去統領的一小段",
-            "轉頭有個可愛的妹妹 撐著傘看著我，帶著我一起去統領，真的很謝謝妳 感恩！"
-          ]
-        }
-      ]
+      "mentions": []
     },
     {
       "index": 3,
