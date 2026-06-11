@@ -74408,6 +74408,14 @@
     ]
   },
   {
+    "code": "00406A",
+    "name": "主動中信台灣收益",
+    "market": "TWSE",
+    "aliases": [
+      "主動中信台灣收益"
+    ]
+  },
+  {
     "code": "0055",
     "name": "元大MSCI金融",
     "market": "TWSE",
