@@ -115641,5 +115641,16 @@
     "netIncome": -33284.0,
     "debtRatio": 79.85,
     "equity": 77659.0
+  },
+  "7839": {
+    "code": "7839",
+    "eps": null,
+    "revenueYoY": 6.597245549210615,
+    "revenue": 15867.0,
+    "revenuePeriod": "11505",
+    "grossMargin": 90.69,
+    "netIncome": 9693.0,
+    "debtRatio": 18.79,
+    "equity": 182083.0
   }
 }
