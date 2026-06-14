@@ -11870,6 +11870,9 @@
     "valuationDate": "1150612",
     "eps": 1.64,
     "epsPeriod": "1151",
+    "revenueYoY": 30.977283473355953,
+    "revenue": 944599.0,
+    "revenuePeriod": "11505",
     "netIncome": 416962.0,
     "debtRatio": 52.67,
     "equity": 12230514.0
@@ -12037,6 +12040,9 @@
     "valuationDate": "1150612",
     "eps": 1.0,
     "epsPeriod": "1151",
+    "revenueYoY": -6.859808334712584,
+    "revenue": 799100.0,
+    "revenuePeriod": "11505",
     "netIncome": 301897.0,
     "debtRatio": 52.73,
     "equity": 9412359.0
@@ -12110,6 +12116,9 @@
     "valuationDate": "1150612",
     "eps": 2.4,
     "epsPeriod": "1151",
+    "revenueYoY": 155.02666088498714,
+    "revenue": 30407516.0,
+    "revenuePeriod": "11505",
     "debtRatio": 92.11,
     "equity": 1034705024.0
   },
@@ -12244,6 +12253,9 @@
     "valuationDate": "1150612",
     "eps": 0.63,
     "epsPeriod": "1151",
+    "revenueYoY": 25.550935912549598,
+    "revenue": 8373125.0,
+    "revenuePeriod": "11505",
     "debtRatio": 91.97,
     "equity": 401953394.0
   },
@@ -12365,6 +12377,9 @@
     "valuationDate": "1150612",
     "eps": 1.18,
     "epsPeriod": "1151",
+    "revenueYoY": 341.3211844301598,
+    "revenue": 19217919.0,
+    "revenuePeriod": "11505",
     "debtRatio": 93.83,
     "equity": 594389506.0
   },
@@ -12397,6 +12412,9 @@
     "valuationDate": "1150612",
     "eps": 0.57,
     "epsPeriod": "1151",
+    "revenueYoY": 36.70270168109134,
+    "revenue": 7305350.0,
+    "revenuePeriod": "11505",
     "debtRatio": 94.22,
     "equity": 297646219.0
   },
@@ -18222,6 +18240,9 @@
     "valuationDate": "1150612",
     "eps": 0.36,
     "epsPeriod": "1151",
+    "revenueYoY": 37.424632406229016,
+    "revenue": 6305060.0,
+    "revenuePeriod": "11505",
     "debtRatio": 94.65,
     "equity": 290316066.0
   },
