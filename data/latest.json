@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T03:50:43.150190+00:00",
+  "generatedAt": "2026-06-14T08:18:56.929161+00:00",
   "account": {
     "user_id": "73957398954",
     "username": "evachien.chien",
@@ -8,25 +8,14 @@
     "follower_count": 3825,
     "following_count": null,
     "is_verified": 0,
-    "profile_pic_url": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-ams2-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gEWDuRHp5MdWpkLebOSyoyVIa6-baMKq3_YbY74UhXEGH0y3TYrzVd10rq54aAje3c&_nc_ohc=EFbSo0MH090Q7kNvwHHSzAU&_nc_gid=INiAkM1MUmGm1xEXMWupsA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_jrCPLiexRCsl-DWL19daIZVvgBKXusZj5gkSO6Gh6rw&oe=6A33DD7B&_nc_sid=10d13b",
-    "last_fetched_at": 1781408955
+    "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gFp6M0vcaEz2B9kjmpubJ5BUr4qEmSVrS5QyWcLkkBSBPglC4rymr7SVgKz7AIc4UY&_nc_ohc=EFbSo0MH090Q7kNvwGU1q26&_nc_gid=_3ey0q9NGVyifHHgT0gRbA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-HDl4OlqTA4Hx84_NWTn2-7TUs7PzXKEQ5dHyPetrHSA&oe=6A344DFB&_nc_sid=10d13b",
+    "last_fetched_at": 1781424956
   },
   "summary": {
-    "totalPosts": 6,
-    "postsWithStocks": 4,
-    "uniqueStocks": 11,
+    "totalPosts": 5,
+    "postsWithStocks": 2,
+    "uniqueStocks": 6,
     "topStocks": [
-      {
-        "code": "2455",
-        "name": "全新",
-        "count": 3,
-        "actions": {
-          "limitUp": 2,
-          "buy": 1,
-          "sell": 1,
-          "limitDown": 2
-        }
-      },
       {
         "code": "2344",
         "name": "華邦電",
@@ -40,43 +29,9 @@
       {
         "code": "6291",
         "name": "沛亨",
-        "count": 2,
-        "actions": {
-          "limitUp": 1,
-          "limitDown": 1
-        }
-      },
-      {
-        "code": "7828",
-        "name": "創新服務",
-        "count": 2,
-        "actions": {
-          "limitUp": 2,
-          "limitDown": 1
-        }
-      },
-      {
-        "code": "5227",
-        "name": "立凱-KY",
-        "count": 2,
-        "actions": {
-          "limitUp": 1
-        }
-      },
-      {
-        "code": "3081",
-        "name": "聯亞",
-        "count": 2,
-        "actions": {
-          "limitDown": 2
-        }
-      },
-      {
-        "code": "3680",
-        "name": "家登",
         "count": 1,
         "actions": {
-          "buy": 1
+          "limitUp": 1
         }
       },
       {
@@ -96,100 +51,29 @@
         }
       },
       {
-        "code": "2454",
-        "name": "聯發科",
+        "code": "3081",
+        "name": "聯亞",
         "count": 1,
         "actions": {
-          "buy": 1
+          "limitDown": 1
         }
+      },
+      {
+        "code": "2337",
+        "name": "旺宏",
+        "count": 1,
+        "actions": {}
       }
     ],
     "actionTotals": {
-      "limitUp": 7,
-      "buy": 7,
-      "sell": 2,
-      "limitDown": 6
+      "buy": 4,
+      "sell": 1,
+      "limitUp": 2,
+      "limitDown": 1
     },
-    "fundamentalsCoverage": 11
+    "fundamentalsCoverage": 6
   },
   "stocks": [
-    {
-      "code": "2455",
-      "name": "全新",
-      "market": "TWSE",
-      "count": 3,
-      "actions": {
-        "limitUp": 2,
-        "buy": 1,
-        "sell": 1,
-        "limitDown": 2
-      },
-      "posts": [
-        {
-          "pk": "3917767655801560617",
-          "url": "https://www.threads.com/@evachien.chien/post/DZetOz8kR4p",
-          "taken_at": "2026-06-12T08:52:00+00:00",
-          "text": "今天亮三顆燈💡\n「立凱」、「華邦電」、「全新」漲停\n「沛亨」、「創新服務」漲停打開，賀 狂賀～下週都出關 📈\n\n今天沒有買成功股票\n但賣了一堆股票\n還賣到營業員有點不耐煩\n虧我一直誇獎他 一直捧他😆\n不要羨慕姐賺錢，姐前陣子也是很煎熬，每天練書法，磨我的性子，從失敗中檢討錯誤，從挫折中精進自己❤️\n\n出\n「華邦電」155+164-》172（漲停），下面70買的留倉。\n「家登」474+500-〉505，其他384起買的留倉。\n「欣興」835+890-》905，211買的留倉。\n",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「立凱」、「華邦電」、「全新」漲停"
-          ]
-        },
-        {
-          "pk": "3917168843283038618",
-          "url": "https://www.threads.com/@evachien.chien/post/DZclE8VHQGa",
-          "taken_at": "2026-06-11T13:02:16+00:00",
-          "text": "今天亮兩顆燈💡+🤡\n「創新服務」漲停 「全新」跌停\n「聯亞」跌停打開\n\n終於，「創新服務」漲停追平了歷史高點，盤中一直盯著看他紅通通，開心🥳，也快出關了，明天起萬里無雲 海闊天空！\n「全新」今天反而是外資轉買投信賣，又被警示，我有點買到生氣，就不要跌到我的底價222，我就⋯我就⋯只能一直買爆你！\n「聯發科」填了5/22缺口3880，好準，但我速度太慢，只買到3980😆，下面1450買的還在！\n\n大盤 以為跌不會跌過星期一的低點，沒想到直接破，42006才V上來，還好今天放假，",
-          "actions": [
-            "buy",
-            "sell",
-            "limitUp",
-            "limitDown"
-          ],
-          "contexts": [
-            "「創新服務」漲停 「全新」跌停",
-            "「全新」今天反而是外資轉買投信賣，又被警示，我有點買到生氣，就不要跌到我的底價222，我就⋯我就⋯只能一直買爆你！"
-          ]
-        },
-        {
-          "pk": "3916383033298353859",
-          "url": "https://www.threads.com/@evachien.chien/post/DZZyZ5wHX7D",
-          "taken_at": "2026-06-10T11:01:00+00:00",
-          "text": "今天亮三顆燈🤡\n「沛亨」、「全新」、「聯亞」跌停\n\n今天買了8檔股票，如圖，沒有賣出成功😅掛太高，太貪心！「全新」每天都在跑寂寞的！\n\nSemiAnalysis研究團隊在COMPUTEX展期間表示-CPO技術在量產上仍面臨光學引擎連接良率不足，相關產品量產時程將延後，不僅Lite大跌，台股CPO概念股幾乎都滅。\n然而，科技媒體資深記者Tae Kim於10日發文表示，他在COMPUTEX期間專訪輝達網路事業資深副總裁Gilad Shainer時，並沒有被透露任何有關CPO會延遲",
-          "actions": [
-            "limitDown"
-          ],
-          "contexts": [
-            "「沛亨」、「全新」、「聯亞」跌停",
-            "「全新」每天都在跑寂寞的！"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "2455",
-        "name": "全新",
-        "market": "TWSE",
-        "price": 352.0,
-        "change": 32.0,
-        "priceDate": "1150612",
-        "peRatio": 111.04,
-        "dividendYield": 0.75,
-        "pbRatio": 17.75,
-        "valuationDate": "1150612",
-        "eps": 1.06,
-        "epsPeriod": "1151",
-        "revenueYoY": 46.511957177046604,
-        "revenue": 320785.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 38.09,
-        "netIncome": 195085.0,
-        "debtRatio": 32.02,
-        "equity": 3667225.0,
-        "roe": 5.32
-      }
-    },
     {
       "code": "2344",
       "name": "華邦電",
@@ -258,10 +142,9 @@
       "code": "6291",
       "name": "沛亨",
       "market": "TPEx",
-      "count": 2,
+      "count": 1,
       "actions": {
-        "limitUp": 1,
-        "limitDown": 1
+        "limitUp": 1
       },
       "posts": [
         {
@@ -274,18 +157,6 @@
           ],
           "contexts": [
             "「沛亨」、「創新服務」漲停打開，賀 狂賀～下週都出關 📈"
-          ]
-        },
-        {
-          "pk": "3916383033298353859",
-          "url": "https://www.threads.com/@evachien.chien/post/DZZyZ5wHX7D",
-          "taken_at": "2026-06-10T11:01:00+00:00",
-          "text": "今天亮三顆燈🤡\n「沛亨」、「全新」、「聯亞」跌停\n\n今天買了8檔股票，如圖，沒有賣出成功😅掛太高，太貪心！「全新」每天都在跑寂寞的！\n\nSemiAnalysis研究團隊在COMPUTEX展期間表示-CPO技術在量產上仍面臨光學引擎連接良率不足，相關產品量產時程將延後，不僅Lite大跌，台股CPO概念股幾乎都滅。\n然而，科技媒體資深記者Tae Kim於10日發文表示，他在COMPUTEX期間專訪輝達網路事業資深副總裁Gilad Shainer時，並沒有被透露任何有關CPO會延遲",
-          "actions": [
-            "limitDown"
-          ],
-          "contexts": [
-            "「沛亨」、「全新」、「聯亞」跌停"
           ]
         }
       ],
@@ -308,215 +179,6 @@
         "debtRatio": 39.7,
         "equity": 1378653.0,
         "roe": 9.22
-      }
-    },
-    {
-      "code": "7828",
-      "name": "創新服務",
-      "market": "TPEx",
-      "count": 2,
-      "actions": {
-        "limitUp": 2,
-        "limitDown": 1
-      },
-      "posts": [
-        {
-          "pk": "3917767655801560617",
-          "url": "https://www.threads.com/@evachien.chien/post/DZetOz8kR4p",
-          "taken_at": "2026-06-12T08:52:00+00:00",
-          "text": "今天亮三顆燈💡\n「立凱」、「華邦電」、「全新」漲停\n「沛亨」、「創新服務」漲停打開，賀 狂賀～下週都出關 📈\n\n今天沒有買成功股票\n但賣了一堆股票\n還賣到營業員有點不耐煩\n虧我一直誇獎他 一直捧他😆\n不要羨慕姐賺錢，姐前陣子也是很煎熬，每天練書法，磨我的性子，從失敗中檢討錯誤，從挫折中精進自己❤️\n\n出\n「華邦電」155+164-》172（漲停），下面70買的留倉。\n「家登」474+500-〉505，其他384起買的留倉。\n「欣興」835+890-》905，211買的留倉。\n",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「沛亨」、「創新服務」漲停打開，賀 狂賀～下週都出關 📈"
-          ]
-        },
-        {
-          "pk": "3917168843283038618",
-          "url": "https://www.threads.com/@evachien.chien/post/DZclE8VHQGa",
-          "taken_at": "2026-06-11T13:02:16+00:00",
-          "text": "今天亮兩顆燈💡+🤡\n「創新服務」漲停 「全新」跌停\n「聯亞」跌停打開\n\n終於，「創新服務」漲停追平了歷史高點，盤中一直盯著看他紅通通，開心🥳，也快出關了，明天起萬里無雲 海闊天空！\n「全新」今天反而是外資轉買投信賣，又被警示，我有點買到生氣，就不要跌到我的底價222，我就⋯我就⋯只能一直買爆你！\n「聯發科」填了5/22缺口3880，好準，但我速度太慢，只買到3980😆，下面1450買的還在！\n\n大盤 以為跌不會跌過星期一的低點，沒想到直接破，42006才V上來，還好今天放假，",
-          "actions": [
-            "limitUp",
-            "limitDown"
-          ],
-          "contexts": [
-            "「創新服務」漲停 「全新」跌停",
-            "終於，「創新服務」漲停追平了歷史高點，盤中一直盯著看他紅通通，開心🥳，也快出關了，明天起萬里無雲 海闊天空！"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "7828",
-        "name": "創新服務",
-        "market": "TPEx",
-        "price": 1920.0,
-        "change": 130.0,
-        "priceDate": "1150612",
-        "peRatio": null,
-        "dividendYield": 0.24,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 258.64270437641653,
-        "revenue": 112352.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 80.18,
-        "netIncome": 37306.0,
-        "debtRatio": 40.34,
-        "equity": 1058586.0,
-        "roe": 3.52
-      }
-    },
-    {
-      "code": "5227",
-      "name": "立凱-KY",
-      "market": "TPEx",
-      "count": 2,
-      "actions": {
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3917767655801560617",
-          "url": "https://www.threads.com/@evachien.chien/post/DZetOz8kR4p",
-          "taken_at": "2026-06-12T08:52:00+00:00",
-          "text": "今天亮三顆燈💡\n「立凱」、「華邦電」、「全新」漲停\n「沛亨」、「創新服務」漲停打開，賀 狂賀～下週都出關 📈\n\n今天沒有買成功股票\n但賣了一堆股票\n還賣到營業員有點不耐煩\n虧我一直誇獎他 一直捧他😆\n不要羨慕姐賺錢，姐前陣子也是很煎熬，每天練書法，磨我的性子，從失敗中檢討錯誤，從挫折中精進自己❤️\n\n出\n「華邦電」155+164-》172（漲停），下面70買的留倉。\n「家登」474+500-〉505，其他384起買的留倉。\n「欣興」835+890-》905，211買的留倉。\n",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「立凱」、「華邦電」、「全新」漲停"
-          ]
-        },
-        {
-          "pk": "3917178455059145482",
-          "url": "https://www.threads.com/@evachien.chien/post/DZcnQz_nSMK",
-          "taken_at": "2026-06-11T13:21:22+00:00",
-          "text": "還有多亮一顆燈💡\n剛剛發現\n但我立凱很可憐\n買在94元，減資兩次\n我都放著沒管他\n他獲得特斯拉20年長約大單\n我大概要放到他漲到1000元\n我才回本😆\n不建議大家購買",
-          "actions": [],
-          "contexts": [
-            "但我立凱很可憐"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "5227",
-        "name": "立凱-KY",
-        "market": "TPEx",
-        "price": 30.9,
-        "change": 2.8,
-        "priceDate": "1150612",
-        "peRatio": null,
-        "dividendYield": 0.0,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": -97.07835667215815,
-        "revenue": 1135.0,
-        "revenuePeriod": "11505",
-        "grossMargin": -70.7,
-        "netIncome": -97559.0,
-        "debtRatio": 37.56,
-        "equity": 435401.0,
-        "roe": -22.41
-      }
-    },
-    {
-      "code": "3081",
-      "name": "聯亞",
-      "market": "TPEx",
-      "count": 2,
-      "actions": {
-        "limitDown": 2
-      },
-      "posts": [
-        {
-          "pk": "3917168843283038618",
-          "url": "https://www.threads.com/@evachien.chien/post/DZclE8VHQGa",
-          "taken_at": "2026-06-11T13:02:16+00:00",
-          "text": "今天亮兩顆燈💡+🤡\n「創新服務」漲停 「全新」跌停\n「聯亞」跌停打開\n\n終於，「創新服務」漲停追平了歷史高點，盤中一直盯著看他紅通通，開心🥳，也快出關了，明天起萬里無雲 海闊天空！\n「全新」今天反而是外資轉買投信賣，又被警示，我有點買到生氣，就不要跌到我的底價222，我就⋯我就⋯只能一直買爆你！\n「聯發科」填了5/22缺口3880，好準，但我速度太慢，只買到3980😆，下面1450買的還在！\n\n大盤 以為跌不會跌過星期一的低點，沒想到直接破，42006才V上來，還好今天放假，",
-          "actions": [
-            "limitDown"
-          ],
-          "contexts": [
-            "「聯亞」跌停打開"
-          ]
-        },
-        {
-          "pk": "3916383033298353859",
-          "url": "https://www.threads.com/@evachien.chien/post/DZZyZ5wHX7D",
-          "taken_at": "2026-06-10T11:01:00+00:00",
-          "text": "今天亮三顆燈🤡\n「沛亨」、「全新」、「聯亞」跌停\n\n今天買了8檔股票，如圖，沒有賣出成功😅掛太高，太貪心！「全新」每天都在跑寂寞的！\n\nSemiAnalysis研究團隊在COMPUTEX展期間表示-CPO技術在量產上仍面臨光學引擎連接良率不足，相關產品量產時程將延後，不僅Lite大跌，台股CPO概念股幾乎都滅。\n然而，科技媒體資深記者Tae Kim於10日發文表示，他在COMPUTEX期間專訪輝達網路事業資深副總裁Gilad Shainer時，並沒有被透露任何有關CPO會延遲",
-          "actions": [
-            "limitDown"
-          ],
-          "contexts": [
-            "「沛亨」、「全新」、「聯亞」跌停"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "3081",
-        "name": "聯亞",
-        "market": "TPEx",
-        "price": 2195.0,
-        "change": 30.0,
-        "priceDate": "1150612",
-        "peRatio": null,
-        "dividendYield": 0.18,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 118.83628392642144,
-        "revenue": 405322.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 54.76,
-        "netIncome": 317515.0,
-        "debtRatio": 25.34,
-        "equity": 4239556.0,
-        "roe": 7.49
-      }
-    },
-    {
-      "code": "3680",
-      "name": "家登",
-      "market": "TPEx",
-      "count": 1,
-      "actions": {
-        "buy": 1
-      },
-      "posts": [
-        {
-          "pk": "3917767655801560617",
-          "url": "https://www.threads.com/@evachien.chien/post/DZetOz8kR4p",
-          "taken_at": "2026-06-12T08:52:00+00:00",
-          "text": "今天亮三顆燈💡\n「立凱」、「華邦電」、「全新」漲停\n「沛亨」、「創新服務」漲停打開，賀 狂賀～下週都出關 📈\n\n今天沒有買成功股票\n但賣了一堆股票\n還賣到營業員有點不耐煩\n虧我一直誇獎他 一直捧他😆\n不要羨慕姐賺錢，姐前陣子也是很煎熬，每天練書法，磨我的性子，從失敗中檢討錯誤，從挫折中精進自己❤️\n\n出\n「華邦電」155+164-》172（漲停），下面70買的留倉。\n「家登」474+500-〉505，其他384起買的留倉。\n「欣興」835+890-》905，211買的留倉。\n",
-          "actions": [
-            "buy"
-          ],
-          "contexts": [
-            "「家登」474+500-〉505，其他384起買的留倉。"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "3680",
-        "name": "家登",
-        "market": "TPEx",
-        "price": 503.0,
-        "change": 23.0,
-        "priceDate": "1150612",
-        "peRatio": null,
-        "dividendYield": 1.37,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 15.959223340838939,
-        "revenue": 677726.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 42.63,
-        "netIncome": 278153.0,
-        "debtRatio": 50.59,
-        "equity": 12860802.0,
-        "roe": 2.16
       }
     },
     {
@@ -608,12 +270,12 @@
       }
     },
     {
-      "code": "2454",
-      "name": "聯發科",
-      "market": "TWSE",
+      "code": "3081",
+      "name": "聯亞",
+      "market": "TPEx",
       "count": 1,
       "actions": {
-        "buy": 1
+        "limitDown": 1
       },
       "posts": [
         {
@@ -622,34 +284,32 @@
           "taken_at": "2026-06-11T13:02:16+00:00",
           "text": "今天亮兩顆燈💡+🤡\n「創新服務」漲停 「全新」跌停\n「聯亞」跌停打開\n\n終於，「創新服務」漲停追平了歷史高點，盤中一直盯著看他紅通通，開心🥳，也快出關了，明天起萬里無雲 海闊天空！\n「全新」今天反而是外資轉買投信賣，又被警示，我有點買到生氣，就不要跌到我的底價222，我就⋯我就⋯只能一直買爆你！\n「聯發科」填了5/22缺口3880，好準，但我速度太慢，只買到3980😆，下面1450買的還在！\n\n大盤 以為跌不會跌過星期一的低點，沒想到直接破，42006才V上來，還好今天放假，",
           "actions": [
-            "buy"
+            "limitDown"
           ],
           "contexts": [
-            "「聯發科」填了5/22缺口3880，好準，但我速度太慢，只買到3980😆，下面1450買的還在！"
+            "「聯亞」跌停打開"
           ]
         }
       ],
       "fundamentals": {
-        "code": "2454",
-        "name": "聯發科",
-        "market": "TWSE",
-        "price": 4180.0,
-        "change": 95.0,
+        "code": "3081",
+        "name": "聯亞",
+        "market": "TPEx",
+        "price": 2195.0,
+        "change": 30.0,
         "priceDate": "1150612",
-        "peRatio": 66.61,
-        "dividendYield": 1.28,
-        "pbRatio": 17.09,
-        "valuationDate": "1150612",
-        "eps": 15.17,
-        "epsPeriod": "1151",
-        "revenueYoY": 4.98813360428783,
-        "revenue": 47434191.0,
+        "peRatio": null,
+        "dividendYield": 0.18,
+        "pbRatio": null,
+        "eps": null,
+        "revenueYoY": 118.83628392642144,
+        "revenue": 405322.0,
         "revenuePeriod": "11505",
-        "grossMargin": 46.3,
-        "netIncome": 24376384.0,
-        "debtRatio": 46.07,
-        "equity": 398446955.0,
-        "roe": 6.12
+        "grossMargin": 54.76,
+        "netIncome": 317515.0,
+        "debtRatio": 25.34,
+        "equity": 4239556.0,
+        "roe": 7.49
       }
     },
     {
@@ -697,16 +357,26 @@
   "posts": [
     {
       "index": 0,
+      "pk": "3919108199626662056",
+      "url": "https://www.threads.com/@evachien.chien/post/DZjeCSrEWCo",
+      "taken_at": "2026-06-14T05:15:25+00:00",
+      "text": "媽媽真的很有智慧\n她用拋棄式浴帽 包裝很多食材\n我剛剛煮我的中藥包（二次煎）\n就從浴帽中取出，完全沒滲漏，也沒有冰箱味\n生活智慧王👍",
+      "like_count": 21,
+      "reply_count": 4,
+      "mentions": []
+    },
+    {
+      "index": 1,
       "pk": "3918304165828085199",
       "url": "https://www.threads.com/@evachien.chien/post/DZgnOD2HcXP",
       "taken_at": "2026-06-13T02:37:57+00:00",
       "text": "阿嬤看我手貼痠痛貼布\n立刻贈送我一大包\n我已經到要跟阿嬤交流痠痛貼布的年紀了嗎😆",
       "like_count": 21,
-      "reply_count": 16,
+      "reply_count": 18,
       "mentions": []
     },
     {
-      "index": 1,
+      "index": 2,
       "pk": "3917767655801560617",
       "url": "https://www.threads.com/@evachien.chien/post/DZetOz8kR4p",
       "taken_at": "2026-06-12T08:52:00+00:00",
@@ -714,20 +384,6 @@
       "like_count": 65,
       "reply_count": 46,
       "mentions": [
-        {
-          "code": "5227",
-          "name": "立凱-KY",
-          "market": "TPEx",
-          "aliases": [
-            "立凱"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「立凱」、「華邦電」、「全新」漲停"
-          ]
-        },
         {
           "code": "2344",
           "name": "華邦電",
@@ -748,20 +404,6 @@
           ]
         },
         {
-          "code": "2455",
-          "name": "全新",
-          "market": "TWSE",
-          "aliases": [
-            "全新"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「立凱」、「華邦電」、「全新」漲停"
-          ]
-        },
-        {
           "code": "6291",
           "name": "沛亨",
           "market": "TPEx",
@@ -773,34 +415,6 @@
           ],
           "contexts": [
             "「沛亨」、「創新服務」漲停打開，賀 狂賀～下週都出關 📈"
-          ]
-        },
-        {
-          "code": "7828",
-          "name": "創新服務",
-          "market": "TPEx",
-          "aliases": [
-            "創新服務"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「沛亨」、「創新服務」漲停打開，賀 狂賀～下週都出關 📈"
-          ]
-        },
-        {
-          "code": "3680",
-          "name": "家登",
-          "market": "TPEx",
-          "aliases": [
-            "家登"
-          ],
-          "actions": [
-            "buy"
-          ],
-          "contexts": [
-            "「家登」474+500-〉505，其他384起買的留倉。"
           ]
         },
         {
@@ -834,30 +448,17 @@
       ]
     },
     {
-      "index": 2,
+      "index": 3,
       "pk": "3917178455059145482",
       "url": "https://www.threads.com/@evachien.chien/post/DZcnQz_nSMK",
       "taken_at": "2026-06-11T13:21:22+00:00",
       "text": "還有多亮一顆燈💡\n剛剛發現\n但我立凱很可憐\n買在94元，減資兩次\n我都放著沒管他\n他獲得特斯拉20年長約大單\n我大概要放到他漲到1000元\n我才回本😆\n不建議大家購買",
       "like_count": 4,
       "reply_count": 1,
-      "mentions": [
-        {
-          "code": "5227",
-          "name": "立凱-KY",
-          "market": "TPEx",
-          "aliases": [
-            "立凱"
-          ],
-          "actions": [],
-          "contexts": [
-            "但我立凱很可憐"
-          ]
-        }
-      ]
+      "mentions": []
     },
     {
-      "index": 3,
+      "index": 4,
       "pk": "3917168843283038618",
       "url": "https://www.threads.com/@evachien.chien/post/DZclE8VHQGa",
       "taken_at": "2026-06-11T13:02:16+00:00",
@@ -865,40 +466,6 @@
       "like_count": 40,
       "reply_count": 34,
       "mentions": [
-        {
-          "code": "7828",
-          "name": "創新服務",
-          "market": "TPEx",
-          "aliases": [
-            "創新服務"
-          ],
-          "actions": [
-            "limitUp",
-            "limitDown"
-          ],
-          "contexts": [
-            "「創新服務」漲停 「全新」跌停",
-            "終於，「創新服務」漲停追平了歷史高點，盤中一直盯著看他紅通通，開心🥳，也快出關了，明天起萬里無雲 海闊天空！"
-          ]
-        },
-        {
-          "code": "2455",
-          "name": "全新",
-          "market": "TWSE",
-          "aliases": [
-            "全新"
-          ],
-          "actions": [
-            "buy",
-            "sell",
-            "limitUp",
-            "limitDown"
-          ],
-          "contexts": [
-            "「創新服務」漲停 「全新」跌停",
-            "「全新」今天反而是外資轉買投信賣，又被警示，我有點買到生氣，就不要跌到我的底價222，我就⋯我就⋯只能一直買爆你！"
-          ]
-        },
         {
           "code": "3081",
           "name": "聯亞",
@@ -911,20 +478,6 @@
           ],
           "contexts": [
             "「聯亞」跌停打開"
-          ]
-        },
-        {
-          "code": "2454",
-          "name": "聯發科",
-          "market": "TWSE",
-          "aliases": [
-            "聯發科"
-          ],
-          "actions": [
-            "buy"
-          ],
-          "contexts": [
-            "「聯發科」填了5/22缺口3880，好準，但我速度太慢，只買到3980😆，下面1450買的還在！"
           ]
         },
         {
@@ -951,70 +504,6 @@
           ],
           "contexts": [
             "華邦電總共買了760股，發薪水都拿去投資理財，目前均價157，她老神在在，她說要繼續放下去👍"
-          ]
-        }
-      ]
-    },
-    {
-      "index": 4,
-      "pk": "3916396006188346023",
-      "url": "https://www.threads.com/@evachien.chien/post/DZZ1WrsnWqn",
-      "taken_at": "2026-06-10T11:26:47+00:00",
-      "text": "再這樣下去\n我的未損益可能還沒變漂亮\n我的書法會越練越好\n（突然想到昨天跟我弟妹聊天內容）",
-      "like_count": 10,
-      "reply_count": 2,
-      "mentions": []
-    },
-    {
-      "index": 5,
-      "pk": "3916383033298353859",
-      "url": "https://www.threads.com/@evachien.chien/post/DZZyZ5wHX7D",
-      "taken_at": "2026-06-10T11:01:00+00:00",
-      "text": "今天亮三顆燈🤡\n「沛亨」、「全新」、「聯亞」跌停\n\n今天買了8檔股票，如圖，沒有賣出成功😅掛太高，太貪心！「全新」每天都在跑寂寞的！\n\nSemiAnalysis研究團隊在COMPUTEX展期間表示-CPO技術在量產上仍面臨光學引擎連接良率不足，相關產品量產時程將延後，不僅Lite大跌，台股CPO概念股幾乎都滅。\n然而，科技媒體資深記者Tae Kim於10日發文表示，他在COMPUTEX期間專訪輝達網路事業資深副總裁Gilad Shainer時，並沒有被透露任何有關CPO會延遲出貨的跡象。\nCPO前陣子真的漲多，回檔很合理，我目前採分批進場，不會歐印，減少風險！\n\n今晚20:30 美國CPI公布，以及6/11 PPI公布，美股走勢已經提前反應，通膨如果降溫，電子權值股較有機會反彈，拜託🙏！6/16日央、6/18 FOMC也都是利率關鍵，外資態度會很觀望，已經連五賣不手軟，且6/17台指結算+6/19四巫日，盤中震盪機率高，追高風險存在！\n\n有錢同事（對！應該比我有錢，不用提出疑問了）請全公司吃小火鍋。我原本想說沒人請喝飲料，如果我有賣股票，我來請喝飲料。結果小火鍋晚到，有錢同事直接加訂！",
-      "like_count": 37,
-      "reply_count": 41,
-      "mentions": [
-        {
-          "code": "6291",
-          "name": "沛亨",
-          "market": "TPEx",
-          "aliases": [
-            "沛亨"
-          ],
-          "actions": [
-            "limitDown"
-          ],
-          "contexts": [
-            "「沛亨」、「全新」、「聯亞」跌停"
-          ]
-        },
-        {
-          "code": "2455",
-          "name": "全新",
-          "market": "TWSE",
-          "aliases": [
-            "全新"
-          ],
-          "actions": [
-            "limitDown"
-          ],
-          "contexts": [
-            "「沛亨」、「全新」、「聯亞」跌停",
-            "「全新」每天都在跑寂寞的！"
-          ]
-        },
-        {
-          "code": "3081",
-          "name": "聯亞",
-          "market": "TPEx",
-          "aliases": [
-            "聯亞"
-          ],
-          "actions": [
-            "limitDown"
-          ],
-          "contexts": [
-            "「沛亨」、「全新」、「聯亞」跌停"
           ]
         }
       ]
