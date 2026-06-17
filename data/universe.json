@@ -74432,6 +74432,14 @@
     ]
   },
   {
+    "code": "009821",
+    "name": "野村稀土關鍵資源",
+    "market": "TWSE",
+    "aliases": [
+      "野村稀土關鍵資源"
+    ]
+  },
+  {
     "code": "00982A",
     "name": "主動群益台灣強棒",
     "market": "TWSE",
@@ -83999,14 +84007,6 @@
     "market": "TWSE",
     "aliases": [
       "瑞昱"
-    ]
-  },
-  {
-    "code": "2380",
-    "name": "虹光",
-    "market": "TWSE",
-    "aliases": [
-      "虹光"
     ]
   },
   {
