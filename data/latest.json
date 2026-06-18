@@ -1,79 +1,37 @@
 {
-  "generatedAt": "2026-06-18T08:49:53.799608+00:00",
+  "generatedAt": "2026-06-18T15:22:21.658952+00:00",
   "account": {
     "user_id": "73957398954",
     "username": "evachien.chien",
     "full_name": "Olivia Chien",
     "biography": "正職洗腰子護理師\n目前努力學習股票操盤\n希望可以早日財富自由（如果有私訊邀約入群，那都是騙人的喔！我才沒有空搞那個😆）\n也努力健身運動\n希望擁有健康的身體以及好身材\n有人說過我像趙敏\n也期許自己跟趙敏一樣聰慧果敢堅毅，當然美麗是一定要的 嘿👍",
-    "follower_count": 3844,
+    "follower_count": 3845,
     "following_count": null,
     "is_verified": 0,
-    "profile_pic_url": "https://scontent-sin2-2.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sin2-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gE1u_I93V9CjokqtOgxPyEcBTe8UdsP6oo_j5E0pyUrC93pQ6oFeHh-8aDCn35LU2Y&_nc_ohc=uWhkU_6Vf2gQ7kNvwHayO-X&_nc_gid=yNH7giXyuEjRmegTyeDkLg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_pr26b4FkZowuw8Ulsn5UmHT1Oo14SHu0Xmy94tSVpqg&oe=6A3993FB&_nc_sid=10d13b",
-    "last_fetched_at": 1781772342
+    "profile_pic_url": "https://scontent-lhr6-1.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-lhr6-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gEzRl-MhQ49Jb1o5WVcgrrDJWdznn7duFZcavJ0e6tp00unxzb1R5xb9jRAdVXAdaQ&_nc_ohc=uWhkU_6Vf2gQ7kNvwHoUIap&_nc_gid=A3GP9oOW7S3QMuktzrR7dA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_Js8niK_wVnf_BulVb5SBlxjFlJRlJKBqiP8dhVRiIsg&oe=6A39CC3B&_nc_sid=10d13b",
+    "last_fetched_at": 1781796016
   },
   "summary": {
-    "totalPosts": 4,
-    "postsWithStocks": 4,
-    "uniqueStocks": 26,
+    "totalPosts": 5,
+    "postsWithStocks": 2,
+    "uniqueStocks": 12,
     "topStocks": [
       {
         "code": "2344",
         "name": "華邦電",
-        "count": 3,
+        "count": 2,
         "actions": {
           "sell": 1,
-          "limitUp": 2,
+          "limitUp": 1,
           "regret": 1
-        }
-      },
-      {
-        "code": "3105",
-        "name": "穩懋",
-        "count": 3,
-        "actions": {
-          "buy": 1,
-          "limitUp": 1
         }
       },
       {
         "code": "3665",
         "name": "貿聯-KY",
-        "count": 3,
+        "count": 2,
         "actions": {
           "buy": 2
-        }
-      },
-      {
-        "code": "5227",
-        "name": "立凱-KY",
-        "count": 3,
-        "actions": {
-          "limitUp": 3
-        }
-      },
-      {
-        "code": "8996",
-        "name": "高力",
-        "count": 3,
-        "actions": {
-          "limitUp": 3
-        }
-      },
-      {
-        "code": "2455",
-        "name": "全新",
-        "count": 2,
-        "actions": {
-          "limitUp": 1,
-          "buy": 1
-        }
-      },
-      {
-        "code": "3081",
-        "name": "聯亞",
-        "count": 2,
-        "actions": {
-          "limitUp": 1
         }
       },
       {
@@ -97,32 +55,71 @@
         }
       },
       {
-        "code": "3491",
-        "name": "昇達科",
+        "code": "3105",
+        "name": "穩懋",
         "count": 1,
         "actions": {
-          "buy": 1,
-          "regret": 1
+          "buy": 1
+        }
+      },
+      {
+        "code": "2327",
+        "name": "國巨*",
+        "count": 1,
+        "actions": {
+          "buy": 1
+        }
+      },
+      {
+        "code": "5227",
+        "name": "立凱-KY",
+        "count": 1,
+        "actions": {
+          "limitUp": 1
+        }
+      },
+      {
+        "code": "8996",
+        "name": "高力",
+        "count": 1,
+        "actions": {
+          "limitUp": 1
+        }
+      },
+      {
+        "code": "2618",
+        "name": "長榮航",
+        "count": 1,
+        "actions": {
+          "buy": 1
+        }
+      },
+      {
+        "code": "2610",
+        "name": "華航",
+        "count": 1,
+        "actions": {
+          "buy": 1
         }
       }
     ],
     "actionTotals": {
       "sell": 3,
-      "limitUp": 15,
-      "regret": 6,
-      "buy": 15
+      "limitUp": 3,
+      "regret": 3,
+      "buy": 10
     },
-    "fundamentalsCoverage": 26
+    "fundamentalsCoverage": 12
   },
   "stocks": [
     {
       "code": "2344",
       "name": "華邦電",
       "market": "TWSE",
-      "count": 3,
+      "count": 2,
       "actions": {
         "sell": 1,
-        "limitUp": 2,
+        "limitUp": 1,
         "regret": 1
       },
       "posts": [
@@ -150,19 +147,6 @@
           "contexts": [
             "「華邦電」，其實我原本想要當沖華邦電，但我實在當沖很弱，就打退堂鼓，今天收盤收在199元，收的漂亮，有吃到飽的感覺，太棒了👏"
           ]
-        },
-        {
-          "pk": "3919915053374103662",
-          "url": "https://www.threads.com/@evachien.chien/post/DZmVfjyEeBu",
-          "taken_at": "2026-06-15T07:58:30+00:00",
-          "text": "今天亮五顆燈💡\n「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停\n今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏\n此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！\n\n今天InP也有好消息傳來，中國放行InP基板解",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停",
-            "5股學妹，創意30股+貿聯5股+華邦電400股全部出了！"
-          ]
         }
       ],
       "fundamentals": {
@@ -189,77 +173,10 @@
       }
     },
     {
-      "code": "3105",
-      "name": "穩懋",
-      "market": "TPEx",
-      "count": 3,
-      "actions": {
-        "buy": 1,
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3922031580466492959",
-          "url": "https://www.threads.com/@evachien.chien/post/DZt2vFPkbYf",
-          "taken_at": "2026-06-18T06:03:40+00:00",
-          "text": "今天亮一顆燈💡\n「華邦電」漲停\n今天「華邦電」創新高漲停，我均價70.6，正式來到+208%的獲利率，謝謝自己撐過最難熬的記憶體低潮時期，當時每個人都叫我賣，還好我研究一下ECB定價完洗乾淨籌碼，一定會來到142元，謝謝華邦電，好感人，都快哭了，站上200！\n\n出\n「穩懋」492.5～565買的，出在552，自己覺得出的很棒👍快誇我！其他315～465.5買的還留倉，謝謝穩懋殺小豬養我！\n「群聯」2250+2450-》2450，盤中看大盤震盪，我就被洗出場了，我還忘記自己之前",
-          "actions": [
-            "buy"
-          ],
-          "contexts": [
-            "「穩懋」492.5～565買的，出在552，自己覺得出的很棒👍快誇我！",
-            "其他315～465.5買的還留倉，謝謝穩懋殺小豬養我！"
-          ]
-        },
-        {
-          "pk": "3920586342627794069",
-          "url": "https://www.threads.com/@evachien.chien/post/DZouIGnk9yV",
-          "taken_at": "2026-06-16T06:12:14+00:00",
-          "text": "今天亮三顆燈💡\n「立凱」、「全新」、「高力」漲停\n「立凱」雖然每天跳空漲停，但我對他還是沒信心，請不要追他！\n「全新」漲停，但我的「穩懋」、「聯亞」不知道在幹嘛，一副要死不活的樣子！\n\n「富喬」我前陣子很常買的富喬，還罰寫20遍的富喬，開高來到101.5，讓我充滿希望，沒想到又是走開高走低的局，不知道要對他說什麼了！\n低軌等昇達科復活了，整個族群好像真的活在外太空一樣，我的「華通」買在170，所以我睜一隻眼閉一隻眼，但我的「燿華」好幾次解套小賺，我都沒跑，現在又被套住了，哭哭",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「全新」漲停，但我的「穩懋」、「聯亞」不知道在幹嘛，一副要死不活的樣子！"
-          ]
-        },
-        {
-          "pk": "3919915053374103662",
-          "url": "https://www.threads.com/@evachien.chien/post/DZmVfjyEeBu",
-          "taken_at": "2026-06-15T07:58:30+00:00",
-          "text": "今天亮五顆燈💡\n「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停\n今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏\n此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！\n\n今天InP也有好消息傳來，中國放行InP基板解",
-          "actions": [],
-          "contexts": [
-            "「穩懋」看起來也沒問題，「全新」又被警示，真的是可憐的孩子😆"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "3105",
-        "name": "穩懋",
-        "market": "TPEx",
-        "price": 528.0,
-        "change": 9.0,
-        "priceDate": "1150618",
-        "peRatio": null,
-        "dividendYield": 0.39,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 40.29750787405665,
-        "revenue": 1755488.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 26.34,
-        "netIncome": 448627.0,
-        "debtRatio": 31.82,
-        "equity": 41291462.0,
-        "roe": 1.09
-      }
-    },
-    {
       "code": "3665",
       "name": "貿聯-KY",
       "market": "TWSE",
-      "count": 3,
+      "count": 2,
       "actions": {
         "buy": 2
       },
@@ -287,16 +204,6 @@
           "contexts": [
             "我畫「嘉澤」三角收斂，跟他們說買「貿聯」，還沒人發現，跟我一樣天耶😆哈哈哈哈哈哈"
           ]
-        },
-        {
-          "pk": "3919915053374103662",
-          "url": "https://www.threads.com/@evachien.chien/post/DZmVfjyEeBu",
-          "taken_at": "2026-06-15T07:58:30+00:00",
-          "text": "今天亮五顆燈💡\n「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停\n今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏\n此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！\n\n今天InP也有好消息傳來，中國放行InP基板解",
-          "actions": [],
-          "contexts": [
-            "5股學妹，創意30股+貿聯5股+華邦電400股全部出了！"
-          ]
         }
       ],
       "fundamentals": {
@@ -320,258 +227,6 @@
         "debtRatio": 45.52,
         "equity": 46636528.0,
         "roe": 4.87
-      }
-    },
-    {
-      "code": "5227",
-      "name": "立凱-KY",
-      "market": "TPEx",
-      "count": 3,
-      "actions": {
-        "limitUp": 3
-      },
-      "posts": [
-        {
-          "pk": "3921335244817529563",
-          "url": "https://www.threads.com/@evachien.chien/post/DZrYaEIkXrb",
-          "taken_at": "2026-06-17T07:00:10+00:00",
-          "text": "今天亮兩顆燈💡\n「立凱」、「高力」漲停\n「虎航」漲停打開\n「立凱」每天漲停，我也是很佩服他，明天應該進處置了，記得不要追喔！\n「虎航」美伊和談使國際油價大跌逾 5%，加上暑假旅遊旺季商機發酵，航空雙重利多帶動族群大漲，長榮航及華航都有不錯的漲勢📈，我是去年為了賺虎航的股利6.05進場的，目前還被套中。\n\n出\n「緯穎」4835-》5040出，6/22除權息，股票股利20+現金股利144.392，如果我低價買入，我就會續抱，現在的位階，滿擔心除權息後大打折扣，所以我選擇先獲利了結",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「立凱」、「高力」漲停",
-            "「立凱」每天漲停，我也是很佩服他，明天應該進處置了，記得不要追喔！"
-          ]
-        },
-        {
-          "pk": "3920586342627794069",
-          "url": "https://www.threads.com/@evachien.chien/post/DZouIGnk9yV",
-          "taken_at": "2026-06-16T06:12:14+00:00",
-          "text": "今天亮三顆燈💡\n「立凱」、「全新」、「高力」漲停\n「立凱」雖然每天跳空漲停，但我對他還是沒信心，請不要追他！\n「全新」漲停，但我的「穩懋」、「聯亞」不知道在幹嘛，一副要死不活的樣子！\n\n「富喬」我前陣子很常買的富喬，還罰寫20遍的富喬，開高來到101.5，讓我充滿希望，沒想到又是走開高走低的局，不知道要對他說什麼了！\n低軌等昇達科復活了，整個族群好像真的活在外太空一樣，我的「華通」買在170，所以我睜一隻眼閉一隻眼，但我的「燿華」好幾次解套小賺，我都沒跑，現在又被套住了，哭哭",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「立凱」、「全新」、「高力」漲停",
-            "「立凱」雖然每天跳空漲停，但我對他還是沒信心，請不要追他！"
-          ]
-        },
-        {
-          "pk": "3919915053374103662",
-          "url": "https://www.threads.com/@evachien.chien/post/DZmVfjyEeBu",
-          "taken_at": "2026-06-15T07:58:30+00:00",
-          "text": "今天亮五顆燈💡\n「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停\n今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏\n此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！\n\n今天InP也有好消息傳來，中國放行InP基板解",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停",
-            "此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "5227",
-        "name": "立凱-KY",
-        "market": "TPEx",
-        "price": 39.9,
-        "change": -1.1,
-        "priceDate": "1150618",
-        "peRatio": null,
-        "dividendYield": 0.0,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": -97.07835667215815,
-        "revenue": 1135.0,
-        "revenuePeriod": "11505",
-        "grossMargin": -70.7,
-        "netIncome": -97559.0,
-        "debtRatio": 37.56,
-        "equity": 435401.0,
-        "roe": -22.41
-      }
-    },
-    {
-      "code": "8996",
-      "name": "高力",
-      "market": "TWSE",
-      "count": 3,
-      "actions": {
-        "limitUp": 3
-      },
-      "posts": [
-        {
-          "pk": "3921335244817529563",
-          "url": "https://www.threads.com/@evachien.chien/post/DZrYaEIkXrb",
-          "taken_at": "2026-06-17T07:00:10+00:00",
-          "text": "今天亮兩顆燈💡\n「立凱」、「高力」漲停\n「虎航」漲停打開\n「立凱」每天漲停，我也是很佩服他，明天應該進處置了，記得不要追喔！\n「虎航」美伊和談使國際油價大跌逾 5%，加上暑假旅遊旺季商機發酵，航空雙重利多帶動族群大漲，長榮航及華航都有不錯的漲勢📈，我是去年為了賺虎航的股利6.05進場的，目前還被套中。\n\n出\n「緯穎」4835-》5040出，6/22除權息，股票股利20+現金股利144.392，如果我低價買入，我就會續抱，現在的位階，滿擔心除權息後大打折扣，所以我選擇先獲利了結",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「立凱」、「高力」漲停"
-          ]
-        },
-        {
-          "pk": "3920586342627794069",
-          "url": "https://www.threads.com/@evachien.chien/post/DZouIGnk9yV",
-          "taken_at": "2026-06-16T06:12:14+00:00",
-          "text": "今天亮三顆燈💡\n「立凱」、「全新」、「高力」漲停\n「立凱」雖然每天跳空漲停，但我對他還是沒信心，請不要追他！\n「全新」漲停，但我的「穩懋」、「聯亞」不知道在幹嘛，一副要死不活的樣子！\n\n「富喬」我前陣子很常買的富喬，還罰寫20遍的富喬，開高來到101.5，讓我充滿希望，沒想到又是走開高走低的局，不知道要對他說什麼了！\n低軌等昇達科復活了，整個族群好像真的活在外太空一樣，我的「華通」買在170，所以我睜一隻眼閉一隻眼，但我的「燿華」好幾次解套小賺，我都沒跑，現在又被套住了，哭哭",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「立凱」、「全新」、「高力」漲停"
-          ]
-        },
-        {
-          "pk": "3919915053374103662",
-          "url": "https://www.threads.com/@evachien.chien/post/DZmVfjyEeBu",
-          "taken_at": "2026-06-15T07:58:30+00:00",
-          "text": "今天亮五顆燈💡\n「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停\n今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏\n此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！\n\n今天InP也有好消息傳來，中國放行InP基板解",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "8996",
-        "name": "高力",
-        "market": "TWSE",
-        "price": 1515.0,
-        "change": 135.0,
-        "priceDate": "1150617",
-        "peRatio": 108.06,
-        "dividendYield": 0.3,
-        "pbRatio": 30.34,
-        "valuationDate": "1150617",
-        "eps": 6.54,
-        "epsPeriod": "1151",
-        "revenueYoY": 40.025403665576036,
-        "revenue": 631677.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 29.02,
-        "netIncome": 605668.0,
-        "debtRatio": 47.81,
-        "equity": 4645778.0,
-        "roe": 13.04
-      }
-    },
-    {
-      "code": "2455",
-      "name": "全新",
-      "market": "TWSE",
-      "count": 2,
-      "actions": {
-        "limitUp": 1,
-        "buy": 1
-      },
-      "posts": [
-        {
-          "pk": "3920586342627794069",
-          "url": "https://www.threads.com/@evachien.chien/post/DZouIGnk9yV",
-          "taken_at": "2026-06-16T06:12:14+00:00",
-          "text": "今天亮三顆燈💡\n「立凱」、「全新」、「高力」漲停\n「立凱」雖然每天跳空漲停，但我對他還是沒信心，請不要追他！\n「全新」漲停，但我的「穩懋」、「聯亞」不知道在幹嘛，一副要死不活的樣子！\n\n「富喬」我前陣子很常買的富喬，還罰寫20遍的富喬，開高來到101.5，讓我充滿希望，沒想到又是走開高走低的局，不知道要對他說什麼了！\n低軌等昇達科復活了，整個族群好像真的活在外太空一樣，我的「華通」買在170，所以我睜一隻眼閉一隻眼，但我的「燿華」好幾次解套小賺，我都沒跑，現在又被套住了，哭哭",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「立凱」、「全新」、「高力」漲停",
-            "「全新」漲停，但我的「穩懋」、「聯亞」不知道在幹嘛，一副要死不活的樣子！"
-          ]
-        },
-        {
-          "pk": "3919915053374103662",
-          "url": "https://www.threads.com/@evachien.chien/post/DZmVfjyEeBu",
-          "taken_at": "2026-06-15T07:58:30+00:00",
-          "text": "今天亮五顆燈💡\n「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停\n今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏\n此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！\n\n今天InP也有好消息傳來，中國放行InP基板解",
-          "actions": [
-            "buy"
-          ],
-          "contexts": [
-            "「穩懋」看起來也沒問題，「全新」又被警示，真的是可憐的孩子😆",
-            "「全新」320+359.9-》370，保留222買的。"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "2455",
-        "name": "全新",
-        "market": "TWSE",
-        "price": 428.0,
-        "change": 22.5,
-        "priceDate": "1150617",
-        "peRatio": 135.02,
-        "dividendYield": 0.61,
-        "pbRatio": 21.58,
-        "valuationDate": "1150617",
-        "eps": 1.06,
-        "epsPeriod": "1151",
-        "revenueYoY": 46.511957177046604,
-        "revenue": 320785.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 38.09,
-        "netIncome": 195085.0,
-        "debtRatio": 32.02,
-        "equity": 3667225.0,
-        "roe": 5.32
-      }
-    },
-    {
-      "code": "3081",
-      "name": "聯亞",
-      "market": "TPEx",
-      "count": 2,
-      "actions": {
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3920586342627794069",
-          "url": "https://www.threads.com/@evachien.chien/post/DZouIGnk9yV",
-          "taken_at": "2026-06-16T06:12:14+00:00",
-          "text": "今天亮三顆燈💡\n「立凱」、「全新」、「高力」漲停\n「立凱」雖然每天跳空漲停，但我對他還是沒信心，請不要追他！\n「全新」漲停，但我的「穩懋」、「聯亞」不知道在幹嘛，一副要死不活的樣子！\n\n「富喬」我前陣子很常買的富喬，還罰寫20遍的富喬，開高來到101.5，讓我充滿希望，沒想到又是走開高走低的局，不知道要對他說什麼了！\n低軌等昇達科復活了，整個族群好像真的活在外太空一樣，我的「華通」買在170，所以我睜一隻眼閉一隻眼，但我的「燿華」好幾次解套小賺，我都沒跑，現在又被套住了，哭哭",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「全新」漲停，但我的「穩懋」、「聯亞」不知道在幹嘛，一副要死不活的樣子！"
-          ]
-        },
-        {
-          "pk": "3919915053374103662",
-          "url": "https://www.threads.com/@evachien.chien/post/DZmVfjyEeBu",
-          "taken_at": "2026-06-15T07:58:30+00:00",
-          "text": "今天亮五顆燈💡\n「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停\n今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏\n此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！\n\n今天InP也有好消息傳來，中國放行InP基板解",
-          "actions": [],
-          "contexts": [
-            "「聯亞」今天有守扣抵值，明天有站上2400，就相對穩定一點；"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "3081",
-        "name": "聯亞",
-        "market": "TPEx",
-        "price": 2440.0,
-        "change": 195.0,
-        "priceDate": "1150618",
-        "peRatio": null,
-        "dividendYield": 0.18,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 118.83628392642144,
-        "revenue": 405322.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 54.76,
-        "netIncome": 317515.0,
-        "debtRatio": 25.34,
-        "equity": 4239556.0,
-        "roe": 7.49
       }
     },
     {
@@ -608,7 +263,7 @@
         "change": 200.0,
         "priceDate": "1150618",
         "peRatio": null,
-        "dividendYield": 1.0,
+        "dividendYield": 0.92,
         "pbRatio": null,
         "eps": null,
         "revenueYoY": 301.22580678045523,
@@ -671,142 +326,47 @@
       }
     },
     {
-      "code": "3491",
-      "name": "昇達科",
+      "code": "3105",
+      "name": "穩懋",
       "market": "TPEx",
       "count": 1,
       "actions": {
-        "buy": 1,
-        "regret": 1
+        "buy": 1
       },
       "posts": [
         {
-          "pk": "3920586342627794069",
-          "url": "https://www.threads.com/@evachien.chien/post/DZouIGnk9yV",
-          "taken_at": "2026-06-16T06:12:14+00:00",
-          "text": "今天亮三顆燈💡\n「立凱」、「全新」、「高力」漲停\n「立凱」雖然每天跳空漲停，但我對他還是沒信心，請不要追他！\n「全新」漲停，但我的「穩懋」、「聯亞」不知道在幹嘛，一副要死不活的樣子！\n\n「富喬」我前陣子很常買的富喬，還罰寫20遍的富喬，開高來到101.5，讓我充滿希望，沒想到又是走開高走低的局，不知道要對他說什麼了！\n低軌等昇達科復活了，整個族群好像真的活在外太空一樣，我的「華通」買在170，所以我睜一隻眼閉一隻眼，但我的「燿華」好幾次解套小賺，我都沒跑，現在又被套住了，哭哭",
+          "pk": "3922031580466492959",
+          "url": "https://www.threads.com/@evachien.chien/post/DZt2vFPkbYf",
+          "taken_at": "2026-06-18T06:03:40+00:00",
+          "text": "今天亮一顆燈💡\n「華邦電」漲停\n今天「華邦電」創新高漲停，我均價70.6，正式來到+208%的獲利率，謝謝自己撐過最難熬的記憶體低潮時期，當時每個人都叫我賣，還好我研究一下ECB定價完洗乾淨籌碼，一定會來到142元，謝謝華邦電，好感人，都快哭了，站上200！\n\n出\n「穩懋」492.5～565買的，出在552，自己覺得出的很棒👍快誇我！其他315～465.5買的還留倉，謝謝穩懋殺小豬養我！\n「群聯」2250+2450-》2450，盤中看大盤震盪，我就被洗出場了，我還忘記自己之前",
           "actions": [
-            "buy",
-            "regret"
+            "buy"
           ],
           "contexts": [
-            "低軌等昇達科復活了，整個族群好像真的活在外太空一樣，我的「華通」買在170，所以我睜一隻眼閉一隻眼，但我的「燿華」好幾次解套小賺，我都沒跑，現在又被套住了，哭哭🥹"
+            "「穩懋」492.5～565買的，出在552，自己覺得出的很棒👍快誇我！",
+            "其他315～465.5買的還留倉，謝謝穩懋殺小豬養我！"
           ]
         }
       ],
       "fundamentals": {
-        "code": "3491",
-        "name": "昇達科",
+        "code": "3105",
+        "name": "穩懋",
         "market": "TPEx",
-        "price": 1560.0,
-        "change": 10.0,
+        "price": 528.0,
+        "change": 9.0,
         "priceDate": "1150618",
         "peRatio": null,
-        "dividendYield": 0.44,
+        "dividendYield": 0.38,
         "pbRatio": null,
         "eps": null,
-        "revenueYoY": 57.235965671158574,
-        "revenue": 296253.0,
+        "revenueYoY": 40.29750787405665,
+        "revenue": 1755488.0,
         "revenuePeriod": "11505",
-        "grossMargin": 57.98,
-        "netIncome": 253127.0,
-        "debtRatio": 39.15,
-        "equity": 3484667.0,
-        "roe": 7.26
-      }
-    },
-    {
-      "code": "2313",
-      "name": "華通",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "buy": 1,
-        "regret": 1
-      },
-      "posts": [
-        {
-          "pk": "3920586342627794069",
-          "url": "https://www.threads.com/@evachien.chien/post/DZouIGnk9yV",
-          "taken_at": "2026-06-16T06:12:14+00:00",
-          "text": "今天亮三顆燈💡\n「立凱」、「全新」、「高力」漲停\n「立凱」雖然每天跳空漲停，但我對他還是沒信心，請不要追他！\n「全新」漲停，但我的「穩懋」、「聯亞」不知道在幹嘛，一副要死不活的樣子！\n\n「富喬」我前陣子很常買的富喬，還罰寫20遍的富喬，開高來到101.5，讓我充滿希望，沒想到又是走開高走低的局，不知道要對他說什麼了！\n低軌等昇達科復活了，整個族群好像真的活在外太空一樣，我的「華通」買在170，所以我睜一隻眼閉一隻眼，但我的「燿華」好幾次解套小賺，我都沒跑，現在又被套住了，哭哭",
-          "actions": [
-            "buy",
-            "regret"
-          ],
-          "contexts": [
-            "低軌等昇達科復活了，整個族群好像真的活在外太空一樣，我的「華通」買在170，所以我睜一隻眼閉一隻眼，但我的「燿華」好幾次解套小賺，我都沒跑，現在又被套住了，哭哭🥹"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "2313",
-        "name": "華通",
-        "market": "TWSE",
-        "price": 264.0,
-        "change": 15.0,
-        "priceDate": "1150617",
-        "peRatio": 46.56,
-        "dividendYield": 1.06,
-        "pbRatio": 6.72,
-        "valuationDate": "1150617",
-        "eps": 1.26,
-        "epsPeriod": "1151",
-        "revenueYoY": 13.022231835298145,
-        "revenue": 6761659.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 17.98,
-        "netIncome": 1504169.0,
-        "debtRatio": 49.86,
-        "equity": 46853886.0,
-        "roe": 3.21
-      }
-    },
-    {
-      "code": "2367",
-      "name": "燿華",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "buy": 1,
-        "regret": 1
-      },
-      "posts": [
-        {
-          "pk": "3920586342627794069",
-          "url": "https://www.threads.com/@evachien.chien/post/DZouIGnk9yV",
-          "taken_at": "2026-06-16T06:12:14+00:00",
-          "text": "今天亮三顆燈💡\n「立凱」、「全新」、「高力」漲停\n「立凱」雖然每天跳空漲停，但我對他還是沒信心，請不要追他！\n「全新」漲停，但我的「穩懋」、「聯亞」不知道在幹嘛，一副要死不活的樣子！\n\n「富喬」我前陣子很常買的富喬，還罰寫20遍的富喬，開高來到101.5，讓我充滿希望，沒想到又是走開高走低的局，不知道要對他說什麼了！\n低軌等昇達科復活了，整個族群好像真的活在外太空一樣，我的「華通」買在170，所以我睜一隻眼閉一隻眼，但我的「燿華」好幾次解套小賺，我都沒跑，現在又被套住了，哭哭",
-          "actions": [
-            "buy",
-            "regret"
-          ],
-          "contexts": [
-            "低軌等昇達科復活了，整個族群好像真的活在外太空一樣，我的「華通」買在170，所以我睜一隻眼閉一隻眼，但我的「燿華」好幾次解套小賺，我都沒跑，現在又被套住了，哭哭🥹"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "2367",
-        "name": "燿華",
-        "market": "TWSE",
-        "price": 62.5,
-        "change": 1.8,
-        "priceDate": "1150617",
-        "peRatio": null,
-        "dividendYield": 0.32,
-        "pbRatio": 3.47,
-        "valuationDate": "1150617",
-        "eps": -0.4,
-        "epsPeriod": "1151",
-        "revenueYoY": 15.913777412264125,
-        "revenue": 1533479.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 5.77,
-        "netIncome": -284506.0,
-        "debtRatio": 50.74,
-        "equity": 12713080.0,
-        "roe": -2.24
+        "grossMargin": 26.34,
+        "netIncome": 448627.0,
+        "debtRatio": 31.82,
+        "equity": 41291462.0,
+        "roe": 1.09
       }
     },
     {
@@ -852,6 +412,95 @@
         "debtRatio": 57.9,
         "equity": 169099395.0,
         "roe": 4.75
+      }
+    },
+    {
+      "code": "5227",
+      "name": "立凱-KY",
+      "market": "TPEx",
+      "count": 1,
+      "actions": {
+        "limitUp": 1
+      },
+      "posts": [
+        {
+          "pk": "3921335244817529563",
+          "url": "https://www.threads.com/@evachien.chien/post/DZrYaEIkXrb",
+          "taken_at": "2026-06-17T07:00:10+00:00",
+          "text": "今天亮兩顆燈💡\n「立凱」、「高力」漲停\n「虎航」漲停打開\n「立凱」每天漲停，我也是很佩服他，明天應該進處置了，記得不要追喔！\n「虎航」美伊和談使國際油價大跌逾 5%，加上暑假旅遊旺季商機發酵，航空雙重利多帶動族群大漲，長榮航及華航都有不錯的漲勢📈，我是去年為了賺虎航的股利6.05進場的，目前還被套中。\n\n出\n「緯穎」4835-》5040出，6/22除權息，股票股利20+現金股利144.392，如果我低價買入，我就會續抱，現在的位階，滿擔心除權息後大打折扣，所以我選擇先獲利了結",
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「立凱」、「高力」漲停",
+            "「立凱」每天漲停，我也是很佩服他，明天應該進處置了，記得不要追喔！"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "5227",
+        "name": "立凱-KY",
+        "market": "TPEx",
+        "price": 39.9,
+        "change": -1.1,
+        "priceDate": "1150618",
+        "peRatio": null,
+        "dividendYield": 0.0,
+        "pbRatio": null,
+        "eps": null,
+        "revenueYoY": -97.07835667215815,
+        "revenue": 1135.0,
+        "revenuePeriod": "11505",
+        "grossMargin": -70.7,
+        "netIncome": -97559.0,
+        "debtRatio": 37.56,
+        "equity": 435401.0,
+        "roe": -22.41
+      }
+    },
+    {
+      "code": "8996",
+      "name": "高力",
+      "market": "TWSE",
+      "count": 1,
+      "actions": {
+        "limitUp": 1
+      },
+      "posts": [
+        {
+          "pk": "3921335244817529563",
+          "url": "https://www.threads.com/@evachien.chien/post/DZrYaEIkXrb",
+          "taken_at": "2026-06-17T07:00:10+00:00",
+          "text": "今天亮兩顆燈💡\n「立凱」、「高力」漲停\n「虎航」漲停打開\n「立凱」每天漲停，我也是很佩服他，明天應該進處置了，記得不要追喔！\n「虎航」美伊和談使國際油價大跌逾 5%，加上暑假旅遊旺季商機發酵，航空雙重利多帶動族群大漲，長榮航及華航都有不錯的漲勢📈，我是去年為了賺虎航的股利6.05進場的，目前還被套中。\n\n出\n「緯穎」4835-》5040出，6/22除權息，股票股利20+現金股利144.392，如果我低價買入，我就會續抱，現在的位階，滿擔心除權息後大打折扣，所以我選擇先獲利了結",
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「立凱」、「高力」漲停"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "8996",
+        "name": "高力",
+        "market": "TWSE",
+        "price": 1515.0,
+        "change": 135.0,
+        "priceDate": "1150617",
+        "peRatio": 108.06,
+        "dividendYield": 0.3,
+        "pbRatio": 30.34,
+        "valuationDate": "1150617",
+        "eps": 6.54,
+        "epsPeriod": "1151",
+        "revenueYoY": 40.025403665576036,
+        "revenue": 631677.0,
+        "revenuePeriod": "11505",
+        "grossMargin": 29.02,
+        "netIncome": 605668.0,
+        "debtRatio": 47.81,
+        "equity": 4645778.0,
+        "roe": 13.04
       }
     },
     {
@@ -1034,402 +683,37 @@
         "equity": 44011578.0,
         "roe": 5.52
       }
-    },
-    {
-      "code": "1815",
-      "name": "富喬",
-      "market": "TPEx",
-      "count": 1,
-      "actions": {
-        "buy": 1
-      },
-      "posts": [
-        {
-          "pk": "3920586342627794069",
-          "url": "https://www.threads.com/@evachien.chien/post/DZouIGnk9yV",
-          "taken_at": "2026-06-16T06:12:14+00:00",
-          "text": "今天亮三顆燈💡\n「立凱」、「全新」、「高力」漲停\n「立凱」雖然每天跳空漲停，但我對他還是沒信心，請不要追他！\n「全新」漲停，但我的「穩懋」、「聯亞」不知道在幹嘛，一副要死不活的樣子！\n\n「富喬」我前陣子很常買的富喬，還罰寫20遍的富喬，開高來到101.5，讓我充滿希望，沒想到又是走開高走低的局，不知道要對他說什麼了！\n低軌等昇達科復活了，整個族群好像真的活在外太空一樣，我的「華通」買在170，所以我睜一隻眼閉一隻眼，但我的「燿華」好幾次解套小賺，我都沒跑，現在又被套住了，哭哭",
-          "actions": [
-            "buy"
-          ],
-          "contexts": [
-            "「富喬」我前陣子很常買的富喬，還罰寫20遍的富喬，開高來到101.5，讓我充滿希望，沒想到又是走開高走低的局，不知道要對他說什麼了！"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "1815",
-        "name": "富喬",
-        "market": "TPEx",
-        "price": 98.1,
-        "change": 3.1,
-        "priceDate": "1150618",
-        "peRatio": null,
-        "dividendYield": 1.05,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 49.900867751020414,
-        "revenue": 708433.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 35.97,
-        "netIncome": 457890.0,
-        "debtRatio": 32.43,
-        "equity": 13179802.0,
-        "roe": 3.47
-      }
-    },
-    {
-      "code": "2401",
-      "name": "凌陽",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3919915053374103662",
-          "url": "https://www.threads.com/@evachien.chien/post/DZmVfjyEeBu",
-          "taken_at": "2026-06-15T07:58:30+00:00",
-          "text": "今天亮五顆燈💡\n「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停\n今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏\n此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！\n\n今天InP也有好消息傳來，中國放行InP基板解",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停",
-            "今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "2401",
-        "name": "凌陽",
-        "market": "TWSE",
-        "price": 31.5,
-        "change": 0.75,
-        "priceDate": "1150617",
-        "peRatio": null,
-        "dividendYield": null,
-        "pbRatio": 2.26,
-        "valuationDate": "1150617",
-        "eps": -0.02,
-        "epsPeriod": "1151",
-        "revenueYoY": 28.67163672729146,
-        "revenue": 724384.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 49.74,
-        "netIncome": 92626.0,
-        "debtRatio": 25.17,
-        "equity": 10469343.0,
-        "roe": 0.88
-      }
-    },
-    {
-      "code": "3443",
-      "name": "創意",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3919915053374103662",
-          "url": "https://www.threads.com/@evachien.chien/post/DZmVfjyEeBu",
-          "taken_at": "2026-06-15T07:58:30+00:00",
-          "text": "今天亮五顆燈💡\n「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停\n今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏\n此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！\n\n今天InP也有好消息傳來，中國放行InP基板解",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停",
-            "今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏",
-            "「創意」4435+4500+4665-〉4815（漲停），其他全部留倉。",
-            "5股學妹，創意30股+貿聯5股+華邦電400股全部出了！"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "3443",
-        "name": "創意",
-        "market": "TWSE",
-        "price": 5075.0,
-        "change": 155.0,
-        "priceDate": "1150617",
-        "peRatio": 152.68,
-        "dividendYield": 0.39,
-        "pbRatio": 46.63,
-        "valuationDate": "1150617",
-        "eps": 12.28,
-        "epsPeriod": "1151",
-        "revenueYoY": 132.1328905238472,
-        "revenue": 4674012.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 27.2,
-        "netIncome": 1646240.0,
-        "debtRatio": 58.49,
-        "equity": 14583873.0,
-        "roe": 11.29
-      }
-    },
-    {
-      "code": "2454",
-      "name": "聯發科",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3919915053374103662",
-          "url": "https://www.threads.com/@evachien.chien/post/DZmVfjyEeBu",
-          "taken_at": "2026-06-15T07:58:30+00:00",
-          "text": "今天亮五顆燈💡\n「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停\n今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏\n此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！\n\n今天InP也有好消息傳來，中國放行InP基板解",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "2454",
-        "name": "聯發科",
-        "market": "TWSE",
-        "price": 4460.0,
-        "change": -100.0,
-        "priceDate": "1150617",
-        "peRatio": 71.08,
-        "dividendYield": 1.2,
-        "pbRatio": 18.24,
-        "valuationDate": "1150617",
-        "eps": 15.17,
-        "epsPeriod": "1151",
-        "revenueYoY": 4.98813360428783,
-        "revenue": 47434191.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 46.3,
-        "netIncome": 24376384.0,
-        "debtRatio": 46.07,
-        "equity": 398446955.0,
-        "roe": 6.12
-      }
-    },
-    {
-      "code": "6291",
-      "name": "沛亨",
-      "market": "TPEx",
-      "count": 1,
-      "actions": {
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3919915053374103662",
-          "url": "https://www.threads.com/@evachien.chien/post/DZmVfjyEeBu",
-          "taken_at": "2026-06-15T07:58:30+00:00",
-          "text": "今天亮五顆燈💡\n「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停\n今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏\n此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！\n\n今天InP也有好消息傳來，中國放行InP基板解",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "6291",
-        "name": "沛亨",
-        "market": "TPEx",
-        "price": 548.0,
-        "change": 33.0,
-        "priceDate": "1150618",
-        "peRatio": null,
-        "dividendYield": 1.17,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 16.109448210942706,
-        "revenue": 219556.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 37.5,
-        "netIncome": 127072.0,
-        "debtRatio": 39.7,
-        "equity": 1378653.0,
-        "roe": 9.22
-      }
-    },
-    {
-      "code": "8131",
-      "name": "福懋科",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {},
-      "posts": [
-        {
-          "pk": "3920586342627794069",
-          "url": "https://www.threads.com/@evachien.chien/post/DZouIGnk9yV",
-          "taken_at": "2026-06-16T06:12:14+00:00",
-          "text": "今天亮三顆燈💡\n「立凱」、「全新」、「高力」漲停\n「立凱」雖然每天跳空漲停，但我對他還是沒信心，請不要追他！\n「全新」漲停，但我的「穩懋」、「聯亞」不知道在幹嘛，一副要死不活的樣子！\n\n「富喬」我前陣子很常買的富喬，還罰寫20遍的富喬，開高來到101.5，讓我充滿希望，沒想到又是走開高走低的局，不知道要對他說什麼了！\n低軌等昇達科復活了，整個族群好像真的活在外太空一樣，我的「華通」買在170，所以我睜一隻眼閉一隻眼，但我的「燿華」好幾次解套小賺，我都沒跑，現在又被套住了，哭哭",
-          "actions": [],
-          "contexts": [
-            "「福懋科」均價64-》77.2，要去查房了，就用6/4那根去設，我應該貪心一點，少賺了，目前只留倉58.9的"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "8131",
-        "name": "福懋科",
-        "market": "TWSE",
-        "price": 75.2,
-        "change": -0.8,
-        "priceDate": "1150617",
-        "peRatio": 37.98,
-        "dividendYield": 1.33,
-        "pbRatio": 2.64,
-        "valuationDate": "1150617",
-        "eps": 0.96,
-        "epsPeriod": "1151",
-        "revenueYoY": 49.61290001634533,
-        "revenue": 1052624.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 19.55,
-        "netIncome": 426351.0,
-        "debtRatio": 16.39,
-        "equity": 12603071.0,
-        "roe": 3.38
-      }
-    },
-    {
-      "code": "4931",
-      "name": "新盛力",
-      "market": "TPEx",
-      "count": 1,
-      "actions": {},
-      "posts": [
-        {
-          "pk": "3919915053374103662",
-          "url": "https://www.threads.com/@evachien.chien/post/DZmVfjyEeBu",
-          "taken_at": "2026-06-15T07:58:30+00:00",
-          "text": "今天亮五顆燈💡\n「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停\n今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏\n此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！\n\n今天InP也有好消息傳來，中國放行InP基板解",
-          "actions": [],
-          "contexts": [
-            "此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "4931",
-        "name": "新盛力",
-        "market": "TPEx",
-        "price": 261.5,
-        "change": 8.5,
-        "priceDate": "1150618",
-        "peRatio": null,
-        "dividendYield": 0.99,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 178.64397014885378,
-        "revenue": 415943.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 22.08,
-        "netIncome": 97094.0,
-        "debtRatio": 39.0,
-        "equity": 1328948.0,
-        "roe": 7.31
-      }
-    },
-    {
-      "code": "3211",
-      "name": "順達",
-      "market": "TPEx",
-      "count": 1,
-      "actions": {},
-      "posts": [
-        {
-          "pk": "3919915053374103662",
-          "url": "https://www.threads.com/@evachien.chien/post/DZmVfjyEeBu",
-          "taken_at": "2026-06-15T07:58:30+00:00",
-          "text": "今天亮五顆燈💡\n「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停\n今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏\n此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！\n\n今天InP也有好消息傳來，中國放行InP基板解",
-          "actions": [],
-          "contexts": [
-            "此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "3211",
-        "name": "順達",
-        "market": "TPEx",
-        "price": 436.0,
-        "change": 8.0,
-        "priceDate": "1150618",
-        "peRatio": null,
-        "dividendYield": 2.68,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": -10.824071553717044,
-        "revenue": 1163028.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 20.03,
-        "netIncome": 312810.0,
-        "debtRatio": 52.94,
-        "equity": 8697680.0,
-        "roe": 3.6
-      }
-    },
-    {
-      "code": "6781",
-      "name": "AES-KY",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {},
-      "posts": [
-        {
-          "pk": "3919915053374103662",
-          "url": "https://www.threads.com/@evachien.chien/post/DZmVfjyEeBu",
-          "taken_at": "2026-06-15T07:58:30+00:00",
-          "text": "今天亮五顆燈💡\n「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停\n今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏\n此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！\n\n今天InP也有好消息傳來，中國放行InP基板解",
-          "actions": [],
-          "contexts": [
-            "此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "6781",
-        "name": "AES-KY",
-        "market": "TWSE",
-        "price": 1175.0,
-        "change": 20.0,
-        "priceDate": "1150617",
-        "peRatio": 30.03,
-        "dividendYield": 1.63,
-        "pbRatio": 5.55,
-        "valuationDate": "1150617",
-        "eps": 10.64,
-        "epsPeriod": "1151",
-        "revenueYoY": 20.863899373348982,
-        "revenue": 1600458.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 36.1,
-        "netIncome": 908707.0,
-        "debtRatio": 32.21,
-        "equity": 18093259.0,
-        "roe": 5.02
-      }
     }
   ],
   "posts": [
     {
       "index": 0,
+      "pk": "3922208090327169695",
+      "url": "https://www.threads.com/@evachien.chien/post/DZue3o3HTqf",
+      "taken_at": "2026-06-18T11:54:21+00:00",
+      "text": "剛好有人按讚\n跳出來\n我覺得我這題真的解的滿漂亮的\n結合歷史與數學",
+      "like_count": 5,
+      "reply_count": 0,
+      "mentions": []
+    },
+    {
+      "index": 1,
+      "pk": "3922171609051105560",
+      "url": "https://www.threads.com/@evachien.chien/post/DZuWkxBnQkY",
+      "taken_at": "2026-06-18T10:41:52+00:00",
+      "text": "哈哈哈 好久沒更新我的運動日記\n但我都有在運動啦\n只是一樣是個貪吃鬼，飲食沒在管控，太愛吃了😆\n\n今天測Inbody \n比四月（因為五月忘記量）\n體重-0.5kg\n骨骼肌+0.2kg\n體脂肪-0.3kg\n體脂率-0.3%\n有微量進步 好棒👍\n\n剛打完肉毒26u 2部位\n還有蜂巢雷射，太怕痛，整個哇哇叫，用很輕微，臉都不紅。諮詢師說「妳下次打淨膚就好，打什麼蜂巢浪費錢！」好好笑😆就喜歡他這麼誠懇的態度。\n下次要挑戰音波600發，好可怕😱\n持續往變更美的路上前進❤️",
+      "like_count": 18,
+      "reply_count": 6,
+      "mentions": []
+    },
+    {
+      "index": 2,
       "pk": "3922031580466492959",
       "url": "https://www.threads.com/@evachien.chien/post/DZt2vFPkbYf",
       "taken_at": "2026-06-18T06:03:40+00:00",
       "text": "今天亮一顆燈💡\n「華邦電」漲停\n今天「華邦電」創新高漲停，我均價70.6，正式來到+208%的獲利率，謝謝自己撐過最難熬的記憶體低潮時期，當時每個人都叫我賣，還好我研究一下ECB定價完洗乾淨籌碼，一定會來到142元，謝謝華邦電，好感人，都快哭了，站上200！\n\n出\n「穩懋」492.5～565買的，出在552，自己覺得出的很棒👍快誇我！其他315～465.5買的還留倉，謝謝穩懋殺小豬養我！\n「群聯」2250+2450-》2450，盤中看大盤震盪，我就被洗出場了，我還忘記自己之前買在2450，應該要出也設在2500的😆好可惜\n\n我弟昨天問我能不能買貿聯，我說可以，他真的買來隔日沖。我叫他買國巨，不知道他有沒有買，保密到家了！",
-      "like_count": 25,
-      "reply_count": 36,
+      "like_count": 39,
+      "reply_count": 44,
       "mentions": [
         {
           "code": "2344",
@@ -1526,7 +810,7 @@
       ]
     },
     {
-      "index": 1,
+      "index": 3,
       "pk": "3921335244817529563",
       "url": "https://www.threads.com/@evachien.chien/post/DZrYaEIkXrb",
       "taken_at": "2026-06-17T07:00:10+00:00",
@@ -1649,360 +933,14 @@
       ]
     },
     {
-      "index": 2,
-      "pk": "3920586342627794069",
-      "url": "https://www.threads.com/@evachien.chien/post/DZouIGnk9yV",
-      "taken_at": "2026-06-16T06:12:14+00:00",
-      "text": "今天亮三顆燈💡\n「立凱」、「全新」、「高力」漲停\n「立凱」雖然每天跳空漲停，但我對他還是沒信心，請不要追他！\n「全新」漲停，但我的「穩懋」、「聯亞」不知道在幹嘛，一副要死不活的樣子！\n\n「富喬」我前陣子很常買的富喬，還罰寫20遍的富喬，開高來到101.5，讓我充滿希望，沒想到又是走開高走低的局，不知道要對他說什麼了！\n低軌等昇達科復活了，整個族群好像真的活在外太空一樣，我的「華通」買在170，所以我睜一隻眼閉一隻眼，但我的「燿華」好幾次解套小賺，我都沒跑，現在又被套住了，哭哭🥹\n\n出\n「福懋科」均價64-》77.2，要去查房了，就用6/4那根去設，我應該貪心一點，少賺了，目前只留倉58.9的",
-      "like_count": 34,
-      "reply_count": 48,
-      "mentions": [
-        {
-          "code": "5227",
-          "name": "立凱-KY",
-          "market": "TPEx",
-          "aliases": [
-            "立凱"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「立凱」、「全新」、「高力」漲停",
-            "「立凱」雖然每天跳空漲停，但我對他還是沒信心，請不要追他！"
-          ]
-        },
-        {
-          "code": "2455",
-          "name": "全新",
-          "market": "TWSE",
-          "aliases": [
-            "全新"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「立凱」、「全新」、「高力」漲停",
-            "「全新」漲停，但我的「穩懋」、「聯亞」不知道在幹嘛，一副要死不活的樣子！"
-          ]
-        },
-        {
-          "code": "8996",
-          "name": "高力",
-          "market": "TWSE",
-          "aliases": [
-            "高力"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「立凱」、「全新」、「高力」漲停"
-          ]
-        },
-        {
-          "code": "3105",
-          "name": "穩懋",
-          "market": "TPEx",
-          "aliases": [
-            "穩懋"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「全新」漲停，但我的「穩懋」、「聯亞」不知道在幹嘛，一副要死不活的樣子！"
-          ]
-        },
-        {
-          "code": "3081",
-          "name": "聯亞",
-          "market": "TPEx",
-          "aliases": [
-            "聯亞"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「全新」漲停，但我的「穩懋」、「聯亞」不知道在幹嘛，一副要死不活的樣子！"
-          ]
-        },
-        {
-          "code": "1815",
-          "name": "富喬",
-          "market": "TPEx",
-          "aliases": [
-            "富喬"
-          ],
-          "actions": [
-            "buy"
-          ],
-          "contexts": [
-            "「富喬」我前陣子很常買的富喬，還罰寫20遍的富喬，開高來到101.5，讓我充滿希望，沒想到又是走開高走低的局，不知道要對他說什麼了！"
-          ]
-        },
-        {
-          "code": "3491",
-          "name": "昇達科",
-          "market": "TPEx",
-          "aliases": [
-            "昇達科"
-          ],
-          "actions": [
-            "buy",
-            "regret"
-          ],
-          "contexts": [
-            "低軌等昇達科復活了，整個族群好像真的活在外太空一樣，我的「華通」買在170，所以我睜一隻眼閉一隻眼，但我的「燿華」好幾次解套小賺，我都沒跑，現在又被套住了，哭哭🥹"
-          ]
-        },
-        {
-          "code": "2313",
-          "name": "華通",
-          "market": "TWSE",
-          "aliases": [
-            "華通"
-          ],
-          "actions": [
-            "buy",
-            "regret"
-          ],
-          "contexts": [
-            "低軌等昇達科復活了，整個族群好像真的活在外太空一樣，我的「華通」買在170，所以我睜一隻眼閉一隻眼，但我的「燿華」好幾次解套小賺，我都沒跑，現在又被套住了，哭哭🥹"
-          ]
-        },
-        {
-          "code": "2367",
-          "name": "燿華",
-          "market": "TWSE",
-          "aliases": [
-            "燿華"
-          ],
-          "actions": [
-            "buy",
-            "regret"
-          ],
-          "contexts": [
-            "低軌等昇達科復活了，整個族群好像真的活在外太空一樣，我的「華通」買在170，所以我睜一隻眼閉一隻眼，但我的「燿華」好幾次解套小賺，我都沒跑，現在又被套住了，哭哭🥹"
-          ]
-        },
-        {
-          "code": "8131",
-          "name": "福懋科",
-          "market": "TWSE",
-          "aliases": [
-            "福懋科"
-          ],
-          "actions": [],
-          "contexts": [
-            "「福懋科」均價64-》77.2，要去查房了，就用6/4那根去設，我應該貪心一點，少賺了，目前只留倉58.9的"
-          ]
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "pk": "3919915053374103662",
-      "url": "https://www.threads.com/@evachien.chien/post/DZmVfjyEeBu",
-      "taken_at": "2026-06-15T07:58:30+00:00",
-      "text": "今天亮五顆燈💡\n「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停\n今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏\n此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！\n\n今天InP也有好消息傳來，中國放行InP基板解光通訊缺料，2026年首批InP基板已於5月底出貨，台廠相關供應鏈的產能，也有支撐。「聯亞」今天有守扣抵值，明天有站上2400，就相對穩定一點；「穩懋」看起來也沒問題，「全新」又被警示，真的是可憐的孩子😆\n\n出\n「全新」320+359.9-》370，保留222買的。\n「創意」4435+4500+4665-〉4815（漲停），其他全部留倉。\n今日沒有買股票 先觀望中！\n\n更新\n5股學妹，創意30股+貿聯5股+華邦電400股全部出了！學妹單日樂賺了15000多元，好棒👍目前空手中，等我的進場訊號（這句話好詐騙😆）",
-      "like_count": 43,
-      "reply_count": 46,
-      "mentions": [
-        {
-          "code": "2401",
-          "name": "凌陽",
-          "market": "TWSE",
-          "aliases": [
-            "凌陽"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停",
-            "今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏"
-          ]
-        },
-        {
-          "code": "5227",
-          "name": "立凱-KY",
-          "market": "TPEx",
-          "aliases": [
-            "立凱"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停",
-            "此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！"
-          ]
-        },
-        {
-          "code": "2344",
-          "name": "華邦電",
-          "market": "TWSE",
-          "aliases": [
-            "華邦電"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停",
-            "5股學妹，創意30股+貿聯5股+華邦電400股全部出了！"
-          ]
-        },
-        {
-          "code": "8996",
-          "name": "高力",
-          "market": "TWSE",
-          "aliases": [
-            "高力"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停"
-          ]
-        },
-        {
-          "code": "3443",
-          "name": "創意",
-          "market": "TWSE",
-          "aliases": [
-            "創意"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「凌陽」、「立凱」、「華邦電」、「高力」、「創意」漲停",
-            "今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏",
-            "「創意」4435+4500+4665-〉4815（漲停），其他全部留倉。",
-            "5股學妹，創意30股+貿聯5股+華邦電400股全部出了！"
-          ]
-        },
-        {
-          "code": "2454",
-          "name": "聯發科",
-          "market": "TWSE",
-          "aliases": [
-            "聯發科"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏"
-          ]
-        },
-        {
-          "code": "6291",
-          "name": "沛亨",
-          "market": "TPEx",
-          "aliases": [
-            "沛亨"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "今天IC設計表現很好，「創意」早早鎖漲停，「聯發科」也漲了6.94%，「沛亨」出關後也漲了3.73%，盤中也差一點點觸漲停，連「凌陽」也鎖漲停，希望明天再一根，拜託🙏"
-          ]
-        },
-        {
-          "code": "4931",
-          "name": "新盛力",
-          "market": "TPEx",
-          "aliases": [
-            "新盛力"
-          ],
-          "actions": [],
-          "contexts": [
-            "此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！"
-          ]
-        },
-        {
-          "code": "3211",
-          "name": "順達",
-          "market": "TPEx",
-          "aliases": [
-            "順達"
-          ],
-          "actions": [],
-          "contexts": [
-            "此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！"
-          ]
-        },
-        {
-          "code": "6781",
-          "name": "AES-KY",
-          "market": "TWSE",
-          "aliases": [
-            "AES-KY"
-          ],
-          "actions": [],
-          "contexts": [
-            "此外，美國國防部於2026年6月8日正式公布最新更新的「中國軍事企業清單」（簡稱1260H清單），因此電池概念股都有受惠，新盛力、順達、AES-KY、立凱⋯再說一次「立凱」不好搞，不要選他！"
-          ]
-        },
-        {
-          "code": "3081",
-          "name": "聯亞",
-          "market": "TPEx",
-          "aliases": [
-            "聯亞"
-          ],
-          "actions": [],
-          "contexts": [
-            "「聯亞」今天有守扣抵值，明天有站上2400，就相對穩定一點；"
-          ]
-        },
-        {
-          "code": "3105",
-          "name": "穩懋",
-          "market": "TPEx",
-          "aliases": [
-            "穩懋"
-          ],
-          "actions": [],
-          "contexts": [
-            "「穩懋」看起來也沒問題，「全新」又被警示，真的是可憐的孩子😆"
-          ]
-        },
-        {
-          "code": "2455",
-          "name": "全新",
-          "market": "TWSE",
-          "aliases": [
-            "全新"
-          ],
-          "actions": [
-            "buy"
-          ],
-          "contexts": [
-            "「穩懋」看起來也沒問題，「全新」又被警示，真的是可憐的孩子😆",
-            "「全新」320+359.9-》370，保留222買的。"
-          ]
-        },
-        {
-          "code": "3665",
-          "name": "貿聯-KY",
-          "market": "TWSE",
-          "aliases": [
-            "貿聯"
-          ],
-          "actions": [],
-          "contexts": [
-            "5股學妹，創意30股+貿聯5股+華邦電400股全部出了！"
-          ]
-        }
-      ]
+      "index": 4,
+      "pk": "3811726469944671447",
+      "url": "https://www.threads.com/@evachien.chien/post/DTl-QduAXzX",
+      "taken_at": "2026-01-17T01:27:06+00:00",
+      "text": "Ans:B",
+      "like_count": 550,
+      "reply_count": 3,
+      "mentions": []
     }
   ]
 }
