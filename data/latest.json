@@ -1,16 +1,509 @@
 {
-  "generatedAt": "2026-06-21T08:37:39.709639+00:00",
+  "generatedAt": "2026-06-21T14:12:45.773253+00:00",
   "account": {
-    "username": "evachien.chien"
+    "user_id": "73957398954",
+    "username": "evachien.chien",
+    "full_name": "Olivia Chien",
+    "biography": "正職洗腰子護理師\n目前努力學習股票操盤\n希望可以早日財富自由（如果有私訊邀約入群，那都是騙人的喔！我才沒有空搞那個😆）\n也努力健身運動\n希望擁有健康的身體以及好身材\n有人說過我像趙敏\n也期許自己跟趙敏一樣聰慧果敢堅毅，當然美麗是一定要的 嘿👍",
+    "follower_count": 3843,
+    "following_count": null,
+    "is_verified": 0,
+    "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gFJ2IfBVPTkcSvS0NrMh8D0SW3BGK5bqgjfCyZYcJwljm5GWDMxOG3Ej1BEdqVbWJk&_nc_ohc=s1iXcQw7TAoQ7kNvwGsOjh-&_nc_gid=fgS2kxw9I_PTW-A3EoF5hw&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af9QIJysVij0emnP3cOzXt6u2oKGo_7Rmx1Scv2mb2wCJA&oe=6A3DC0BB&_nc_sid=10d13b",
+    "last_fetched_at": 1782050792
   },
   "summary": {
-    "totalPosts": 0,
-    "postsWithStocks": 0,
-    "uniqueStocks": 0,
-    "topStocks": [],
-    "actionTotals": {},
-    "fundamentalsCoverage": 0
+    "totalPosts": 5,
+    "postsWithStocks": 1,
+    "uniqueStocks": 6,
+    "topStocks": [
+      {
+        "code": "2344",
+        "name": "華邦電",
+        "count": 1,
+        "actions": {
+          "sell": 1,
+          "limitUp": 1,
+          "regret": 1
+        }
+      },
+      {
+        "code": "8299",
+        "name": "群聯",
+        "count": 1,
+        "actions": {
+          "buy": 1,
+          "sell": 1,
+          "regret": 1
+        }
+      },
+      {
+        "code": "2450",
+        "name": "神腦",
+        "count": 1,
+        "actions": {
+          "buy": 1,
+          "sell": 1,
+          "regret": 1
+        }
+      },
+      {
+        "code": "3105",
+        "name": "穩懋",
+        "count": 1,
+        "actions": {
+          "buy": 1
+        }
+      },
+      {
+        "code": "3665",
+        "name": "貿聯-KY",
+        "count": 1,
+        "actions": {
+          "buy": 1
+        }
+      },
+      {
+        "code": "2327",
+        "name": "國巨*",
+        "count": 1,
+        "actions": {
+          "buy": 1
+        }
+      }
+    ],
+    "actionTotals": {
+      "sell": 3,
+      "limitUp": 1,
+      "regret": 3,
+      "buy": 5
+    },
+    "fundamentalsCoverage": 6
   },
-  "stocks": [],
-  "posts": []
+  "stocks": [
+    {
+      "code": "2344",
+      "name": "華邦電",
+      "market": "TWSE",
+      "count": 1,
+      "actions": {
+        "sell": 1,
+        "limitUp": 1,
+        "regret": 1
+      },
+      "posts": [
+        {
+          "pk": "3922031580466492959",
+          "url": "https://www.threads.com/@evachien.chien/post/DZt2vFPkbYf",
+          "taken_at": "2026-06-18T06:03:40+00:00",
+          "text": "今天亮一顆燈💡\n「華邦電」漲停\n今天「華邦電」創新高漲停，我均價70.6，正式來到+208%的獲利率，謝謝自己撐過最難熬的記憶體低潮時期，當時每個人都叫我賣，還好我研究一下ECB定價完洗乾淨籌碼，一定會來到142元，謝謝華邦電，好感人，都快哭了，站上200！\n\n出\n「穩懋」492.5～565買的，出在552，自己覺得出的很棒👍快誇我！其他315～465.5買的還留倉，謝謝穩懋殺小豬養我！\n「群聯」2250+2450-》2450，盤中看大盤震盪，我就被洗出場了，我還忘記自己之前",
+          "actions": [
+            "sell",
+            "limitUp",
+            "regret"
+          ],
+          "contexts": [
+            "「華邦電」漲停",
+            "今天「華邦電」創新高漲停，我均價70.6，正式來到+208%的獲利率，謝謝自己撐過最難熬的記憶體低潮時期，當時每個人都叫我賣，還好我研究一下ECB定價完洗乾淨籌碼，一定會來到142元，謝謝華邦電，好感人，都快哭了，站上200！"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "2344",
+        "name": "華邦電",
+        "market": "TWSE",
+        "price": 218.5,
+        "change": 19.5,
+        "priceDate": "1150618",
+        "peRatio": 64.84,
+        "dividendYield": 0.23,
+        "pbRatio": 8.43,
+        "valuationDate": "1150618",
+        "eps": 2.25,
+        "epsPeriod": "1151",
+        "revenueYoY": 181.967983155321,
+        "revenue": 20001444.0,
+        "revenuePeriod": "11505",
+        "grossMargin": 53.37,
+        "netIncome": 10117678.0,
+        "debtRatio": 46.52,
+        "equity": 122893519.0,
+        "roe": 8.23
+      }
+    },
+    {
+      "code": "8299",
+      "name": "群聯",
+      "market": "TPEx",
+      "count": 1,
+      "actions": {
+        "buy": 1,
+        "sell": 1,
+        "regret": 1
+      },
+      "posts": [
+        {
+          "pk": "3922031580466492959",
+          "url": "https://www.threads.com/@evachien.chien/post/DZt2vFPkbYf",
+          "taken_at": "2026-06-18T06:03:40+00:00",
+          "text": "今天亮一顆燈💡\n「華邦電」漲停\n今天「華邦電」創新高漲停，我均價70.6，正式來到+208%的獲利率，謝謝自己撐過最難熬的記憶體低潮時期，當時每個人都叫我賣，還好我研究一下ECB定價完洗乾淨籌碼，一定會來到142元，謝謝華邦電，好感人，都快哭了，站上200！\n\n出\n「穩懋」492.5～565買的，出在552，自己覺得出的很棒👍快誇我！其他315～465.5買的還留倉，謝謝穩懋殺小豬養我！\n「群聯」2250+2450-》2450，盤中看大盤震盪，我就被洗出場了，我還忘記自己之前",
+          "actions": [
+            "buy",
+            "sell",
+            "regret"
+          ],
+          "contexts": [
+            "「群聯」2250+2450-》2450，盤中看大盤震盪，我就被洗出場了，我還忘記自己之前買在2450，應該要出也設在2500的😆好可惜"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "8299",
+        "name": "群聯",
+        "market": "TPEx",
+        "price": 2530.0,
+        "change": 200.0,
+        "priceDate": "1150618",
+        "peRatio": null,
+        "dividendYield": 0.92,
+        "pbRatio": null,
+        "eps": null,
+        "revenueYoY": 301.22580678045523,
+        "revenue": 22827979.0,
+        "revenuePeriod": "11505",
+        "grossMargin": 61.82,
+        "netIncome": 15174981.0,
+        "debtRatio": 47.45,
+        "equity": 74130077.0,
+        "roe": 20.47
+      }
+    },
+    {
+      "code": "2450",
+      "name": "神腦",
+      "market": "TWSE",
+      "count": 1,
+      "actions": {
+        "buy": 1,
+        "sell": 1,
+        "regret": 1
+      },
+      "posts": [
+        {
+          "pk": "3922031580466492959",
+          "url": "https://www.threads.com/@evachien.chien/post/DZt2vFPkbYf",
+          "taken_at": "2026-06-18T06:03:40+00:00",
+          "text": "今天亮一顆燈💡\n「華邦電」漲停\n今天「華邦電」創新高漲停，我均價70.6，正式來到+208%的獲利率，謝謝自己撐過最難熬的記憶體低潮時期，當時每個人都叫我賣，還好我研究一下ECB定價完洗乾淨籌碼，一定會來到142元，謝謝華邦電，好感人，都快哭了，站上200！\n\n出\n「穩懋」492.5～565買的，出在552，自己覺得出的很棒👍快誇我！其他315～465.5買的還留倉，謝謝穩懋殺小豬養我！\n「群聯」2250+2450-》2450，盤中看大盤震盪，我就被洗出場了，我還忘記自己之前",
+          "actions": [
+            "buy",
+            "sell",
+            "regret"
+          ],
+          "contexts": [
+            "「群聯」2250+2450-》2450，盤中看大盤震盪，我就被洗出場了，我還忘記自己之前買在2450，應該要出也設在2500的😆好可惜"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "2450",
+        "name": "神腦",
+        "market": "TWSE",
+        "price": 29.15,
+        "change": 0.1,
+        "priceDate": "1150618",
+        "peRatio": 19.05,
+        "dividendYield": 5.32,
+        "pbRatio": 1.23,
+        "valuationDate": "1150618",
+        "eps": 0.25,
+        "epsPeriod": "1151",
+        "revenueYoY": 9.367065740421408,
+        "revenue": 2663788.0,
+        "revenuePeriod": "11505",
+        "grossMargin": 9.67,
+        "netIncome": 65014.0,
+        "debtRatio": 45.77,
+        "equity": 6116365.0,
+        "roe": 1.06
+      }
+    },
+    {
+      "code": "3105",
+      "name": "穩懋",
+      "market": "TPEx",
+      "count": 1,
+      "actions": {
+        "buy": 1
+      },
+      "posts": [
+        {
+          "pk": "3922031580466492959",
+          "url": "https://www.threads.com/@evachien.chien/post/DZt2vFPkbYf",
+          "taken_at": "2026-06-18T06:03:40+00:00",
+          "text": "今天亮一顆燈💡\n「華邦電」漲停\n今天「華邦電」創新高漲停，我均價70.6，正式來到+208%的獲利率，謝謝自己撐過最難熬的記憶體低潮時期，當時每個人都叫我賣，還好我研究一下ECB定價完洗乾淨籌碼，一定會來到142元，謝謝華邦電，好感人，都快哭了，站上200！\n\n出\n「穩懋」492.5～565買的，出在552，自己覺得出的很棒👍快誇我！其他315～465.5買的還留倉，謝謝穩懋殺小豬養我！\n「群聯」2250+2450-》2450，盤中看大盤震盪，我就被洗出場了，我還忘記自己之前",
+          "actions": [
+            "buy"
+          ],
+          "contexts": [
+            "「穩懋」492.5～565買的，出在552，自己覺得出的很棒👍快誇我！",
+            "其他315～465.5買的還留倉，謝謝穩懋殺小豬養我！"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "3105",
+        "name": "穩懋",
+        "market": "TPEx",
+        "price": 528.0,
+        "change": 9.0,
+        "priceDate": "1150618",
+        "peRatio": null,
+        "dividendYield": 0.38,
+        "pbRatio": null,
+        "eps": null,
+        "revenueYoY": 40.29750787405665,
+        "revenue": 1755488.0,
+        "revenuePeriod": "11505",
+        "grossMargin": 26.34,
+        "netIncome": 448627.0,
+        "debtRatio": 31.82,
+        "equity": 41291462.0,
+        "roe": 1.09
+      }
+    },
+    {
+      "code": "3665",
+      "name": "貿聯-KY",
+      "market": "TWSE",
+      "count": 1,
+      "actions": {
+        "buy": 1
+      },
+      "posts": [
+        {
+          "pk": "3922031580466492959",
+          "url": "https://www.threads.com/@evachien.chien/post/DZt2vFPkbYf",
+          "taken_at": "2026-06-18T06:03:40+00:00",
+          "text": "今天亮一顆燈💡\n「華邦電」漲停\n今天「華邦電」創新高漲停，我均價70.6，正式來到+208%的獲利率，謝謝自己撐過最難熬的記憶體低潮時期，當時每個人都叫我賣，還好我研究一下ECB定價完洗乾淨籌碼，一定會來到142元，謝謝華邦電，好感人，都快哭了，站上200！\n\n出\n「穩懋」492.5～565買的，出在552，自己覺得出的很棒👍快誇我！其他315～465.5買的還留倉，謝謝穩懋殺小豬養我！\n「群聯」2250+2450-》2450，盤中看大盤震盪，我就被洗出場了，我還忘記自己之前",
+          "actions": [
+            "buy"
+          ],
+          "contexts": [
+            "我弟昨天問我能不能買貿聯，我說可以，他真的買來隔日沖。"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "3665",
+        "name": "貿聯-KY",
+        "market": "TWSE",
+        "price": 2100.0,
+        "change": 10.0,
+        "priceDate": "1150618",
+        "peRatio": 42.38,
+        "dividendYield": 0.71,
+        "pbRatio": 8.78,
+        "valuationDate": "1150618",
+        "eps": 11.66,
+        "epsPeriod": "1151",
+        "revenueYoY": 41.348642262125516,
+        "revenue": 7352121.0,
+        "revenuePeriod": "11505",
+        "grossMargin": 28.77,
+        "netIncome": 2273476.0,
+        "debtRatio": 45.52,
+        "equity": 46636528.0,
+        "roe": 4.87
+      }
+    },
+    {
+      "code": "2327",
+      "name": "國巨*",
+      "market": "TWSE",
+      "count": 1,
+      "actions": {
+        "buy": 1
+      },
+      "posts": [
+        {
+          "pk": "3922031580466492959",
+          "url": "https://www.threads.com/@evachien.chien/post/DZt2vFPkbYf",
+          "taken_at": "2026-06-18T06:03:40+00:00",
+          "text": "今天亮一顆燈💡\n「華邦電」漲停\n今天「華邦電」創新高漲停，我均價70.6，正式來到+208%的獲利率，謝謝自己撐過最難熬的記憶體低潮時期，當時每個人都叫我賣，還好我研究一下ECB定價完洗乾淨籌碼，一定會來到142元，謝謝華邦電，好感人，都快哭了，站上200！\n\n出\n「穩懋」492.5～565買的，出在552，自己覺得出的很棒👍快誇我！其他315～465.5買的還留倉，謝謝穩懋殺小豬養我！\n「群聯」2250+2450-》2450，盤中看大盤震盪，我就被洗出場了，我還忘記自己之前",
+          "actions": [
+            "buy"
+          ],
+          "contexts": [
+            "我叫他買國巨，不知道他有沒有買，保密到家了！"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "2327",
+        "name": "國巨*",
+        "market": "TWSE",
+        "price": 1080.0,
+        "change": 96.0,
+        "priceDate": "1150618",
+        "peRatio": 85.04,
+        "dividendYield": 0.56,
+        "pbRatio": 13.31,
+        "valuationDate": "1150618",
+        "eps": 3.9,
+        "epsPeriod": "1151",
+        "revenueYoY": 47.46348011274749,
+        "revenue": 15058220.0,
+        "revenuePeriod": "11505",
+        "grossMargin": 38.1,
+        "netIncome": 8037530.0,
+        "debtRatio": 57.9,
+        "equity": 169099395.0,
+        "roe": 4.75
+      }
+    }
+  ],
+  "posts": [
+    {
+      "index": 0,
+      "pk": "3922605051219918966",
+      "url": "https://www.threads.com/@evachien.chien/post/DZv5ILgHcB2",
+      "taken_at": "2026-06-19T01:03:03+00:00",
+      "text": "9.一到\n我又準時打開我的「投資先生」\n內心悵然若失 \n沒有股票做的日子",
+      "like_count": 39,
+      "reply_count": 20,
+      "mentions": []
+    },
+    {
+      "index": 1,
+      "pk": "3922208090327169695",
+      "url": "https://www.threads.com/@evachien.chien/post/DZue3o3HTqf",
+      "taken_at": "2026-06-18T11:54:21+00:00",
+      "text": "剛好有人按讚\n跳出來\n我覺得我這題真的解的滿漂亮的\n結合歷史與數學",
+      "like_count": 7,
+      "reply_count": 1,
+      "mentions": []
+    },
+    {
+      "index": 2,
+      "pk": "3922171609051105560",
+      "url": "https://www.threads.com/@evachien.chien/post/DZuWkxBnQkY",
+      "taken_at": "2026-06-18T10:41:52+00:00",
+      "text": "哈哈哈 好久沒更新我的運動日記\n但我都有在運動啦\n只是一樣是個貪吃鬼，飲食沒在管控，太愛吃了😆\n\n今天測Inbody \n比四月（因為五月忘記量）\n體重-0.5kg\n骨骼肌+0.2kg\n體脂肪-0.3kg\n體脂率-0.3%\n有微量進步 好棒👍\n\n剛打完肉毒26u 2部位\n還有蜂巢雷射，太怕痛，整個哇哇叫，用很輕微，臉都不紅。諮詢師說「妳下次打淨膚就好，打什麼蜂巢浪費錢！」好好笑😆就喜歡他這麼誠懇的態度。\n下次要挑戰音波600發，好可怕😱\n持續往變更美的路上前進❤️",
+      "like_count": 25,
+      "reply_count": 10,
+      "mentions": []
+    },
+    {
+      "index": 3,
+      "pk": "3922031580466492959",
+      "url": "https://www.threads.com/@evachien.chien/post/DZt2vFPkbYf",
+      "taken_at": "2026-06-18T06:03:40+00:00",
+      "text": "今天亮一顆燈💡\n「華邦電」漲停\n今天「華邦電」創新高漲停，我均價70.6，正式來到+208%的獲利率，謝謝自己撐過最難熬的記憶體低潮時期，當時每個人都叫我賣，還好我研究一下ECB定價完洗乾淨籌碼，一定會來到142元，謝謝華邦電，好感人，都快哭了，站上200！\n\n出\n「穩懋」492.5～565買的，出在552，自己覺得出的很棒👍快誇我！其他315～465.5買的還留倉，謝謝穩懋殺小豬養我！\n「群聯」2250+2450-》2450，盤中看大盤震盪，我就被洗出場了，我還忘記自己之前買在2450，應該要出也設在2500的😆好可惜\n\n我弟昨天問我能不能買貿聯，我說可以，他真的買來隔日沖。我叫他買國巨，不知道他有沒有買，保密到家了！",
+      "like_count": 42,
+      "reply_count": 44,
+      "mentions": [
+        {
+          "code": "2344",
+          "name": "華邦電",
+          "market": "TWSE",
+          "aliases": [
+            "華邦電"
+          ],
+          "actions": [
+            "sell",
+            "limitUp",
+            "regret"
+          ],
+          "contexts": [
+            "「華邦電」漲停",
+            "今天「華邦電」創新高漲停，我均價70.6，正式來到+208%的獲利率，謝謝自己撐過最難熬的記憶體低潮時期，當時每個人都叫我賣，還好我研究一下ECB定價完洗乾淨籌碼，一定會來到142元，謝謝華邦電，好感人，都快哭了，站上200！"
+          ]
+        },
+        {
+          "code": "3105",
+          "name": "穩懋",
+          "market": "TPEx",
+          "aliases": [
+            "穩懋"
+          ],
+          "actions": [
+            "buy"
+          ],
+          "contexts": [
+            "「穩懋」492.5～565買的，出在552，自己覺得出的很棒👍快誇我！",
+            "其他315～465.5買的還留倉，謝謝穩懋殺小豬養我！"
+          ]
+        },
+        {
+          "code": "8299",
+          "name": "群聯",
+          "market": "TPEx",
+          "aliases": [
+            "群聯"
+          ],
+          "actions": [
+            "buy",
+            "sell",
+            "regret"
+          ],
+          "contexts": [
+            "「群聯」2250+2450-》2450，盤中看大盤震盪，我就被洗出場了，我還忘記自己之前買在2450，應該要出也設在2500的😆好可惜"
+          ]
+        },
+        {
+          "code": "2450",
+          "name": "神腦",
+          "market": "TWSE",
+          "aliases": [
+            "2450"
+          ],
+          "actions": [
+            "buy",
+            "sell",
+            "regret"
+          ],
+          "contexts": [
+            "「群聯」2250+2450-》2450，盤中看大盤震盪，我就被洗出場了，我還忘記自己之前買在2450，應該要出也設在2500的😆好可惜"
+          ]
+        },
+        {
+          "code": "3665",
+          "name": "貿聯-KY",
+          "market": "TWSE",
+          "aliases": [
+            "貿聯"
+          ],
+          "actions": [
+            "buy"
+          ],
+          "contexts": [
+            "我弟昨天問我能不能買貿聯，我說可以，他真的買來隔日沖。"
+          ]
+        },
+        {
+          "code": "2327",
+          "name": "國巨*",
+          "market": "TWSE",
+          "aliases": [
+            "國巨"
+          ],
+          "actions": [
+            "buy"
+          ],
+          "contexts": [
+            "我叫他買國巨，不知道他有沒有買，保密到家了！"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "pk": "3811726469944671447",
+      "url": "https://www.threads.com/@evachien.chien/post/DTl-QduAXzX",
+      "taken_at": "2026-01-17T01:27:06+00:00",
+      "text": "Ans:B",
+      "like_count": 549,
+      "reply_count": 3,
+      "mentions": []
+    }
+  ]
 }
