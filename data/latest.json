@@ -1,58 +1,24 @@
 {
-  "generatedAt": "2026-06-22T16:54:14.476509+00:00",
+  "generatedAt": "2026-06-22T22:02:27.023692+00:00",
   "account": {
     "user_id": "73957398954",
     "username": "evachien.chien",
     "full_name": "Olivia Chien",
     "biography": "正職洗腰子護理師\n目前努力學習股票操盤\n希望可以早日財富自由（如果有私訊邀約入群，那都是騙人的喔！我才沒有空搞那個😆）\n也努力健身運動\n希望擁有健康的身體以及好身材\n有人說過我像趙敏\n也期許自己跟趙敏一樣聰慧果敢堅毅，當然美麗是一定要的 嘿👍",
-    "follower_count": 3907,
+    "follower_count": 3924,
     "following_count": null,
     "is_verified": 0,
-    "profile_pic_url": "https://scontent-sin2-2.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sin2-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHVABZKSlDohChLY4fnnFUPdRHMA3-Gvv3Ng9eXM1stlnCsRZaNDy6D0QjvQ9w64cA&_nc_ohc=s1iXcQw7TAoQ7kNvwEjNcZB&_nc_gid=1QC6DIgfuLj46ljgl5L5ew&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af--lSot_nGeBp0Qf2bX9iluQH_QQ2kLkoxnyxwFjfOh7g&oe=6A3F4A7B&_nc_sid=10d13b",
-    "last_fetched_at": 1782147183
+    "profile_pic_url": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-iad3-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gFBme1vnF8MCjdZyezcJbi9832K9r9O6gwmrGLfvMlSzI8eEE6oX-bSonXZ5EfdP3U&_nc_ohc=s1iXcQw7TAoQ7kNvwHpODcb&_nc_gid=9d_jHM_fdfD0uHoNjSHKuA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_1XOQU61y7c9orObOIdfCHcQrlxUcdIdg6eemoUAyK8g&oe=6A3F82BB&_nc_sid=10d13b",
+    "last_fetched_at": 1782165725
   },
   "summary": {
     "totalPosts": 5,
     "postsWithStocks": 1,
-    "uniqueStocks": 10,
+    "uniqueStocks": 5,
     "topStocks": [
-      {
-        "code": "1802",
-        "name": "台玻",
-        "count": 1,
-        "actions": {
-          "buy": 1,
-          "limitUp": 1,
-          "watch": 1
-        }
-      },
       {
         "code": "2337",
         "name": "旺宏",
-        "count": 1,
-        "actions": {
-          "limitUp": 1
-        }
-      },
-      {
-        "code": "1815",
-        "name": "富喬",
-        "count": 1,
-        "actions": {
-          "limitUp": 1
-        }
-      },
-      {
-        "code": "6770",
-        "name": "力積電",
-        "count": 1,
-        "actions": {
-          "limitUp": 1
-        }
-      },
-      {
-        "code": "6531",
-        "name": "愛普*",
         "count": 1,
         "actions": {
           "limitUp": 1
@@ -81,12 +47,6 @@
         "actions": {}
       },
       {
-        "code": "1780",
-        "name": "立弘",
-        "count": 1,
-        "actions": {}
-      },
-      {
         "code": "3665",
         "name": "貿聯-KY",
         "count": 1,
@@ -94,63 +54,12 @@
       }
     ],
     "actionTotals": {
-      "buy": 2,
-      "limitUp": 6,
-      "watch": 1
+      "limitUp": 2,
+      "buy": 1
     },
-    "fundamentalsCoverage": 10
+    "fundamentalsCoverage": 0
   },
   "stocks": [
-    {
-      "code": "1802",
-      "name": "台玻",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "buy": 1,
-        "limitUp": 1,
-        "watch": 1
-      },
-      "posts": [
-        {
-          "pk": "3925033511132802792",
-          "url": "https://www.threads.com/@evachien.chien/post/DZ4hS7Cky7o",
-          "taken_at": "2026-06-22T09:27:58+00:00",
-          "text": "今天亮一顆燈💡\n「旺宏」漲停\n「台玻」、「富喬」漲停打開\n\n「旺宏」站上上布林了，希望沿著上布林跑。\n力積電、愛普都漲停，說明矽電容還是有題材，「華邦電」應該在躲處置，所以今天漲不上去。\n\n「台玻」最近法人狂買，我上週跟我妹說要佈局台玻了，也跟5股學妹說66-68進場，結果今天直接漲上去，她索性掛了76.7 買一張，她要幹大事了😆\n\n「台積電」又創新高，真的好棒，還好1780有入場，不要覺得股價太高，永遠出乎意料👍\n\n我今天太忙 沒有買賣\n詳情請見護理師日常那篇😆\n如果進場 ",
-          "actions": [
-            "buy",
-            "limitUp",
-            "watch"
-          ],
-          "contexts": [
-            "「台玻」、「富喬」漲停打開",
-            "「台玻」最近法人狂買，我上週跟我妹說要佈局台玻了，也跟5股學妹說66-68進場，結果今天直接漲上去，她索性掛了76.7 買一張，她要幹大事了😆"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "1802",
-        "name": "台玻",
-        "market": "TWSE",
-        "price": 71.3,
-        "change": 2.0,
-        "priceDate": "1150618",
-        "peRatio": 548.46,
-        "dividendYield": null,
-        "pbRatio": 4.17,
-        "valuationDate": "1150618",
-        "eps": 0.2,
-        "epsPeriod": "1151",
-        "revenueYoY": 17.71436620259749,
-        "revenue": 3919507.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 19.23,
-        "netIncome": 585453.0,
-        "debtRatio": 42.7,
-        "equity": 52491118.0,
-        "roe": 1.12
-      }
-    },
     {
       "code": "2337",
       "name": "旺宏",
@@ -174,161 +83,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "2337",
-        "name": "旺宏",
-        "market": "TWSE",
-        "price": 169.0,
-        "change": 7.5,
-        "priceDate": "1150618",
-        "peRatio": null,
-        "dividendYield": null,
-        "pbRatio": 6.61,
-        "valuationDate": "1150618",
-        "eps": 0.9,
-        "epsPeriod": "1151",
-        "revenueYoY": 175.7952036483169,
-        "revenue": 6255653.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 40.8,
-        "netIncome": 1779369.0,
-        "debtRatio": 38.35,
-        "equity": 50648170.0,
-        "roe": 3.51
-      }
-    },
-    {
-      "code": "1815",
-      "name": "富喬",
-      "market": "TPEx",
-      "count": 1,
-      "actions": {
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3925033511132802792",
-          "url": "https://www.threads.com/@evachien.chien/post/DZ4hS7Cky7o",
-          "taken_at": "2026-06-22T09:27:58+00:00",
-          "text": "今天亮一顆燈💡\n「旺宏」漲停\n「台玻」、「富喬」漲停打開\n\n「旺宏」站上上布林了，希望沿著上布林跑。\n力積電、愛普都漲停，說明矽電容還是有題材，「華邦電」應該在躲處置，所以今天漲不上去。\n\n「台玻」最近法人狂買，我上週跟我妹說要佈局台玻了，也跟5股學妹說66-68進場，結果今天直接漲上去，她索性掛了76.7 買一張，她要幹大事了😆\n\n「台積電」又創新高，真的好棒，還好1780有入場，不要覺得股價太高，永遠出乎意料👍\n\n我今天太忙 沒有買賣\n詳情請見護理師日常那篇😆\n如果進場 ",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「台玻」、「富喬」漲停打開"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "1815",
-        "name": "富喬",
-        "market": "TPEx",
-        "price": 106.5,
-        "change": 8.4,
-        "priceDate": "1150622",
-        "peRatio": null,
-        "dividendYield": 0.94,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 49.900867751020414,
-        "revenue": 708433.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 35.97,
-        "netIncome": 457890.0,
-        "debtRatio": 32.43,
-        "equity": 13179802.0,
-        "roe": 3.47
-      }
-    },
-    {
-      "code": "6770",
-      "name": "力積電",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3925033511132802792",
-          "url": "https://www.threads.com/@evachien.chien/post/DZ4hS7Cky7o",
-          "taken_at": "2026-06-22T09:27:58+00:00",
-          "text": "今天亮一顆燈💡\n「旺宏」漲停\n「台玻」、「富喬」漲停打開\n\n「旺宏」站上上布林了，希望沿著上布林跑。\n力積電、愛普都漲停，說明矽電容還是有題材，「華邦電」應該在躲處置，所以今天漲不上去。\n\n「台玻」最近法人狂買，我上週跟我妹說要佈局台玻了，也跟5股學妹說66-68進場，結果今天直接漲上去，她索性掛了76.7 買一張，她要幹大事了😆\n\n「台積電」又創新高，真的好棒，還好1780有入場，不要覺得股價太高，永遠出乎意料👍\n\n我今天太忙 沒有買賣\n詳情請見護理師日常那篇😆\n如果進場 ",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "力積電、愛普都漲停，說明矽電容還是有題材，「華邦電」應該在躲處置，所以今天漲不上去。"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "6770",
-        "name": "力積電",
-        "market": "TWSE",
-        "price": 74.2,
-        "change": 4.0,
-        "priceDate": "1150618",
-        "peRatio": 41.92,
-        "dividendYield": null,
-        "pbRatio": 3.26,
-        "valuationDate": "1150618",
-        "eps": 3.36,
-        "epsPeriod": "1151",
-        "revenueYoY": 58.86220189113607,
-        "revenue": 5770374.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 10.23,
-        "netIncome": 14231209.0,
-        "debtRatio": 44.07,
-        "equity": 96576892.0,
-        "roe": 14.74
-      }
-    },
-    {
-      "code": "6531",
-      "name": "愛普*",
-      "market": "TWSE",
-      "count": 1,
-      "actions": {
-        "limitUp": 1
-      },
-      "posts": [
-        {
-          "pk": "3925033511132802792",
-          "url": "https://www.threads.com/@evachien.chien/post/DZ4hS7Cky7o",
-          "taken_at": "2026-06-22T09:27:58+00:00",
-          "text": "今天亮一顆燈💡\n「旺宏」漲停\n「台玻」、「富喬」漲停打開\n\n「旺宏」站上上布林了，希望沿著上布林跑。\n力積電、愛普都漲停，說明矽電容還是有題材，「華邦電」應該在躲處置，所以今天漲不上去。\n\n「台玻」最近法人狂買，我上週跟我妹說要佈局台玻了，也跟5股學妹說66-68進場，結果今天直接漲上去，她索性掛了76.7 買一張，她要幹大事了😆\n\n「台積電」又創新高，真的好棒，還好1780有入場，不要覺得股價太高，永遠出乎意料👍\n\n我今天太忙 沒有買賣\n詳情請見護理師日常那篇😆\n如果進場 ",
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "力積電、愛普都漲停，說明矽電容還是有題材，「華邦電」應該在躲處置，所以今天漲不上去。"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "6531",
-        "name": "愛普*",
-        "market": "TWSE",
-        "price": 1025.0,
-        "change": 92.0,
-        "priceDate": "1150618",
-        "peRatio": 104.17,
-        "dividendYield": 0.68,
-        "pbRatio": 14.13,
-        "valuationDate": "1150618",
-        "eps": 4.15,
-        "epsPeriod": "1151",
-        "revenueYoY": 89.34296229779807,
-        "revenue": 748539.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 46.19,
-        "netIncome": 659966.0,
-        "debtRatio": 22.86,
-        "equity": 12009439.0,
-        "roe": 5.5
-      }
+      "fundamentals": null
     },
     {
       "code": "2344",
@@ -352,28 +107,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "2344",
-        "name": "華邦電",
-        "market": "TWSE",
-        "price": 218.5,
-        "change": 19.5,
-        "priceDate": "1150618",
-        "peRatio": 64.84,
-        "dividendYield": 0.23,
-        "pbRatio": 8.43,
-        "valuationDate": "1150618",
-        "eps": 2.25,
-        "epsPeriod": "1151",
-        "revenueYoY": 181.967983155321,
-        "revenue": 20001444.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 53.37,
-        "netIncome": 10117678.0,
-        "debtRatio": 46.52,
-        "equity": 122893519.0,
-        "roe": 8.23
-      }
+      "fundamentals": null
     },
     {
       "code": "3443",
@@ -397,28 +131,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "3443",
-        "name": "創意",
-        "market": "TWSE",
-        "price": 4860.0,
-        "change": -215.0,
-        "priceDate": "1150618",
-        "peRatio": 146.21,
-        "dividendYield": 0.41,
-        "pbRatio": 44.66,
-        "valuationDate": "1150618",
-        "eps": 12.28,
-        "epsPeriod": "1151",
-        "revenueYoY": 132.1328905238472,
-        "revenue": 4674012.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 27.2,
-        "netIncome": 1646240.0,
-        "debtRatio": 58.49,
-        "equity": 14583873.0,
-        "roe": 11.29
-      }
+      "fundamentals": null
     },
     {
       "code": "2330",
@@ -438,67 +151,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "2330",
-        "name": "台積電",
-        "market": "TWSE",
-        "price": 2410.0,
-        "change": 25.0,
-        "priceDate": "1150618",
-        "peRatio": 32.4,
-        "dividendYield": 0.91,
-        "pbRatio": 10.61,
-        "valuationDate": "1150618",
-        "eps": 22.08,
-        "epsPeriod": "1151",
-        "revenueYoY": 30.09498020271696,
-        "revenue": 416975163.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 66.25,
-        "netIncome": 572801304.0,
-        "debtRatio": 31.5,
-        "equity": 5932388921.0,
-        "roe": 9.66
-      }
-    },
-    {
-      "code": "1780",
-      "name": "立弘",
-      "market": "TPEx",
-      "count": 1,
-      "actions": {},
-      "posts": [
-        {
-          "pk": "3925033511132802792",
-          "url": "https://www.threads.com/@evachien.chien/post/DZ4hS7Cky7o",
-          "taken_at": "2026-06-22T09:27:58+00:00",
-          "text": "今天亮一顆燈💡\n「旺宏」漲停\n「台玻」、「富喬」漲停打開\n\n「旺宏」站上上布林了，希望沿著上布林跑。\n力積電、愛普都漲停，說明矽電容還是有題材，「華邦電」應該在躲處置，所以今天漲不上去。\n\n「台玻」最近法人狂買，我上週跟我妹說要佈局台玻了，也跟5股學妹說66-68進場，結果今天直接漲上去，她索性掛了76.7 買一張，她要幹大事了😆\n\n「台積電」又創新高，真的好棒，還好1780有入場，不要覺得股價太高，永遠出乎意料👍\n\n我今天太忙 沒有買賣\n詳情請見護理師日常那篇😆\n如果進場 ",
-          "actions": [],
-          "contexts": [
-            "「台積電」又創新高，真的好棒，還好1780有入場，不要覺得股價太高，永遠出乎意料👍"
-          ]
-        }
-      ],
-      "fundamentals": {
-        "code": "1780",
-        "name": "立弘",
-        "market": "TPEx",
-        "price": 25.8,
-        "change": -1.15,
-        "priceDate": "1150622",
-        "peRatio": null,
-        "dividendYield": 4.84,
-        "pbRatio": null,
-        "eps": null,
-        "revenueYoY": 57.04726554518831,
-        "revenue": 92237.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 36.73,
-        "netIncome": 38536.0,
-        "debtRatio": 41.59,
-        "equity": 1274106.0,
-        "roe": 3.02
-      }
+      "fundamentals": null
     },
     {
       "code": "3665",
@@ -518,28 +171,7 @@
           ]
         }
       ],
-      "fundamentals": {
-        "code": "3665",
-        "name": "貿聯-KY",
-        "market": "TWSE",
-        "price": 2100.0,
-        "change": 10.0,
-        "priceDate": "1150618",
-        "peRatio": 42.38,
-        "dividendYield": 0.71,
-        "pbRatio": 8.78,
-        "valuationDate": "1150618",
-        "eps": 11.66,
-        "epsPeriod": "1151",
-        "revenueYoY": 41.348642262125516,
-        "revenue": 7352121.0,
-        "revenuePeriod": "11505",
-        "grossMargin": 28.77,
-        "netIncome": 2273476.0,
-        "debtRatio": 45.52,
-        "equity": 46636528.0,
-        "roe": 4.87
-      }
+      "fundamentals": null
     }
   ],
   "posts": [
@@ -549,7 +181,7 @@
       "url": "https://www.threads.com/@evachien.chien/post/DZ4hS7Cky7o",
       "taken_at": "2026-06-22T09:27:58+00:00",
       "text": "今天亮一顆燈💡\n「旺宏」漲停\n「台玻」、「富喬」漲停打開\n\n「旺宏」站上上布林了，希望沿著上布林跑。\n力積電、愛普都漲停，說明矽電容還是有題材，「華邦電」應該在躲處置，所以今天漲不上去。\n\n「台玻」最近法人狂買，我上週跟我妹說要佈局台玻了，也跟5股學妹說66-68進場，結果今天直接漲上去，她索性掛了76.7 買一張，她要幹大事了😆\n\n「台積電」又創新高，真的好棒，還好1780有入場，不要覺得股價太高，永遠出乎意料👍\n\n我今天太忙 沒有買賣\n詳情請見護理師日常那篇😆\n如果進場 我會加碼「創意」買起來\n「貿聯」融資太多，等洗完就上去了，加油啊！",
-      "like_count": 116,
+      "like_count": 128,
       "reply_count": 41,
       "mentions": [
         {
@@ -565,65 +197,6 @@
           "contexts": [
             "「旺宏」漲停",
             "「旺宏」站上上布林了，希望沿著上布林跑。"
-          ]
-        },
-        {
-          "code": "1802",
-          "name": "台玻",
-          "market": "TWSE",
-          "aliases": [
-            "台玻"
-          ],
-          "actions": [
-            "buy",
-            "limitUp",
-            "watch"
-          ],
-          "contexts": [
-            "「台玻」、「富喬」漲停打開",
-            "「台玻」最近法人狂買，我上週跟我妹說要佈局台玻了，也跟5股學妹說66-68進場，結果今天直接漲上去，她索性掛了76.7 買一張，她要幹大事了😆"
-          ]
-        },
-        {
-          "code": "1815",
-          "name": "富喬",
-          "market": "TPEx",
-          "aliases": [
-            "富喬"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "「台玻」、「富喬」漲停打開"
-          ]
-        },
-        {
-          "code": "6770",
-          "name": "力積電",
-          "market": "TWSE",
-          "aliases": [
-            "力積電"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "力積電、愛普都漲停，說明矽電容還是有題材，「華邦電」應該在躲處置，所以今天漲不上去。"
-          ]
-        },
-        {
-          "code": "6531",
-          "name": "愛普*",
-          "market": "TWSE",
-          "aliases": [
-            "愛普"
-          ],
-          "actions": [
-            "limitUp"
-          ],
-          "contexts": [
-            "力積電、愛普都漲停，說明矽電容還是有題材，「華邦電」應該在躲處置，所以今天漲不上去。"
           ]
         },
         {
@@ -646,18 +219,6 @@
           "market": "TWSE",
           "aliases": [
             "台積電"
-          ],
-          "actions": [],
-          "contexts": [
-            "「台積電」又創新高，真的好棒，還好1780有入場，不要覺得股價太高，永遠出乎意料👍"
-          ]
-        },
-        {
-          "code": "1780",
-          "name": "立弘",
-          "market": "TPEx",
-          "aliases": [
-            "1780"
           ],
           "actions": [],
           "contexts": [
@@ -698,8 +259,8 @@
       "url": "https://www.threads.com/@evachien.chien/post/DZ4e_FEk9Ps",
       "taken_at": "2026-06-22T09:07:46+00:00",
       "text": "阿嬤疾病史：糖尿病、心臟病、目前洗腎中、右腳乾性壞疽、尾骶骨處有褥瘡\n之前看過整外，因為白蛋白太低，所以不收住院，等營養上來再做清創。\n近期偏嗜睡，但叫喚可睜眼，血壓約90-120mmhg左右，有鼻胃管，已經臥床，沒有力氣翻身活動。\n\n今天上針後，血壓都大概80mmhg，意識不清，因為我不敢幫她脫水，密集監測血壓狀況，此時體溫約37度，我判斷應該是敗血症，查房時，請醫生開轉診單，這必須去急診了。\n\n收針後，血壓還有120mmhg，體溫38.1度，意識持續不清楚，有請家屬洗完腎，直接帶阿嬤掛急診就醫！\n約5分鐘後，我聽到外勞一直叫阿嬤，我趕快衝過去，看阿嬤張口呼吸，量血壓剩63/42mmhg，脈搏123次/分，one touch 148mg/dl，血氧87%，立即給氧，醫師來看過後，我聯絡女兒這狀況需改坐救護車去急診，我隨車過去交班。\n急診室醫師問我，血壓這麼低，妳全程給Midodrine洗嗎？我說沒給，我NG反抽都空氣，早晨的牛奶都沒消化，我就只洗尿毒，幾乎沒脫水。\n醫師說血壓這麼低，沒給Midodrine還能洗完4小時，妳真屌！！！\n哈哈哈⋯姐行事作風一向屌屌的！\n阿嬤 祝福您好走",
-      "like_count": 9,
-      "reply_count": 1,
+      "like_count": 12,
+      "reply_count": 2,
       "mentions": []
     },
     {
