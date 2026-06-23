@@ -1,29 +1,61 @@
 {
-  "generatedAt": "2026-06-23T03:00:07.388195+00:00",
+  "generatedAt": "2026-06-23T07:47:50.941458+00:00",
   "account": {
     "user_id": "73957398954",
     "username": "evachien.chien",
     "full_name": "Olivia Chien",
     "biography": "正職洗腰子護理師\n目前努力學習股票操盤\n希望可以早日財富自由（如果有私訊邀約入群，那都是騙人的喔！我才沒有空搞那個😆）\n也努力健身運動\n希望擁有健康的身體以及好身材\n有人說過我像趙敏\n也期許自己跟趙敏一樣聰慧果敢堅毅，當然美麗是一定要的 嘿👍",
-    "follower_count": 3942,
+    "follower_count": 3948,
     "following_count": null,
     "is_verified": 0,
-    "profile_pic_url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gEa3u0pJxl7dTg9-pIxRDP7olweKwbSXqYawZ7lmCs_aiXSgEQu--opLbrKy89Y9Tk&_nc_ohc=s1iXcQw7TAoQ7kNvwG5ugHV&_nc_gid=dUpNNduF74ZvPYo56509jA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af-DjM1FZFe_gu2B5_5kZSayimTH5G_dagUqfCVUY5Qcvw&oe=6A3FBAFB&_nc_sid=10d13b",
-    "last_fetched_at": 1782183527
+    "profile_pic_url": "https://scontent-sjc3-1.cdninstagram.com/v/t51.82787-19/639533222_17879327400470955_8687482823264307250_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gH81GMeQ5Btku0oW10PJOjhRz4EHU_00TBTEEOlJ6s4hLjHsfNSGeXizSjFr_06Lcg&_nc_ohc=s1iXcQw7TAoQ7kNvwEHAt4S&_nc_gid=w5221g_Y1T7uLT0_QL3dsQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af8b3VU9N2dp8LtkPrPhrWWNC9ZEFXugCndrmu_5h9errw&oe=6A3FF33B&_nc_sid=10d13b",
+    "last_fetched_at": 1782200798
   },
   "summary": {
-    "totalPosts": 5,
-    "postsWithStocks": 1,
-    "uniqueStocks": 10,
+    "totalPosts": 4,
+    "postsWithStocks": 2,
+    "uniqueStocks": 15,
     "topStocks": [
       {
         "code": "1802",
         "name": "台玻",
+        "count": 2,
+        "actions": {
+          "watch": 2,
+          "buy": 1,
+          "limitUp": 1
+        }
+      },
+      {
+        "code": "7828",
+        "name": "創新服務",
         "count": 1,
         "actions": {
-          "buy": 1,
-          "limitUp": 1,
-          "watch": 1
+          "limitUp": 1
+        }
+      },
+      {
+        "code": "2454",
+        "name": "聯發科",
+        "count": 1,
+        "actions": {
+          "buy": 1
+        }
+      },
+      {
+        "code": "6223",
+        "name": "旺矽",
+        "count": 1,
+        "actions": {
+          "buy": 1
+        }
+      },
+      {
+        "code": "6725",
+        "name": "矽科宏晟",
+        "count": 1,
+        "actions": {
+          "buy": 1
         }
       },
       {
@@ -65,53 +97,39 @@
         "actions": {
           "limitUp": 1
         }
-      },
-      {
-        "code": "3443",
-        "name": "創意",
-        "count": 1,
-        "actions": {
-          "buy": 1
-        }
-      },
-      {
-        "code": "2330",
-        "name": "台積電",
-        "count": 1,
-        "actions": {}
-      },
-      {
-        "code": "1780",
-        "name": "立弘",
-        "count": 1,
-        "actions": {}
-      },
-      {
-        "code": "3665",
-        "name": "貿聯-KY",
-        "count": 1,
-        "actions": {}
       }
     ],
     "actionTotals": {
-      "buy": 2,
-      "limitUp": 6,
-      "watch": 1
+      "watch": 2,
+      "buy": 5,
+      "limitUp": 7
     },
-    "fundamentalsCoverage": 10
+    "fundamentalsCoverage": 15
   },
   "stocks": [
     {
       "code": "1802",
       "name": "台玻",
       "market": "TWSE",
-      "count": 1,
+      "count": 2,
       "actions": {
+        "watch": 2,
         "buy": 1,
-        "limitUp": 1,
-        "watch": 1
+        "limitUp": 1
       },
       "posts": [
+        {
+          "pk": "3925705505364868757",
+          "url": "https://www.threads.com/@evachien.chien/post/DZ66FucEX6V",
+          "taken_at": "2026-06-23T07:43:06+00:00",
+          "text": "今天亮一顆燈💡\n「創新服務」漲停\n昨天J.P. Morgan基于 2028 年預期每股收益（2028e P/E）的 25 倍來計算，給予4000元的目標價，評比為加碼！今天股價直接一線鎖👍\n「聯發科」力壓博通，搶進TPU v9。又正式發函客戶通知調漲產品價格，漲價有助提升毛利率為獲利注入動能，加上技術面突破關鍵價位，有機會挑戰5000！之前1450買的還留著，後來3980加碼的原本想做短波段，決定一起抱到5000了📈大盤弱，我其他的IC設計股沒蹭到聯發科甜頭😆\n\n大盤開出48",
+          "actions": [
+            "watch"
+          ],
+          "contexts": [
+            "5股學妹今天吃到台玻苦頭了，身為她的老師，我覺得也好，大多頭行情，會有股票好好做的錯覺，只有一步一腳印，看好技術面分析以及了解基本面，不疾不徐找好點位進場才能處之泰然😊"
+          ]
+        },
         {
           "pk": "3925033511132802792",
           "url": "https://www.threads.com/@evachien.chien/post/DZ4hS7Cky7o",
@@ -149,6 +167,181 @@
         "debtRatio": 42.7,
         "equity": 52491118.0,
         "roe": 1.12
+      }
+    },
+    {
+      "code": "7828",
+      "name": "創新服務",
+      "market": "TPEx",
+      "count": 1,
+      "actions": {
+        "limitUp": 1
+      },
+      "posts": [
+        {
+          "pk": "3925705505364868757",
+          "url": "https://www.threads.com/@evachien.chien/post/DZ66FucEX6V",
+          "taken_at": "2026-06-23T07:43:06+00:00",
+          "text": "今天亮一顆燈💡\n「創新服務」漲停\n昨天J.P. Morgan基于 2028 年預期每股收益（2028e P/E）的 25 倍來計算，給予4000元的目標價，評比為加碼！今天股價直接一線鎖👍\n「聯發科」力壓博通，搶進TPU v9。又正式發函客戶通知調漲產品價格，漲價有助提升毛利率為獲利注入動能，加上技術面突破關鍵價位，有機會挑戰5000！之前1450買的還留著，後來3980加碼的原本想做短波段，決定一起抱到5000了📈大盤弱，我其他的IC設計股沒蹭到聯發科甜頭😆\n\n大盤開出48",
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「創新服務」漲停"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "7828",
+        "name": "創新服務",
+        "market": "TPEx",
+        "price": 2040.0,
+        "change": 40.0,
+        "priceDate": "1150622",
+        "peRatio": null,
+        "dividendYield": 0.22,
+        "pbRatio": null,
+        "eps": null,
+        "revenueYoY": 258.64270437641653,
+        "revenue": 112352.0,
+        "revenuePeriod": "11505",
+        "grossMargin": 80.18,
+        "netIncome": 37306.0,
+        "debtRatio": 40.34,
+        "equity": 1058586.0,
+        "roe": 3.52
+      }
+    },
+    {
+      "code": "2454",
+      "name": "聯發科",
+      "market": "TWSE",
+      "count": 1,
+      "actions": {
+        "buy": 1
+      },
+      "posts": [
+        {
+          "pk": "3925705505364868757",
+          "url": "https://www.threads.com/@evachien.chien/post/DZ66FucEX6V",
+          "taken_at": "2026-06-23T07:43:06+00:00",
+          "text": "今天亮一顆燈💡\n「創新服務」漲停\n昨天J.P. Morgan基于 2028 年預期每股收益（2028e P/E）的 25 倍來計算，給予4000元的目標價，評比為加碼！今天股價直接一線鎖👍\n「聯發科」力壓博通，搶進TPU v9。又正式發函客戶通知調漲產品價格，漲價有助提升毛利率為獲利注入動能，加上技術面突破關鍵價位，有機會挑戰5000！之前1450買的還留著，後來3980加碼的原本想做短波段，決定一起抱到5000了📈大盤弱，我其他的IC設計股沒蹭到聯發科甜頭😆\n\n大盤開出48",
+          "actions": [
+            "buy"
+          ],
+          "contexts": [
+            "「聯發科」力壓博通，搶進TPU v9。",
+            "之前1450買的還留著，後來3980加碼的原本想做短波段，決定一起抱到5000了📈大盤弱，我其他的IC設計股沒蹭到聯發科甜頭😆"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "2454",
+        "name": "聯發科",
+        "market": "TWSE",
+        "price": 4465.0,
+        "change": 75.0,
+        "priceDate": "1150622",
+        "peRatio": 71.16,
+        "dividendYield": 1.2,
+        "pbRatio": 18.26,
+        "valuationDate": "1150622",
+        "eps": 15.17,
+        "epsPeriod": "1151",
+        "revenueYoY": 4.98813360428783,
+        "revenue": 47434191.0,
+        "revenuePeriod": "11505",
+        "grossMargin": 46.3,
+        "netIncome": 24376384.0,
+        "debtRatio": 46.07,
+        "equity": 398446955.0,
+        "roe": 6.12
+      }
+    },
+    {
+      "code": "6223",
+      "name": "旺矽",
+      "market": "TPEx",
+      "count": 1,
+      "actions": {
+        "buy": 1
+      },
+      "posts": [
+        {
+          "pk": "3925705505364868757",
+          "url": "https://www.threads.com/@evachien.chien/post/DZ66FucEX6V",
+          "taken_at": "2026-06-23T07:43:06+00:00",
+          "text": "今天亮一顆燈💡\n「創新服務」漲停\n昨天J.P. Morgan基于 2028 年預期每股收益（2028e P/E）的 25 倍來計算，給予4000元的目標價，評比為加碼！今天股價直接一線鎖👍\n「聯發科」力壓博通，搶進TPU v9。又正式發函客戶通知調漲產品價格，漲價有助提升毛利率為獲利注入動能，加上技術面突破關鍵價位，有機會挑戰5000！之前1450買的還留著，後來3980加碼的原本想做短波段，決定一起抱到5000了📈大盤弱，我其他的IC設計股沒蹭到聯發科甜頭😆\n\n大盤開出48",
+          "actions": [
+            "buy"
+          ],
+          "contexts": [
+            "「旺矽」5700+5720買的-》6725元，下面4690買的留倉。"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "6223",
+        "name": "旺矽",
+        "market": "TPEx",
+        "price": 6425.0,
+        "change": 10.0,
+        "priceDate": "1150622",
+        "peRatio": null,
+        "dividendYield": 0.34,
+        "pbRatio": null,
+        "eps": null,
+        "revenueYoY": 57.81298997442514,
+        "revenue": 1907342.0,
+        "revenuePeriod": "11505",
+        "grossMargin": 59.45,
+        "netIncome": 1227478.0,
+        "debtRatio": 38.73,
+        "equity": 15755634.0,
+        "roe": 7.79
+      }
+    },
+    {
+      "code": "6725",
+      "name": "矽科宏晟",
+      "market": "TPEx",
+      "count": 1,
+      "actions": {
+        "buy": 1
+      },
+      "posts": [
+        {
+          "pk": "3925705505364868757",
+          "url": "https://www.threads.com/@evachien.chien/post/DZ66FucEX6V",
+          "taken_at": "2026-06-23T07:43:06+00:00",
+          "text": "今天亮一顆燈💡\n「創新服務」漲停\n昨天J.P. Morgan基于 2028 年預期每股收益（2028e P/E）的 25 倍來計算，給予4000元的目標價，評比為加碼！今天股價直接一線鎖👍\n「聯發科」力壓博通，搶進TPU v9。又正式發函客戶通知調漲產品價格，漲價有助提升毛利率為獲利注入動能，加上技術面突破關鍵價位，有機會挑戰5000！之前1450買的還留著，後來3980加碼的原本想做短波段，決定一起抱到5000了📈大盤弱，我其他的IC設計股沒蹭到聯發科甜頭😆\n\n大盤開出48",
+          "actions": [
+            "buy"
+          ],
+          "contexts": [
+            "「旺矽」5700+5720買的-》6725元，下面4690買的留倉。"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "6725",
+        "name": "矽科宏晟",
+        "market": "TPEx",
+        "price": 346.0,
+        "change": -21.0,
+        "priceDate": "1150622",
+        "peRatio": null,
+        "dividendYield": 2.02,
+        "pbRatio": null,
+        "eps": null,
+        "revenueYoY": -9.674449991482893,
+        "revenue": 275735.0,
+        "revenuePeriod": "11505",
+        "grossMargin": 23.31,
+        "netIncome": 96141.0,
+        "debtRatio": 39.85,
+        "equity": 2542506.0,
+        "roe": 3.78
       }
     },
     {
@@ -421,6 +614,47 @@
       }
     },
     {
+      "code": "2367",
+      "name": "燿華",
+      "market": "TWSE",
+      "count": 1,
+      "actions": {},
+      "posts": [
+        {
+          "pk": "3925705505364868757",
+          "url": "https://www.threads.com/@evachien.chien/post/DZ66FucEX6V",
+          "taken_at": "2026-06-23T07:43:06+00:00",
+          "text": "今天亮一顆燈💡\n「創新服務」漲停\n昨天J.P. Morgan基于 2028 年預期每股收益（2028e P/E）的 25 倍來計算，給予4000元的目標價，評比為加碼！今天股價直接一線鎖👍\n「聯發科」力壓博通，搶進TPU v9。又正式發函客戶通知調漲產品價格，漲價有助提升毛利率為獲利注入動能，加上技術面突破關鍵價位，有機會挑戰5000！之前1450買的還留著，後來3980加碼的原本想做短波段，決定一起抱到5000了📈大盤弱，我其他的IC設計股沒蹭到聯發科甜頭😆\n\n大盤開出48",
+          "actions": [],
+          "contexts": [
+            "「燿華」58.8，覺得盤整差不多了，今天再小撿一點。"
+          ]
+        }
+      ],
+      "fundamentals": {
+        "code": "2367",
+        "name": "燿華",
+        "market": "TWSE",
+        "price": 60.6,
+        "change": -0.7,
+        "priceDate": "1150622",
+        "peRatio": null,
+        "dividendYield": 0.33,
+        "pbRatio": 3.37,
+        "valuationDate": "1150622",
+        "eps": -0.4,
+        "epsPeriod": "1151",
+        "revenueYoY": 15.913777412264125,
+        "revenue": 1533479.0,
+        "revenuePeriod": "11505",
+        "grossMargin": 5.77,
+        "netIncome": -284506.0,
+        "debtRatio": 50.74,
+        "equity": 12713080.0,
+        "roe": -2.24
+      }
+    },
+    {
       "code": "2330",
       "name": "台積電",
       "market": "TWSE",
@@ -545,11 +779,105 @@
   "posts": [
     {
       "index": 0,
+      "pk": "3925705505364868757",
+      "url": "https://www.threads.com/@evachien.chien/post/DZ66FucEX6V",
+      "taken_at": "2026-06-23T07:43:06+00:00",
+      "text": "今天亮一顆燈💡\n「創新服務」漲停\n昨天J.P. Morgan基于 2028 年預期每股收益（2028e P/E）的 25 倍來計算，給予4000元的目標價，評比為加碼！今天股價直接一線鎖👍\n「聯發科」力壓博通，搶進TPU v9。又正式發函客戶通知調漲產品價格，漲價有助提升毛利率為獲利注入動能，加上技術面突破關鍵價位，有機會挑戰5000！之前1450買的還留著，後來3980加碼的原本想做短波段，決定一起抱到5000了📈大盤弱，我其他的IC設計股沒蹭到聯發科甜頭😆\n\n大盤開出48218的高點，但韓國股市暴跌，一度跌到啟動的熔斷機制，台股也有受到一些影響，盤中真的震盪很大，許多漲多的股票紛紛跌停。\n\n買\n「燿華」58.8，覺得盤整差不多了，今天再小撿一點。\n出\n「旺矽」5700+5720買的-》6725元，下面4690買的留倉。\n\n5股學妹今天吃到台玻苦頭了，身為她的老師，我覺得也好，大多頭行情，會有股票好好做的錯覺，只有一步一腳印，看好技術面分析以及了解基本面，不疾不徐找好點位進場才能處之泰然😊",
+      "like_count": 3,
+      "reply_count": 1,
+      "mentions": [
+        {
+          "code": "7828",
+          "name": "創新服務",
+          "market": "TPEx",
+          "aliases": [
+            "創新服務"
+          ],
+          "actions": [
+            "limitUp"
+          ],
+          "contexts": [
+            "「創新服務」漲停"
+          ]
+        },
+        {
+          "code": "2454",
+          "name": "聯發科",
+          "market": "TWSE",
+          "aliases": [
+            "聯發科"
+          ],
+          "actions": [
+            "buy"
+          ],
+          "contexts": [
+            "「聯發科」力壓博通，搶進TPU v9。",
+            "之前1450買的還留著，後來3980加碼的原本想做短波段，決定一起抱到5000了📈大盤弱，我其他的IC設計股沒蹭到聯發科甜頭😆"
+          ]
+        },
+        {
+          "code": "2367",
+          "name": "燿華",
+          "market": "TWSE",
+          "aliases": [
+            "燿華"
+          ],
+          "actions": [],
+          "contexts": [
+            "「燿華」58.8，覺得盤整差不多了，今天再小撿一點。"
+          ]
+        },
+        {
+          "code": "6223",
+          "name": "旺矽",
+          "market": "TPEx",
+          "aliases": [
+            "旺矽"
+          ],
+          "actions": [
+            "buy"
+          ],
+          "contexts": [
+            "「旺矽」5700+5720買的-》6725元，下面4690買的留倉。"
+          ]
+        },
+        {
+          "code": "6725",
+          "name": "矽科宏晟",
+          "market": "TPEx",
+          "aliases": [
+            "6725"
+          ],
+          "actions": [
+            "buy"
+          ],
+          "contexts": [
+            "「旺矽」5700+5720買的-》6725元，下面4690買的留倉。"
+          ]
+        },
+        {
+          "code": "1802",
+          "name": "台玻",
+          "market": "TWSE",
+          "aliases": [
+            "台玻"
+          ],
+          "actions": [
+            "watch"
+          ],
+          "contexts": [
+            "5股學妹今天吃到台玻苦頭了，身為她的老師，我覺得也好，大多頭行情，會有股票好好做的錯覺，只有一步一腳印，看好技術面分析以及了解基本面，不疾不徐找好點位進場才能處之泰然😊"
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
       "pk": "3925033511132802792",
       "url": "https://www.threads.com/@evachien.chien/post/DZ4hS7Cky7o",
       "taken_at": "2026-06-22T09:27:58+00:00",
       "text": "今天亮一顆燈💡\n「旺宏」漲停\n「台玻」、「富喬」漲停打開\n\n「旺宏」站上上布林了，希望沿著上布林跑。\n力積電、愛普都漲停，說明矽電容還是有題材，「華邦電」應該在躲處置，所以今天漲不上去。\n\n「台玻」最近法人狂買，我上週跟我妹說要佈局台玻了，也跟5股學妹說66-68進場，結果今天直接漲上去，她索性掛了76.7 買一張，她要幹大事了😆\n\n「台積電」又創新高，真的好棒，還好1780有入場，不要覺得股價太高，永遠出乎意料👍\n\n我今天太忙 沒有買賣\n詳情請見護理師日常那篇😆\n如果進場 我會加碼「創意」買起來\n「貿聯」融資太多，等洗完就上去了，加油啊！",
-      "like_count": 136,
+      "like_count": 137,
       "reply_count": 42,
       "mentions": [
         {
@@ -693,7 +1021,7 @@
       ]
     },
     {
-      "index": 1,
+      "index": 2,
       "pk": "3925023351421260780",
       "url": "https://www.threads.com/@evachien.chien/post/DZ4e_FEk9Ps",
       "taken_at": "2026-06-22T09:07:46+00:00",
@@ -703,33 +1031,13 @@
       "mentions": []
     },
     {
-      "index": 2,
+      "index": 3,
       "pk": "3922605051219918966",
       "url": "https://www.threads.com/@evachien.chien/post/DZv5ILgHcB2",
       "taken_at": "2026-06-19T01:03:03+00:00",
       "text": "9.一到\n我又準時打開我的「投資先生」\n內心悵然若失 \n沒有股票做的日子",
       "like_count": 42,
       "reply_count": 20,
-      "mentions": []
-    },
-    {
-      "index": 3,
-      "pk": "3922208090327169695",
-      "url": "https://www.threads.com/@evachien.chien/post/DZue3o3HTqf",
-      "taken_at": "2026-06-18T11:54:21+00:00",
-      "text": "剛好有人按讚\n跳出來\n我覺得我這題真的解的滿漂亮的\n結合歷史與數學",
-      "like_count": 7,
-      "reply_count": 1,
-      "mentions": []
-    },
-    {
-      "index": 4,
-      "pk": "3811726469944671447",
-      "url": "https://www.threads.com/@evachien.chien/post/DTl-QduAXzX",
-      "taken_at": "2026-01-17T01:27:06+00:00",
-      "text": "Ans:B",
-      "like_count": 549,
-      "reply_count": 3,
       "mentions": []
     }
   ]
